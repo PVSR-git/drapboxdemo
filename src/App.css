@@ -7,6 +7,7 @@
   --clr-primary-200: hsla(229, 21%, 53%, 1);
   --clr-accent-400: hsla(147, 93%, 43%, 1);
   --clr-secondary-400: hsla(229, 78%, 60%, 1);
+  --clr-secondary-600: hsla(215, 90%, 50%, 1);
 
   --font-family: "Outfit", sans-serif;
 
@@ -26,4 +27,53 @@
 *::before,
 *::after {
   box-sizing: border-box;
+}
+header {
+  width: auto;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  background-color: white;
+}
+.header-items-l {
+  display: flex;
+  flex: 1;
+  margin-right: 1rem;
+}
+.header-items-l a {
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  padding-right: 2rem;
+}
+.header-items-r {
+  display: flex;
+  flex: 0.9;
+
+  margin-left: 1rem;
+}
+.header-items-r a {
+  text-decoration: none;
+  display: flex;
+
+  align-items: center;
+  margin-left: 2rem;
+}
+.get-started {
+  align-items: center;
+  padding: 0.2rem;
+
+  font-weight: bolder;
+  padding-left: 1rem;
+  background-color: var(--clr-secondary-600);
+  color: white;
+}
+.get-started span {
+  margin-top: 0.5rem;
+  padding-left: 2rem;
+
+  padding-right: 0.7rem;
+}
+body {
+  background-color: black;
 }
