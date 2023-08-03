@@ -1,6 +1,7 @@
 :root {
   --clr-neutral-100: hsla(0, 0%, 100%, 1);
   --clr-neutral-300: hsl(40, 40.95%, 93%);
+  --clr-black-200: #1e1919;
   --clr-primary-800: hsla(229, 47%, 17%, 1);
   --clr-primary-700: hsla(229, 43%, 20%, 1);
   --clr-primary-400: hsla(230, 50%, 58%, 0.3);
@@ -159,6 +160,65 @@ header {
   padding-left: 2rem;
   padding-right: 0.5rem;
 }
-body {
-  background-color: black;
+.container {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+}
+.block1 {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  font-style: normal;
+  align-items: center;
+  background-color: #1e1919;
+  color: white;
+}
+.text-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 777.23px;
+  height: 200px;
+}
+.text-info > h2 {
+  margin-top: 2.5em;
+  padding-top: 2em;
+  text-align: center;
+  font-size: 2.5em;
+  word-wrap: break-word;
+}
+.text-info > p {
+  margin-top: 0.5em;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  font-size: 1.2em;
+  word-wrap: break-word;
+}
+.find-your-plan {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--clr-secondary-600);
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+  font-weight: var(--fw-semi-bold);
+  text-align: center;
+  text-decoration: none;
+}
+
+.find-your-plan span {
+  margin-left: 2rem;
+  margin-top: 0.1rem;
+}
+.block1 video {
+  margin-top: 4em;
+  width: 582.92px;
+  height: 600px;
 }

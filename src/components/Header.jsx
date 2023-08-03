@@ -7,10 +7,10 @@ export default function Header() {
   return (
     <header>
       <div className="header-items-l">
-        <Link className="site-logo" to="/">
+        <Link className="site-logo" to="/dropbox">
           <img src={bgImg} className="site-img" width="48" height="48" />
         </Link>
-        <Link className="site-name" to="/">
+        <Link className="site-name" to="/dropbox">
           <img src="/svgs/site-text.svg"></img>
         </Link>
         <Link className="why-dropbox" target="_balnk">
