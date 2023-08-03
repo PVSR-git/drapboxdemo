@@ -13,10 +13,18 @@ export default function Header() {
         <Link className="site-name" to="/">
           <img src="/svgs/site-text.svg"></img>
         </Link>
-        <Link className="why-dropbox">Why Dropbox ?</Link>
-        <Link className="products">Products</Link>
-        <Link className="solutions">Solutions</Link>
-        <Link className="pricing">Pricing</Link>
+        <Link className="why-dropbox" target="_balnk">
+          Why Dropbox ?
+        </Link>
+        <Link className="products" target="_balnk">
+          Products
+        </Link>
+        <Link className="solutions" target="_balnk">
+          Solutions
+        </Link>
+        <Link className="pricing" target="_balnk">
+          Pricing
+        </Link>
       </div>
       <div className="header-items-r">
         <Link className="global" target="_balnk">
