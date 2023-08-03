@@ -19,7 +19,7 @@ export default function Header() {
         <Link className="pricing">Pricing</Link>
       </div>
       <div className="header-items-r">
-        <Link className="globa" target="_balnk">
+        <Link className="global" target="_balnk">
           <svg
             viewBox="0 0 24 24"
             fill="none"
