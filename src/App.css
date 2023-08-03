@@ -12,6 +12,17 @@
   --clr-secondary-600: hsla(215, 90%, 50%, 1);
 
   --font-family: "Arial", sans-serif;
+  --font-family: "Arial", sans-serif;
+  --font-head: "BlinkMacSystemFont", "Segoe UI", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+  --font-h3: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
+    "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
+    "Arial (Sharp Grotesk Fallback)";
+  --font-p: "Helvetica (Atlas Grotesk Fallback)",
+    sans-serif "Arial (Atlas Grotesk Fallback)";
+  --font-h2: "Sharp Grotesk 23", "Sharp Grotesk 23 KR", "Sharp Grotesk 23 Thai",
+    "Helvetica (Sharp Grotesk 23 Fallback)", "Arial (Sharp Grotesk 23 Fallback)";
 
   --fw-regular: 300;
   --fw-semi-bold: 400;
@@ -32,9 +43,11 @@
   box-sizing: border-box;
 }
 header {
+  margin-top: -0.5rem;
   width: auto;
   display: flex;
   align-items: center;
+  font-family: var(--font-head);
   height: 48px;
   background-color: white;
 }
@@ -51,14 +64,15 @@ header {
   align-items: center;
 }
 .site-name {
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 18px;
+  padding-right: 18px;
 }
 .why-dropbox {
   color: black;
   height: 48px;
-  padding-left: 22px;
-  padding-right: 22px;
+  font-weight: 400;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 .why-dropbox:hover {
   background-color: var(--clr-neutral-300);
@@ -66,8 +80,8 @@ header {
 .products {
   color: black;
   height: 48px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 .products:hover {
   background-color: var(--clr-neutral-300);
@@ -75,8 +89,8 @@ header {
 .solutions {
   color: black;
   height: 48px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 .solutions:hover {
   background-color: var(--clr-neutral-300);
@@ -84,22 +98,22 @@ header {
 .pricing {
   color: black;
   height: 48px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 .pricing:hover {
   background-color: var(--clr-neutral-300);
 }
 .header-items-r {
   display: flex;
-  flex: 0.9;
+  flex: 0.79;
   margin-left: 1rem;
 }
 .header-items-r a {
   text-decoration: none;
-  display: flex;
   justify-content: center;
   align-items: center;
+  display: flex;
 }
 .global {
   color: black;
@@ -108,8 +122,8 @@ header {
 .contact {
   color: black;
   height: 48px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 14px;
+  padding-right: 14px;
   width: 91.22px;
 }
 .contact:hover {
@@ -118,8 +132,8 @@ header {
 .get-app {
   color: black;
   height: 48px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 .get-app:hover {
   background-color: var(--clr-neutral-300);
@@ -127,8 +141,8 @@ header {
 .sign-up {
   color: black;
   height: 48px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 14px;
+  padding-right: 14px;
 }
 .sign-up:hover {
   background-color: var(--clr-neutral-300);
@@ -136,8 +150,8 @@ header {
 .login {
   color: black;
   height: 48px;
-  padding-left: 22px;
-  padding-right: 22px;
+  padding-left: 14px;
+  padding-right: 14px;
   margin-right: 0.2rem;
   text-align: center;
 }
@@ -160,6 +174,11 @@ header {
   padding-left: 2rem;
   padding-right: 0.5rem;
 }
+
+.get-started span:hover {
+  transform: translateX(4px);
+  transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
+}
 .container {
   display: flex;
   flex-direction: row;
@@ -170,7 +189,7 @@ header {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   font-style: normal;
   align-items: center;
   background-color: #1e1919;
@@ -185,22 +204,32 @@ header {
   height: 200px;
 }
 .text-info > h2 {
-  margin-top: 2.5em;
-  padding-top: 2em;
+  margin-top: 3em;
+
+  font-weight: var(--fw-semi-bold);
+  font-family: var(--font-head);
+  -webkit-font-smoothing: antialiased;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 44px;
+  font-weight: 400;
+  text-wrap: balance;
   word-wrap: break-word;
 }
 .text-info > p {
-  margin-top: 0.5em;
+  margin-top: 0.5rem;
   text-align: center;
   margin-top: 0;
   padding-top: 0;
-  font-size: 1.2em;
+  font-family: var(--font-p);
+  font-size: 1rem;
+  font-weight: 400;
   word-wrap: break-word;
 }
 .find-your-plan {
   display: flex;
+  margin-top: 5em;
+  margin-bottom: 0;
+  cursor: pointer;
   flex-direction: row;
   justify-content: center;
   align-items: center;
@@ -208,17 +237,24 @@ header {
   text-decoration: none;
   color: black;
   padding: 1rem;
-  font-weight: var(--fw-semi-bold);
+  font-size: 19px;
+  font-family: var(--font-head);
+  font-weight: 600;
   text-align: center;
   text-decoration: none;
 }
 
 .find-your-plan span {
-  margin-left: 2rem;
-  margin-top: 0.1rem;
+  margin-left: 1.9rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+}
+.find-your-plan span :hover {
+  transform: translateX(4px);
+  transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
 .block1 video {
-  margin-top: 4em;
+  margin-top: 4.5em;
   width: 582.92px;
-  height: 600px;
+  height: 328.27px;
 }
