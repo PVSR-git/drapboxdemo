@@ -1,5 +1,6 @@
 :root {
   --clr-neutral-100: hsla(0, 0%, 100%, 1);
+  --clr-neutral-300: hsl(40, 40.95%, 93%);
   --clr-primary-800: hsla(229, 47%, 17%, 1);
   --clr-primary-700: hsla(229, 43%, 20%, 1);
   --clr-primary-400: hsla(230, 50%, 58%, 0.3);
@@ -9,7 +10,7 @@
   --clr-secondary-400: hsla(229, 78%, 60%, 1);
   --clr-secondary-600: hsla(215, 90%, 50%, 1);
 
-  --font-family: "Outfit", sans-serif;
+  --font-family: "Arial", sans-serif;
 
   --fw-regular: 300;
   --fw-semi-bold: 400;
@@ -17,6 +18,7 @@
 
   --fs-200: 0.875rem;
   --fs-300: 1rem;
+  --fs-350: 1.09rem;
   --fs-400: 1.125rem;
   --fs-500: 1.375rem;
   --fs-600: 1.75rem;
@@ -44,19 +46,42 @@ header {
   text-decoration: none;
   display: flex;
   align-items: center;
-  padding-right: 2rem;
+}
+.site-name {
+  padding-left: 22px;
+  padding-right: 22px;
 }
 .why-dropbox {
   color: black;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.why-dropbox:hover {
+  background-color: var(--clr-neutral-300);
 }
 .products {
   color: black;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.products:hover {
+  background-color: var(--clr-neutral-300);
 }
 .solutions {
   color: black;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.solutions:hover {
+  background-color: var(--clr-neutral-300);
 }
 .pricing {
   color: black;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.pricing:hover {
+  background-color: var(--clr-neutral-300);
 }
 .header-items-r {
   display: flex;
@@ -66,32 +91,60 @@ header {
 .header-items-r a {
   text-decoration: none;
   display: flex;
+  height: 48px;
   align-items: center;
-  margin-left: 2rem;
 }
 .global {
   color: black;
+  margin-right: 1.2rem;
 }
 .contact {
   color: black;
+  padding-left: 22px;
+  padding-right: 22px;
+  width: 91.22px;
+}
+.contact:hover {
+  background-color: var(--clr-neutral-300);
 }
 .get-app {
   color: black;
+
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.get-app:hover {
+  background-color: var(--clr-neutral-300);
 }
 .sign-up {
   color: black;
+
+  padding-left: 22px;
+  padding-right: 22px;
+}
+.sign-up:hover {
+  background-color: var(--clr-neutral-300);
 }
 .login {
   color: black;
+
+  padding-left: 22px;
+  padding-right: 22px;
+  margin-right: 0.2rem;
+  text-align: center;
+}
+.login:hover {
+  background-color: var(--clr-neutral-300);
 }
 .get-started {
   align-items: center;
   padding: 0.2rem;
-
-  font-weight: bolder;
+  font-family: var(--font-family);
+  font-weight: var(--fw-bold);
   padding-left: 1rem;
+  font-size: var(--fs-300);
   background-color: var(--clr-secondary-600);
-  color: white;
+  color: var(--clr-neutral-100);
 }
 .get-started span {
   margin-top: 0.5rem;
