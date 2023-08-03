@@ -39,10 +39,16 @@ export default function Header() {
         <Link className="contact" target="_balnk">
           Contact
         </Link>
-        <Link className="get-app">Get app</Link>
-        <Link className="sing-up">Sign up</Link>
-        <Link className="login">Login</Link>
-        <Link className="get-started">
+        <Link className="get-app" target="_balnk">
+          Get app
+        </Link>
+        <Link className="sign-up" target="_balnk">
+          Sign up
+        </Link>
+        <Link className="login" target="_balnk">
+          Login
+        </Link>
+        <Link className="get-started" target="_balnk">
           Get started{" "}
           <span>
             <svg

@@ -46,18 +46,40 @@ header {
   align-items: center;
   padding-right: 2rem;
 }
+.why-dropbox {
+  color: black;
+}
+.products {
+  color: black;
+}
+.solutions {
+  color: black;
+}
+.pricing {
+  color: black;
+}
 .header-items-r {
   display: flex;
   flex: 0.9;
-
   margin-left: 1rem;
 }
 .header-items-r a {
   text-decoration: none;
   display: flex;
-
   align-items: center;
   margin-left: 2rem;
+}
+.contact {
+  color: black;
+}
+.get-app {
+  color: black;
+}
+.sign-up {
+  color: black;
+}
+.login {
+  color: black;
 }
 .get-started {
   align-items: center;
