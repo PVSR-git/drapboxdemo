@@ -49,7 +49,9 @@ export default function Dropbox() {
           <source src={bgvid} type="video/quicktime; codecs=hvc1" /> */}
         </video>
         <div className="wda">
-          <h2>See what sets Dropbox apart</h2>
+          <h2 style={{ fontStretch: "expanded" }}>
+            See what sets Dropbox apart
+          </h2>
           <div className="wda-flex">
             <div className="wda-info-flex">
               <picture className="wda-piture">

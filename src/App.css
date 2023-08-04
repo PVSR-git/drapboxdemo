@@ -11,18 +11,6 @@
   --clr-secondary-400: hsla(225, 88%, 55%, 1);
   --clr-secondary-600: hsla(215, 90%, 50%, 1);
 
-  --font-family: "Arial", sans-serif;
-  --font-family: "Arial", sans-serif;
-  --font-head: "BlinkMacSystemFont", "Segoe UI", "Helvetica Neue", "Helvetica",
-    "Arial", sans-serif, "Segoe UI Symbol";
-  --font-h3: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
-    "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
-    "Arial (Sharp Grotesk Fallback)";
-  --font-p: "Helvetica (Atlas Grotesk Fallback)",
-    sans-serif "Arial (Atlas Grotesk Fallback)";
-  --font-h2: "Sharp Grotesk 23", "Sharp Grotesk 23 KR", "Sharp Grotesk 23 Thai",
-    "Helvetica (Sharp Grotesk 23 Fallback)", "Arial (Sharp Grotesk 23 Fallback)";
-
   --fw-regular: 300;
   --fw-semi-bold: 400;
   --fw-bold: 700;
@@ -41,12 +29,62 @@
 *::after {
   box-sizing: border-box;
 }
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/roboto/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/open-sans/v30/KFOmCnqEu92Fr1Mu72xKKTU1Kvnz.woff2)
+    format("woff2");
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
+    U+FE2E-FE2F;
+}
+@font-face {
+  font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
+    "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
+    "Arial (Sharp Grotesk 23 Fallback)";
+  src: url("./assets/woff2/AtlasGrotesk-Medium-Web-vfl38XiTL.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Arial (Atlas Grotesk Fallback)", sans-serif;
+  src: url("./assets/woff2/AtlasGrotesk-Regular-Web-vflk7bxjs.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)";
+  src: url("./assets/woff2/SharpGroteskDBCyrBook20-vfl6-4ZSp.woff2")
+    format("woff2");
+}
+@font-face {
+  font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
+    "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
+    "Arial (Sharp Grotesk Fallback)";
+  src: url("./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2")
+    format("woff2");
+  font-weight: 400px;
+  font-style: var(--fw-semi-bold);
+}
+
 header {
   margin-top: -0.5rem;
   width: auto;
   display: flex;
   align-items: center;
-  font-family: var(--font-head);
   height: 48px;
   background-color: white;
 }
@@ -59,9 +97,18 @@ header {
   text-decoration: none;
   display: flex;
   height: 48px;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
   justify-content: center;
   align-items: center;
 }
+.svg-container {
+  background-color: rgb(0, 97, 254);
+  display: inline-block; /* or use display: block; depending on your layout */
+  padding: 10px; /* Add padding for spacing */
+}
+
 .site-name {
   padding-left: 18px;
   padding-right: 18px;
@@ -69,6 +116,7 @@ header {
 .why-dropbox {
   color: black;
   height: 48px;
+
   font-weight: 400;
   padding-left: 14px;
   padding-right: 14px;
@@ -79,6 +127,7 @@ header {
 .products {
   color: black;
   height: 48px;
+
   padding-left: 14px;
   padding-right: 14px;
 }
@@ -90,6 +139,9 @@ header {
   height: 48px;
   padding-left: 14px;
   padding-right: 14px;
+  font-size: 16px;
+  font-stretch: 1000px;
+  font-weight: 100;
 }
 .solutions:hover {
   background-color: var(--clr-neutral-300);
@@ -105,12 +157,15 @@ header {
 }
 .header-items-r {
   display: flex;
-  flex: 0.82;
+  flex: 0.84;
   margin-left: 1rem;
 }
 .header-items-r a {
   text-decoration: none;
   justify-content: center;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
   align-items: center;
   display: flex;
 }
@@ -121,6 +176,7 @@ header {
 .contact {
   color: black;
   height: 48px;
+  font-weight: 400;
   padding-left: 14px;
   padding-right: 14px;
   width: 91.22px;
@@ -140,6 +196,7 @@ header {
 .sign-up {
   color: black;
   height: 48px;
+  font-family: var(--__dwgAtlasGroteskStack);
   padding-left: 14px;
   padding-right: 14px;
 }
@@ -149,6 +206,7 @@ header {
 .login {
   color: black;
   height: 48px;
+  font-family: var(--__dwgAtlasGroteskStack);
   padding-left: 14px;
   padding-right: 14px;
   margin-right: 0.2rem;
@@ -167,11 +225,11 @@ header {
   font-weight: 600;
   padding-left: 0.2rem;
   font-size: 18px;
-  background-color: var(--clr-secondary-600);
+  background-color: rgb(0, 97, 254);
   color: var(--clr-neutral-100);
 }
 .get-started:hover {
-  background-color: var(--clr-secondary-400);
+  background-color: rgb(0, 87, 229);
 }
 .get-started span {
   margin-top: 0.5rem;
@@ -190,7 +248,6 @@ header {
 }
 .block1 {
   display: flex;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
   width: 100%;
   flex-direction: column;
   justify-content: space-between;
@@ -207,24 +264,26 @@ header {
   width: 777.23px;
   height: 200px;
 }
-.text-info > h2 {
+.text-info h2 {
   margin-top: 3em;
 
-  font-weight: var(--fw-semi-bold);
-  font-family: var(--font-head);
-  -webkit-font-smoothing: antialiased;
+  font-weight: 500;
+  /* font-family: "Work Sans"; */
+  font-family: "Sharp Grotesk 23", "Work Sans";
   text-align: center;
-  font-size: 44px;
+  font-size: 40px;
   font-weight: 400;
   text-wrap: balance;
 }
-.text-info > p {
-  margin-top: 0.5rem;
+.text-info p {
   text-align: center;
   margin-top: 0;
   padding-top: 0;
-  font-family: var(--font-p);
-  font-size: 1rem;
+  font-family: "Open Sans", sans-serif;
+  hyphens: manual;
+  overflow-wrap: break-word;
+  line-height: 24px;
+  font-size: 17px;
   font-weight: 400;
 }
 .find-your-plan {
@@ -235,18 +294,18 @@ header {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  background-color: var(--clr-secondary-600);
+  background-color: rgb(0, 97, 254);
   text-decoration: none;
   color: black;
   padding: 1rem;
-  font-size: 19px;
-  font-family: var(--font-head);
-  font-weight: 600;
+  font-size: 17px;
+  font-family: "Arial (Atlas Grotesk Fallback)", sans-serif;
+  font-weight: 500;
   text-align: center;
   text-decoration: none;
 }
 .find-your-plan:hover {
-  background-color: var(--clr-secondary-400);
+  background-color: rgb(0, 87, 229);
 }
 
 .find-your-plan span {
@@ -274,12 +333,12 @@ header {
   padding-top: 2rem;
   font-family: "Helvetica", sans-serif;
   font-size: 38px;
-  font-stretch: expanded;
   padding-left: 5rem;
+  text-emphasis: none;
   margin-left: 5rem;
   width: 777.23px;
   font-weight: 500;
-  line-height: 120%;
+  line-height: 2;
 }
 .wda-flex {
   display: flex;
@@ -288,7 +347,7 @@ header {
   margin-left: 4em;
 }
 .wda-info-flex {
-  padding: 2rem;
+  padding: 1.5rem;
 }
 .wda-info-flex h3 {
   font-family: Helvetica;
