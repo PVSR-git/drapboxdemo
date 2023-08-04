@@ -185,7 +185,7 @@ header {
 }
 .container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0;
 }
 .block1 {
@@ -295,6 +295,51 @@ header {
   font-weight: 400;
 }
 .wda-info-flex p {
+  font-size: small;
+  font-family: Helvetica;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* block2 */
+.block2 {
+  display: flex;
+  background-color: rgb(247, 245, 242);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block2 h2 {
+  padding-top: 2rem;
+  font-family: "Helvetica", sans-serif;
+  font-size: 38px;
+  font-stretch: expanded;
+  padding-left: 5rem;
+  margin-left: 5rem;
+  width: 777.23px;
+  font-weight: 500;
+  line-height: 120%;
+}
+.block2-grid {
+  display: grid;
+  width: 1262.98px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+.asp-flex {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  margin-right: 4em;
+  margin-left: 4em;
+}
+.asp-flex h3 {
+  font-family: Helvetica;
+  font-weight: 500;
+}
+.asp-flex p {
   font-size: small;
   font-family: Helvetica;
   font-size: 16px;

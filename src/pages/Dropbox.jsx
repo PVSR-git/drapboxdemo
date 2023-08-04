@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import bgvid from "../assets/Dropbox.mp4";
 
 export default function Dropbox() {
@@ -106,7 +106,292 @@ export default function Dropbox() {
           </div>
         </div>
       </div>
-      <div className="block2"></div>
+
+      {/* BLOCK2 */}
+
+      <div className="block2">
+        <h2>A set of products to help you do more</h2>
+        <div className="block2-grid">
+          <div className="asp-flex">
+            <picture className="wda-piture">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Dropbox.svg?id=fab7cfbe-2a98-437d-bf5a-4f1972dab31c"
+                className="wda-img"
+              ></img>
+            </picture>
+            <h3 className="wda-h3">Dropbox</h3>
+            <p className="wda-p">
+              Securely store, organize, and share all your files.
+            </p>
+            <Link className="wda-link">
+              Learn more
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-UIIcon dig-UIIcon--standard"
+                  width="24"
+                  height="24"
+                  role="presentation"
+                  focusable="false"
+                >
+                  <path
+                    d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </span>
+            </Link>
+          </div>
+          <div className="asp-flex">
+            <picture className="wda-piture">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Sign.svg?id=108a6e2c-0a65-4828-b4a8-d9db1acbab30"
+                className="wda-img"
+              ></img>
+            </picture>
+            <h3 className="wda-h3">Sign</h3>
+            <p className="wda-p">
+              Streamline your document workflows with legally-binding
+              eSignatures.
+            </p>
+            <Link className="wda-link">
+              Learn more
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-UIIcon dig-UIIcon--standard"
+                  width="24"
+                  height="24"
+                  role="presentation"
+                  focusable="false"
+                >
+                  <path
+                    d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </span>
+            </Link>
+          </div>
+          <div className="asp-flex">
+            <picture className="wda-piture">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Docsend.svg?id=bb81fa5c-7d2e-451b-a3cc-6f5a8ec31dea"
+                className="wda-img"
+              ></img>
+            </picture>
+            <h3 className="wda-h3">DocSend</h3>
+            <p className="wda-p">
+              Securely share your documents with real-time insights, so you know
+              what's most impactful.
+            </p>
+            <Link className="wda-link">
+              Learn more
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-UIIcon dig-UIIcon--standard"
+                  width="24"
+                  height="24"
+                  role="presentation"
+                  focusable="false"
+                >
+                  <path
+                    d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </span>
+            </Link>
+          </div>
+          <div className="asp-flex">
+            <picture className="wda-piture">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Backup.svg?id=84564d6e-24a2-4509-8759-e6f3632fcddc"
+                className="wda-img"
+              ></img>
+            </picture>
+            <h3 className="wda-h3">Backup</h3>
+            <p className="wda-p">
+              Automatically back up important files on your devices to the cloud
+              and easily restore them.
+            </p>
+            <Link className="wda-link">
+              Learn more
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-UIIcon dig-UIIcon--standard"
+                  width="24"
+                  height="24"
+                  role="presentation"
+                  focusable="false"
+                >
+                  <path
+                    d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </span>
+            </Link>
+          </div>
+          <div className="asp-flex">
+            <picture className="wda-piture">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Capture.svg?id=5feb571f-dfa5-43e1-aff5-c46725f9d60f"
+                className="wda-img"
+              ></img>
+            </picture>
+            <h3 className="wda-h3">Capture</h3>
+            <p className="wda-p">
+              Get your message across with screenshots, GIFs, or videos recorded
+              right on your screen.
+            </p>
+            <Link className="wda-link">
+              Learn more
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-UIIcon dig-UIIcon--standard"
+                  width="24"
+                  height="24"
+                  role="presentation"
+                  focusable="false"
+                >
+                  <path
+                    d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </span>
+            </Link>
+          </div>
+          <div className="asp-flex">
+            <picture className="wda-piture">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Transfer.svg?id=7e58da75-6dba-475b-b986-617d68eb2d01"
+                className="wda-img"
+              ></img>
+            </picture>
+            <h3 className="wda-h3">Transfer</h3>
+            <p className="wda-p">
+              Quickly and securely deliver large files—up to 100 GB—to anyone.
+            </p>
+            <Link className="wda-link">
+              Learn more
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-UIIcon dig-UIIcon--standard"
+                  width="24"
+                  height="24"
+                  role="presentation"
+                  focusable="false"
+                >
+                  <path
+                    d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </span>
+            </Link>
+          </div>
+          <div className="asp-flex">
+            <picture className="wda-piture">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Paper.svg?id=2550ae20-69c0-4aa0-ab51-20561cffe714"
+                className="wda-img"
+              ></img>
+            </picture>
+            <h3 className="wda-h3">Paper</h3>
+            <p className="wda-p">
+              Create collaborative documents to coordinate work and drive
+              projects forward.
+            </p>
+            <Link className="wda-link">
+              Learn more
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-UIIcon dig-UIIcon--standard"
+                  width="24"
+                  height="24"
+                  role="presentation"
+                  focusable="false"
+                >
+                  <path
+                    d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </span>
+            </Link>
+          </div>
+          <div className="asp-flex">
+            <picture className="wda-piture">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Passwords.svg?id=77d004ac-0ed7-4d7c-b18a-6a00feca9eaa"
+                className="wda-img"
+              ></img>
+            </picture>
+            <h3 className="wda-h3">Passwords</h3>
+            <p className="wda-p">
+              Automatically store unlimited passwords in one central, secure
+              place.
+            </p>
+            <Link className="wda-link">
+              Learn more
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-UIIcon dig-UIIcon--standard"
+                  width="24"
+                  height="24"
+                  role="presentation"
+                  focusable="false"
+                >
+                  <path
+                    d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </span>
+            </Link>
+          </div>
+        </div>
+      </div>
       <div className="block3"></div>
       <div className="block4"></div>
       <div></div>
