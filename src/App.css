@@ -8,14 +8,13 @@
   --clr-primary-300: hsla(229, 36%, 39%, 1);
   --clr-primary-200: hsla(229, 21%, 53%, 1);
   --clr-accent-400: hsla(147, 93%, 43%, 1);
-  --clr-secondary-400: hsla(229, 78%, 60%, 1);
+  --clr-secondary-400: hsla(225, 88%, 55%, 1);
   --clr-secondary-600: hsla(215, 90%, 50%, 1);
 
   --font-family: "Arial", sans-serif;
   --font-family: "Arial", sans-serif;
   --font-head: "BlinkMacSystemFont", "Segoe UI", "Helvetica Neue", "Helvetica",
-    "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-    "Segoe UI Symbol";
+    "Arial", sans-serif, "Segoe UI Symbol";
   --font-h3: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
     "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
     "Arial (Sharp Grotesk Fallback)";
@@ -106,7 +105,7 @@ header {
 }
 .header-items-r {
   display: flex;
-  flex: 0.79;
+  flex: 0.82;
   margin-left: 1rem;
 }
 .header-items-r a {
@@ -160,19 +159,24 @@ header {
 }
 .get-started {
   align-items: center;
+  font-family: "Raleway", "Roboto Slab", "Outfit", "Roboto", sans-serif;
+  width: 11rem;
   margin-top: 0.3rem;
+  height: 40px;
   margin-bottom: 0.3rem;
-  font-family: var(--font-family);
-  font-weight: var(--fw-bold);
-  padding-left: 1rem;
-  font-size: var(--fs-300);
+  font-weight: 600;
+  padding-left: 0.2rem;
+  font-size: 18px;
   background-color: var(--clr-secondary-600);
   color: var(--clr-neutral-100);
 }
+.get-started:hover {
+  background-color: var(--clr-secondary-400);
+}
 .get-started span {
   margin-top: 0.5rem;
-  padding-left: 2rem;
-  padding-right: 0.5rem;
+  padding-left: 1.5rem;
+  padding-right: 0.2rem;
 }
 
 .get-started span:hover {
@@ -240,6 +244,9 @@ header {
   font-weight: 600;
   text-align: center;
   text-decoration: none;
+}
+.find-your-plan:hover {
+  background-color: var(--clr-secondary-400);
 }
 
 .find-your-plan span {
