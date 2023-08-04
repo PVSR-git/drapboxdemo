@@ -213,7 +213,6 @@ header {
   font-size: 44px;
   font-weight: 400;
   text-wrap: balance;
-  word-wrap: break-word;
 }
 .text-info > p {
   margin-top: 0.5rem;
@@ -223,7 +222,6 @@ header {
   font-family: var(--font-p);
   font-size: 1rem;
   font-weight: 400;
-  word-wrap: break-word;
 }
 .find-your-plan {
   display: flex;
