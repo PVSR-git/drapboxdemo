@@ -256,3 +256,24 @@ header {
   width: 582.92px;
   height: 328.27px;
 }
+.wda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.wda h2 {
+  padding-top: 2rem;
+  font-family: Helvetica;
+  font-size: 42px;
+  font-weight: 400;
+}
+.wda-flex {
+  display: flex;
+  flex-direction: row;
+  margin-right: 5em;
+  margin-left: 5em;
+}
+.wda-info-flex {
+  padding: 2rem;
+}
