@@ -56,7 +56,7 @@ export default function Header() {
         <Link className="login" target="_balnk">
           Login
         </Link>
-        <Link className="get-started" target="_balnk">
+        <Link className="get-started" target="_blank">
           Get started{" "}
           <span>
             <svg

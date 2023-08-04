@@ -13,7 +13,7 @@ export default function Dropbox() {
             is the choice for storing and sharing your most important files.
           </p>
         </div>
-        <NavLink className="find-your-plan" to="">
+        <NavLink className="find-your-plan" target="_blank">
           Find your plan
           <span>
             <svg
