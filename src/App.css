@@ -265,15 +265,21 @@ header {
 }
 .wda {
   display: flex;
+  width: 1262.98px;
   justify-content: center;
   align-items: center;
   flex-direction: column;
 }
 .wda h2 {
   padding-top: 2rem;
-  font-family: Helvetica;
+  font-family: "Helvetica", sans-serif;
   font-size: 38px;
-  font-weight: 400;
+  font-stretch: expanded;
+  padding-left: 5rem;
+  margin-left: 5rem;
+  width: 777.23px;
+  font-weight: 500;
+  line-height: 120%;
 }
 .wda-flex {
   display: flex;
