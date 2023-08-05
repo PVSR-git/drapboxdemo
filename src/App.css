@@ -53,14 +53,53 @@
     "Arial (Sharp Grotesk 23 Fallback)";
   src: url("./assets/woff2/AtlasGrotesk-Medium-Web-vfl38XiTL.woff2")
     format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
+    "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
+    "Arial (Sharp Grotesk 23 Fallback)";
+  src: url("./assets/woff2/AtlasGrotesk-Medium-Web-vfl38XiTL.woff2")
+    format("woff2");
   font-weight: normal;
+  font-style: 500;
+}
+@font-face {
+  font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
+    "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
+    "Arial (Sharp Grotesk 23 Fallback)";
+  src: url("./assets/woff2/AtlasGrotesk-Medium-Web-vfl38XiTL.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: 600;
+}
+@font-face {
+  font-family: "Arial (Atlas Grotesk Fallback)", sans-serif;
+  src: url("./assets/woff2/AtlasGrotesk-Regular-Web-vflk7bxjs.woff2")
+    format("woff2");
+  font-weight: 200;
   font-style: normal;
 }
 @font-face {
   font-family: "Arial (Atlas Grotesk Fallback)", sans-serif;
   src: url("./assets/woff2/AtlasGrotesk-Regular-Web-vflk7bxjs.woff2")
     format("woff2");
-  font-weight: normal;
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Arial (Atlas Grotesk Fallback)", sans-serif;
+  src: url("./assets/woff2/AtlasGrotesk-Regular-Web-vflk7bxjs.woff2")
+    format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Arial (Atlas Grotesk Fallback)", sans-serif;
+  src: url("./assets/woff2/AtlasGrotesk-Regular-Web-vflk7bxjs.woff2")
+    format("woff2");
+  font-weight: 500;
   font-style: normal;
 }
 
@@ -69,6 +108,21 @@
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)";
   src: url("./assets/woff2/SharpGroteskDBCyrBook20-vfl6-4ZSp.woff2")
     format("woff2");
+  font-weight: 200;
+}
+@font-face {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)";
+  src: url("./assets/woff2/SharpGroteskDBCyrBook20-vfl6-4ZSp.woff2")
+    format("woff2");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)";
+  src: url("./assets/woff2/SharpGroteskDBCyrBook20-vfl6-4ZSp.woff2")
+    format("woff2");
+  font-weight: 400;
 }
 @font-face {
   font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
@@ -76,8 +130,23 @@
     "Arial (Sharp Grotesk Fallback)";
   src: url("./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2")
     format("woff2");
-  font-weight: 400px;
-  font-style: var(--fw-semi-bold);
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
+    "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
+    "Arial (Sharp Grotesk Fallback)";
+  src: url("./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2")
+    format("woff2");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
+    "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
+    "Arial (Sharp Grotesk Fallback)";
+  src: url("./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2")
+    format("woff2");
+  font-weight: 600;
 }
 
 header {
@@ -618,6 +687,10 @@ header {
   flex-direction: column;
 }
 .b3-flex2 h1 {
+  font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
+    "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
+    "Arial (Sharp Grotesk Fallback)", Arial, Helvetica, sans-serif;
+  font-weight: 500;
 }
 .cstc {
   display: grid;
@@ -665,6 +738,6 @@ header {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: 200;
+  font-size: normal;
 }
