@@ -685,6 +685,7 @@ header {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  color: rgb(247, 245, 242);
 }
 .b3-flex2 h1 {
   font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",

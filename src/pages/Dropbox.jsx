@@ -498,7 +498,212 @@ export default function Dropbox() {
         </div>
       </div>
 
-      <div className="block4"></div>
+      <div className="block4">
+        <div className="block4-text">
+          <h1>What else can Dropbox help you do?</h1>
+          <p>
+            Dropbox brings everything—traditional files, cloud content, and web
+            shortcuts—together in one place.
+          </p>
+        </div>
+        <div className="block4-flex">
+          <div className="block4-flex-child1">
+            <section>
+              <h2>Get 2 GB of cloud storage for free with Dropbox Basic</h2>
+              <p>
+                Save and access your files from any device, and share them with
+                anyone. Discover what Dropbox can do for you- get a free
+                account, no strings attached!
+              </p>
+              <Link className="asp-link">
+                Learn more
+                <span>
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    class="dig-UIIcon dig-UIIcon--standard"
+                    width="24"
+                    height="24"
+                    role="presentation"
+                    focusable="false"
+                  >
+                    <path
+                      d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                      stroke="currentColor"
+                      stroke-width="1.5"
+                      stroke-miterlimit="10"
+                      vector-effect="non-scaling-stroke"
+                    ></path>
+                  </svg>
+                </span>
+              </Link>
+            </section>
+            <section>
+              <h2>
+                Dropbox Plus has room for all your content with space to spare
+              </h2>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                class="dig-UIIcon dig-UIIcon--standard"
+                width="24"
+                height="24"
+                role="presentation"
+                focusable="false"
+              >
+                <path
+                  d="m5.25 9.25 6.5 6.25 6.5-6.25"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  vector-effect="non-scaling-stroke"
+                ></path>
+              </svg>
+            </section>
+            <section>
+              <h2>
+                Dropbox Family is a place for everyone with space for everything
+              </h2>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                class="dig-UIIcon dig-UIIcon--standard"
+                width="24"
+                height="24"
+                role="presentation"
+                focusable="false"
+              >
+                <path
+                  d="m5.25 9.25 6.5 6.25 6.5-6.25"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  vector-effect="non-scaling-stroke"
+                ></path>
+              </svg>
+            </section>
+            <section>
+              <h2>
+                Make life easier for you and your clients with Dropbox
+                Professional
+              </h2>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                class="dig-UIIcon dig-UIIcon--standard"
+                width="24"
+                height="24"
+                role="presentation"
+                focusable="false"
+              >
+                <path
+                  d="m5.25 9.25 6.5 6.25 6.5-6.25"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  vector-effect="non-scaling-stroke"
+                ></path>
+              </svg>
+            </section>
+            <section>
+              <h2>Streamline your document workflow with Dropbox Sign</h2>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                class="dig-UIIcon dig-UIIcon--standard"
+                width="24"
+                height="24"
+                role="presentation"
+                focusable="false"
+              >
+                <path
+                  d="m5.25 9.25 6.5 6.25 6.5-6.25"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  vector-effect="non-scaling-stroke"
+                ></path>
+              </svg>
+            </section>
+            <section>
+              <h2>
+                Centralize, secure, and easily access your work with Dropbox
+                Standard
+              </h2>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                class="dig-UIIcon dig-UIIcon--standard"
+                width="24"
+                height="24"
+                role="presentation"
+                focusable="false"
+              >
+                <path
+                  d="m5.25 9.25 6.5 6.25 6.5-6.25"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  vector-effect="non-scaling-stroke"
+                ></path>
+              </svg>
+            </section>
+            <section>
+              <h2>
+                DocSend lets you track, analyze, and optimize your content
+              </h2>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                class="dig-UIIcon dig-UIIcon--standard"
+                width="24"
+                height="24"
+                role="presentation"
+                focusable="false"
+              >
+                <path
+                  d="m5.25 9.25 6.5 6.25 6.5-6.25"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  vector-effect="non-scaling-stroke"
+                ></path>
+              </svg>
+            </section>
+            <section>
+              <h2>
+                Proactively detect threats to your team’s content with Dropbox
+                Advanced
+              </h2>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                class="dig-UIIcon dig-UIIcon--standard"
+                width="24"
+                height="24"
+                role="presentation"
+                focusable="false"
+              >
+                <path
+                  d="m5.25 9.25 6.5 6.25 6.5-6.25"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  vector-effect="non-scaling-stroke"
+                ></path>
+              </svg>
+            </section>
+          </div>
+          <div className="block4-flex-child2">
+            <img
+              alt="Image of files and folders that are organized and stored in Dropbox"
+              loading="lazy"
+              src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;output_type=png"
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=414&amp;output_type=png 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=828&amp;output_type=png 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=1024&amp;output_type=png 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=1280&amp;output_type=png 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;output_type=png 1440w"
+            ></img>
+          </div>
+        </div>
+      </div>
       <div></div>
     </div>
   );
