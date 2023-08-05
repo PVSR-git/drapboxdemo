@@ -1,6 +1,8 @@
 import React from "react";
 import { NavLink, Link } from "react-router-dom";
 import bgvid from "../assets/Dropbox.mp4";
+import bgimg1 from "../assets/Segmentation.png";
+import bgimg2 from "../assets/Segmentation_2.png";
 
 export default function Dropbox() {
   return (
@@ -395,7 +397,76 @@ export default function Dropbox() {
           </div>
         </div>
       </div>
-      <div className="block3"></div>
+
+      {/* BLOCK3 */}
+
+      <div className="block3">
+        <h1>How will you use Dropbox?</h1>
+        <div className="b3-flex1">
+          <div className="for-work">
+            <img src={bgimg1}></img>
+            <h2>For Work</h2>
+            <p>
+              Work efficiently with teammates and clients, stay in sync on
+              projects, and keep company data safe—all in one place.
+            </p>
+            <Link className="for-work-link">
+              Get Dropbox for work
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-UIIcon dig-UIIcon--standard"
+                  width="24"
+                  height="24"
+                  role="presentation"
+                  focusable="false"
+                >
+                  <path
+                    d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </span>
+            </Link>
+          </div>
+          <div className="for-personal">
+            <img src={bgimg2}></img>
+            <h2>For personal use</h2>
+            <p>
+              Keep everything that’s important to you and your family shareable
+              and safe in one place. Back up files in the cloud, share photos
+              and videos, and more.
+            </p>
+            <Link className="for-personal-link">
+              Get Dropbox for personal use{" "}
+              <span>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-UIIcon dig-UIIcon--standard"
+                  width="24"
+                  height="24"
+                  role="presentation"
+                  focusable="false"
+                >
+                  <path
+                    d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </span>
+            </Link>
+          </div>
+        </div>
+      </div>
+
       <div className="block4"></div>
       <div></div>
     </div>
