@@ -48,31 +48,39 @@
     U+FE2E-FE2F;
 }
 @font-face {
-  font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
-    "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
-    "Arial (Sharp Grotesk 23 Fallback)";
-  src: url("./assets/woff2/AtlasGrotesk-Medium-Web-vfl38XiTL.woff2")
-    format("woff2");
-  font-weight: 400;
-  font-style: normal;
+  font-family: "Sharp Grotesk 23";
+  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff2") format("woff2"),
+    url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff") format("woff");
 }
+
 @font-face {
-  font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
-    "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
-    "Arial (Sharp Grotesk 23 Fallback)";
-  src: url("./assets/woff2/AtlasGrotesk-Medium-Web-vfl38XiTL.woff2")
-    format("woff2");
-  font-weight: normal;
-  font-style: 500;
+  font-family: "Sharp Grotesk 23 KR";
+  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23-kr.woff2")
+      format("woff2"),
+    url("https://fonts.gstatic.com/s/sharp-grotesk-23-kr.woff") format("woff");
 }
+
 @font-face {
-  font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
-    "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
-    "Arial (Sharp Grotesk 23 Fallback)";
-  src: url("./assets/woff2/AtlasGrotesk-Medium-Web-vfl38XiTL.woff2")
-    format("woff2");
-  font-weight: normal;
-  font-style: 600;
+  font-family: "Sharp Grotesk 23 Thai";
+  src: url("https://fonts.gstatic.com/s/path/to/sharp-grotesk-23-thai.woff2")
+      format("woff2"),
+    url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Helvetica (Sharp Grotesk 23 Fallback)";
+  src: url("https://fonts.gstatic.com/s/helvetica-sharp-grotesk-23.woff2")
+      format("woff2"),
+    url("https://fonts.gstatic.com/s/helvetica-sharp-grotesk-23.woff")
+      format("woff");
+}
+
+@font-face {
+  font-family: "Arial (Sharp Grotesk 23 Fallback)";
+  src: url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff2")
+      format("woff2"),
+    url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff")
+      format("woff");
 }
 @font-face {
   font-family: "Arial (Atlas Grotesk Fallback)", sans-serif;
@@ -751,8 +759,26 @@ header {
 .block4-text {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 150.3px;
   width: 1263px;
+}
+.block4-text h1 {
+  font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
+    "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
+    "Arial (Sharp Grotesk 23 Fallback)", sans-serif;
+  font-weight: 400;
+  text-align: center;
+  font-style: normal;
+}
+.block4-text p {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  text-align: center;
+  font-weight: 400;
+  font-style: normal;
 }
 .block4-grid {
   display: grid;
