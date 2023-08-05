@@ -442,7 +442,7 @@ export default function Dropbox() {
               and videos, and more.
             </p>
             <Link className="for-personal-link">
-              Get Dropbox for personal use{" "}
+              Get Dropbox for personal{" "}
               <span>
                 <svg
                   viewBox="0 0 24 24"
