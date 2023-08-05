@@ -469,12 +469,12 @@ export default function Dropbox() {
           <h1>Cloud storage you can count on</h1>
           <div className="cstc">
             <div className="cstc-info">
-              <head>56%</head>
+              <h1>56%</h1>
               <h3>Cloud storage you can count on</h3>
               <p>have at least one Dropbox team plan.</p>
             </div>
             <div className="cstc-info">
-              <head>1B</head>
+              <h1>1B</h1>
               <h3>mobile app downloads</h3>
               <p>
                 with Editors’ Choice Awards from the Google Play and Apple App
@@ -482,7 +482,7 @@ export default function Dropbox() {
               </p>
             </div>
             <div className="cstc-info">
-              <head>600K+</head>
+              <h1>600K+</h1>
               <h3>teams globally</h3>
               <p>
                 use Dropbox to share work, safeguard content, and grow their
@@ -490,7 +490,7 @@ export default function Dropbox() {
               </p>
             </div>
             <div className="cstc-info">
-              <head>4.5B</head>
+              <h1>4.5B</h1>
               <h3>connections and counting</h3>
               <p>created through Dropbox file sharing.</p>
             </div>
