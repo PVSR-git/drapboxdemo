@@ -591,3 +591,11 @@ header {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
+.b3-flex2 {
+  display: flex;
+  flex-direction: column;
+}
+.cstc {
+  display: grid;
+  grid-template-columns: repeat(4, 290px);
+}

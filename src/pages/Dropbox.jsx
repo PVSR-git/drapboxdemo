@@ -465,6 +465,37 @@ export default function Dropbox() {
             </Link>
           </div>
         </div>
+        <div className="b3-flex2">
+          <h1>Cloud storage you can count on</h1>
+          <div className="cstc">
+            <div className="cstc-info">
+              <head>56%</head>
+              <h3>Cloud storage you can count on</h3>
+              <p>have at least one Dropbox team plan.</p>
+            </div>
+            <div className="cstc-info">
+              <head>1B</head>
+              <h3>mobile app downloads</h3>
+              <p>
+                with Editors’ Choice Awards from the Google Play and Apple App
+                Store.
+              </p>
+            </div>
+            <div className="cstc-info">
+              <head>600K+</head>
+              <h3>teams globally</h3>
+              <p>
+                use Dropbox to share work, safeguard content, and grow their
+                business.
+              </p>
+            </div>
+            <div className="cstc-info">
+              <head>4.5B</head>
+              <h3>connections and counting</h3>
+              <p>created through Dropbox file sharing.</p>
+            </div>
+          </div>
+        </div>
       </div>
 
       <div className="block4"></div>
