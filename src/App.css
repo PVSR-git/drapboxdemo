@@ -742,3 +742,24 @@ header {
   font-weight: 200;
   font-size: normal;
 }
+
+/* BLOCK4 */
+.block4 {
+  display: flex;
+  flex-direction: column;
+}
+.block4-text {
+  display: flex;
+  flex-direction: column;
+  height: 150.3px;
+  width: 1263px;
+}
+.block4-grid {
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  grid-template-columns: repeat(2, 631.5px);
+  align-items: center;
+  width: 1263px;
+  height: 969px;
+}

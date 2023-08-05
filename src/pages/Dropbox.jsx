@@ -506,7 +506,7 @@ export default function Dropbox() {
             shortcuts—together in one place.
           </p>
         </div>
-        <div className="block4-flex">
+        <div className="block4-grid">
           <div className="block4-flex-child1">
             <section>
               <h2>Get 2 GB of cloud storage for free with Dropbox Basic</h2>
