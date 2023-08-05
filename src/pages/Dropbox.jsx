@@ -469,12 +469,12 @@ export default function Dropbox() {
           <h1>Cloud storage you can count on</h1>
           <div className="cstc">
             <div className="cstc-info">
-              <h1>56%</h1>
+              <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/56_graphitebg.svg?id=8086678e-8b77-4720-bc35-4d5eb6b08c2d"></img>
               <h3>Cloud storage you can count on</h3>
               <p>have at least one Dropbox team plan.</p>
             </div>
             <div className="cstc-info">
-              <h1>1B</h1>
+              <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/1B+_graphitebg.svg?id=de40db5c-8700-4100-9822-4ee6feff8e9f"></img>
               <h3>mobile app downloads</h3>
               <p>
                 with Editors’ Choice Awards from the Google Play and Apple App
@@ -482,7 +482,7 @@ export default function Dropbox() {
               </p>
             </div>
             <div className="cstc-info">
-              <h1>600K+</h1>
+              <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/600K_graphitebg.svg?id=b7cced4c-f6a4-4375-9eb9-28e53ea24d7a"></img>
               <h3>teams globally</h3>
               <p>
                 use Dropbox to share work, safeguard content, and grow their
@@ -490,7 +490,7 @@ export default function Dropbox() {
               </p>
             </div>
             <div className="cstc-info">
-              <h1>4.5B</h1>
+              <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/4.5B+_graphitebg.svg?id=80fdd51d-16da-4e7e-ba93-2b7ae408d2e4"></img>
               <h3>connections and counting</h3>
               <p>created through Dropbox file sharing.</p>
             </div>

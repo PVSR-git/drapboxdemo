@@ -468,11 +468,13 @@ header {
     "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   font-size: 32px;
+  margin-top: 76px;
   font-weight: 400;
+  margin-bottom: 36px;
 }
 .b3-flex1 {
   display: flex;
-
+  margin-top: 36px;
   flex-grow: 1;
   align-items: center;
   align-items: center;
@@ -497,11 +499,20 @@ header {
 }
 .for-work h2 {
   padding-left: 48px;
+  font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
+    "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
+    "Arial (Sharp Grotesk Fallback)", Arial, Helvetica, sans-serif;
   padding-right: 48px;
+  margin-top: 48px;
+  font-weight: 300;
 }
 .for-work p {
   padding-left: 48px;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
   padding-right: 48px;
+  height: 75px;
 }
 .for-work-link {
   text-align: center;
@@ -553,11 +564,20 @@ header {
 }
 .for-personal h2 {
   padding-left: 48px;
+  font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
+    "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
+    "Arial (Sharp Grotesk Fallback)", Arial, Helvetica, sans-serif;
   padding-right: 48px;
+  margin-top: 48px;
+  font-weight: 300;
 }
 .for-personal p {
   padding-left: 48px;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
   padding-right: 48px;
+  height: 75px;
 }
 .for-personal-link {
   text-align: center;
@@ -593,9 +613,58 @@ header {
 }
 .b3-flex2 {
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
+}
+.b3-flex2 h1 {
 }
 .cstc {
   display: grid;
+  width: 1262.98px;
+
+  margin-left: 10rem;
+  padding-top: 1rem;
   grid-template-columns: repeat(4, 290px);
+}
+.cstc-info {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 220px;
+  width: 260.39px;
+  overflow-wrap: break-word;
+  font-wrap: balance;
+  flex-direction: column;
+  margin-bottom: 4rem;
+
+  padding-right: 2rem;
+}
+.cstc-info img {
+  height: 48px;
+  left: 0px;
+  line-height: 0px;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: scale-down;
+  object-position: 0% 0%;
+  overflow-clip-margin: content-box;
+  right: 0px;
+  top: 0px;
+  width: 243.461px;
+  -webkit-font-smoothing: antialiased;
+}
+.cstc-info h3 {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+}
+.cstc-info p {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-weight: 300;
+  font-size: 16px;
 }
