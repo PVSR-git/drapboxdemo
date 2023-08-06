@@ -62,7 +62,7 @@
 
 @font-face {
   font-family: "Sharp Grotesk 23 Thai";
-  src: url("https://fonts.gstatic.com/s/path/to/sharp-grotesk-23-thai.woff2")
+  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff2")
       format("woff2"),
     url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff") format("woff");
 }
@@ -91,7 +91,7 @@
 @font-face {
   font-family: "AtlasGrotesk";
   src: url("https://fonts.gstatic.com/s/atlasgrotesk.woff2") format("woff2"),
-    url("path/to/atlasgrotesk.woff") format("woff");
+    url("https://fonts.gstatic.com/s/atlasgrotesk.woff") format("woff");
 }
 
 @font-face {
@@ -102,12 +102,12 @@
       format("woff");
 }
 
-@font-face {
+/* @font-face {
   font-family: "Arial (Atlas Grotesk Fallback)";
   src: url("https://fonts.gstatic.com/s/arial-atlas-grotesk.woff2")
       format("woff2"),
     url("https://fonts.gstatic.com/s/arial-atlas-grotesk.woff") format("woff");
-}
+} */
 
 @font-face {
   font-family: "Arial (Sharp Grotesk 23 Fallback)";
