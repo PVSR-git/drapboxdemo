@@ -833,3 +833,43 @@ header {
   width: 1263px;
   height: 969px;
 }
+.block4-flex-child1 {
+  display: flex;
+  flex-direction: column;
+  height: 993px;
+  width: 631.5px;
+}
+.block4-flex-child1 section {
+  border-top: 1px solid rgba(166, 158, 146, 0.6);
+  width: 534.344px;
+}
+.block4-flex-child1 section:hover {
+  background-color: rgba(0, 0, 0, 0);
+}
+.block4-flex-child1 section h2 {
+  font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
+    "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
+    "Arial (Sharp Grotesk Fallback)", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  font-style: normal;
+}
+.block4-flex-child1 section p {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+.block4-flex-child2 {
+  background-color: rgb(20, 200, 235);
+  width: 631.5px;
+  height: 993px;
+  position: static;
+}
+.block4-flex-child2 img {
+  width: 535.5px;
+  margin: 2rem;
+  margin-top: 10rem;
+  margin-left: 3rem;
+}
