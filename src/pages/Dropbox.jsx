@@ -508,13 +508,37 @@ export default function Dropbox() {
         </div>
         <div className="block4-grid">
           <div className="block4-flex-child1">
-            <section>
-              <h2>Get 2 GB of cloud storage for free with Dropbox Basic</h2>
-              <p>
-                Save and access your files from any device, and share them with
-                anyone. Discover what Dropbox can do for you- get a free
-                account, no strings attached!
-              </p>
+            <section className="section-child">
+              <div>
+                <h2>Get 2 GB of cloud storage for free with Dropbox Basic</h2>
+                <p>
+                  Save and access your files from any device, and share them
+                  with anyone. Discover what Dropbox can do for you- get a free
+                  account, no strings attached!
+                </p>
+                <Link className="asp-link">
+                  Learn more
+                  <span>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      role="presentation"
+                      focusable="false"
+                    >
+                      <path
+                        d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-miterlimit="10"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                  </span>
+                </Link>
+              </div>
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
@@ -532,28 +556,6 @@ export default function Dropbox() {
                   vector-effect="non-scaling-stroke"
                 ></path>
               </svg>
-              <Link className="asp-link">
-                Learn more
-                <span>
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    class="dig-UIIcon dig-UIIcon--standard"
-                    width="24"
-                    height="24"
-                    role="presentation"
-                    focusable="false"
-                  >
-                    <path
-                      d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      vector-effect="non-scaling-stroke"
-                    ></path>
-                  </svg>
-                </span>
-              </Link>
             </section>
             <section>
               <h2>
