@@ -542,14 +542,14 @@ export default function Dropbox() {
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
-                class="dig-UIIcon dig-UIIcon--standard"
+                class="dig-UIIcon dig-UIIcon--standard svg"
                 width="24"
                 height="24"
                 role="presentation"
                 focusable="false"
               >
                 <path
-                  d="m5.25 9.25 6.5 6.25 6.5-6.25"
+                  d="M18.75 14.75 12 8.5 5.25 14.75"
                   stroke="currentColor"
                   stroke-width="1.5"
                   stroke-miterlimit="10"
@@ -562,6 +562,7 @@ export default function Dropbox() {
                 Dropbox Plus has room for all your content with space to spare
               </h2>
               <svg
+                className="svg"
                 viewBox="0 0 24 24"
                 fill="none"
                 class="dig-UIIcon dig-UIIcon--standard"
@@ -584,6 +585,7 @@ export default function Dropbox() {
                 Dropbox Family is a place for everyone with space for everything
               </h2>
               <svg
+                className="svg"
                 viewBox="0 0 24 24"
                 fill="none"
                 class="dig-UIIcon dig-UIIcon--standard"
@@ -607,6 +609,7 @@ export default function Dropbox() {
                 Professional
               </h2>
               <svg
+                className="svg"
                 viewBox="0 0 24 24"
                 fill="none"
                 class="dig-UIIcon dig-UIIcon--standard"
@@ -627,6 +630,7 @@ export default function Dropbox() {
             <section>
               <h2>Streamline your document workflow with Dropbox Sign</h2>
               <svg
+                className="svg"
                 viewBox="0 0 24 24"
                 fill="none"
                 class="dig-UIIcon dig-UIIcon--standard"
@@ -650,6 +654,7 @@ export default function Dropbox() {
                 Standard
               </h2>
               <svg
+                className="svg"
                 viewBox="0 0 24 24"
                 fill="none"
                 class="dig-UIIcon dig-UIIcon--standard"
@@ -672,6 +677,7 @@ export default function Dropbox() {
                 DocSend lets you track, analyze, and optimize your content
               </h2>
               <svg
+                className="svg"
                 viewBox="0 0 24 24"
                 fill="none"
                 class="dig-UIIcon dig-UIIcon--standard"
