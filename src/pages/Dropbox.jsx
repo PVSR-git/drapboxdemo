@@ -1007,7 +1007,7 @@ export default function Dropbox() {
                 </Link>
               </di>
             </div>
-            <div>
+            <div className="block6-img-info">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1920&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1920&amp;output_type=jpg 1920w"

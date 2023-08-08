@@ -1061,3 +1061,19 @@ header {
   font-size: 16px;
   width: 243.461px;
 }
+
+.block6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(30, 25, 25);
+  color: rgb(247, 245, 242);
+  width: 1263px;
+}
+.block6-img-info {
+  display: flex;
+  flex-direction: row;
+  height: 520.18px;
+  width: 1169.84px;
+}
