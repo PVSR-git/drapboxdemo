@@ -987,6 +987,21 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 72px;
+  margin-top: 0px;
+  padding-top: 72px;
+
+  scroll-margin-top: 48px;
+}
+.block5-text h1 {
+  text-align: center;
+  padding-left: 242.883px;
+  padding-right: 242.883px;
+  text-wrap: balance;
+}
+.block5-text a {
+  text-align: center;
+  color: black;
 }
 .block5-grid {
   display: grid;
@@ -1003,7 +1018,6 @@ header {
   width: 260.39px;
   align-items: flex-start;
   overflow-wrap: break-word;
-  font-wrap: balance;
   flex-direction: column;
   margin-bottom: 4rem;
 
