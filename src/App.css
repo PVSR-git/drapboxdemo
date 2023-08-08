@@ -1419,14 +1419,18 @@ header {
   flex-direction: column;
   width: 1263px;
 }
-
+.block4-text-info {
+  background-color: rgb(247, 245, 242);
+}
 .block4-text {
   display: flex;
-  background-color: rgb(247, 245, 242);
+  padding-bottom: 72px;
   flex-direction: column;
   align-items: center;
+  background-color: rgb(247, 245, 242);
+  margin-top: 72px;
   justify-content: center;
-  height: 150.3px;
+  height: 140.3px;
 }
 
 .block4-text h1,
@@ -1446,6 +1450,7 @@ header {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
+  margin-top: 0rem;
   font-weight: 400;
 }
 
@@ -1465,7 +1470,7 @@ header {
   width: 558.344px;
   padding-left: 48.5703px;
 
-  height: 993px;
+  height: 897px;
 }
 
 .block4-flex-child1 section {
@@ -1476,6 +1481,9 @@ header {
   justify-content: space-between;
   align-items: start;
   border-top: 1px solid rgba(166, 158, 146, 0.6);
+}
+.block4-flex-child1 section:last-child {
+  border-bottom: 1px solid rgba(166, 158, 146, 0.6);
 }
 
 .block4-flex-child1 section:hover {
@@ -1489,8 +1497,10 @@ header {
   padding-left: 12px;
   padding-right: 12px;
   color: rgb(30, 25, 25);
-  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "Raleway", "Roboto Slab",
-    "Outfit", "Roboto", sans-serif;
+  font-family: "Sharp Grotesk 23", "Work Sans", "Sharp Grotesk 23",
+    "Sharp Grotesk 23 KR", "Sharp Grotesk 23 Thai",
+    "Helvetica (Sharp Grotesk 23 Fallback)", "Arial (Sharp Grotesk 23 Fallback)",
+    "Raleway", "Roboto Slab", "Outfit", "Roboto", sans-serif;
   font-weight: 700;
   width: 334.344px;
   font-size: 16px;
@@ -1536,7 +1546,7 @@ header {
 .block4-flex-child2 {
   background-color: rgb(20, 200, 235);
   width: 631.5px;
-  height: 993px;
+  height: 897px;
   padding: 48px;
   position: static;
 }

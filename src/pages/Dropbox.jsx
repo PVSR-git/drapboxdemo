@@ -499,12 +499,14 @@ export default function Dropbox() {
       </div>
 
       <div className="block4">
-        <div className="block4-text">
-          <h1>What else can Dropbox help you do?</h1>
-          <p>
-            Dropbox brings everything—traditional files, cloud content, and web
-            shortcuts—together in one place.
-          </p>
+        <div className="block4-text-info">
+          <div className="block4-text">
+            <h1>What else can Dropbox help you do?</h1>
+            <p>
+              Dropbox brings everything—traditional files, cloud content, and
+              web shortcuts—together in one place.
+            </p>
+          </div>
         </div>
         <div className="block4-grid">
           <div className="block4-flex-child1">
