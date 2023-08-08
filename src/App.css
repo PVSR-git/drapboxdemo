@@ -1092,3 +1092,44 @@ header {
 
   text-wrap: balance;
 }
+.block6-text-b {
+  display: flex;
+  flex-direction: row;
+  margin-top: 72px;
+  padding-bottom: 72px;
+  justify-content: center;
+  align-items: center;
+}
+
+.block6-link {
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: "Raleway", "Roboto Slab", "Outfit", "Roboto", sans-serif;
+  margin-left: 48px;
+  margin-right: 48px;
+  margin-top: 0.5rem;
+  padding: 1rem;
+  text-decoration: none;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  width: 328.805px;
+  height: 55.2px;
+  font-size: 18px;
+  background-color: rgb(0, 97, 254);
+  color: rgb(30, 25, 25);
+}
+.block6-link:hover {
+  background-color: rgb(0, 87, 229);
+}
+.block6-link span {
+  margin-top: 0.6rem;
+  padding-left: 1rem;
+}
+
+.block6-link span:hover {
+  transform: translateX(4px);
+  transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
+}
