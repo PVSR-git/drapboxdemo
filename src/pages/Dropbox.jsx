@@ -731,7 +731,32 @@ export default function Dropbox() {
           </div>
         </div>
       </div>
-      <div></div>
+      <div className="block5">
+        <div className="block5-text">
+          <h1>Get more out of Dropbox by connecting with the tools you love</h1>
+          <a href="">Learn more about partner integrations</a>
+        </div>
+        <div className="block5-grid">
+          <section>
+            <img
+              src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_1@2x.png?id=0b49280f-4fde-427d-95f2-f39f09170f06&amp;output_type=png"
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_1@2x.png?id=0b49280f-4fde-427d-95f2-f39f09170f06&amp;output_type=png 128w"
+            ></img>
+            <h2>Zoom</h2>
+            <p>
+              Enhance remote collaboration with Zoom instant meetings and video
+              recordings.
+            </p>
+          </section>
+          <section></section>
+          <section></section>
+          <section></section>
+          <section></section>
+          <section></section>
+          <section></section>
+          <section></section>
+        </div>
+      </div>
     </div>
   );
 }

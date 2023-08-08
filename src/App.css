@@ -970,3 +970,20 @@ header {
   width: 535.5px;
   margin-top: 10rem;
 }
+
+/* BLOCK5 */
+.block5 {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(247, 245, 242);
+}
+.block5-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block5-grid img {
+  object-fit: scale-down;
+  height: 48px;
+}
