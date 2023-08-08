@@ -871,11 +871,12 @@ header {
 
 .block4-grid {
   display: grid;
+
   grid-template-columns: repeat(2, 631.5px);
   justify-content: center;
   align-items: center;
   width: 1263px;
-  height: 969px;
+  height: 993px;
 }
 
 /* Styles for the left column */
@@ -885,7 +886,7 @@ header {
   width: 558.344px;
   padding-left: 48.5703px;
 
-  height: 897px;
+  height: 993px;
 }
 
 .block4-flex-child1 section {
@@ -961,7 +962,7 @@ header {
 .block4-flex-child2 {
   background-color: rgb(20, 200, 235);
   width: 631.5px;
-  height: 897px;
+  height: 993px;
   padding: 48px;
   position: static;
 }
@@ -974,7 +975,11 @@ header {
 /* BLOCK5 */
 .block5 {
   display: flex;
+
   flex-direction: column;
+  padding-left: 48px;
+  padding-right: 48px;
+  width: 1263px;
   background-color: rgb(247, 245, 242);
 }
 .block5-text {
@@ -983,7 +988,36 @@ header {
   justify-content: center;
   align-items: center;
 }
-.block5-grid img {
+.block5-grid {
+  display: grid;
+
+  margin-right: 24px;
+  margin-left: 24px;
+  width: 1262.98px;
+
+  grid-template-columns: repeat(4, 290px);
+}
+.block5-grid section {
+  display: flex;
+  height: 220px;
+  width: 260.39px;
+  align-items: flex-start;
+  overflow-wrap: break-word;
+  font-wrap: balance;
+  flex-direction: column;
+  margin-bottom: 4rem;
+
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.block5-grid section img {
   object-fit: scale-down;
   height: 48px;
+}
+.block4-grid section h2 {
+  width: 243.461px;
+}
+.block4-grid section p {
+  width: 243.461px;
 }
