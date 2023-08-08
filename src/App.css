@@ -51,38 +51,7 @@
   font-family: "Sharp Grotesk 23";
   src: url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff2") format("woff2"),
     url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff") format("woff");
-  font-weight: 200;
-}
-/* Font weight 300 */
-@font-face {
-  font-family: "Sharp Grotesk 23";
-  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Sharp Grotesk 23";
-  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Sharp Grotesk 23";
-  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Sharp Grotesk 23";
-  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff") format("woff");
-  font-weight: 600;
+  font-weight: 200, 300, 400, 500, 600;
 }
 
 @font-face {
@@ -90,41 +59,7 @@
   src: url("https://fonts.gstatic.com/s/sharp-grotesk-23-kr.woff2")
       format("woff2"),
     url("https://fonts.gstatic.com/s/sharp-grotesk-23-kr.woff") format("woff");
-  font-weight: 200;
-}
-@font-face {
-  font-family: "Sharp Grotesk 23 KR";
-  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23-kr.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/sharp-grotesk-23-kr.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Sharp Grotesk 23 KR";
-  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23-kr.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/sharp-grotesk-23-kr.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Sharp Grotesk 23 KR";
-  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23-kr.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/sharp-grotesk-23-kr.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Sharp Grotesk 23 KR";
-  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23-kr.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/sharp-grotesk-23-kr.woff") format("woff");
-  font-weight: 600;
+  font-weight: 200, 300, 400, 500, 600;
 }
 
 @font-face {
@@ -132,90 +67,7 @@
   src: url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff2")
       format("woff2"),
     url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff") format("woff");
-  font-weight: 200;
-}
-/* Font weight 300 */
-@font-face {
-  font-family: "Sharp Grotesk 23 Thai";
-  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Sharp Grotesk 23 Thai";
-  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Sharp Grotesk 23 Thai";
-  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Sharp Grotesk 23 Thai";
-  src: url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/sharp-grotesk-23-thai.woff") format("woff");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "Helvetica (Sharp Grotesk 23 Fallback)";
-  src: url("https://fonts.gstatic.com/s/helvetica-sharp-grotesk-23.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-sharp-grotesk-23.woff")
-      format("woff");
-  font-weight: 200;
-}
-/* Font weight 300 */
-@font-face {
-  font-family: "Helvetica (Sharp Grotesk 23 Fallback)";
-  src: url("https://fonts.gstatic.com/s/helvetica-sharp-grotesk-23.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-sharp-grotesk-23.woff")
-      format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Helvetica (Sharp Grotesk 23 Fallback)";
-  src: url("https://fonts.gstatic.com/s/helvetica-sharp-grotesk-23.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-sharp-grotesk-23.woff")
-      format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Helvetica (Sharp Grotesk 23 Fallback)";
-  src: url("https://fonts.gstatic.com/s/helvetica-sharp-grotesk-23.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-sharp-grotesk-23.woff")
-      format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Helvetica (Sharp Grotesk 23 Fallback)";
-  src: url("https://fonts.gstatic.com/s/helvetica-sharp-grotesk-23.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-sharp-grotesk-23.woff")
-      format("woff");
-  font-weight: 600;
+  font-weight: 200, 300, 400, 500, 600, 700;
 }
 
 @font-face {
@@ -223,42 +75,7 @@
   src: url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff2")
       format("woff2"),
     url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff") format("woff");
-  font-weight: 200;
-}
-/* Font weight 300 */
-@font-face {
-  font-family: "Atlas Grotesk Web";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Atlas Grotesk Web";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Atlas Grotesk Web";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Atlas Grotesk Web";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff") format("woff");
-  font-weight: 600;
+  font-weight: 200, 300, 400, 500, 600, 700;
 }
 
 /* Font weight 200 */
@@ -272,303 +89,62 @@
 /* Font weight 300 */
 @font-face {
   font-family: "Atlas Grotesk";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Atlas Grotesk";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Atlas Grotesk";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Atlas Grotesk";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 600;
-}
-
-/* Font weight 200 */
-@font-face {
-  font-family: "Atlas Grotesk";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 200;
-}
-
-/* Font weight 300 */
-@font-face {
-  font-family: "Atlas Grotesk";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Atlas Grotesk";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Atlas Grotesk";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Atlas Grotesk";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 600;
-}
-
-/* ... Repeat the above pattern for other font weights and font families */
-
-/* Font weights 200, 300, 400, 500, and 600 for the "AtlasGrotesk" font family */
-/* Font weight 200 */
-@font-face {
-  font-family: "AtlasGrotesk";
   src: url("https://fonts.gstatic.com/s/atlasgrotesk.woff2") format("woff2"),
     url("https://fonts.gstatic.com/s/atlasgrotesk.woff") format("woff");
-  font-weight: 200;
+  font-weight: 200, 300, 400, 500, 600;
+  font-style: normal;
 }
 
-/* Font weight 300 */
 @font-face {
-  font-family: "AtlasGrotesk";
-  src: url("https://fonts.gstatic.com/s/atlasgrotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlasgrotesk.woff") format("woff");
-  font-weight: 300;
+  font-family: "Atlas Grotesk";
+  font-style: normal;
+  font-weight: 200, 300, 400, 500, 600;
+  src: local("Atlas Grotesk"), local("AtlasGrotesk"),
+    url(https://fonts.gstatic.com/s/atlasgrotesk/v3/WxP2E2w6_3r3eQzHze7fxA4P.ttf)
+      format("truetype");
 }
 
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "AtlasGrotesk";
-  src: url("https://fonts.gstatic.com/s/atlasgrotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlasgrotesk.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "AtlasGrotesk";
-  src: url("https://fonts.gstatic.com/s/atlasgrotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlasgrotesk.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "AtlasGrotesk";
-  src: url("https://fonts.gstatic.com/s/atlasgrotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlasgrotesk.woff") format("woff");
-  font-weight: 600;
-}
-
-/* Font weight 200 */
 @font-face {
   font-family: "Helvetica (Atlas Grotesk Fallback)";
-  src: url("https://fonts.gstatic.com/s/helvetica-atlas-grotesk.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-atlas-grotesk.woff")
-      format("woff");
-  font-weight: 200;
+  font-weight: 200, 300, 400, 500, 600; /* Adjust as needed */
+  src: local("Atlas Grotesk"), local("AtlasGrotesk"),
+    url(https://fonts.gstatic.com/s/atlasgrotesk/v3/WxP2E2w6_3r3eQzHze7fxA4P.ttf)
+      format("truetype");
 }
 
-/* Font weight 300 */
+/* Define Sharp Grotesk font with multiple font weights */
 @font-face {
-  font-family: "Helvetica (Atlas Grotesk Fallback)";
-  src: url("https://fonts.gstatic.com/s/helvetica-atlas-grotesk.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-atlas-grotesk.woff")
-      format("woff");
-  font-weight: 300;
+  font-family: "Sharp Grotesk";
+  font-style: normal;
+  font-weight: 200, 300, 400, 500, 600, 700; /* Specify multiple weights */
+  src: local("Arial"),
+    url("https://fonts.gstatic.com/s/sharpgrotesk/v10/LYjNdG_8nE8jDL0i3KbXZ7XL4Bk95DiS9w.woff2")
+      format("woff2");
 }
 
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Helvetica (Atlas Grotesk Fallback)";
-  src: url("https://fonts.gstatic.com/s/helvetica-atlas-grotesk.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-atlas-grotesk.woff")
-      format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Helvetica (Atlas Grotesk Fallback)";
-  src: url("https://fonts.gstatic.com/s/helvetica-atlas-grotesk.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-atlas-grotesk.woff")
-      format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Helvetica (Atlas Grotesk Fallback)";
-  src: url("https://fonts.gstatic.com/s/helvetica-atlas-grotesk.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-atlas-grotesk.woff")
-      format("woff");
-  font-weight: 600;
-}
-
-/* @font-face {
-  font-family: "Arial (Atlas Grotesk Fallback)";
-  src: url("https://fonts.gstatic.com/s/arial-atlas-grotesk.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/arial-atlas-grotesk.woff") format("woff");
-} */
-
-/* Font weight 200 */
+/* Define Arial (Sharp Grotesk 23 Fallback) font */
 @font-face {
   font-family: "Arial (Sharp Grotesk 23 Fallback)";
   src: url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff2")
       format("woff2"),
     url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff")
       format("woff");
-  font-weight: 200;
+  font-weight: 200, 300, 400, 500, 600; /* Define the font weight */
 }
 
-/* Font weight 300 */
-@font-face {
-  font-family: "Arial (Sharp Grotesk 23 Fallback)";
-  src: url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff")
-      format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Arial (Sharp Grotesk 23 Fallback)";
-  src: url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff")
-      format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Arial (Sharp Grotesk 23 Fallback)";
-  src: url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff")
-      format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Arial (Sharp Grotesk 23 Fallback)";
-  src: url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff")
-      format("woff");
-  font-weight: 600;
-}
-
-/* Font weight 200 */
+/* Font weight 200 for Segoe UI */
 @font-face {
   font-family: "Segoe UI";
   src: url("https://fonts.gstatic.com/s/segoe-ui.woff2") format("woff2"),
     url("https://fonts.gstatic.com/s/segoe-ui.woff") format("woff");
-  font-weight: 200;
+  font-weight: 200, 300, 400, 500, 600;
 }
 
-/* Font weight 300 */
-@font-face {
-  font-family: "Segoe UI";
-  src: url("https://fonts.gstatic.com/s/segoe-ui.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/segoe-ui.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Segoe UI";
-  src: url("https://fonts.gstatic.com/s/segoe-ui.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/segoe-ui.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Segoe UI";
-  src: url("https://fonts.gstatic.com/s/segoe-ui.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/segoe-ui.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Segoe UI";
-  src: url("https://fonts.gstatic.com/s/segoe-ui.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/segoe-ui.woff") format("woff");
-  font-weight: 600;
-}
-
-/* Font weight 200 */
 @font-face {
   font-family: "Helvetica Neue";
   src: url("https://fonts.gstatic.com/s/helvetica-neue.woff2") format("woff2"),
     url("https://fonts.gstatic.com/s/helvetica-neue.woff") format("woff");
-  font-weight: 200;
-}
-
-/* Font weight 300 */
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("https://fonts.gstatic.com/s/helvetica-neue.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-neue.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("https://fonts.gstatic.com/s/helvetica-neue.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-neue.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("https://fonts.gstatic.com/s/helvetica-neue.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-neue.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Helvetica Neue";
-  src: url("https://fonts.gstatic.com/s/helvetica-neue.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica-neue.woff") format("woff");
-  font-weight: 600;
+  font-weight: 200, 300, 400, 500, 600;
 }
 
 /* Font weight 200 */
@@ -576,39 +152,7 @@
   font-family: "Helvetica";
   src: url("https://fonts.gstatic.com/s/helvetica.woff2") format("woff2"),
     url("https://fonts.gstatic.com/s/helvetica.woff") format("woff");
-  font-weight: 200;
-}
-
-/* Font weight 300 */
-@font-face {
-  font-family: "Helvetica";
-  src: url("https://fonts.gstatic.com/s/helvetica.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Helvetica";
-  src: url("https://fonts.gstatic.com/s/helvetica.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Helvetica";
-  src: url("https://fonts.gstatic.com/s/helvetica.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Helvetica";
-  src: url("https://fonts.gstatic.com/s/helvetica.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/helvetica.woff") format("woff");
-  font-weight: 600;
+  font-weight: 200, 300, 400, 500, 600;
 }
 
 /* Font weight 200 */
@@ -616,162 +160,7 @@
   font-family: "Arial";
   src: url("https://fonts.gstatic.com/s/arial.woff2") format("woff2"),
     url("https://fonts.gstatic.com/s/arial.woff") format("woff");
-  font-weight: 200;
-}
-
-/* Font weight 300 */
-@font-face {
-  font-family: "Arial";
-  src: url("https://fonts.gstatic.com/s/arial.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/arial.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Arial";
-  src: url("https://fonts.gstatic.com/s/arial.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/arial.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Arial";
-  src: url("https://fonts.gstatic.com/s/arial.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/arial.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Arial";
-  src: url("https://fonts.gstatic.com/s/arial.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/arial.woff") format("woff");
-  font-weight: 600;
-}
-
-/* Font weight 200 */
-@font-face {
-  font-family: "Apple Color Emoji";
-  src: url("https://fonts.gstatic.com/s/apple-color-emoji.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/apple-color-emoji.woff") format("woff");
-  font-weight: 200;
-}
-
-/* Font weight 300 */
-@font-face {
-  font-family: "Apple Color Emoji";
-  src: url("https://fonts.gstatic.com/s/apple-color-emoji.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/apple-color-emoji.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Apple Color Emoji";
-  src: url("https://fonts.gstatic.com/s/apple-color-emoji.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/apple-color-emoji.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Apple Color Emoji";
-  src: url("https://fonts.gstatic.com/s/apple-color-emoji.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/apple-color-emoji.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Apple Color Emoji";
-  src: url("https://fonts.gstatic.com/s/apple-color-emoji.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/apple-color-emoji.woff") format("woff");
-  font-weight: 600;
-}
-
-/* Font weight 200 */
-@font-face {
-  font-family: "Segoe UI Emoji";
-  src: url("https://fonts.gstatic.com/s/segoe-ui-emoji.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/segoe-ui-emoji.woff") format("woff");
-  font-weight: 200;
-}
-
-/* Font weight 300 */
-@font-face {
-  font-family: "Segoe UI Emoji";
-  src: url("https://fonts.gstatic.com/s/segoe-ui-emoji.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/segoe-ui-emoji.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Segoe UI Emoji";
-  src: url("https://fonts.gstatic.com/s/segoe-ui-emoji.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/segoe-ui-emoji.woff") format("woff");
-  font-weight: 400;
-}
-
-/* Font weight 500 */
-@font-face {
-  font-family: "Segoe UI Emoji";
-  src: url("https://fonts.gstatic.com/s/segoe-ui-emoji.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/segoe-ui-emoji.woff") format("woff");
-  font-weight: 500;
-}
-
-/* Font weight 600 */
-@font-face {
-  font-family: "Segoe UI Emoji";
-  src: url("https://fonts.gstatic.com/s/segoe-ui-emoji.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/segoe-ui-emoji.woff") format("woff");
-  font-weight: 600;
-}
-
-/* Font weight 200 */
-@font-face {
-  font-family: "Segoe UI Symbol";
-  src: url("https://fonts.gstatic.com/s/Segoe-ui-symbol.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/Segoe-ui-symbol.woff") format("woff");
-  font-weight: 200;
-}
-
-/* Font weight 300 */
-@font-face {
-  font-family: "Segoe UI Symbol";
-  src: url("https://fonts.gstatic.com/s/Segoe-ui-symbol.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/Segoe-ui-symbol.woff") format("woff");
-  font-weight: 300;
-}
-
-/* Font weight 400 (normal) */
-@font-face {
-  font-family: "Segoe UI Symbol";
-  src: url("https://fonts.gstatic.com/s/Segoe-ui-symbol.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/Segoe-ui-symbol.woff") format("woff");
-  font-weight: 400;
-}
-/* Font weight 500 (normal) */
-@font-face {
-  font-family: "Segoe UI Symbol";
-  src: url("https://fonts.gstatic.com/s/Segoe-ui-symbol.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/Segoe-ui-symbol.woff") format("woff");
-  font-weight: 500;
-}
-/* Font weight 600 (normal) */
-@font-face {
-  font-family: "Segoe UI Symbol";
-  src: url("https://fonts.gstatic.com/s/Segoe-ui-symbol.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/Segoe-ui-symbol.woff") format("woff");
-  font-weight: 700;
+  font-weight: 200, 300, 400, 500, 600, 700;
 }
 
 @font-face {
@@ -780,127 +169,21 @@
       format("woff2"),
     url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff") format("woff");
 
-  font-weight: 200;
-}
-@font-face {
-  font-family: "Atlas Grotesk Web";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff") format("woff");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "Atlas Grotesk Web";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff") format("woff");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Atlas Grotesk Web";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff") format("woff");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Atlas Grotesk Web";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff") format("woff");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "Atlas Grotesk Web";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff2")
-      format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk-web.woff") format("woff");
-  font-weight: 700;
-}
-@font-face {
-  font-family: "Atlas Grotesk";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 200;
-}
-@font-face {
-  font-family: "Atlas Grotesk";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 300;
+  font-weight: 200, 300, 400, 500, 600, 700;
 }
 
 @font-face {
   font-family: "Atlas Grotesk";
   src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
     url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "Atlas Grotesk ";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "Atlas Grotesk ";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "Atlas Grotesk ";
-  src: url("https://fonts.gstatic.com/s/atlas-grotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlas-grotesk.woff") format("woff");
-  font-weight: 700;
+  font-weight: 200, 300, 400, 500, 600;
 }
 
 @font-face {
   font-family: "AtlasGrotesk";
   src: url("https://fonts.gstatic.com/s/atlasGrotesk.woff2") format("woff2"),
     url("https://fonts.gstatic.com/s/atlasGrotesk.woff") format("woff");
-  font-weight: 200;
-}
-@font-face {
-  font-family: "AtlasGrotesk";
-  src: url("https://fonts.gstatic.com/s/atlasGrotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlasGrotesk.woff") format("woff");
-  font-weight: 300;
-}
-
-@font-face {
-  font-family: "AtlasGrotesk";
-  src: url("https://fonts.gstatic.com/s/atlasGrotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlasGrotesk.woff") format("woff");
-  font-weight: 400;
-}
-
-@font-face {
-  font-family: "AtlasGrotesk";
-  src: url("https://fonts.gstatic.com/s/atlasGrotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlasGrotesk.woff") format("woff");
-  font-weight: 500;
-}
-
-@font-face {
-  font-family: "AtlasGrotesk";
-  src: url("https://fonts.gstatic.com/s/atlasGrotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlasGrotesk.woff") format("woff");
-  font-weight: 600;
-}
-
-@font-face {
-  font-family: "AtlasGrotesk";
-  src: url("https://fonts.gstatic.com/s/atlasGrotesk.woff2") format("woff2"),
-    url("https://fonts.gstatic.com/s/atlasGrotesk.woff") format("woff");
-  font-weight: 700;
+  font-weight: 200, 300, 400, 500, 600;
 }
 
 @font-face {
@@ -945,49 +228,10 @@
 }
 
 @font-face {
-  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
-    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)";
-  src: url("./assets/woff2/SharpGroteskDBCyrBook20-vfl6-4ZSp.woff2")
-    format("woff2");
-  font-weight: 200;
-}
-@font-face {
-  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
-    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)";
-  src: url("./assets/woff2/SharpGroteskDBCyrBook20-vfl6-4ZSp.woff2")
-    format("woff2");
-  font-weight: 300;
-}
-@font-face {
-  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
-    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)";
-  src: url("./assets/woff2/SharpGroteskDBCyrBook20-vfl6-4ZSp.woff2")
-    format("woff2");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
-    "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
-    "Arial (Sharp Grotesk Fallback)";
-  src: url("./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2")
-    format("woff2");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
-    "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
-    "Arial (Sharp Grotesk Fallback)";
-  src: url("./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2")
-    format("woff2");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
-    "Sharp Grotesk Thai", "Helvetica (Sharp Grotesk Fallback)",
-    "Arial (Sharp Grotesk Fallback)";
-  src: url("./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2")
-    format("woff2");
-  font-weight: 600;
+  font-family: "Atlas Grotesk Fallback";
+  src: url("https://fonts.gstatic.com/s/arial.woff2") format("woff2"),
+    url("https://fonts.gstatic.com/s/arial.woff") format("woff");
+  font-weight: 200, 300, 400, 500, 600;
 }
 
 header {
