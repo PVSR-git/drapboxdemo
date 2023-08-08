@@ -748,13 +748,77 @@ export default function Dropbox() {
               recordings.
             </p>
           </section>
-          <section></section>
-          <section></section>
-          <section></section>
-          <section></section>
-          <section></section>
-          <section></section>
-          <section></section>
+          <section>
+            <img
+              src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_2@2x.png?id=dc2c7070-361b-4c7a-8af6-4c9a1604e165&amp;output_type=png"
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_2@2x.png?id=dc2c7070-361b-4c7a-8af6-4c9a1604e165&amp;output_type=png 128w"
+            ></img>
+            <h2>Slack</h2>
+            <p>
+              Bring Slack conversations and Dropbox content together to keep
+              teams in sync.
+            </p>
+          </section>
+          <section>
+            <img
+              src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_3@2x.png?id=9fa9f7ca-08d5-488c-9d84-3aa7054859a9&amp;output_type=png"
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_3@2x.png?id=9fa9f7ca-08d5-488c-9d84-3aa7054859a9&amp;output_type=png 128w"
+            ></img>
+            <h2>Adobe Creative Cloud</h2>
+            <p>
+              Easily and securely send files to clients and vendors from within
+              Adobe Photoshop.
+            </p>
+          </section>
+          <section>
+            <img
+              src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_4@2x.png?id=ce8269af-ef1a-460a-8199-65af3dd978a3&amp;output_type=png"
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_4@2x.png?id=ce8269af-ef1a-460a-8199-65af3dd978a3&amp;output_type=png 128w"
+            ></img>
+            <h2>Microsoft Office</h2>
+            <p>Easily access, edit, and share Office docs online in Dropbox.</p>
+          </section>
+          <section>
+            <img
+              src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_5@2x.png?id=51654bec-5969-4532-93d9-e7a265237d4a&amp;output_type=png"
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_5@2x.png?id=51654bec-5969-4532-93d9-e7a265237d4a&amp;output_type=png 128w"
+            ></img>
+            <h2>Google Workspace</h2>
+            <p>
+              Create, edit, and share Google Docs, Sheets, and Slides in
+              Dropbox.
+            </p>
+          </section>
+          <section>
+            <img
+              src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_6@2x.png?id=d19d3c69-b60c-4643-a44f-af372679c725&amp;output_type=png"
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_6@2x.png?id=d19d3c69-b60c-4643-a44f-af372679c725&amp;output_type=png 128w"
+            ></img>
+            <h2>Trello</h2>
+            <p>Collaborate on team projects in Trello with Dropbox content.</p>
+          </section>
+          <section>
+            <img
+              src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_7@2x.png?id=bdfc4a9e-36b3-4ff9-a43f-30036c0acc89&amp;output_type=png"
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_7@2x.png?id=bdfc4a9e-36b3-4ff9-a43f-30036c0acc89&amp;output_type=png 128w"
+            ></img>
+            <h2>Canvas</h2>
+            <p>
+              Upload course files or assignments straight from Dropbox to
+              Canvas.
+            </p>
+          </section>
+          <section>
+            <img
+              src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_8@2x.png?id=02655af8-df7a-43e2-b9ca-10def350e03e&amp;output_type=png"
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_8@2x.png?id=02655af8-df7a-43e2-b9ca-10def350e03e&amp;output_type=png 128w"
+            ></img>
+            <h2>Asana</h2>
+            <p>
+              Track all of your team’s work with Asana while keeping Dropbox
+              content alongside.
+            </p>
+          </section>
         </div>
       </div>
     </div>
