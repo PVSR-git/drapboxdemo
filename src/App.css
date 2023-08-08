@@ -237,6 +237,8 @@
 header {
   margin-top: -0.5rem;
   width: auto;
+  position: fixed;
+  width: 100%;
   display: flex;
   align-items: center;
   height: 48px;
@@ -409,7 +411,8 @@ header {
 }
 .block1 {
   display: flex;
-  width: 100%;
+
+  width: 1260px;
   flex-direction: column;
   justify-content: space-between;
   font-style: normal;
@@ -524,6 +527,7 @@ header {
 /* block2 */
 .block2 {
   display: flex;
+  width: 1260px;
   background-color: rgb(247, 245, 242);
   flex-direction: column;
   justify-content: center;
@@ -606,6 +610,8 @@ header {
 .block3 {
   display: flex;
   flex-direction: column;
+
+  width: 1263px;
   background-color: rgb(30, 25, 25);
   color: white;
 }
@@ -977,7 +983,7 @@ header {
   display: flex;
 
   flex-direction: column;
-  padding-left: 48px;
+  padding-left: 24px;
   padding-right: 48px;
   width: 1263px;
   background-color: rgb(247, 245, 242);
@@ -995,11 +1001,20 @@ header {
 }
 .block5-text h1 {
   text-align: center;
+  font-family: "Sharp Grotesk 23", "Work Sans", "Sharp Grotesk 23",
+    "Sharp Grotesk 23 KR", "Sharp Grotesk 23 Thai",
+    "Helvetica (Sharp Grotesk 23 Fallback)", "Arial (Sharp Grotesk 23 Fallback)",
+    "Raleway", "Roboto Slab", "Outfit", "Roboto", sans-serif;
   padding-left: 242.883px;
   padding-right: 242.883px;
+  font-weight: 400;
   text-wrap: balance;
 }
 .block5-text a {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-weight: 400;
   text-align: center;
   color: black;
 }
@@ -1019,7 +1034,7 @@ header {
   align-items: flex-start;
   overflow-wrap: break-word;
   flex-direction: column;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 
   padding-left: 24px;
   padding-right: 24px;
@@ -1029,9 +1044,20 @@ header {
   object-fit: scale-down;
   height: 48px;
 }
-.block4-grid section h2 {
+.block5-grid section h2 {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-weight: solid;
+  font-size: 16px;
   width: 243.461px;
 }
-.block4-grid section p {
+.block5-grid section p {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  font-size: 16px;
   width: 243.461px;
 }
