@@ -1077,3 +1077,18 @@ header {
   height: 520.18px;
   width: 1169.84px;
 }
+.block6-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 72px;
+  margin-bottom: 72px;
+}
+.block6-text h1 {
+  text-align: center;
+  padding-left: 242.883px;
+  padding-right: 242.883px;
+
+  text-wrap: balance;
+}
