@@ -821,6 +821,289 @@ export default function Dropbox() {
           </section>
         </div>
       </div>
+      <div className="block6">
+        <div className="block6-text">
+          <h1>
+            Trusted by over 700 million registered users and 600,000 teams
+          </h1>
+          <a href="#">View more customer stories</a>
+        </div>
+        <div className="block6-flex">
+          <div className="block6-img-flex">
+            <div className="block6-img-info">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;output_type=jpg"
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;output_type=jpg 1440w"
+              ></img>
+              <div>
+                <h2>
+                  “Dropbox has been tremendously helpful for social media. I can
+                  hop on anytime and pull whatever photo is inspiring me to
+                  post.”{" "}
+                </h2>
+                <Link className="img-link">
+                  Read the full story
+                  <span>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      role="presentation"
+                      focusable="false"
+                    >
+                      <path
+                        d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-miterlimit="10"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </div>
+            <div className="block6-img-info">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;output_type=jpg"
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;output_type=jpg 1440w"
+              ></img>
+              <div>
+                <h2>
+                  “Dropbox increased our team’s collaboration while working from
+                  home, which has increased our flexibility and could
+                  revolutionize our office culture.”
+                </h2>
+                <Link className="img-link">
+                  Read the full story
+                  <span>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      role="presentation"
+                      focusable="false"
+                    >
+                      <path
+                        d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-miterlimit="10"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="block6-img-info">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1920&amp;output_type=jpg"
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1920&amp;output_type=jpg 1920w"
+              ></img>
+              <div>
+                <h2>
+                  “We’re a grass-roots nonprofit. When we use a tool that the
+                  rest of the design world uses, it helps professionalize our
+                  organization.”
+                </h2>
+                <Link className="img-link">
+                  Read the full story
+                  <span>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      role="presentation"
+                      focusable="false"
+                    >
+                      <path
+                        d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-miterlimit="10"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="block6-img-info">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1920&amp;output_type=jpg"
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1920&amp;output_type=jpg 1920w"
+              ></img>
+              <div>
+                <h2>
+                  “Dropbox easily allows me to transfer what’s in my mind to
+                  another person.”
+                </h2>
+                <Link className="img-link">
+                  Read the full story
+                  <span>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      role="presentation"
+                      focusable="false"
+                    >
+                      <path
+                        d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-miterlimit="10"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </div>
+
+            <div className="block6-img-info">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;output_type=jpg"
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1920&amp;output_type=jpg 1920w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=2560&amp;output_type=jpg 2560w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=2880&amp;output_type=jpg 2880w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;output_type=jpg 3200w"
+              ></img>
+              <di>
+                <h2>
+                  “Our team is working remotely—everyone's in a different time
+                  zone. Dropbox is a great hub for us to all work at once and
+                  seamlessly share files.”
+                </h2>
+                <Link className="img-link">
+                  Read the full story
+                  <span>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      role="presentation"
+                      focusable="false"
+                    >
+                      <path
+                        d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-miterlimit="10"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                  </span>
+                </Link>
+              </di>
+            </div>
+            <div>
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1920&amp;output_type=jpg"
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1920&amp;output_type=jpg 1920w"
+              ></img>
+              <div>
+                <h2>
+                  “Dropbox version control is very important. You may want to go
+                  back to an earlier version because there's an idea in there
+                  that you really like.”
+                </h2>
+                <Link className="img-link">
+                  Read the full story
+                  <span>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      role="presentation"
+                      focusable="false"
+                    >
+                      <path
+                        d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-miterlimit="10"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                  </span>
+                </Link>
+              </div>
+            </div>
+            <div className="block6-img-info">
+              <img
+                src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;output_type=jpg"
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;output_type=jpg 1440w"
+              ></img>
+              <di>
+                <h2>
+                  “Creative growth happens when you don’t have to worry about
+                  managing storage.”
+                </h2>
+                <Link className="img-link">
+                  Read the full story
+                  <span>
+                    <svg
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      class="dig-UIIcon dig-UIIcon--standard"
+                      width="24"
+                      height="24"
+                      role="presentation"
+                      focusable="false"
+                    >
+                      <path
+                        d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                        stroke="currentColor"
+                        stroke-width="1.5"
+                        stroke-miterlimit="10"
+                        vector-effect="non-scaling-stroke"
+                      ></path>
+                    </svg>
+                  </span>
+                </Link>
+              </di>
+            </div>
+          </div>
+        </div>
+        <div className="block6-text-b">
+          <h1>For all things worth sharing.</h1>
+          <Link className="block6-link">
+            Refer a friend
+            <span>
+              <svg
+                viewBox="0 0 24 24"
+                fill="none"
+                class="dig-UIIcon dig-UIIcon--standard"
+                width="24"
+                height="24"
+                role="presentation"
+                focusable="false"
+              >
+                <path
+                  d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-miterlimit="10"
+                  vector-effect="non-scaling-stroke"
+                ></path>
+              </svg>
+            </span>
+          </Link>
+        </div>
+      </div>
     </div>
   );
 }
