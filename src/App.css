@@ -1114,6 +1114,21 @@ header {
   font-weight: 400;
   background-color: rgb(155, 0, 50);
 }
+.block6-img-info div h2 {
+  width: 564.922px;
+  padding-left: 1rem;
+}
+.img-link {
+  padding-left: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: 2px space-between;
+  flex-direction: row;
+}
+.img-link span:hover {
+  transform: translateX(4px);
+  transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
+}
 
 .block6-text a {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
@@ -1127,16 +1142,21 @@ header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-start;
   margin-top: 72px;
   padding-bottom: 72px;
 }
 .block6-text-b h1 {
   text-align: start;
+  width: 800.227px;
+
   font-family: "Sharp Grotesk 23", "Work Sans", "Sharp Grotesk 23",
     "Sharp Grotesk 23 KR", "Sharp Grotesk 23 Thai",
     "Helvetica (Sharp Grotesk 23 Fallback)", "Arial (Sharp Grotesk 23 Fallback)",
     "Raleway", "Roboto Slab", "Outfit", "Roboto", sans-serif;
-  padding-right: 200px;
+
+  height: 50px;
+  font-size: 45px;
 }
 .block6-link {
   text-align: center;

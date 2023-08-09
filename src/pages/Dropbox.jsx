@@ -3,13 +3,23 @@ import { NavLink, Link } from "react-router-dom";
 import bgvid from "../assets/Dropbox.mp4";
 import bgimg1 from "../assets/Segmentation.png";
 import bgimg2 from "../assets/Segmentation_2.png";
-import Slideshow from "../components/Slideshow";
 
 export default function Dropbox() {
-  // const images = [
-  //   "https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1920&amp;output_type=jpg",
-  //   "https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;output_type=jpg",
-  // ];
+  let slideIndex = 0;
+  showSlides();
+
+  function showSlides() {
+    let slides = document.querySelectorAll(".block6-img-info");
+    for (let i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    slides[slideIndex - 1].style.display = "flex";
+    setTimeout(showSlides, 3000); // Change slide every 3 seconds
+  }
   return (
     <div className="container">
       <div className="block1">
