@@ -3,9 +3,13 @@ import { NavLink, Link } from "react-router-dom";
 import bgvid from "../assets/Dropbox.mp4";
 import bgimg1 from "../assets/Segmentation.png";
 import bgimg2 from "../assets/Segmentation_2.png";
-// import Slideshow from "../components/Slideshow";
+import Slideshow from "../components/Slideshow";
 
 export default function Dropbox() {
+  // const images = [
+  //   "https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1920&amp;output_type=jpg",
+  //   "https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;output_type=jpg",
+  // ];
   return (
     <div className="container">
       <div className="block1">
@@ -843,7 +847,7 @@ export default function Dropbox() {
                   hop on anytime and pull whatever photo is inspiring me to
                   post.”{" "}
                 </h2>
-                <Link className="img-link">
+                <Link className="img-link" style={{ color: "white" }}>
                   Read the full story
                   <span>
                     <svg
@@ -872,13 +876,13 @@ export default function Dropbox() {
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;output_type=jpg 1440w"
               ></img>
-              <div>
+              <div style={{ background: "rgb(250, 85, 30)", color: "black" }}>
                 <h2>
                   “Dropbox increased our team’s collaboration while working from
                   home, which has increased our flexibility and could
                   revolutionize our office culture.”
                 </h2>
-                <Link className="img-link">
+                <Link className="img-link" style={{ color: "black" }}>
                   Read the full story
                   <span>
                     <svg
@@ -908,13 +912,13 @@ export default function Dropbox() {
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1920&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1920&amp;output_type=jpg 1920w"
               ></img>
-              <div>
+              <div style={{ background: "rgb(0, 120, 145)", color: "white" }}>
                 <h2>
                   “We’re a grass-roots nonprofit. When we use a tool that the
                   rest of the design world uses, it helps professionalize our
                   organization.”
                 </h2>
-                <Link className="img-link">
+                <Link className="img-link" style={{ color: "white" }}>
                   Read the full story
                   <span>
                     <svg
@@ -944,12 +948,12 @@ export default function Dropbox() {
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1920&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1920&amp;output_type=jpg 1920w"
               ></img>
-              <div>
+              <div style={{ background: "rgb(180, 220, 25)", color: "black" }}>
                 <h2>
                   “Dropbox easily allows me to transfer what’s in my mind to
                   another person.”
                 </h2>
-                <Link className="img-link">
+                <Link className="img-link" style={{ color: "black" }}>
                   Read the full story
                   <span>
                     <svg
@@ -979,13 +983,13 @@ export default function Dropbox() {
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1920&amp;output_type=jpg 1920w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=2560&amp;output_type=jpg 2560w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=2880&amp;output_type=jpg 2880w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;output_type=jpg 3200w"
               ></img>
-              <di>
+              <div style={{ background: "rgb(120, 40, 110)", color: "white" }}>
                 <h2>
                   “Our team is working remotely—everyone's in a different time
                   zone. Dropbox is a great hub for us to all work at once and
                   seamlessly share files.”
                 </h2>
-                <Link className="img-link">
+                <Link className="img-link" style={{ color: "white" }}>
                   Read the full story
                   <span>
                     <svg
@@ -1007,20 +1011,20 @@ export default function Dropbox() {
                     </svg>
                   </span>
                 </Link>
-              </di>
+              </div>
             </div>
             <div className="block6-img-info">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1920&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1920&amp;output_type=jpg 1920w"
               ></img>
-              <div>
+              <div style={{ background: "rgb(255, 175, 165)", color: "black" }}>
                 <h2>
                   “Dropbox version control is very important. You may want to go
                   back to an earlier version because there's an idea in there
                   that you really like.”
                 </h2>
-                <Link className="img-link">
+                <Link className="img-link" style={{ color: "black" }}>
                   Read the full story
                   <span>
                     <svg
@@ -1049,12 +1053,12 @@ export default function Dropbox() {
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;output_type=jpg 1440w"
               ></img>
-              <di>
+              <div style={{ background: "rgb(250, 210, 75)", color: "black" }}>
                 <h2>
                   “Creative growth happens when you don’t have to worry about
                   managing storage.”
                 </h2>
-                <Link className="img-link">
+                <Link className="img-link" style={{ color: "black" }}>
                   Read the full story
                   <span>
                     <svg
@@ -1076,7 +1080,7 @@ export default function Dropbox() {
                     </svg>
                   </span>
                 </Link>
-              </di>
+              </div>
             </div>
           </div>
         </div>

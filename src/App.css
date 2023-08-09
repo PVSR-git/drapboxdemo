@@ -1071,12 +1071,7 @@ header {
   color: rgb(247, 245, 242);
   width: 1263px;
 }
-.block6-img-info {
-  display: flex;
-  flex-direction: row;
-  height: 520.18px;
-  width: 1169.84px;
-}
+
 .block6-text {
   display: flex;
   flex-direction: column;
@@ -1096,6 +1091,30 @@ header {
 
   text-wrap: balance;
 }
+.block6-img-flex {
+  display: flex;
+
+  flex-direction: column;
+}
+.block6-img-info {
+  display: flex;
+  margin: 1rem;
+  flex-direction: row;
+  height: 520.18px;
+  width: 1169.84px;
+}
+.block6-img-info img {
+  width: 584.922px;
+}
+.block6-img-info div {
+  width: 584.922px;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-weight: 400;
+  background-color: rgb(155, 0, 50);
+}
+
 .block6-text a {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -1103,30 +1122,6 @@ header {
   font-weight: 400;
   text-align: center;
   color: rgb(247, 245, 242);
-}
-.slideshow-container {
-  position: relative;
-}
-
-.block6-img-flex {
-  display: none;
-  text-align: center;
-}
-
-.block6-img-flex {
-  max-width: 100%;
-  height: auto;
-}
-
-.block6-img-flex h2 {
-  margin: 20px 0;
-  font-size: 20px;
-}
-.block6-img-flex {
-  display: none;
-}
-.block6-img-flex:first-child {
-  display: block;
 }
 .block6-text-b {
   display: flex;
