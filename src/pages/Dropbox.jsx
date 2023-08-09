@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 import bgvid from "../assets/Dropbox.mp4";
 import bgimg1 from "../assets/Segmentation.png";
 import bgimg2 from "../assets/Segmentation_2.png";
-import Slideshow from "../components/Slideshow";
+// import Slideshow from "../components/Slideshow";
 
 export default function Dropbox() {
   return (

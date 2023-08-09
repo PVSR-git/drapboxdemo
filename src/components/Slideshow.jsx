@@ -2,7 +2,7 @@ let slideIndex = 0;
 showSlides();
 
 function showSlides() {
-  let slides = document.querySelectorAll(".block6-img-info");
+  let slides = document.querySelectorAll(".block6-img-flex");
   for (let i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";
   }

@@ -1096,7 +1096,6 @@ header {
 
   text-wrap: balance;
 }
-
 .block6-text a {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -1105,11 +1104,30 @@ header {
   text-align: center;
   color: rgb(247, 245, 242);
 }
-
-.block6-img-info:first-child {
-  display: block;
+.slideshow-container {
+  position: relative;
 }
 
+.block6-img-flex {
+  display: none;
+  text-align: center;
+}
+
+.block6-img-flex {
+  max-width: 100%;
+  height: auto;
+}
+
+.block6-img-flex h2 {
+  margin: 20px 0;
+  font-size: 20px;
+}
+.block6-img-flex {
+  display: none;
+}
+.block6-img-flex:first-child {
+  display: block;
+}
 .block6-text-b {
   display: flex;
   flex-direction: row;
