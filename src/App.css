@@ -1096,6 +1096,7 @@ header {
 
   text-wrap: balance;
 }
+
 .block6-text a {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -1104,6 +1105,11 @@ header {
   text-align: center;
   color: rgb(247, 245, 242);
 }
+
+.block6-img-info:first-child {
+  display: block;
+}
+
 .block6-text-b {
   display: flex;
   flex-direction: row;
@@ -1117,6 +1123,7 @@ header {
     "Sharp Grotesk 23 KR", "Sharp Grotesk 23 Thai",
     "Helvetica (Sharp Grotesk 23 Fallback)", "Arial (Sharp Grotesk 23 Fallback)",
     "Raleway", "Roboto Slab", "Outfit", "Roboto", sans-serif;
+  padding-right: 200px;
 }
 .block6-link {
   text-align: center;
