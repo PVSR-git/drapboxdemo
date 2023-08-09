@@ -1,12 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink, Link } from "react-router-dom";
 import bgvid from "../assets/Dropbox.mp4";
 import bgimg1 from "../assets/Segmentation.png";
 import bgimg2 from "../assets/Segmentation_2.png";
 
 export default function Dropbox() {
-  let slideIndex = 0;
-  showSlides();
+  useEffect(() => {
+    showSlides();
+  }, []); // Empty dependency array ensures the effect runs once after initial render
 
   function showSlides() {
     let slides = document.querySelectorAll(".block6-img-info");
@@ -20,6 +21,8 @@ export default function Dropbox() {
     slides[slideIndex - 1].style.display = "flex";
     setTimeout(showSlides, 3000); // Change slide every 3 seconds
   }
+
+  let slideIndex = 0;
   return (
     <div className="container">
       <div className="block1">
