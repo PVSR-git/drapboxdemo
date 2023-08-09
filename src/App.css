@@ -1105,6 +1105,7 @@ header {
 }
 .block6-img-info img {
   width: 584.922px;
+  object-fit: cover;
 }
 .block6-img-info div {
   width: 584.922px;
