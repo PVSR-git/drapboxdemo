@@ -1202,27 +1202,14 @@ header {
   width: 1263px;
   margin-top: 96px;
   position: relative;
-
   padding-left: 48.5703px;
   padding-right: 48.5703px;
   height: 550.195px;
 }
 .footer-grid {
   display: grid;
-
   grid-template-columns: repeat(5, 233.164px);
   height: 410px;
-}
-.footer-icons {
-  display: flex;
-  flex-direction: row;
-  margin-top: 48px;
-}
-.footer-link {
-  margin-top: 32px;
-
-  padding-right: 48.5703px;
-  width: 1165.84px;
 }
 
 .footer-grid-info {
@@ -1234,4 +1221,37 @@ header {
 }
 .footer-grid-info div {
   height: 326px;
+}
+.footer-icons {
+  display: flex;
+  flex-direction: row;
+  margin-top: 48px;
+}
+.footer-link {
+  margin-top: 32px;
+
+  padding-bottom: 48px;
+  border-top: 1px solid blue;
+  padding-top: 32px;
+  height: 140.195px;
+  padding-right: 48.5703px;
+  width: 1165.84px;
+}
+.footer-link button {
+  display: flex;
+  flex-direction: row;
+
+  align-items: baseline;
+  text-align: center;
+  width: 232.48px;
+  height: 24px;
+}
+.footer-link button span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  font-size: 16px;
 }
