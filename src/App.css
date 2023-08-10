@@ -1273,8 +1273,17 @@ header {
 .footer-link button {
   display: flex;
   flex-direction: row;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-weight: 400;
+
+  font-size: 16px;
+  font-stretch: 100%;
+  font-style: normal;
   background-color: black;
-  color: white;
+  color: rgb(247, 245, 242);
+
   border: none;
   align-items: baseline;
   text-align: center;
