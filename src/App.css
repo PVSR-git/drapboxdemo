@@ -1219,20 +1219,53 @@ header {
   justify-content: center;
   align-items: flex-start;
 }
+.footer-grid-info h2 {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.footer-grid-info div a {
+  text-decoration: none;
+}
+.footer-grid-info div h4 {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+}
 .footer-grid-info div {
   height: 326px;
 }
 .footer-icons {
   display: flex;
-  flex-direction: row;
+  width: 132px;
   margin-top: 48px;
+  flex-direction: row;
+  padding-bottom: 36px;
+  border-bottom: 1px solid green;
 }
+
+.footer-icons div {
+  margin-right: 12px;
+}
+.footer-icons div a {
+  width: 32px;
+  color: white;
+
+  height: 32px;
+}
+
 .footer-link {
   margin-top: 32px;
 
   padding-bottom: 48px;
-  border-top: 1px solid blue;
-  padding-top: 32px;
+
   height: 140.195px;
   padding-right: 48.5703px;
   width: 1165.84px;
@@ -1240,7 +1273,9 @@ header {
 .footer-link button {
   display: flex;
   flex-direction: row;
-
+  background-color: black;
+  color: white;
+  border: none;
   align-items: baseline;
   text-align: center;
   width: 232.48px;

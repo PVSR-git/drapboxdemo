@@ -12,6 +12,9 @@ export default function Footer() {
                 <h4>Desktop app</h4>
               </a>
               <a href="#">
+                <h4>Mobile app</h4>
+              </a>
+              <a href="#">
                 <h4>Integrations</h4>
               </a>
               <a href="#">
