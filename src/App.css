@@ -1068,7 +1068,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: rgb(30, 25, 25);
   color: rgb(247, 245, 242);
   width: 1263px;
 }
@@ -1132,7 +1132,7 @@ header {
 }
 
 .button button {
-  background-color: black;
+  background-color: rgb(30, 25, 25);
   color: rgb(247, 245, 242);
   border: none;
   height: 98px;
@@ -1140,7 +1140,7 @@ header {
   width: 98px;
 }
 .button button:hover {
-  background-color: rgb(30, 25, 25);
+  background-color: rgba(52, 50, 49, 0.979);
 }
 .button button:nth-child(1) {
   margin-right: 31rem;
