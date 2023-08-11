@@ -1,10 +1,12 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import bgvid from "../assets/Dropbox.mp4";
 import bgimg1 from "../assets/Segmentation.png";
 import bgimg2 from "../assets/Segmentation_2.png";
 
 export default function Dropbox() {
+  const [slideIndex, setSlideIndex] = useState(0);
+
   useEffect(() => {
     showSlides();
   }, []); // Empty dependency array ensures the effect runs once after initial render
@@ -14,15 +16,22 @@ export default function Dropbox() {
     for (let i = 0; i < slides.length; i++) {
       slides[i].style.display = "none";
     }
-    slideIndex++;
-    if (slideIndex > slides.length) {
-      slideIndex = 1;
+    if (slideIndex >= slides.length) {
+      setSlideIndex(0);
     }
-    slides[slideIndex - 1].style.display = "flex";
-    setTimeout(showSlides, 3000); // Change slide every 3 seconds
+    if (slideIndex < 0) {
+      setSlideIndex(slides.length - 1);
+    }
+    slides[slideIndex].style.display = "flex";
   }
 
-  let slideIndex = 0;
+  function nextSlide() {
+    setSlideIndex((prevIndex) => prevIndex + 1);
+  }
+
+  function prevSlide() {
+    setSlideIndex((prevIndex) => prevIndex - 1);
+  }
   return (
     <div className="container">
       <div className="block1">
@@ -1095,6 +1104,8 @@ export default function Dropbox() {
                 </Link>
               </div>
             </div>
+            <button onClick={prevSlide}>Previous</button>
+            <button onClick={nextSlide}>Next</button>
           </div>
         </div>
         <div className="block6-text-b">
