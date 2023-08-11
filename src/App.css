@@ -235,12 +235,13 @@
 }
 body {
   background-color: black;
+  width: 1260px;
 }
 header {
   margin-top: -0.5rem;
   width: auto;
   position: fixed;
-  width: 100%;
+  width: 1260px;
   display: flex;
   align-items: center;
   height: 48px;
@@ -1325,4 +1326,61 @@ header {
   text-align: center;
 
   font-size: 16px;
+}
+
+/* Common styles for all screen sizes */
+.header {
+  margin-top: -0.5rem;
+  width: auto;
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 48px;
+  background-color: white;
+}
+
+/* Other styles remain unchanged */
+
+/* Media query for screens wider than 1260px */
+@media screen and (min-width: 1260px) {
+  .header {
+    height: 64px;
+  }
+  .header-items-l {
+    margin-right: 2rem;
+  }
+  .header-items-l a {
+    height: 64px;
+    font-size: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .why-dropbox {
+    color: black;
+    height: 64px;
+    width: 10rem;
+    font-weight: 400;
+  }
+  .header-items-r {
+    margin-left: 2rem;
+  }
+
+  .contact,
+  .get-app,
+  .sign-up,
+  .login {
+    width: 6rem;
+    height: 64px;
+    font-size: 16px;
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+  .get-started {
+    width: 12rem;
+    font-size: 18px;
+  }
+  .get-started span {
+    margin-top: 0.5rem;
+  }
 }
