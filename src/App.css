@@ -893,7 +893,6 @@ header {
   flex-direction: column;
   width: 558.344px;
   padding-left: 48.5703px;
-  background-color: ;
   height: 993px;
 }
 
@@ -1131,16 +1130,23 @@ header {
   align-items: center;
   margin-left: 1rem;
 }
+
 .button button {
   background-color: black;
   color: rgb(247, 245, 242);
   border: none;
+  height: 98px;
+  font-weight: 400;
+  width: 98px;
+}
+.button button:hover {
+  background-color: rgb(30, 25, 25);
 }
 .button button:nth-child(1) {
-  margin-right: 31.85rem;
+  margin-right: 31rem;
 }
 .button button:nth-child(2) {
-  margin-left: 31.85rem;
+  margin-left: 30rem;
 }
 .img-link {
   padding-left: 1rem;
