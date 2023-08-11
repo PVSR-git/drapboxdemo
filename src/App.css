@@ -879,7 +879,7 @@ header {
 
 .block4-grid {
   display: grid;
-
+  background-color: white;
   grid-template-columns: repeat(2, 631.5px);
   justify-content: center;
   align-items: center;
@@ -893,7 +893,7 @@ header {
   flex-direction: column;
   width: 558.344px;
   padding-left: 48.5703px;
-
+  background-color: ;
   height: 993px;
 }
 
@@ -1069,7 +1069,7 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgb(30, 25, 25);
+  background-color: rgba(0, 0, 0, 0);
   color: rgb(247, 245, 242);
   width: 1263px;
 }
@@ -1095,11 +1095,12 @@ header {
 }
 .block6-img-flex {
   display: flex;
-  position: relative;
+
   flex-direction: column;
 }
 .block6-img-info {
   display: flex;
+  position: relative;
   margin: 1rem;
   flex-direction: row;
   height: 520.18px;
@@ -1123,6 +1124,23 @@ header {
 }
 .button {
   position: absolute;
+  display: flex;
+  flex-direction: row;
+  margin-top: 250.9px;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 1rem;
+}
+.button button {
+  background-color: black;
+  color: rgb(247, 245, 242);
+  border: none;
+}
+.button button:nth-child(1) {
+  margin-right: 31.85rem;
+}
+.button button:nth-child(2) {
+  margin-left: 31.85rem;
 }
 .img-link {
   padding-left: 1rem;
