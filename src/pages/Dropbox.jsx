@@ -27,10 +27,12 @@ export default function Dropbox() {
 
   function nextSlide() {
     setSlideIndex((prevIndex) => prevIndex + 1);
+    showSlides();
   }
 
   function prevSlide() {
     setSlideIndex((prevIndex) => prevIndex - 1);
+    showSlides();
   }
   return (
     <div className="container">
@@ -1104,8 +1106,10 @@ export default function Dropbox() {
                 </Link>
               </div>
             </div>
-            <button onClick={prevSlide}>Previous</button>
-            <button onClick={nextSlide}>Next</button>
+            <div className="button">
+              <button onClick={prevSlide}>Previous</button>
+              <button onClick={nextSlide}>Next</button>
+            </div>
           </div>
         </div>
         <div className="block6-text-b">
