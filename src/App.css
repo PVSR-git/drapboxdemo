@@ -1095,7 +1095,7 @@ header {
 }
 .block6-img-flex {
   display: flex;
-
+  position: relative;
   flex-direction: column;
 }
 .block6-img-info {
@@ -1120,6 +1120,9 @@ header {
 .block6-img-info div h2 {
   width: 564.922px;
   padding-left: 1rem;
+}
+.button {
+  position: absolute;
 }
 .img-link {
   padding-left: 1rem;

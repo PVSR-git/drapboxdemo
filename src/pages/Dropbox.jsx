@@ -930,7 +930,6 @@ export default function Dropbox() {
                 </Link>
               </div>
             </div>
-
             <div className="block6-img-info">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1920&amp;output_type=jpg"
@@ -966,7 +965,6 @@ export default function Dropbox() {
                 </Link>
               </div>
             </div>
-
             <div className="block6-img-info">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1920&amp;output_type=jpg"
@@ -1001,7 +999,6 @@ export default function Dropbox() {
                 </Link>
               </div>
             </div>
-
             <div className="block6-img-info">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;output_type=jpg"
@@ -1107,8 +1104,44 @@ export default function Dropbox() {
               </div>
             </div>
             <div className="button">
-              <button onClick={prevSlide}>Previous</button>
-              <button onClick={nextSlide}>Next</button>
+              <button onClick={prevSlide}>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-PictogramIcon"
+                  width="64"
+                  height="64"
+                  focusable="false"
+                  role="presentation"
+                >
+                  <path
+                    d="m14.75 5.75-6.25 6.5 6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </button>
+              <button onClick={nextSlide}>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-PictogramIcon"
+                  width="64"
+                  height="64"
+                  focusable="false"
+                  role="presentation"
+                >
+                  <path
+                    d="m9.25 5.75 6.25 6.5-6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
