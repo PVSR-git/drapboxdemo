@@ -264,6 +264,9 @@ header {
   justify-content: center;
   align-items: center;
 }
+.header-items {
+  display: flex;
+}
 .svg-container {
   background-color: rgb(0, 97, 254);
   display: inline-block; /* or use display: block; depending on your layout */
@@ -356,6 +359,9 @@ header {
   padding-left: 14px;
   padding-right: 14px;
 }
+.log-sign {
+  display: flex;
+}
 .sign-up:hover {
   background-color: var(--clr-neutral-300);
 }
@@ -426,6 +432,7 @@ nav {
     display: flex;
     height: 48px;
     align-items: center;
+    justify-content: flex-start;
     background-color: white;
   }
   .header-items-l {
@@ -450,20 +457,25 @@ nav {
   }
   .header-items-l a {
     padding: 12px 20px; /* Adjust padding for touch-friendly spacing */
-    width: 100%; /* Make menu items full width */
+    /* Make menu items full width */
+  }
+  .header-items {
+    display: flex;
+    font-size: 16px;
+    flex-direction: row-reverse;
+    margin-right: 0;
   }
 
   nav {
     display: block; /* Hide the menu by default */
     flex-direction: column; /* Stack menu items vertically */
-
     left: 0;
-
     background-color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   }
   div.header-item-info {
     display: none;
+    width: 100%;
   }
   #menu-icon {
     display: inline-block; /* Display the menu icon label */
@@ -471,8 +483,19 @@ nav {
     cursor: pointer;
   }
 
-  #menu-toggle:checked + nav {
-    display: flex; /* Display the menu when checkbox is checked */
+  #menu-toggle:checked + div.header-item-info {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: -17.69rem;
+    width: 100%;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    background: pink;
+    border-radius: 5px;
+    flex-direction: column;
   }
 
   nav a {
@@ -608,6 +631,91 @@ nav {
   font-family: Helvetica;
   font-size: 16px;
   font-weight: 400;
+}
+
+/* Styles for phone layout */
+@media (max-width: 768px) {
+  .block1 {
+    width: auto;
+
+    display: flex;
+    align-items: stretch;
+
+    justify-content: center; /* Stretch items to fill width */
+  }
+
+  .text-info {
+    width: 321.422px; /* Adjust width for full width */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 1rem;
+    text-wrap: balance;
+  }
+
+  .text-info h2 {
+    width: 321.422px;
+    text-wrap: balance;
+    margin-top: 1em; /* Reduce top margin */
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+
+  .text-info p {
+    width: 321.422px;
+    font-size: 14px; /* Decrease font size for smaller screens */
+    line-height: 20px; /* Adjust line height */
+  }
+
+  .find-your-plan {
+    margin-top: 2em; /* Reduce top margin */
+    padding: 0.5rem; /* Adjust padding for smaller screens */
+    font-size: 14px;
+    width: 321.422px;
+  }
+
+  .find-your-plan span {
+    width: 321.422px;
+    margin-left: 0.5rem; /* Adjust margin for smaller screens */
+    padding: 0.2rem; /* Adjust padding for smaller screens */
+  }
+
+  .block1 video {
+    margin-top: 2em; /* Reduce top margin */
+    width: 321.422px; /* Adjust width for full width */
+    height: auto; /* Allow height to adjust based on content */
+  }
+  .wda {
+    display: flex;
+    flex-direction: column;
+    width: 321.422px;
+  }
+
+  .wda h2 {
+    padding-top: 1rem; /* Reduce top padding */
+    font-size: 24px; /* Decrease font size for smaller screens */
+    padding-left: 1rem; /* Adjust left padding */
+    margin-left: 1rem; /* Adjust left margin */
+    width: 321.422px; /* Adjust width for full width */
+  }
+
+  .wda-flex {
+    display: flex;
+    justify-self: start;
+    align-items: flex-start;
+    width: 321.422px;
+    flex-direction: column; /* Change to column layout for smaller screens */
+    margin: 0; /* Remove margins for smaller screens */
+  }
+
+  .wda-info-flex {
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .wda-info-flex h3 {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+
+  .wda-info-flex p {
+    font-size: 12px; /* Decrease font size for smaller screens */
+  }
 }
 
 /* block2 */
