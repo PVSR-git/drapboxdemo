@@ -415,6 +415,9 @@ header {
 nav {
   display: flex;
 }
+.header-item-info {
+  display: flex;
+}
 @media only screen and (max-width: 767px) {
   header {
     width: auto;
@@ -431,15 +434,13 @@ nav {
     align-items: center;
     flex-direction: row;
   }
-  .get-started {
+  .header-items-l .get-started {
     display: none;
   }
-  .login {
-    display: none;
-  }
+
   .svg-container {
-    margin-top: 1.5rem;
-    margin-left: -1rem;
+    margin-top: 0rem;
+    margin-left: -2rem;
     background-color: rgb(0, 97, 254);
     display: inline-block; /* or use display: block; depending on your layout */
     padding: 10px; /* Add padding for spacing */
@@ -452,28 +453,29 @@ nav {
     width: 100%; /* Make menu items full width */
   }
 
-  #menu {
+  nav {
     display: block; /* Hide the menu by default */
     flex-direction: column; /* Stack menu items vertically */
-    position: absolute;
-    top: 10%;
+
     left: 0;
-    width: 50%;
+
     background-color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   }
-
+  div.header-item-info {
+    display: none;
+  }
   #menu-icon {
     display: inline-block; /* Display the menu icon label */
     padding: 12px; /* Add padding for touch-friendly click area */
     cursor: pointer;
   }
 
-  #menu-toggle:checked + #menu {
+  #menu-toggle:checked + nav {
     display: flex; /* Display the menu when checkbox is checked */
   }
 
-  #menu a {
+  nav a {
     padding: 12px 12px; /* Adjust padding for touch-friendly spacing */
     color: black;
     text-decoration: none;
@@ -482,7 +484,7 @@ nav {
     transition: background-color 0.3s ease-in-out;
   }
 
-  #menu a:hover {
+  nav a:hover {
     background-color: var(--clr-neutral-300);
   }
 }
