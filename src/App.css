@@ -240,22 +240,24 @@ body {
 header {
   margin-top: -0.5rem;
   width: auto;
-  position: fixed;
-  width: 1260px;
+  /* position: fixed; */
+
   display: flex;
-  align-items: center;
   height: 48px;
+  align-items: center;
   background-color: white;
 }
 .header-items-l {
+  margin-left: 0%;
   display: flex;
-  flex: 1;
-  margin-right: 1rem;
+
+  justify-content: center;
+  align-items: center;
 }
 .header-items-l a {
   text-decoration: none;
   display: flex;
-  height: 48px;
+
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
@@ -308,26 +310,16 @@ header {
 .pricing {
   color: black;
   height: 48px;
+  margin-right: 10rem;
   padding-left: 14px;
   padding-right: 14px;
 }
 .pricing:hover {
   background-color: var(--clr-neutral-300);
 }
-.header-items-r {
-  display: flex;
-  flex: 0.83;
-  margin-left: 1rem;
-}
-.header-items-r a {
-  text-decoration: none;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
+
 .global {
   color: black;
-  margin-right: 1.2rem;
 }
 .contact {
   color: black;
@@ -382,18 +374,25 @@ header {
   background-color: var(--clr-neutral-300);
 }
 .get-started {
-  align-items: center;
+  /* align-items: center; */
   font-family: "Raleway", "Roboto Slab", "Outfit", "Roboto", sans-serif;
-  width: 11rem;
-  margin-top: 0.3rem;
+  display: grid;
+  grid-template-columns: 89.125px 24px;
   height: 40px;
-  margin-bottom: 0.3rem;
+  width: 165.125px;
+  margin-top: 0.2rem;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+  padding-left: 4px;
+  padding-right: 4px;
+  /* Changed from 2rem */
   font-weight: 600;
   padding-left: 0.2rem;
   font-size: 18px;
   background-color: rgb(0, 97, 254);
   color: var(--clr-neutral-100);
 }
+
 .get-started:hover {
   background-color: rgb(0, 87, 229);
 }
@@ -407,9 +406,85 @@ header {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
-
-.nav-links.show {
+#menu-icon {
   display: none;
+}
+#menu-toggle {
+  display: none;
+}
+nav {
+  display: flex;
+}
+@media only screen and (max-width: 767px) {
+  header {
+    width: auto;
+    /* position: fixed; */
+
+    display: flex;
+    height: 48px;
+    align-items: center;
+    background-color: white;
+  }
+  .header-items-l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .get-started {
+    display: none;
+  }
+  .login {
+    display: none;
+  }
+  .svg-container {
+    margin-top: 1.5rem;
+    margin-left: -1rem;
+    background-color: rgb(0, 97, 254);
+    display: inline-block; /* or use display: block; depending on your layout */
+    padding: 10px; /* Add padding for spacing */
+  }
+  .site-name img {
+    display: none;
+  }
+  .header-items-l a {
+    padding: 12px 20px; /* Adjust padding for touch-friendly spacing */
+    width: 100%; /* Make menu items full width */
+  }
+
+  #menu {
+    display: block; /* Hide the menu by default */
+    flex-direction: column; /* Stack menu items vertically */
+    position: absolute;
+    top: 10%;
+    left: 0;
+    width: 50%;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #menu-icon {
+    display: inline-block; /* Display the menu icon label */
+    padding: 12px; /* Add padding for touch-friendly click area */
+    cursor: pointer;
+  }
+
+  #menu-toggle:checked + #menu {
+    display: flex; /* Display the menu when checkbox is checked */
+  }
+
+  #menu a {
+    padding: 12px 12px; /* Adjust padding for touch-friendly spacing */
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  #menu a:hover {
+    background-color: var(--clr-neutral-300);
+  }
 }
 
 .container {
