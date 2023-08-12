@@ -731,7 +731,7 @@ nav {
   padding-top: 2rem;
   font-family: "Helvetica", sans-serif;
   font-size: 38px;
-  font-stretch: expanded;
+
   padding-left: 5rem;
   margin-left: 5rem;
   width: 777.23px;
@@ -797,6 +797,38 @@ nav {
 .asp-link span:hover {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
+}
+/* Phone layout support of BLOCK2 */
+@media (max-width: 768px) {
+  .block2 {
+    width: auto;
+
+    display: flex;
+    align-items: stretch;
+
+    justify-content: start; /* Stretch items to fill width */
+  }
+  .block2 h2 {
+    padding-left: 2rem;
+    margin-left: 1rem;
+    width: 321.422px;
+    text-wrap: balance;
+    margin-top: 1em;
+    font-size: 20px; /* Further decrease font size */
+  }
+  .block2-grid {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    margin-left: 1rem;
+  }
+  .asp-link {
+    font-size: 12px; /* Further decrease font size */
+  }
+
+  .asp-link svg {
+    height: 14px; /* Further adjust SVG height */
+  }
 }
 
 /* block3 */
@@ -1026,6 +1058,17 @@ nav {
     sans-serif;
   font-weight: 200;
   font-size: normal;
+}
+/* Phone layout support of BLOCK3 */
+@media (max-width: 768px) {
+  .block2 {
+    width: auto;
+
+    display: flex;
+    align-items: stretch;
+
+    justify-content: start; /* Stretch items to fill width */
+  }
 }
 
 /* BLOCK4 */
