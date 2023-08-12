@@ -407,11 +407,17 @@ header {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
+
+.nav-links.show {
+  display: none;
+}
+
 .container {
   display: flex;
   flex-direction: column;
   margin: 0;
 }
+
 .block1 {
   display: flex;
 
