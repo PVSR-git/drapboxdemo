@@ -1305,10 +1305,14 @@ nav {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 321.422px; /* Adjust container width */
+    width: 100%;
+
+    width: 350.422px; /* Adjust container width */
   }
   .block4-text-info {
     background-color: rgb(247, 245, 242);
+    width: 100%;
+    padding-right: 3rem;
   }
   .block4-text {
     display: flex;
@@ -1335,7 +1339,7 @@ nav {
     grid-template-columns: 321.422px;
     justify-content: center;
     align-items: center;
-    width: 321.421px;
+    width: 350.421px;
     font-size: 16px;
     height: auto;
   }
@@ -1362,7 +1366,7 @@ nav {
     align-items: start;
     margin: 0;
     height: auto;
-    width: 313.414px;
+    width: 321.414px;
     border-top: 1px solid rgba(166, 158, 146, 0.6);
   }
 
@@ -1388,7 +1392,8 @@ nav {
   }
   .block4-flex-child1 section > svg {
     display: flex;
-    margin-left: -2rem;
+    margin-left: -0.5rem;
+    width: 50px;
     flex-direction: column;
   }
   .asp-link {
