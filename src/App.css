@@ -1501,6 +1501,37 @@ nav {
   font-size: 16px;
   width: 243.461px;
 }
+/* Media query for mobile layout */
+@media (max-width: 768px) {
+  .block5 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    /* Adjust container width */
+  }
+  .block5-text {
+    display: flex;
+    width: 321.422px;
+    height: auto;
+    flex-direction: column;
+    text-wrap: balance;
+  }
+  .block5-grid {
+    display: grid;
+    grid-template-columns: 290px;
+    width: 321.422;
+    margin-left: 0;
+    height: auto;
+  }
+  .block5-grid section {
+    margin-bottom: 2px;
+    margin-top: 0;
+  }
+  .block5-grid section h2 {
+    font-size: 16px;
+  }
+}
 
 .block6 {
   display: flex;
