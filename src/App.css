@@ -812,6 +812,7 @@ nav {
     padding-left: 2rem;
     margin-left: 1rem;
     width: 321.422px;
+    text-align: center;
     text-wrap: balance;
     margin-top: 1em;
     font-size: 20px; /* Further decrease font size */
@@ -819,7 +820,7 @@ nav {
   .block2-grid {
     display: flex;
     flex-direction: column;
-    padding-left: 2rem;
+
     margin-left: 1rem;
   }
   .asp-link {
