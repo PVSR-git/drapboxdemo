@@ -665,20 +665,20 @@ nav {
   }
 
   .find-your-plan {
-    margin-top: 2em; /* Reduce top margin */
-    padding: 0.5rem; /* Adjust padding for smaller screens */
-    font-size: 14px;
-    width: 321.422px;
+    width: 221.422px; /* Adjust width for full width */
+    font-size: 14px; /* Decrease font size */
+    padding: 0.5rem;
+    margin-left: 4.5rem; /* Adjust padding */
   }
 
   .find-your-plan span {
-    width: 321.422px;
     margin-left: 0.5rem; /* Adjust margin for smaller screens */
     padding: 0.2rem; /* Adjust padding for smaller screens */
   }
 
   .block1 video {
     margin-top: 2em; /* Reduce top margin */
+    margin-left: 1.4rem;
     width: 321.422px; /* Adjust width for full width */
     height: auto; /* Allow height to adjust based on content */
   }
@@ -1059,15 +1059,100 @@ nav {
   font-weight: 200;
   font-size: normal;
 }
-/* Phone layout support of BLOCK3 */
+/* Media query for mobile layout */
 @media (max-width: 768px) {
   .block2 {
     width: auto;
-
+    flex-direction: column;
     display: flex;
     align-items: stretch;
 
     justify-content: start; /* Stretch items to fill width */
+  }
+
+  .b3-flex1 {
+    display: flex;
+    margin-top: 1rem;
+    flex-grow: 1;
+    width: 327px;
+    margin-left: 1rem;
+    align-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .block3 h1 {
+    padding-left: 2rem;
+    margin-left: 1rem;
+    width: 321.422px;
+    text-wrap: balance;
+    margin-top: 1em;
+    font-size: 20px; /* Further decrease font size */
+  }
+  .block3 h1 {
+    font-size: 20px; /* Further decrease font size */
+    padding: 0.5rem; /* Adjust padding */
+  }
+
+  .b3-flex1 {
+    margin-top: 1rem; /* Adjust top margin */
+  }
+
+  .for-work,
+  .for-personal {
+    margin: 0.5rem 0.5rem 0; /* Adjust margins for smaller screens */
+    height: auto;
+
+    width: 321.422px; /* Allow height to adjust based on content */
+  }
+
+  .for-work img {
+    height: auto;
+    width: 321.422px;
+  }
+  .for-personal img {
+    height: auto;
+    width: 321.422px;
+    /* Allow height to adjust based on content */
+  }
+
+  .for-work h2,
+  .for-personal h2,
+  .for-work p,
+  .for-personal p {
+    width: 321.422px;
+    padding: 0.5rem; /* Adjust padding */
+  }
+
+  .for-work-link,
+  .for-personal-link {
+    width: 221.422px; /* Adjust width for full width */
+    font-size: 14px; /* Decrease font size */
+    padding: 0.5rem; /* Adjust padding */
+  }
+
+  .b3-flex2 {
+    width: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    margin-left: 1rem;
+    justify-content: start; /* Stretch items to fill width */
+  }
+  .b3-flex2 h1 {
+    padding-left: 2rem;
+    margin-left: 2rem;
+    width: 321.422px;
+    text-wrap: balance;
+    margin-top: 1em;
+    font-size: 20px;
+  }
+  .cstc {
+    display: flex;
+    flex-direction: column;
+    padding-left: 2rem;
+    margin-left: 1rem;
+  }
+  .cstc-info {
   }
 }
 
