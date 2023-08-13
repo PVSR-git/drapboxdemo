@@ -589,9 +589,12 @@ export default function Dropbox() {
               </svg>
             </section>
             <section>
-              <h2>
-                Dropbox Plus has room for all your content with space to spare
-              </h2>
+              <div>
+                <h2>
+                  Dropbox Plus has room for all your content with space to spare
+                </h2>
+              </div>
+
               <svg
                 className="svg"
                 viewBox="0 0 24 24"
@@ -612,9 +615,13 @@ export default function Dropbox() {
               </svg>
             </section>
             <section>
-              <h2>
-                Dropbox Family is a place for everyone with space for everything
-              </h2>
+              <div>
+                <h2>
+                  Dropbox Family is a place for everyone with space for
+                  everything
+                </h2>
+              </div>
+
               <svg
                 className="svg"
                 viewBox="0 0 24 24"
@@ -635,10 +642,13 @@ export default function Dropbox() {
               </svg>
             </section>
             <section>
-              <h2>
-                Make life easier for you and your clients with Dropbox
-                Professional
-              </h2>
+              <div>
+                <h2>
+                  Make life easier for you and your clients with Dropbox
+                  Professional
+                </h2>
+              </div>
+
               <svg
                 className="svg"
                 viewBox="0 0 24 24"
@@ -659,7 +669,10 @@ export default function Dropbox() {
               </svg>
             </section>
             <section>
-              <h2>Streamline your document workflow with Dropbox Sign</h2>
+              <div>
+                <h2>Streamline your document workflow with Dropbox Sign</h2>
+              </div>
+
               <svg
                 className="svg"
                 viewBox="0 0 24 24"
@@ -680,10 +693,13 @@ export default function Dropbox() {
               </svg>
             </section>
             <section>
-              <h2>
-                Centralize, secure, and easily access your work with Dropbox
-                Standard
-              </h2>
+              <diV>
+                <h2>
+                  Centralize, secure, and easily access your work with Dropbox
+                  Standard
+                </h2>
+              </diV>
+
               <svg
                 className="svg"
                 viewBox="0 0 24 24"
@@ -704,9 +720,12 @@ export default function Dropbox() {
               </svg>
             </section>
             <section>
-              <h2>
-                DocSend lets you track, analyze, and optimize your content
-              </h2>
+              <div>
+                <h2>
+                  DocSend lets you track, analyze, and optimize your content
+                </h2>
+              </div>
+
               <svg
                 className="svg"
                 viewBox="0 0 24 24"
@@ -727,10 +746,13 @@ export default function Dropbox() {
               </svg>
             </section>
             <section>
-              <h2>
-                Proactively detect threats to your team’s content with Dropbox
-                Advanced
-              </h2>
+              <div>
+                <h2>
+                  Proactively detect threats to your team’s content with Dropbox
+                  Advanced
+                </h2>
+              </div>
+
               <svg
                 viewBox="0 0 24 24"
                 fill="none"

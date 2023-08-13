@@ -1361,24 +1361,16 @@ nav {
     justify-content: center;
     align-items: start;
     margin: 0;
+    height: auto;
     width: 313.414px;
     border-top: 1px solid rgba(166, 158, 146, 0.6);
   }
-  .block4-flex-child1 section > h2 {
-    flex: 7;
-    width: 300px;
-    text-wrap: balance;
-    padding-left: 12px;
-    padding-right: 2px;
-  }
-  .block4-flex-child1 section > svg {
-    flex: 1;
-    width: 50px;
-  }
+
   .block4-flex-child1 section div {
     display: flex;
     width: 280px;
     height: auto;
+    font-size: 16px;
     flex-direction: column;
   }
   .block4-flex-child1 section div h2 {
@@ -1387,15 +1379,22 @@ nav {
     font-size: 16px;
     flex-direction: column;
   }
+
   .block4-flex-child1 section div p {
     display: flex;
     width: 280px;
+    font-size: 14px;
+    flex-direction: column;
+  }
+  .block4-flex-child1 section > svg {
+    display: flex;
+    margin-left: -2rem;
     flex-direction: column;
   }
   .asp-link {
     width: 280px;
 
-    margin-top: 1.5em;
+    margin-top: 1em;
   }
   .block4-flex-child2 {
     background-color: rgb(20, 200, 235);
