@@ -1517,6 +1517,12 @@ nav {
     flex-direction: column;
     text-wrap: balance;
   }
+  .block5-text h1 {
+    margin: 1px;
+    padding: 1px;
+    width: 321.422px;
+    text-wrap: balance;
+  }
   .block5-grid {
     display: grid;
     grid-template-columns: 290px;
@@ -1777,7 +1783,6 @@ nav {
     width: 280px;
     height: auto;
     font-size: 20px;
-
     margin: 1rem;
     font-wrape: balance;
   }
