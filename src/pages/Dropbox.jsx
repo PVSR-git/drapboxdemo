@@ -1166,14 +1166,50 @@ export default function Dropbox() {
               </button>
             </div>
             <div className="button1">
-              <button onClick={prevSlide}>&#x3C;</button>
+              <button onClick={prevSlide}>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-PictogramIcon"
+                  width="25"
+                  height="25"
+                  focusable="false"
+                  role="presentation"
+                >
+                  <path
+                    d="m14.75 5.75-6.25 6.5 6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </button>
               <div id="slide-count" className="slide-count">
                 <h3>
                   <span>0{`${slideIndex + 1} `}</span>
                   /07
                 </h3>
               </div>
-              <button onClick={nextSlide}>&#x3E;</button>
+              <button onClick={nextSlide}>
+                <svg
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  class="dig-PictogramIcon"
+                  width="25"
+                  height="25"
+                  focusable="false"
+                  role="presentation"
+                >
+                  <path
+                    d="m9.25 5.75 6.25 6.5-6.25 6.5"
+                    stroke="currentColor"
+                    stroke-width="1.5"
+                    stroke-miterlimit="10"
+                    vector-effect="non-scaling-stroke"
+                  ></path>
+                </svg>
+              </button>
             </div>
           </div>
         </div>
