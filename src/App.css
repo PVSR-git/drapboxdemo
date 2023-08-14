@@ -1518,8 +1518,9 @@ nav {
     text-wrap: balance;
   }
   .block5-text h1 {
-    margin: 1px;
+    margin: 4px;
     padding: 1px;
+    font-size: 20px;
     width: 321.422px;
     text-wrap: balance;
   }
