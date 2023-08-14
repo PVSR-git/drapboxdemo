@@ -1165,6 +1165,12 @@ export default function Dropbox() {
                 </svg>
               </button>
             </div>
+            <div id="slide-count" className="slide-count">
+              <h3>
+                <span>{`${slideIndex + 1} `}</span>
+                /07
+              </h3>
+            </div>
           </div>
         </div>
         <div className="block6-text-b">
