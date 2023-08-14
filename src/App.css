@@ -1913,6 +1913,9 @@ nav {
   .footer-icons {
     display: none;
   }
+  .footer-link {
+    display: none;
+  }
 }
 
 /* Common styles for all screen sizes */
