@@ -1895,6 +1895,25 @@ nav {
 
   font-size: 16px;
 }
+@media (max-width: 768px) {
+  .footer-content {
+    width: auto;
+
+    height: auto;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content: center; /* Stretch items to fill width */
+  }
+  .footer-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    height: auto;
+  }
+  .footer-icons {
+    display: none;
+  }
+}
 
 /* Common styles for all screen sizes */
 .header {
