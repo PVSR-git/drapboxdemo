@@ -1810,13 +1810,11 @@ nav {
   text-align: start;
   width: 800.227px;
 
-  font-family: "Sharp Grotesk 23", "Work Sans", "Sharp Grotesk 23",
-    "Sharp Grotesk 23 KR", "Sharp Grotesk 23 Thai",
-    "Helvetica (Sharp Grotesk 23 Fallback)", "Arial (Sharp Grotesk 23 Fallback)",
-    "Raleway", "Roboto Slab", "Outfit", "Roboto", sans-serif;
-
+  font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
+    "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
+    "Arial (Sharp Grotesk 23 Fallback)", sans-serif;
+  font-size: 40px;
   height: 50px;
-  font-size: 45px;
 }
 .block6-link {
   text-align: center;
@@ -1824,7 +1822,9 @@ nav {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  font-family: "Raleway", "Roboto Slab", "Outfit", "Roboto", sans-serif;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
   padding-bottom: 24px;
   padding-left: 24px;
   padding-right: 24px;
