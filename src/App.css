@@ -1345,8 +1345,8 @@ nav {
 .block4-flex-child1 section {
   display: flex;
   flex-direction: row;
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   justify-content: space-between;
   align-items: start;
   border-top: 1px solid rgba(166, 158, 146, 0.6);
@@ -1366,10 +1366,9 @@ nav {
   padding-left: 12px;
   padding-right: 12px;
   color: rgb(30, 25, 25);
-  font-family: "Sharp Grotesk 23", "Work Sans", "Sharp Grotesk 23",
-    "Sharp Grotesk 23 KR", "Sharp Grotesk 23 Thai",
-    "Helvetica (Sharp Grotesk 23 Fallback)", "Arial (Sharp Grotesk 23 Fallback)",
-    "Raleway", "Roboto Slab", "Outfit", "Roboto", sans-serif;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
   font-weight: 700;
   width: 334.344px;
   font-size: 16px;
@@ -1401,11 +1400,13 @@ nav {
   width: 262.344px;
   height: 70px;
   padding-left: 12px;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .section-child a {
   padding-left: 12px;
-  padding-top: 12px;
+  padding-top: 2rem;
   padding-bottom: 1rem;
   text-underline-offset: 3px;
   text-decoration: underline 1px rgb(30, 25, 25);
