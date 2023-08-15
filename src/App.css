@@ -1969,7 +1969,7 @@ nav {
   align-items: flex-start;
 }
 .footer-grid-info h2 {
-  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
   font-weight: 400;
@@ -2032,11 +2032,12 @@ nav {
   font-style: normal;
   background-color: black;
   color: rgb(247, 245, 242);
-
+  padding-left: 5px;
+  padding-right: 5px;
   border: none;
   align-items: baseline;
   text-align: center;
-  width: 232.48px;
+  width: 240.48px;
   height: 24px;
 }
 .footer-link button span {
