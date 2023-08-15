@@ -1686,13 +1686,12 @@ nav {
 }
 .block6-text h1 {
   text-align: center;
-  font-family: "Sharp Grotesk 23", "Work Sans", "Sharp Grotesk 23",
-    "Sharp Grotesk 23 KR", "Sharp Grotesk 23 Thai",
-    "Helvetica (Sharp Grotesk 23 Fallback)", "Arial (Sharp Grotesk 23 Fallback)",
-    "Raleway", "Roboto Slab", "Outfit", "Roboto", sans-serif;
+  font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
+    "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
+    "Arial (Sharp Grotesk 23 Fallback)", sans-serif;
   padding-left: 242.883px;
   padding-right: 242.883px;
-
+  font-size: 32px;
   text-wrap: balance;
 }
 .block6-img-flex {
@@ -1714,9 +1713,9 @@ nav {
 }
 .block6-img-info div {
   width: 584.922px;
-  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
-    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
-    sans-serif;
+  font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
+    "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
+    "Arial (Sharp Grotesk 23 Fallback)", sans-serif;
   font-weight: 400;
   background-color: rgb(155, 0, 50);
 }
@@ -1772,7 +1771,7 @@ nav {
 .button1 h3 {
   color: rgba(247, 245, 242, 0.6);
   font-size: 24px;
-  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
   font-style: normal;
