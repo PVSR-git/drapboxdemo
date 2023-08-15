@@ -1567,11 +1567,11 @@ nav {
 }
 .block5-text h1 {
   text-align: center;
-  font-family: "Sharp Grotesk 23", "Work Sans", "Sharp Grotesk 23",
-    "Sharp Grotesk 23 KR", "Sharp Grotesk 23 Thai",
-    "Helvetica (Sharp Grotesk 23 Fallback)", "Arial (Sharp Grotesk 23 Fallback)",
-    "Raleway", "Roboto Slab", "Outfit", "Roboto", sans-serif;
+  font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
+    "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
+    "Arial (Sharp Grotesk 23 Fallback)", sans-serif;
   padding-left: 242.883px;
+  font-family: 32px;
   padding-right: 242.883px;
   font-weight: 400;
   text-wrap: balance;
