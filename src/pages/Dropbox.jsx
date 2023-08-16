@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Accordion, AccordionItem } from "react-accessible-accordion";
-import "react-accessible-accordion/dist/fancy-example.css";
+
 import { NavLink, Link } from "react-router-dom";
 import bgvid from "../assets/Dropbox.mp4";
 import bgimg1 from "../assets/Segmentation.png";
@@ -12,7 +12,11 @@ export default function Dropbox() {
   useEffect(() => {
     showSlides();
   }, []); // Empty dependency array ensures the effect runs once after initial render
+  const [activeIndex, setActiveIndex] = useState(null);
 
+  const handleAccordionClick = (index) => {
+    setActiveIndex(index === activeIndex ? null : index);
+  };
   function showSlides() {
     let slides = document.querySelectorAll(".block6-img-info");
     for (let i = 0; i < slides.length; i++) {
@@ -543,7 +547,7 @@ export default function Dropbox() {
           <div className="block4-flex-child1">
             <Accordion>
               <AccordionItem>
-                <section className="section-child">
+                <section className={activeIndex === 0 ? "active" : ""}>
                   <div>
                     <h2>
                       Get 2 GB of cloud storage for free with Dropbox Basic
@@ -579,14 +583,14 @@ export default function Dropbox() {
                   <svg
                     viewBox="0 0 24 24"
                     fill="none"
-                    class="dig-UIIcon dig-UIIcon--standard svg"
+                    class="dig-UIIcon dig-UIIcon--standard"
                     width="24"
                     height="24"
                     role="presentation"
                     focusable="false"
                   >
                     <path
-                      d="M18.75 14.75 12 8.5 5.25 14.75"
+                      d="m5.25 9.25 6.5 6.25 6.5-6.25"
                       stroke="currentColor"
                       stroke-width="1.5"
                       stroke-miterlimit="10"
@@ -596,7 +600,7 @@ export default function Dropbox() {
                 </section>
               </AccordionItem>
               <AccordionItem>
-                <section>
+                <section className={activeIndex === 0 ? "active" : ""}>
                   <div>
                     <h2>
                       Dropbox Plus has room for all your content with space to
@@ -652,7 +656,7 @@ export default function Dropbox() {
                 </section>
               </AccordionItem>
               <AccordionItem>
-                <section>
+                <section className={activeIndex === 0 ? "active" : ""}>
                   <div>
                     <h2>
                       Dropbox Family is a place for everyone with space for
@@ -708,7 +712,7 @@ export default function Dropbox() {
                 </section>
               </AccordionItem>
               <AccordionItem>
-                <section>
+                <section className={activeIndex === 0 ? "active" : ""}>
                   <div>
                     <h2>
                       Make life easier for you and your clients with Dropbox
@@ -764,7 +768,7 @@ export default function Dropbox() {
                 </section>
               </AccordionItem>
               <AccordionItem>
-                <section>
+                <section className={activeIndex === 0 ? "active" : ""}>
                   <div>
                     <h2>Streamline your document workflow with Dropbox Sign</h2>
                     <p>
@@ -818,7 +822,7 @@ export default function Dropbox() {
                 </section>
               </AccordionItem>
               <AccordionItem>
-                <section>
+                <section className={activeIndex === 0 ? "active" : ""}>
                   <diV>
                     <h2>
                       Centralize, secure, and easily access your work with
@@ -875,7 +879,7 @@ export default function Dropbox() {
                 </section>
               </AccordionItem>
               <AccordionItem>
-                <section>
+                <section className={activeIndex === 0 ? "active" : ""}>
                   <div>
                     <h2>
                       DocSend lets you track, analyze, and optimize your content
@@ -930,7 +934,7 @@ export default function Dropbox() {
                 </section>
               </AccordionItem>
               <AccordionItem>
-                <section>
+                <section className={activeIndex === 0 ? "active" : ""}>
                   <div>
                     <h2>
                       Proactively detect threats to your team’s content with

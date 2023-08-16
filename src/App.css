@@ -1335,6 +1335,7 @@ nav {
 }
 
 /* Styles for the left column */
+/* Styles for the accordion container */
 .block4-flex-child1 {
   display: flex;
   flex-direction: column;
@@ -1343,74 +1344,84 @@ nav {
   height: 993px;
 }
 
+/* Styles for each section within the accordion */
 .block4-flex-child1 section {
   display: flex;
   flex-direction: row;
-  padding-top: 16px;
-  padding-bottom: 16px;
+  padding: 16px 0;
   justify-content: space-between;
   align-items: start;
   border-top: 1px solid rgba(166, 158, 146, 0.6);
 }
+
 .block4-flex-child1 section:last-child {
   border-bottom: 1px solid rgba(166, 158, 146, 0.6);
 }
 
+/* Hover effect for sections */
 .block4-flex-child1 section:hover {
   background-color: rgb(247, 245, 242);
 }
+
+/* Remove background for the first section on hover */
 .block4-flex-child1 section:nth-child(1):hover {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: transparent;
 }
 
+/* Styles for section headings */
 .block4-flex-child1 h2 {
-  padding-left: 12px;
-  padding-right: 12px;
+  padding: 0 12px;
   color: rgb(30, 25, 25);
-  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
-    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
-    sans-serif;
+  font-family: "Atlas Grotesk Web", sans-serif;
   font-weight: 700;
   width: 334.344px;
   font-size: 16px;
 }
 
+/* Styles for section content */
 .block4-flex-child1 section p {
-  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
-    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
-    sans-serif;
+  font-family: "Atlas Grotesk Web", sans-serif;
   font-weight: 100;
   height: 42px;
   font-style: normal;
   width: 440px;
 }
-.block4-flex-child1 section .svg {
-  margin-left: -0px;
-}
-/* Styles for the SVG icons within sections */
 
+/* Styles for the arrow icon within sections */
+.block4-flex-child1 section .svg {
+  margin-left: -10px; /* Adjust as needed */
+}
+
+/* Styles for the SVG icons within sections */
 .block4-flex-child1 section > svg {
   margin-top: 15px;
-  margin-left: 120px;
-  width: 60px;
-  font-size: 24px;
+  margin-left: 120px; /* Adjust as needed */
+  width: 24px;
+  height: 24px;
+}
+/* Define general styles for accordion sections */
+section {
+  display: none;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
 }
 
-/* Styles for the content within sections */
-.section-child p {
-  width: 262.344px;
-  height: 70px;
-  padding-left: 12px;
-  padding-top: 15px;
-  padding-bottom: 15px;
+/* Show content of active section */
+section.active {
+  display: block;
 }
 
-.section-child a {
-  padding-left: 12px;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  text-underline-offset: 3px;
-  text-decoration: underline 1px rgb(30, 25, 25);
+/* Define hover styles */
+section:hover {
+  background-color: #e0e0e0;
+}
+
+/* Define active styles */
+section.active {
+  background-color: #fff;
+  border: 1px solid #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 /* Styles for the right column */
