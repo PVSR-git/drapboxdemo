@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import { Accordion, AccordionItem } from "react-accessible-accordion";
 import { Link, NavLink } from "react-router-dom";
 import bgImg from "../assets/dropbox.svg";
 

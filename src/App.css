@@ -526,7 +526,7 @@ nav {
 }
 @media only screen and (max-width: 767px) {
   header {
-    width: auto;
+    width: 321.422px;
     /* position: fixed; */
 
     display: flex;
@@ -563,7 +563,7 @@ nav {
     display: flex;
     font-size: 16px;
     flex-direction: row-reverse;
-    margin-right: 0;
+    margin-right: auto;
   }
 
   nav {
@@ -588,12 +588,12 @@ nav {
     position: absolute;
     flex-direction: row;
     margin-top: 1rem;
-    margin-left: -17.69rem;
+    margin-left: -18.69rem;
     width: 100%;
     justify-content: center;
     align-items: start;
     text-align: start;
-    background: pink;
+    background: rgb(242, 238, 232);
     border-radius: 5px;
     flex-direction: column;
   }
@@ -603,6 +603,7 @@ nav {
     color: black;
     text-decoration: none;
     font-weight: 400;
+    width: auto;
     font-size: 16px;
     transition: background-color 0.3s ease-in-out;
   }
@@ -749,7 +750,7 @@ nav {
 /* Styles for phone layout */
 @media (max-width: 768px) {
   .block1 {
-    width: auto;
+    width: 321.422px;
 
     display: flex;
     align-items: stretch;
@@ -922,7 +923,7 @@ nav {
 /* Phone layout support of BLOCK2 */
 @media (max-width: 768px) {
   .block2 {
-    width: auto;
+    width: 321.422px;
 
     display: flex;
     align-items: stretch;
