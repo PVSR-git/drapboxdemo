@@ -1101,32 +1101,61 @@ const data = [
     title: "Get 2 GB of cloud storage for free with Dropbox Basic",
     content:
       "Save and access your files from any device, and share them with anyone. Discover what Dropbox can do for you- get a free account, no strings attached!",
+    scr: "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;output_type=png",
+    srcset:
+      "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=414&amp;output_type=png 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=828&amp;output_type=png 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=1024&amp;output_type=png 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=1280&amp;output_type=png 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;output_type=png 1440w",
   },
   {
     title: "Dropbox Plus has room for all your content with space to spare",
     content:
       "Safeguard your photos, personal docs, work files, and much more. Save everything with 2,000 GB of space—and get some handy tools to help you stay organized.",
+    src: "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/plus/plus_plank_02_ui@2x.png?id=7f11ca16-2ac1-466b-a567-e4f6910ae5fc&amp;output_type=jpg",
+    srcset:
+      "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/plus/plus_plank_02_ui@2x.png?id=7f11ca16-2ac1-466b-a567-e4f6910ae5fc&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/plus/plus_plank_02_ui@2x.png?id=7f11ca16-2ac1-466b-a567-e4f6910ae5fc&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/plus/plus_plank_02_ui@2x.png?id=7f11ca16-2ac1-466b-a567-e4f6910ae5fc&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/plus/plus_plank_02_ui@2x.png?id=7f11ca16-2ac1-466b-a567-e4f6910ae5fc&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/plus/plus_plank_02_ui@2x.png?id=7f11ca16-2ac1-466b-a567-e4f6910ae5fc&amp;output_type=jpg 1422w",
   },
   {
     title: "Dropbox Family is a place for everyone with space for everything",
     content:
       "Share 2,000 GB of storage between 6 people. Each family plan member gets their own private Dropbox account for less than the price of two Plus plans.",
+    src: " https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/family/family_plank_03_ui@2x.png?id=8ea5c831-c7f2-47b4-a74d-bbd2a07f2427&amp;output_type=png",
+    srcset:
+      "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/family/family_plank_03_ui@2x.png?id=8ea5c831-c7f2-47b4-a74d-bbd2a07f2427&amp;width=414&amp;output_type=png 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/family/family_plank_03_ui@2x.png?id=8ea5c831-c7f2-47b4-a74d-bbd2a07f2427&amp;width=828&amp;output_type=png 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/family/family_plank_03_ui@2x.png?id=8ea5c831-c7f2-47b4-a74d-bbd2a07f2427&amp;width=1024&amp;output_type=png 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/family/family_plank_03_ui@2x.png?id=8ea5c831-c7f2-47b4-a74d-bbd2a07f2427&amp;width=1280&amp;output_type=png 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/family/family_plank_03_ui@2x.png?id=8ea5c831-c7f2-47b4-a74d-bbd2a07f2427&amp;output_type=png 1440w",
   },
   {
     title:
       "Make life easier for you and your clients with Dropbox Professional",
     content:
       "Get our full suite of premium productivity and sharing tools—plus 3,000 GB of space. Dropbox Professional makes it easier for you to work with colleagues and clients.",
+    src: " https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_02_ui@2x.png?id=0ab7c1c8-11de-40fe-99f2-988a4fbd289c&amp;output_type=jpg",
+    srcset:
+      "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_02_ui@2x.png?id=0ab7c1c8-11de-40fe-99f2-988a4fbd289c&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_02_ui@2x.png?id=0ab7c1c8-11de-40fe-99f2-988a4fbd289c&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_02_ui@2x.png?id=0ab7c1c8-11de-40fe-99f2-988a4fbd289c&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_02_ui@2x.png?id=0ab7c1c8-11de-40fe-99f2-988a4fbd289c&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_02_ui@2x.png?id=0ab7c1c8-11de-40fe-99f2-988a4fbd289c&amp;output_type=jpg 1440w",
+  },
+  {
+    title: "Streamline your document workflow with Dropbox Sign",
+    content:
+      "Save yourself time and hassle with Dropbox Sign. You can sign legally-binding agreements with a few clicks. And it's just as easy to request a signature from someone else.",
   },
   {
     title:
       "Centralize, secure, and easily access your work with Dropbox Standard",
     content:
       "Safeguard sensitive and confidential info. Automate time-consuming processes with powerful admin and collaboration tools. And easily recover your work if something ever goes wrong. Minimum 3 users per plan.",
+    src: "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_01_ui@2x.png?id=01891288-8c77-4982-bcf4-a6a6618a5bff&amp;output_type=png",
+    srcset:
+      "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_01_ui@2x.png?id=01891288-8c77-4982-bcf4-a6a6618a5bff&amp;width=414&amp;output_type=png 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_01_ui@2x.png?id=01891288-8c77-4982-bcf4-a6a6618a5bff&amp;width=828&amp;output_type=png 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_01_ui@2x.png?id=01891288-8c77-4982-bcf4-a6a6618a5bff&amp;width=1024&amp;output_type=png 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_01_ui@2x.png?id=01891288-8c77-4982-bcf4-a6a6618a5bff&amp;width=1280&amp;output_type=png 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_01_ui@2x.png?id=01891288-8c77-4982-bcf4-a6a6618a5bff&amp;output_type=png 1440w",
   },
   {
     title: "DocSend lets you track, analyze, and optimize your content",
     content:
       "Safely share business-critical documents and get real-time performance insights. DocSend helps you manage and optimize your company’s most important content.",
+    src: "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/business/CollabBrowse_2@2x.png?id=ac106576-19c5-474a-9c89-d62b20f02ec8&amp;output_type=png",
+    srcset:
+      "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/business/CollabBrowse_2@2x.png?id=ac106576-19c5-474a-9c89-d62b20f02ec8&amp;width=414&amp;output_type=png 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/business/CollabBrowse_2@2x.png?id=ac106576-19c5-474a-9c89-d62b20f02ec8&amp;width=828&amp;output_type=png 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/business/CollabBrowse_2@2x.png?id=ac106576-19c5-474a-9c89-d62b20f02ec8&amp;width=1024&amp;output_type=png 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/business/CollabBrowse_2@2x.png?id=ac106576-19c5-474a-9c89-d62b20f02ec8&amp;width=1280&amp;output_type=png 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/business/CollabBrowse_2@2x.png?id=ac106576-19c5-474a-9c89-d62b20f02ec8&amp;output_type=png 1517w",
+  },
+  {
+    title:
+      "Proactively detect threats to your team’s content with Dropbox Advanced",
+    content:
+      "Always-on security monitoring and alerts. Extended 1-year version history and file recovery. Dropbox Advanced is a secure collaboration solution for your entire team. Minimum 3 users per plan.",
   },
 ];
