@@ -554,7 +554,45 @@ export default function Dropbox() {
                   <div className="item">
                     <div className="title" onClick={() => toggle(i)}>
                       <h2>{item.title} </h2>
-                      <span>{selected === i ? "-" : "+"}</span>
+                      <span>
+                        {selected === i ? (
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            className="dig-UIIcon dig-UIIcon--standard"
+                            width="24"
+                            height="24"
+                            role="presentation"
+                            focusable="false"
+                          >
+                            <path
+                              d="M5.25 14.75L11.75 8.5L18.25 14.75"
+                              stroke="currentColor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit="10"
+                              vectorEffect="non-scaling-stroke"
+                            />
+                          </svg>
+                        ) : (
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            class="dig-UIIcon dig-UIIcon--standard"
+                            width="24"
+                            height="24"
+                            role="presentation"
+                            focusable="false"
+                          >
+                            <path
+                              d="m5.25 9.25 6.5 6.25 6.5-6.25"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-miterlimit="10"
+                              vector-effect="non-scaling-stroke"
+                            ></path>
+                          </svg>
+                        )}
+                      </span>
                     </div>
                     <div
                       className={selected === i ? "content show" : "content"}
