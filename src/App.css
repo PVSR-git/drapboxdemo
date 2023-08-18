@@ -1382,12 +1382,16 @@ nav {
 }
 .content.show {
   height: auto;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
   max-height: 999px;
   transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
 
 .accordion > :hover {
-  background-color: rgba(166, 158, 146, 0.6);
+  /* background-color: rgba(166, 158, 146, 0.4); */
+  background-color: rgb(247, 245, 242);
 }
 /* Styles for the right column */
 .block4-flex-child2 {
