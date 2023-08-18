@@ -12,11 +12,7 @@ export default function Dropbox() {
   useEffect(() => {
     showSlides();
   }, []); // Empty dependency array ensures the effect runs once after initial render
-  const [activeIndex, setActiveIndex] = useState(null);
 
-  const handleAccordionClick = (index) => {
-    setActiveIndex(index === activeIndex ? null : index);
-  };
   function showSlides() {
     let slides = document.querySelectorAll(".block6-img-info");
     for (let i = 0; i < slides.length; i++) {
@@ -40,6 +36,13 @@ export default function Dropbox() {
     setSlideIndex((prevIndex) => prevIndex - 1);
     showSlides();
   }
+  const [selected, setSelected] = React.useState(null);
+  const toggle = (i) => {
+    if (selected === i) {
+      return setSelected(null);
+    }
+    setSelected(i);
+  };
   return (
     <div className="container">
       <div className="block1">
@@ -545,451 +548,45 @@ export default function Dropbox() {
         </div>
         <div className="block4-grid">
           <div className="block4-flex-child1">
-            <Accordion>
-              <AccordionItem>
-                <section className={activeIndex === 0 ? "active" : ""}>
-                  <div>
-                    <h2>
-                      Get 2 GB of cloud storage for free with Dropbox Basic
-                    </h2>
-                    <p>
-                      Save and access your files from any device, and share them
-                      with anyone. Discover what Dropbox can do for you- get a
-                      free account, no strings attached!
-                    </p>
-                    <Link className="asp-link">
-                      Learn more
-                      <span>
-                        <svg
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          class="dig-UIIcon dig-UIIcon--standard"
-                          width="24"
-                          height="24"
-                          role="presentation"
-                          focusable="false"
-                        >
-                          <path
-                            d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                            stroke-miterlimit="10"
-                            vector-effect="non-scaling-stroke"
-                          ></path>
-                        </svg>
-                      </span>
-                    </Link>
+            <div className="wrapper">
+              <section className="accordion">
+                {data.map((item, i) => (
+                  <div className="item">
+                    <div className="title" onClick={() => toggle(i)}>
+                      <h2>{item.title} </h2>
+                      <span>{selected === i ? "-" : "+"}</span>
+                    </div>
+                    <div
+                      className={selected === i ? "content show" : "content"}
+                    >
+                      <p>{item.content}</p>
+                      <Link className="asp-link">
+                        Learn more
+                        <span>
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            class="dig-UIIcon dig-UIIcon--standard"
+                            width="24"
+                            height="24"
+                            role="presentation"
+                            focusable="false"
+                          >
+                            <path
+                              d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-miterlimit="10"
+                              vector-effect="non-scaling-stroke"
+                            ></path>
+                          </svg>
+                        </span>
+                      </Link>
+                    </div>
                   </div>
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    class="dig-UIIcon dig-UIIcon--standard"
-                    width="24"
-                    height="24"
-                    role="presentation"
-                    focusable="false"
-                  >
-                    <path
-                      d="m5.25 9.25 6.5 6.25 6.5-6.25"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      vector-effect="non-scaling-stroke"
-                    ></path>
-                  </svg>
-                </section>
-              </AccordionItem>
-              <AccordionItem>
-                <section className={activeIndex === 0 ? "active" : ""}>
-                  <div>
-                    <h2>
-                      Dropbox Plus has room for all your content with space to
-                      spare
-                    </h2>
-                    <p>
-                      Safeguard your photos, personal docs, work files, and much
-                      more. Save everything with 2,000 GB of space—and get some
-                      handy tools to help you stay organized.
-                    </p>
-                    <Link className="asp-link">
-                      Learn more
-                      <span>
-                        <svg
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          class="dig-UIIcon dig-UIIcon--standard"
-                          width="24"
-                          height="24"
-                          role="presentation"
-                          focusable="false"
-                        >
-                          <path
-                            d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                            stroke-miterlimit="10"
-                            vector-effect="non-scaling-stroke"
-                          ></path>
-                        </svg>
-                      </span>
-                    </Link>
-                  </div>
-
-                  <svg
-                    className="svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    class="dig-UIIcon dig-UIIcon--standard"
-                    width="24"
-                    height="24"
-                    role="presentation"
-                    focusable="false"
-                  >
-                    <path
-                      d="m5.25 9.25 6.5 6.25 6.5-6.25"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      vector-effect="non-scaling-stroke"
-                    ></path>
-                  </svg>
-                </section>
-              </AccordionItem>
-              <AccordionItem>
-                <section className={activeIndex === 0 ? "active" : ""}>
-                  <div>
-                    <h2>
-                      Dropbox Family is a place for everyone with space for
-                      everything
-                    </h2>
-                    <p>
-                      Share 2,000 GB of storage between 6 people. Each family
-                      plan member gets their own private Dropbox account for
-                      less than the price of two Plus plans.
-                    </p>
-                    <Link className="asp-link">
-                      Learn more
-                      <span>
-                        <svg
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          class="dig-UIIcon dig-UIIcon--standard"
-                          width="24"
-                          height="24"
-                          role="presentation"
-                          focusable="false"
-                        >
-                          <path
-                            d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                            stroke-miterlimit="10"
-                            vector-effect="non-scaling-stroke"
-                          ></path>
-                        </svg>
-                      </span>
-                    </Link>
-                  </div>
-
-                  <svg
-                    className="svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    class="dig-UIIcon dig-UIIcon--standard"
-                    width="24"
-                    height="24"
-                    role="presentation"
-                    focusable="false"
-                  >
-                    <path
-                      d="m5.25 9.25 6.5 6.25 6.5-6.25"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      vector-effect="non-scaling-stroke"
-                    ></path>
-                  </svg>
-                </section>
-              </AccordionItem>
-              <AccordionItem>
-                <section className={activeIndex === 0 ? "active" : ""}>
-                  <div>
-                    <h2>
-                      Make life easier for you and your clients with Dropbox
-                      Professional
-                    </h2>
-                    <p>
-                      Get our full suite of premium productivity and sharing
-                      tools—plus 3,000 GB of space. Dropbox Professional makes
-                      it easier for you to work with colleagues and clients.
-                    </p>
-                    <Link className="asp-link">
-                      Learn more
-                      <span>
-                        <svg
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          class="dig-UIIcon dig-UIIcon--standard"
-                          width="24"
-                          height="24"
-                          role="presentation"
-                          focusable="false"
-                        >
-                          <path
-                            d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                            stroke-miterlimit="10"
-                            vector-effect="non-scaling-stroke"
-                          ></path>
-                        </svg>
-                      </span>
-                    </Link>
-                  </div>
-
-                  <svg
-                    className="svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    class="dig-UIIcon dig-UIIcon--standard"
-                    width="24"
-                    height="24"
-                    role="presentation"
-                    focusable="false"
-                  >
-                    <path
-                      d="m5.25 9.25 6.5 6.25 6.5-6.25"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      vector-effect="non-scaling-stroke"
-                    ></path>
-                  </svg>
-                </section>
-              </AccordionItem>
-              <AccordionItem>
-                <section className={activeIndex === 0 ? "active" : ""}>
-                  <div>
-                    <h2>Streamline your document workflow with Dropbox Sign</h2>
-                    <p>
-                      Save yourself time and hassle with Dropbox Sign. You can
-                      sign legally-binding agreements with a few clicks. And
-                      it's just as easy to request a signature from someone
-                      else.
-                    </p>
-                    <Link className="asp-link">
-                      Learn more
-                      <span>
-                        <svg
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          class="dig-UIIcon dig-UIIcon--standard"
-                          width="24"
-                          height="24"
-                          role="presentation"
-                          focusable="false"
-                        >
-                          <path
-                            d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                            stroke-miterlimit="10"
-                            vector-effect="non-scaling-stroke"
-                          ></path>
-                        </svg>
-                      </span>
-                    </Link>
-                  </div>
-
-                  <svg
-                    className="svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    class="dig-UIIcon dig-UIIcon--standard"
-                    width="24"
-                    height="24"
-                    role="presentation"
-                    focusable="false"
-                  >
-                    <path
-                      d="m5.25 9.25 6.5 6.25 6.5-6.25"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      vector-effect="non-scaling-stroke"
-                    ></path>
-                  </svg>
-                </section>
-              </AccordionItem>
-              <AccordionItem>
-                <section className={activeIndex === 0 ? "active" : ""}>
-                  <diV>
-                    <h2>
-                      Centralize, secure, and easily access your work with
-                      Dropbox Standard
-                    </h2>
-                    <p>
-                      Safeguard sensitive and confidential info. Automate
-                      time-consuming processes with powerful admin and
-                      collaboration tools. And easily recover your work if
-                      something ever goes wrong. Minimum 3 users per plan.
-                    </p>
-                    <Link className="asp-link">
-                      Learn more
-                      <span>
-                        <svg
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          class="dig-UIIcon dig-UIIcon--standard"
-                          width="24"
-                          height="24"
-                          role="presentation"
-                          focusable="false"
-                        >
-                          <path
-                            d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                            stroke-miterlimit="10"
-                            vector-effect="non-scaling-stroke"
-                          ></path>
-                        </svg>
-                      </span>
-                    </Link>
-                  </diV>
-
-                  <svg
-                    className="svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    class="dig-UIIcon dig-UIIcon--standard"
-                    width="24"
-                    height="24"
-                    role="presentation"
-                    focusable="false"
-                  >
-                    <path
-                      d="m5.25 9.25 6.5 6.25 6.5-6.25"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      vector-effect="non-scaling-stroke"
-                    ></path>
-                  </svg>
-                </section>
-              </AccordionItem>
-              <AccordionItem>
-                <section className={activeIndex === 0 ? "active" : ""}>
-                  <div>
-                    <h2>
-                      DocSend lets you track, analyze, and optimize your content
-                    </h2>
-                    <p>
-                      Safely share business-critical documents and get real-time
-                      performance insights. DocSend helps you manage and
-                      optimize your company’s most important content.
-                    </p>
-                    <Link className="asp-link">
-                      Learn more
-                      <span>
-                        <svg
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          class="dig-UIIcon dig-UIIcon--standard"
-                          width="24"
-                          height="24"
-                          role="presentation"
-                          focusable="false"
-                        >
-                          <path
-                            d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                            stroke-miterlimit="10"
-                            vector-effect="non-scaling-stroke"
-                          ></path>
-                        </svg>
-                      </span>
-                    </Link>
-                  </div>
-
-                  <svg
-                    className="svg"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    class="dig-UIIcon dig-UIIcon--standard"
-                    width="24"
-                    height="24"
-                    role="presentation"
-                    focusable="false"
-                  >
-                    <path
-                      d="m5.25 9.25 6.5 6.25 6.5-6.25"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      vector-effect="non-scaling-stroke"
-                    ></path>
-                  </svg>
-                </section>
-              </AccordionItem>
-              <AccordionItem>
-                <section className={activeIndex === 0 ? "active" : ""}>
-                  <div>
-                    <h2>
-                      Proactively detect threats to your team’s content with
-                      Dropbox Advanced
-                    </h2>
-                    <p>
-                      Always-on security monitoring and alerts. Extended 1-year
-                      version history and file recovery. Dropbox Advanced is a
-                      secure collaboration solution for your entire team.
-                      Minimum 3 users per plan.
-                    </p>
-                    <Link className="asp-link">
-                      Learn more
-                      <span>
-                        <svg
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          class="dig-UIIcon dig-UIIcon--standard"
-                          width="24"
-                          height="24"
-                          role="presentation"
-                          focusable="false"
-                        >
-                          <path
-                            d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
-                            stroke="currentColor"
-                            stroke-width="1.5"
-                            stroke-miterlimit="10"
-                            vector-effect="non-scaling-stroke"
-                          ></path>
-                        </svg>
-                      </span>
-                    </Link>
-                  </div>
-
-                  <svg
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    class="dig-UIIcon dig-UIIcon--standard"
-                    width="24"
-                    height="24"
-                    role="presentation"
-                    focusable="false"
-                  >
-                    <path
-                      d="m5.25 9.25 6.5 6.25 6.5-6.25"
-                      stroke="currentColor"
-                      stroke-width="1.5"
-                      stroke-miterlimit="10"
-                      vector-effect="non-scaling-stroke"
-                    ></path>
-                  </svg>
-                </section>
-              </AccordionItem>
-            </Accordion>
+                ))}
+              </section>
+            </div>
           </div>
           <div className="block4-flex-child2">
             <img
@@ -1461,3 +1058,37 @@ export default function Dropbox() {
     </div>
   );
 }
+const data = [
+  {
+    title: "Get 2 GB of cloud storage for free with Dropbox Basic",
+    content:
+      "Save and access your files from any device, and share them with anyone. Discover what Dropbox can do for you- get a free account, no strings attached!",
+  },
+  {
+    title: "Dropbox Plus has room for all your content with space to spare",
+    content:
+      "Safeguard your photos, personal docs, work files, and much more. Save everything with 2,000 GB of space—and get some handy tools to help you stay organized.",
+  },
+  {
+    title: "Dropbox Family is a place for everyone with space for everything",
+    content:
+      "Share 2,000 GB of storage between 6 people. Each family plan member gets their own private Dropbox account for less than the price of two Plus plans.",
+  },
+  {
+    title:
+      "Make life easier for you and your clients with Dropbox Professional",
+    content:
+      "Get our full suite of premium productivity and sharing tools—plus 3,000 GB of space. Dropbox Professional makes it easier for you to work with colleagues and clients.",
+  },
+  {
+    title:
+      "Centralize, secure, and easily access your work with Dropbox Standard",
+    content:
+      "Safeguard sensitive and confidential info. Automate time-consuming processes with powerful admin and collaboration tools. And easily recover your work if something ever goes wrong. Minimum 3 users per plan.",
+  },
+  {
+    title: "DocSend lets you track, analyze, and optimize your content",
+    content:
+      "Safely share business-critical documents and get real-time performance insights. DocSend helps you manage and optimize your company’s most important content.",
+  },
+];

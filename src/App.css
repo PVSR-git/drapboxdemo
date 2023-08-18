@@ -1344,84 +1344,38 @@ nav {
   height: 993px;
 }
 
-/* Styles for each section within the accordion */
-.block4-flex-child1 section {
+.wrapper {
   display: flex;
-  flex-direction: row;
-  padding: 16px 0;
+  height: 100vh;
+  width: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.accordion {
+  width: 500px;
+}
+.item {
+  background-color: #f0ebe1;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+.title {
+  color: #85662b;
+  display: flex;
   justify-content: space-between;
-  align-items: start;
-  border-top: 1px solid rgba(166, 158, 146, 0.6);
+  align-items: center;
+  cursor: pointer;
 }
-
-.block4-flex-child1 section:last-child {
-  border-bottom: 1px solid rgba(166, 158, 146, 0.6);
+.content {
+  color: #8b7f75;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
 }
-
-/* Hover effect for sections */
-.block4-flex-child1 section:hover {
-  background-color: rgb(247, 245, 242);
-}
-
-/* Remove background for the first section on hover */
-.block4-flex-child1 section:nth-child(1):hover {
-  background-color: transparent;
-}
-
-/* Styles for section headings */
-.block4-flex-child1 h2 {
-  padding: 0 12px;
-  color: rgb(30, 25, 25);
-  font-family: "Atlas Grotesk Web", sans-serif;
-  font-weight: 700;
-  width: 334.344px;
-  font-size: 16px;
-}
-
-/* Styles for section content */
-.block4-flex-child1 section p {
-  font-family: "Atlas Grotesk Web", sans-serif;
-  font-weight: 100;
-  height: 42px;
-  font-style: normal;
-  width: 440px;
-}
-
-/* Styles for the arrow icon within sections */
-.block4-flex-child1 section .svg {
-  margin-left: -10px; /* Adjust as needed */
-}
-
-/* Styles for the SVG icons within sections */
-.block4-flex-child1 section > svg {
-  margin-top: 15px;
-  margin-left: 120px; /* Adjust as needed */
-  width: 24px;
-  height: 24px;
-}
-/* Define general styles for accordion sections */
-section {
-  display: none;
-  padding: 20px;
-  background-color: #f5f5f5;
-  border: 1px solid #ddd;
-}
-
-/* Show content of active section */
-section.active {
-  display: block;
-}
-
-/* Define hover styles */
-section:hover {
-  background-color: #e0e0e0;
-}
-
-/* Define active styles */
-section.active {
-  background-color: #fff;
-  border: 1px solid #333;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+.content.show {
+  height: auto;
+  max-height: 999px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
 
 /* Styles for the right column */
