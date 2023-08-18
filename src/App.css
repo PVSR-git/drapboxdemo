@@ -1346,8 +1346,8 @@ nav {
 
 .wrapper {
   display: flex;
-  height: 100vh;
-  width: 100vh;
+  height: auto;
+
   justify-content: center;
   align-items: center;
 }
@@ -1355,19 +1355,27 @@ nav {
   width: 500px;
 }
 .item {
-  background-color: #f0ebe1;
-  margin-bottom: 10px;
+  background-color: white;
+
   padding: 10px 20px;
+  border-top: 1px solid rgba(166, 158, 146, 0.6);
 }
 .title {
-  color: #85662b;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  color: rgb(30, 25, 25);
+  font-size: 12px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
 }
+
+.title svg {
+  margin-bottom: 1rem;
+}
 .content {
-  color: #8b7f75;
   max-height: 0;
   overflow: hidden;
   transition: all 0.5s cubic-bezier(0, 1, 0, 1);
@@ -1378,6 +1386,9 @@ nav {
   transition: all 0.5s cubic-bezier(1, 0, 1, 0);
 }
 
+.accordion > :hover {
+  background-color: rgba(166, 158, 146, 0.6);
+}
 /* Styles for the right column */
 .block4-flex-child2 {
   background-color: rgb(20, 200, 235);
