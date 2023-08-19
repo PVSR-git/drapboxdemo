@@ -315,6 +315,13 @@
 body {
   background-color: black;
   width: 1260px;
+  margin: auto;
+  width: auto;
+}
+@media only screen and (min-width: 767px) {
+  body {
+    margin: auto;
+  }
 }
 header {
   margin-top: -0.5rem;
