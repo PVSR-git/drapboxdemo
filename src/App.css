@@ -315,8 +315,6 @@
 body {
   background-color: black;
   width: 1260px;
-  margin: auto;
-  width: auto;
 }
 @media only screen and (min-width: 767px) {
   body {
@@ -327,7 +325,7 @@ header {
   margin-top: -0.5rem;
   width: auto;
   /* position: fixed; */
-
+  margin: auto;
   display: flex;
   height: 48px;
   align-items: center;
@@ -357,7 +355,7 @@ header {
 .svg-container {
   background-color: rgb(0, 97, 254);
   display: inline-block; /* or use display: block; depending on your layout */
-  padding: 10px; /* Add padding for spacing */
+  padding: 12px; /* Add padding for spacing */
 }
 
 .site-name {
