@@ -368,7 +368,8 @@ header {
 .svg-container {
   background-color: rgb(0, 97, 254);
   display: inline-block; /* or use display: block; depending on your layout */
-  padding: 12px; /* Add padding for spacing */
+  padding: 12px;
+  /* Add padding for spacing */
 }
 
 .site-name {
@@ -542,16 +543,13 @@ nav {
 .header-item-info {
   display: flex;
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
   header {
-    width: 100%;
-    /* position: fixed; */
-    margin: auto;
     display: flex;
-    height: 48px;
-    align-items: center;
-    justify-content: flex-start;
-    background-color: white;
+    width: 100%;
+
+    margin-right: auto;
+    margin: 0;
   }
   .header-items-l {
     display: flex;
@@ -565,17 +563,16 @@ nav {
 
   .svg-container {
     margin-top: 0rem;
-    margin-left: -2rem;
+    margin-left: -1rem;
     background-color: rgb(0, 97, 254);
     display: inline-block; /* or use display: block; depending on your layout */
-    padding: 10px; /* Add padding for spacing */
+    /* Add padding for spacing */
   }
   .site-name img {
     display: none;
   }
   .header-items-l a {
-    padding: 12px 20px; /* Adjust padding for touch-friendly spacing */
-    /* Make menu items full width */
+    padding: 12px 20px;
   }
   .header-items {
     display: flex;
@@ -593,11 +590,12 @@ nav {
   }
   div.header-item-info {
     display: none;
-    width: 100%;
+    width: auto;
   }
   #menu-icon {
     display: inline-block; /* Display the menu icon label */
-    padding: 12px; /* Add padding for touch-friendly click area */
+    padding: 12px;
+
     cursor: pointer;
   }
 
@@ -607,7 +605,7 @@ nav {
     flex-direction: row;
     margin-top: 1rem;
     margin-left: -18.69rem;
-    width: 100%;
+    width: 90%;
     justify-content: center;
     align-items: start;
     text-align: start;
@@ -637,11 +635,12 @@ nav {
   flex-direction: column;
   margin: auto;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .container {
     display: flex;
     width: auto;
     flex-direction: column;
+
     margin: auto;
   }
 }
@@ -775,14 +774,17 @@ nav {
 }
 
 /* Styles for phone layout */
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .block1 {
-    width: 321.422px;
-
+    width: auto;
+    margin: 0;
+    margin-right: auto;
     display: flex;
-    align-items: stretch;
 
-    justify-content: center; /* Stretch items to fill width */
+    flex-direction: column;
+    align-items: start;
+
+    justify-content: stretch; /* Stretch items to fill width */
   }
 
   .text-info {
@@ -790,6 +792,9 @@ nav {
     height: auto; /* Allow height to adjust based on content */
     padding: 1rem;
     text-wrap: balance;
+    /* Full width of the container */
+    padding: 1rem;
+    white-space: normal;
   }
 
   .text-info h2 {
@@ -821,13 +826,13 @@ nav {
     margin-top: 2em; /* Reduce top margin */
     margin-left: 1.4rem;
     margin-right: 1.4rem;
-    width: auto; /* Adjust width for full width */
+    width: 321.422px;
     height: auto; /* Allow height to adjust based on content */
   }
   .wda {
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: 321.422px;
   }
 
   .wda h2 {
@@ -949,7 +954,7 @@ nav {
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
 /* Phone layout support of BLOCK2 */
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .block2 {
     width: auto;
 
@@ -1215,7 +1220,7 @@ nav {
   font-size: normal;
 }
 /* Media query for mobile layout */
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .block2 {
     width: auto;
     flex-direction: column;
@@ -1447,7 +1452,7 @@ nav {
   margin-top: 10rem;
 }
 /* Media query for mobile layout */
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .block4 {
     display: flex;
     flex-direction: column;
@@ -1623,7 +1628,7 @@ nav {
   width: 243.461px;
 }
 /* Media query for mobile layout */
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .block5 {
     display: flex;
     flex-direction: column;
@@ -1844,7 +1849,7 @@ nav {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .block6 {
     width: auto;
 
@@ -2049,7 +2054,7 @@ nav {
 
   font-size: 16px;
 }
-@media (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .footer-content {
     width: auto;
 
