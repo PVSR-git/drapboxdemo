@@ -1628,7 +1628,7 @@ nav {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 100%;
+    width: auto;
     /* Adjust container width */
   }
   .block5-text {
@@ -1891,19 +1891,23 @@ nav {
   }
   .block6-img-info img {
     height: auto;
-    width: 321.422px;
+    margin-right: 1rem;
+    width: auto;
   }
   .block6-img-info div {
     display: flex;
     flex-direction: column;
+    margin-right: 1rem;
     align-items: center;
     justify-content: center;
     height: auto;
-    width: 321.422px;
+    width: auto;
   }
   .block6-img-info div > h2 {
     height: auto;
-    width: 321.422px;
+    padding: 1rem;
+    margin-right: 1rem;
+    width: auto;
     font-size: 14px;
   }
   .button {
@@ -1923,6 +1927,7 @@ nav {
     width: 321.422px;
     height: auto;
     font-size: 20px;
+    text-align: center;
     padding-left: 4px;
     padding-right: 4px;
     margin: 0;
