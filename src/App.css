@@ -315,11 +315,24 @@
 body {
   background-color: black;
   width: 1260px;
+  margin: auto;
 }
-@media only screen and (min-width: 767px) {
-  body {
+@media only screen and (min-width: 1260px) {
+  header {
+    margin-top: 0;
+    justify-content: space-between;
+  }
+
+  .header-items {
     margin: auto;
   }
+
+  .header-items-l {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  /* Adjust other header items styles as needed */
 }
 header {
   margin-top: -0.5rem;
@@ -629,7 +642,7 @@ nav {
     display: flex;
     width: auto;
     flex-direction: column;
-    margin: 0;
+    margin: auto;
   }
 }
 
@@ -807,13 +820,14 @@ nav {
   .block1 video {
     margin-top: 2em; /* Reduce top margin */
     margin-left: 1.4rem;
-    width: 321.422px; /* Adjust width for full width */
+    margin-right: 1.4rem;
+    width: auto; /* Adjust width for full width */
     height: auto; /* Allow height to adjust based on content */
   }
   .wda {
     display: flex;
     flex-direction: column;
-    width: 321.422px;
+    width: auto;
   }
 
   .wda h2 {
@@ -821,14 +835,14 @@ nav {
     font-size: 24px; /* Decrease font size for smaller screens */
     padding-left: 1rem; /* Adjust left padding */
     margin-left: 1rem; /* Adjust left margin */
-    width: 321.422px; /* Adjust width for full width */
+    width: auto; /* Adjust width for full width */
   }
 
   .wda-flex {
     display: flex;
     justify-self: start;
     align-items: flex-start;
-    width: 321.422px;
+    width: auto;
     flex-direction: column; /* Change to column layout for smaller screens */
     margin: 0; /* Remove margins for smaller screens */
   }
@@ -937,7 +951,7 @@ nav {
 /* Phone layout support of BLOCK2 */
 @media (max-width: 768px) {
   .block2 {
-    width: 321.422px;
+    width: auto;
 
     display: flex;
     align-items: stretch;
@@ -947,7 +961,7 @@ nav {
   .block2 h2 {
     padding-left: 2rem;
     margin-left: 1rem;
-    width: 321.422px;
+    width: auto;
     text-align: center;
     text-wrap: balance;
     margin-top: 1em;
@@ -1214,11 +1228,13 @@ nav {
   .b3-flex1 {
     display: flex;
     margin-top: 1rem;
+
     flex-grow: 1;
-    width: 327px;
+    width: 300px;
+    height: auto;
     margin-left: 1rem;
     align-items: center;
-    align-items: center;
+    justify-content: center;
     flex-direction: column;
   }
   .block3 h1 {
@@ -1261,6 +1277,7 @@ nav {
   .for-work p,
   .for-personal p {
     width: 321.422px;
+    height: auto;
     padding: 0.5rem; /* Adjust padding */
   }
 
@@ -1280,16 +1297,20 @@ nav {
     justify-content: start; /* Stretch items to fill width */
   }
   .b3-flex2 h1 {
-    padding-left: 2rem;
-    margin-left: 2rem;
+    padding-left: 1rem;
+    margin-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
     width: 321.422px;
     text-wrap: balance;
+    text-align: center;
     margin-top: 1em;
     font-size: 20px;
   }
   .cstc {
     display: flex;
     flex-direction: column;
+
     padding-left: 2rem;
     margin-left: 1rem;
   }
@@ -1431,9 +1452,9 @@ nav {
     display: flex;
     flex-direction: column;
     height: auto;
-    width: 100%;
+    width: auto;
 
-    width: 350.422px; /* Adjust container width */
+    /* Adjust container width */
   }
   .block4-text-info {
     background-color: rgb(247, 245, 242);
@@ -2044,16 +2065,4 @@ nav {
   .footer-link {
     display: none;
   }
-}
-
-/* Common styles for all screen sizes */
-.header {
-  margin-top: -0.5rem;
-  width: auto;
-  position: fixed;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  height: 48px;
-  background-color: white;
 }
