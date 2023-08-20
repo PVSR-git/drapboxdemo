@@ -546,7 +546,7 @@ nav {
   header {
     width: 100%;
     /* position: fixed; */
-
+    margin: auto;
     display: flex;
     height: 48px;
     align-items: center;
@@ -635,7 +635,7 @@ nav {
   display: flex;
   width: auto;
   flex-direction: column;
-  margin: 0;
+  margin: auto;
 }
 @media (max-width: 768px) {
   .container {
@@ -1221,7 +1221,7 @@ nav {
     flex-direction: column;
     display: flex;
     align-items: stretch;
-
+    margin: auto;
     justify-content: start; /* Stretch items to fill width */
   }
 
