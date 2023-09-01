@@ -547,13 +547,13 @@ export default function Dropbox() {
           </div>
         </div>
         <div className="block4-grid">
-          <div className="block4-flex-child1">
-            <div className="wrapper">
-              <section className="accordion">
-                {data.map((item, i) => (
+          {data.map((item, i) => (
+            <div className="block4-flex-child1" key={i}>
+              <div className="wrapper">
+                <section className="accordion">
                   <div className="item">
                     <div className="title" onClick={() => toggle(i)}>
-                      <h2>{item.title} </h2>
+                      <h2>{item.title}</h2>
                       <span>
                         {selected === i ? (
                           <svg
@@ -565,31 +565,19 @@ export default function Dropbox() {
                             role="presentation"
                             focusable="false"
                           >
-                            <path
-                              d="M5.25 14.75L11.75 8.5L18.25 14.75"
-                              stroke="currentColor"
-                              strokeWidth="1.5"
-                              strokeMiterlimit="10"
-                              vectorEffect="non-scaling-stroke"
-                            />
+                            {/* Your open state SVG icon */}
                           </svg>
                         ) : (
                           <svg
                             viewBox="0 0 24 24"
                             fill="none"
-                            class="dig-UIIcon dig-UIIcon--standard"
+                            className="dig-UIIcon dig-UIIcon--standard"
                             width="24"
                             height="24"
                             role="presentation"
                             focusable="false"
                           >
-                            <path
-                              d="m5.25 9.25 6.5 6.25 6.5-6.25"
-                              stroke="currentColor"
-                              stroke-width="1.5"
-                              stroke-miterlimit="10"
-                              vector-effect="non-scaling-stroke"
-                            ></path>
+                            {/* Your closed state SVG icon */}
                           </svg>
                         )}
                       </span>
@@ -598,47 +586,36 @@ export default function Dropbox() {
                       className={selected === i ? "content show" : "content"}
                     >
                       <p>{item.content}</p>
-                      <Link className="asp-link">
+                      <a className="asp-link" href="#">
                         Learn more
                         <span>
                           <svg
                             viewBox="0 0 24 24"
                             fill="none"
-                            class="dig-UIIcon dig-UIIcon--standard"
+                            className="dig-UIIcon dig-UIIcon--standard"
                             width="24"
                             height="24"
                             role="presentation"
                             focusable="false"
                           >
-                            <path
-                              d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
-                              stroke="currentColor"
-                              stroke-width="1.5"
-                              stroke-miterlimit="10"
-                              vector-effect="non-scaling-stroke"
-                            ></path>
+                            {/* Your link SVG icon */}
                           </svg>
                         </span>
-                      </Link>
+                      </a>
                     </div>
                   </div>
-                ))}
-              </section>
+                </section>
+              </div>
+              <div className="block4-flex-child2">
+                <img
+                  alt="Image of files and folders that are organized and stored in Dropbox"
+                  loading="lazy"
+                  src={selected === i ? item.selectedSrc : item.src}
+                  srcSet={item.srcset}
+                />
+              </div>
             </div>
-          </div>
-          <div className="block4-flex-child2">
-            {data.map((item, i) => (
-              <img
-                onClick={() => toggle(i)}
-                alt="Image of files and folders that are organized and stored in Dropbox"
-                loading="lazy"
-                src={selected === i ? item.selectedSrc : item.src} // Use selectedSrc when item is open
-                srcSet={item.srcset}
-                // src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;output_type=png"
-                // srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=414&amp;output_type=png 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=828&amp;output_type=png 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=1024&amp;output_type=png 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=1280&amp;output_type=png 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;output_type=png 1440w"
-              ></img>
-            ))}
-          </div>
+          ))}
         </div>
       </div>
       <div className="block5">
