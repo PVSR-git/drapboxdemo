@@ -627,12 +627,17 @@ export default function Dropbox() {
             </div>
           </div>
           <div className="block4-flex-child2">
-            <img
-              alt="Image of files and folders that are organized and stored in Dropbox"
-              loading="lazy"
-              src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;output_type=png"
-              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=414&amp;output_type=png 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=828&amp;output_type=png 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=1024&amp;output_type=png 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=1280&amp;output_type=png 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;output_type=png 1440w"
-            ></img>
+            {data.map((item, i) => (
+              <img
+                onClick={() => toggle(i)}
+                alt="Image of files and folders that are organized and stored in Dropbox"
+                loading="lazy"
+                src={selected === i ? item.selectedSrc : item.src} // Use selectedSrc when item is open
+                srcSet={item.srcset}
+                // src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;output_type=png"
+                // srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=414&amp;output_type=png 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=828&amp;output_type=png 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=1024&amp;output_type=png 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;width=1280&amp;output_type=png 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/basic/basic_hero_ui@2x.png?id=4bf1c1f8-0d59-40f5-94b9-7ff5e6c7b086&amp;output_type=png 1440w"
+              ></img>
+            ))}
           </div>
         </div>
       </div>
