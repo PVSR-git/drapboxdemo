@@ -586,6 +586,14 @@ export default function Dropbox() {
                       className={selected === i ? "content show" : "content"}
                     >
                       <p>{item.content}</p>
+                      <div className="block4-flex-child2">
+                        <img
+                          alt="Image of files and folders that are organized and stored in Dropbox"
+                          loading="lazy"
+                          src={selected === i ? item.selectedSrc : item.src}
+                          srcSet={item.srcset}
+                        />
+                      </div>
                       <a className="asp-link" href="#">
                         Learn more
                         <span>
@@ -605,14 +613,6 @@ export default function Dropbox() {
                     </div>
                   </div>
                 </section>
-              </div>
-              <div className="block4-flex-child2">
-                <img
-                  alt="Image of files and folders that are organized and stored in Dropbox"
-                  loading="lazy"
-                  src={selected === i ? item.selectedSrc : item.src}
-                  srcSet={item.srcset}
-                />
               </div>
             </div>
           ))}
