@@ -1370,8 +1370,6 @@ nav {
   grid-template-columns: repeat(2, 631.5px);
   justify-content: center;
   align-items: center;
-  width: 1263px;
-  height: 993px;
 }
 
 /* Styles for the left column */
