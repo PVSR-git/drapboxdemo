@@ -549,8 +549,8 @@ export default function Dropbox() {
         <div className="block4-grid">
           <div className="block4-flex-child1">
             <div className="wrapper">
-              <section className="accordion">
-                {data.map((item, i) => (
+              {data.map((item, i) => (
+                <section className="accordion">
                   <div className="item">
                     <div className="title" onClick={() => toggle(i)}>
                       <h2>{item.title}</h2>
@@ -612,8 +612,8 @@ export default function Dropbox() {
                       </a>
                     </div>
                   </div>
-                ))}
-              </section>
+                </section>
+              ))}
             </div>
           </div>
         </div>
