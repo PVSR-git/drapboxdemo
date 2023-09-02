@@ -613,7 +613,7 @@ export default function Dropbox() {
                 className={selected === i ? "content show" : "content"}
                 alt="Image of files and folders that are organized and stored in Dropbox"
                 loading="lazy"
-                // src={selected === i ? item.selectedSrc : item.src}
+                src={selected === i ? item.selectedSrc : item.src}
                 srcSet={item.srcset}
               />
             </div>
