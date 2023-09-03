@@ -1376,12 +1376,12 @@ nav {
 
 /* Styles for the left column */
 /* Styles for the accordion container */
-/* .block4-flex-child1 {
+.block4-flex-child1 {
   display: flex;
   flex-direction: column;
   width: 558.344px;
   padding-left: 48.5703px;
-} */
+}
 
 .wrapper {
   display: flex;
@@ -1428,7 +1428,7 @@ nav {
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
   max-height: 999px;
-  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+  transition: all 1s cubic-bezier(1, 0, 1, 0);
 }
 
 .accordion > :hover {
@@ -1443,11 +1443,22 @@ nav {
   padding: 48px;
   position: static;
 }
+/* img.content {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.5s cubic-bezier(0, 1, 0, 1);
+}
+img .content.show {
+  height: auto;
+  margin-top: 0;
+  max-height: 700px;
+  transition: all 0.5s cubic-bezier(1, 0, 1, 0);
+} */
 
 .block4-flex-child2 img {
   width: 535.5px;
 
-  margin-top: 10rem;
+  margin-top: 4rem;
 }
 /* Media query for mobile layout */
 @media only screen and (max-width: 600px) {
