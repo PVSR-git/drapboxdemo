@@ -1385,8 +1385,7 @@ nav {
 
 .wrapper {
   display: flex;
-  height: auto;
-
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -1436,16 +1435,11 @@ nav {
   /* background-color: rgba(166, 158, 146, 0.4); */
   background-color: rgb(247, 245, 242);
 }
-.block4-flex-child1 {
-  width: 631.5px;
-  height: 0px;
-  padding: 48px;
-}
 /* Styles for the right column */
 .block4-flex-child2 {
   background-color: rgb(20, 200, 235);
   width: 631.5px;
-  height: 0;
+  height: 993px;
   padding: 48px;
   position: static;
 }

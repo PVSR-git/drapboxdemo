@@ -546,11 +546,12 @@ export default function Dropbox() {
             </p>
           </div>
         </div>
-        {data.map((item, i) => (
-          <div className="block4-grid">
-            <div className="block4-flex-child1" key={i}>
-              <div className="wrapper">
-                <section className="accordion">
+
+        <div className="block4-grid">
+          <div className="block4-flex-child1">
+            <div className="wrapper">
+              {data.map((item, i) => (
+                <section key={i} className="accordion">
                   <div className="item">
                     <div className="title" onClick={() => toggle(i)}>
                       <h2>{item.title}</h2>
@@ -606,9 +607,11 @@ export default function Dropbox() {
                     </div>
                   </div>
                 </section>
-              </div>
+              ))}
             </div>
-            <div className="block4-flex-child2">
+          </div>
+          <div className="block4-flex-child2">
+            {data.map((item, i) => (
               <img
                 className={selected === i ? "content show" : "content"}
                 alt="Image of files and folders that are organized and stored in Dropbox"
@@ -616,9 +619,9 @@ export default function Dropbox() {
                 src={selected === i ? item.selectedSrc : item.src}
                 srcSet={item.srcset}
               />
-            </div>
+            ))}
           </div>
-        ))}
+        </div>
       </div>
       <div className="block5">
         <div className="block5-text">
