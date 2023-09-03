@@ -550,14 +550,16 @@ export default function Dropbox() {
         <div className="block4-grid">
           <div className="block4-flex-child1">
             <div className="wrapper">
-              {data.map((item, i) => (
-                <section key={i} className="accordion">
-                  <div className="item">
+              <section className="accordion">
+                {data.map((item, i) => (
+                  <div className="item" key={i}>
                     <div className="title" onClick={() => toggle(i)}>
                       <h2>{item.title}</h2>
                       <span>
                         {selected === i ? (
+                          // Your open state SVG icon
                           <svg
+                            xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="none"
                             className="dig-UIIcon dig-UIIcon--standard"
@@ -566,10 +568,17 @@ export default function Dropbox() {
                             role="presentation"
                             focusable="false"
                           >
-                            {/* Your open state SVG icon */}
+                            <path
+                              fillRule="evenodd"
+                              clipRule="evenodd"
+                              d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1 5v7h2V7h-2zm0 8v2h2v-2h-2z"
+                              fill="currentColor"
+                            />
                           </svg>
                         ) : (
+                          // Your closed state SVG icon
                           <svg
+                            xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="none"
                             className="dig-UIIcon dig-UIIcon--standard"
@@ -578,7 +587,12 @@ export default function Dropbox() {
                             role="presentation"
                             focusable="false"
                           >
-                            {/* Your closed state SVG icon */}
+                            <path
+                              fillRule="evenodd"
+                              clipRule="evenodd"
+                              d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1 5v2h2V7h-2z"
+                              fill="currentColor"
+                            />
                           </svg>
                         )}
                       </span>
@@ -587,27 +601,33 @@ export default function Dropbox() {
                       className={selected === i ? "content show" : "content"}
                     >
                       <p>{item.content}</p>
-
                       <a className="asp-link" href="#">
                         Learn more
                         <span>
+                          {/* Your link SVG icon */}
                           <svg
                             viewBox="0 0 24 24"
                             fill="none"
-                            className="dig-UIIcon dig-UIIcon--standard"
+                            class="dig-UIIcon dig-UIIcon--standard"
                             width="24"
                             height="24"
                             role="presentation"
                             focusable="false"
                           >
-                            {/* Your link SVG icon */}
+                            <path
+                              d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-miterlimit="10"
+                              vector-effect="non-scaling-stroke"
+                            ></path>
                           </svg>
                         </span>
                       </a>
                     </div>
                   </div>
-                </section>
-              ))}
+                ))}
+              </section>
             </div>
           </div>
           <div className="block4-flex-child2">
