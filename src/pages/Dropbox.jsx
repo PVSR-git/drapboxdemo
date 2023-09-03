@@ -559,40 +559,40 @@ export default function Dropbox() {
                         {selected === i ? (
                           // Your open state SVG icon
                           <svg
-                            xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="none"
-                            className="dig-UIIcon dig-UIIcon--standard"
+                            class="dig-UIIcon dig-UIIcon--standard"
                             width="24"
                             height="24"
                             role="presentation"
                             focusable="false"
                           >
                             <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1 5v7h2V7h-2zm0 8v2h2v-2h-2z"
-                              fill="currentColor"
-                            />
+                              d="m18.75 14.75-6.5-6.25-6.5 6.25"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-miterlimit="10"
+                              vector-effect="non-scaling-stroke"
+                            ></path>
                           </svg>
                         ) : (
                           // Your closed state SVG icon
                           <svg
-                            xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 24 24"
                             fill="none"
-                            className="dig-UIIcon dig-UIIcon--standard"
+                            class="dig-UIIcon dig-UIIcon--standard"
                             width="24"
                             height="24"
                             role="presentation"
                             focusable="false"
                           >
                             <path
-                              fillRule="evenodd"
-                              clipRule="evenodd"
-                              d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm-1 5v2h2V7h-2z"
-                              fill="currentColor"
-                            />
+                              d="m5.25 9.25 6.5 6.25 6.5-6.25"
+                              stroke="currentColor"
+                              stroke-width="1.5"
+                              stroke-miterlimit="10"
+                              vector-effect="non-scaling-stroke"
+                            ></path>
                           </svg>
                         )}
                       </span>
