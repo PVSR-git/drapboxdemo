@@ -1457,7 +1457,7 @@ img .content.show {
 
 .block4-flex-child2 img {
   width: 535.5px;
-
+  height: auto;
   margin-top: 4rem;
 }
 /* Media query for mobile layout */
