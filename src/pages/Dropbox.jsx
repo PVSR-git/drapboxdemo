@@ -1141,6 +1141,8 @@ const data = [
     title: "Streamline your document workflow with Dropbox Sign",
     content:
       "Save yourself time and hassle with Dropbox Sign. You can sign legally-binding agreements with a few clicks. And it's just as easy to request a signature from someone else.",
+    srcset:
+      "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/collaboration-diagram.svg?id=6540056d-ca11-4954-a471-378bf78bbed5",
   },
   {
     title:
