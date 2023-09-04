@@ -317,7 +317,7 @@ body {
   width: 1260px;
   margin: auto;
 }
-@media only screen and (min-width: 1440px) {
+@media only screen and (min-width: 1260px) {
   /* body {
     background-color: black;
     width: 1440px;
@@ -339,7 +339,7 @@ body {
   .block1 {
     display: flex;
     margin: auto;
-    width: 1440px;
+    width: auto;
     flex-direction: column;
     justify-content: space-between;
     font-style: normal;
@@ -349,7 +349,7 @@ body {
   }
   .block2 {
     display: flex;
-    width: 1440px;
+    width: auto;
     margin: auto;
     background-color: rgb(247, 245, 242);
     flex-direction: column;
@@ -360,30 +360,30 @@ body {
     display: flex;
     flex-direction: column;
     margin: auto;
-    width: 1440px;
+    width: auto;
     background-color: rgb(30, 25, 25);
     color: white;
   }
   .block5 {
     display: flex;
-
+    width: auto;
     flex-direction: column;
     padding-left: 24px;
     padding-right: 48px;
-    width: 1440px;
+    width: auto;
     background-color: rgb(247, 245, 242);
   }
   .block4 {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: auto;
   }
   .footer-content {
     display: flex;
     flex-direction: column;
     background-color: rgb(0, 0, 0);
     color: rgb(247, 245, 242);
-    width: 1440px;
+    width: auto;
     margin-top: 96px;
     position: relative;
     padding-left: 48.5703px;
