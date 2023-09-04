@@ -317,6 +317,28 @@ body {
   width: 1260px;
   margin: auto;
 }
+@media only screen and (min-width: 1440px) {
+  /* body {
+    background-color: black;
+    width: 1440px;
+    margin: auto;
+  } */
+  header {
+    margin-top: 0;
+    justify-content: space-between;
+  }
+
+  .header-items {
+    margin: auto;
+  }
+
+  .header-items-l {
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  /* Adjust other header items styles as needed */
+}
 @media only screen and (min-width: 1260px) {
   header {
     margin-top: 0;
