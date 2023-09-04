@@ -336,6 +336,34 @@ body {
     margin-left: 0;
     margin-right: auto;
   }
+  .block1 {
+    display: flex;
+    margin: auto;
+    width: 1440px;
+    flex-direction: column;
+    justify-content: space-between;
+    font-style: normal;
+    align-items: center;
+    background-color: #1e1919;
+    color: white;
+  }
+  .block2 {
+    display: flex;
+    width: 1440px;
+    margin: auto;
+    background-color: rgb(247, 245, 242);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .block3 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 1440px;
+    background-color: rgb(30, 25, 25);
+    color: white;
+  }
 
   /* Adjust other header items styles as needed */
 }
