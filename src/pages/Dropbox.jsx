@@ -1166,5 +1166,7 @@ const data = [
       "Proactively detect threats to your team’s content with Dropbox Advanced",
     content:
       "Always-on security monitoring and alerts. Extended 1-year version history and file recovery. Dropbox Advanced is a secure collaboration solution for your entire team. Minimum 3 users per plan.",
+    srcset:
+      "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;width=414&amp;output_type=png 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;width=828&amp;output_type=png 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;width=1024&amp;output_type=png 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;width=1280&amp;output_type=png 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;output_type=png 1440w",
   },
 ];
