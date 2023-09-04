@@ -1889,13 +1889,10 @@ nav {
 }
 @media only screen and (max-width: 600px) {
   .block6 {
-    width: auto;
-    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
     height: auto;
-    display: flex;
-    align-items: stretch;
-
-    justify-content: center; /* Stretch items to fill width */
+    margin: 0.5rem; /* Stretch items to fill width */
   }
   .block6-text {
     display: flex;
@@ -1919,6 +1916,7 @@ nav {
   .block6-flex {
     display: flex;
     width: 321.422px;
+    margin-left: 1rem;
     height: auto;
   }
   .block6-img-flex {
