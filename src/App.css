@@ -1510,9 +1510,7 @@ nav {
   .block4 {
     display: flex;
     flex-direction: column;
-    height: auto;
-    width: auto;
-    margin: auto;
+
     /* Adjust container width */
   }
   .block4-text-info {
@@ -1542,38 +1540,21 @@ nav {
   .block4-grid {
     display: grid;
     background-color: white;
-    grid-template-columns: 321.422px;
+    grid-template-columns: 1fr;
     justify-content: center;
     align-items: center;
-    width: 350.421px;
+
     font-size: 16px;
     height: auto;
   }
 
-  /* Styles for the left column */
   .block4-flex-child1 {
-    display: flex;
+    display: grid;
     font-size: 16px;
-    height: auto;
-    flex-direction: column;
-    width: 321.421px;
+    margin-left: 1rem;
+    grid-template-columns: 50% 50%; /* Adjust the percentage as needed */
     padding-left: 4px;
     padding-right: 4px;
-  }
-
-  .block4-flex-child1 .wrapper {
-    display: flex;
-    font-size: 16px;
-    width: auto;
-    flex-direction: row;
-    padding-top: 12px;
-    padding-bottom: 12px;
-    justify-content: center;
-    align-items: start;
-    margin: 0;
-    height: auto;
-    width: 321.414px;
-    border-top: 1px solid rgba(166, 158, 146, 0.6);
   }
 
   .asp-link {
@@ -1584,17 +1565,18 @@ nav {
   .block4-flex-child2 {
     background-color: rgb(20, 200, 235);
     width: 321.422px;
-    height: auto;
+    height: 400px;
     padding: 8px;
+    margin-left: 1.5rem;
     position: static;
   }
   .block4-flex-child2 img {
-    padding-bottom: 2rem;
     height: auto;
-    width: 273.422px;
-    object-fit: contain;
-    padding-left: 2rem;
-    margin-bottom: 2rem;
+    margin-top: 0%;
+    align-items: center;
+    width: 250px;
+    margin-left: 1.5rem;
+    object-fit: cover;
   }
 }
 
