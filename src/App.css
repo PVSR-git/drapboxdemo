@@ -24,11 +24,6 @@
   --fs-700: 3.25rem;
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
 @font-face {
   font-family: "Sharp Grotesk";
   src: url(./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2);
@@ -312,107 +307,27 @@
     url("https://fonts.gstatic.com/s/arial.woff") format("woff");
   font-weight: 100, 200, 300, 400, 500, 600;
 }
-body {
-  background-color: black;
-
-  margin: auto;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
 }
-@media only screen and (min-width: 1260px) {
-  /* body {
-    background-color: black;
-    width: 1440px;
-    margin: auto;
-  } */
-  header {
-    margin-top: 0;
-    width: auto;
-    justify-content: space-between;
-  }
 
-  .header-items {
-    margin: auto;
-  }
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0; /* Add this line to remove any default padding */
+}
 
-  .header-items-l {
-    margin-left: 0;
-    margin-right: auto;
-  }
-  .block1 {
-    display: flex;
-    margin: auto;
-    width: auto;
-    flex-direction: column;
-    justify-content: space-between;
-    font-style: normal;
-    align-items: center;
-    background-color: #1e1919;
-    color: white;
-  }
-  .block2 {
-    display: flex;
-    width: auto;
-    margin: auto;
-    background-color: rgb(247, 245, 242);
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .block3 {
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    width: auto;
-    background-color: rgb(30, 25, 25);
-    color: white;
-  }
-  .block5 {
-    display: flex;
-    width: auto;
-    flex-direction: column;
-    padding-left: 24px;
-    padding-right: 48px;
-    width: auto;
-    background-color: rgb(247, 245, 242);
-  }
-  .block4 {
-    display: flex;
-    flex-direction: column;
-    width: auto;
-  }
-  .footer-content {
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(0, 0, 0);
-    color: rgb(247, 245, 242);
-    width: auto;
-    margin-top: 96px;
-    position: relative;
-    padding-left: 48.5703px;
-    padding-right: 48.5703px;
-    height: 550.195px;
-  }
-  .block6 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(30, 25, 25);
-    color: rgb(247, 245, 242);
-    width: 1440px;
-  }
-
-  /* Adjust other header items styles as needed */
+.container {
+  width: 100%;
+  margin: 0;
 }
 
 header {
-  margin-top: -0.5rem;
-  width: auto;
-  /* position: fixed; */
-  margin: auto;
-  display: flex;
-  height: 48px;
-  align-items: center;
-  background-color: white;
+  margin: 0;
+  margin-left: -1rem;
+  width: 100%;
 }
 .header-items-l {
   margin-left: 0%;
@@ -456,6 +371,7 @@ header {
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
 }
+
 .why-dropbox:hover {
   background-color: var(--clr-neutral-300);
 }
@@ -498,7 +414,7 @@ header {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
-  margin-right: 6rem;
+  margin-right: 5rem;
   padding-left: 16px;
   padding-right: 16px;
 }
@@ -613,112 +529,10 @@ nav {
 .header-item-info {
   display: flex;
 }
-@media only screen and (max-width: 600px) {
-  header {
-    display: flex;
-    width: 100%;
-
-    margin-right: auto;
-    margin: auto;
-  }
-  .header-items-l {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-  }
-  .header-items-l .get-started {
-    display: none;
-  }
-
-  .svg-container {
-    margin-top: 0rem;
-    margin-left: -1rem;
-    background-color: rgb(0, 97, 254);
-    display: inline-block; /* or use display: block; depending on your layout */
-    /* Add padding for spacing */
-  }
-  .site-name img {
-    display: none;
-  }
-  .header-items-l a {
-    padding: 12px 20px;
-  }
-  .header-items {
-    display: flex;
-    font-size: 16px;
-    flex-direction: row-reverse;
-    margin-right: auto;
-  }
-
-  nav {
-    display: block; /* Hide the menu by default */
-    flex-direction: column; /* Stack menu items vertically */
-    left: 0;
-    background-color: white;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-  }
-  div.header-item-info {
-    display: none;
-    width: auto;
-  }
-  #menu-icon {
-    display: inline-block; /* Display the menu icon label */
-    padding: 12px;
-
-    cursor: pointer;
-  }
-
-  #menu-toggle:checked + div.header-item-info {
-    display: flex;
-    position: absolute;
-    flex-direction: row;
-    margin-top: 1rem;
-    margin-left: -18.69rem;
-    width: 90%;
-    justify-content: center;
-    align-items: start;
-    text-align: start;
-    background: rgb(242, 238, 232);
-    border-radius: 5px;
-    flex-direction: column;
-  }
-
-  nav a {
-    padding: 12px 12px; /* Adjust padding for touch-friendly spacing */
-    color: black;
-    text-decoration: none;
-    font-weight: 400;
-    width: auto;
-    font-size: 16px;
-    transition: background-color 0.3s ease-in-out;
-  }
-
-  nav a:hover {
-    background-color: var(--clr-neutral-300);
-  }
-}
-
-.container {
-  display: flex;
-  width: auto;
-  flex-direction: column;
-  margin: auto;
-}
-/* @media only screen and (max-width: 600px)  {
-  .container {
-    display: flex;
-    width: auto;
-    flex-direction: column;
-
-    margin: auto;
-  }
-} */
 
 .block1 {
   display: flex;
-
-  width: 1260px;
+  width: 100%;
   flex-direction: column;
   justify-content: space-between;
   font-style: normal;
@@ -747,6 +561,7 @@ nav {
   font-weight: 400;
   text-wrap: balance;
 }
+
 .text-info p {
   text-align: center;
   margin-top: 0;
@@ -843,102 +658,10 @@ nav {
   font-weight: 400;
 }
 
-/* Styles for phone layout */
-@media only screen and (max-width: 600px) {
-  .block1 {
-    width: auto;
-    margin: 0;
-
-    display: flex;
-
-    flex-direction: column;
-    align-items: start;
-
-    justify-content: stretch; /* Stretch items to fill width */
-  }
-
-  .text-info {
-    width: 321.422px; /* Adjust width for full width */
-    height: auto; /* Allow height to adjust based on content */
-    padding: 1rem;
-    text-wrap: balance;
-    /* Full width of the container */
-    padding: 1rem;
-    white-space: normal;
-  }
-
-  .text-info h2 {
-    width: 321.422px;
-    text-wrap: balance;
-    margin-top: 1em; /* Reduce top margin */
-    font-size: 24px; /* Decrease font size for smaller screens */
-  }
-
-  .text-info p {
-    width: 321.422px;
-    font-size: 14px; /* Decrease font size for smaller screens */
-    line-height: 20px; /* Adjust line height */
-  }
-
-  .find-your-plan {
-    width: 221.422px; /* Adjust width for full width */
-    font-size: 14px; /* Decrease font size */
-    padding: 0.5rem;
-    margin-left: 4.5rem; /* Adjust padding */
-  }
-
-  .find-your-plan span {
-    margin-left: 0.5rem; /* Adjust margin for smaller screens */
-    padding: 0.2rem; /* Adjust padding for smaller screens */
-  }
-
-  .block1 video {
-    margin-top: 2em; /* Reduce top margin */
-    margin-left: 1.4rem;
-    margin-right: 1.4rem;
-    width: 321.422px;
-    height: auto; /* Allow height to adjust based on content */
-  }
-  .wda {
-    display: flex;
-    flex-direction: column;
-    width: 321.422px;
-  }
-
-  .wda h2 {
-    padding-top: 1rem; /* Reduce top padding */
-    font-size: 24px; /* Decrease font size for smaller screens */
-    padding-left: 1rem; /* Adjust left padding */
-    margin-left: 1rem; /* Adjust left margin */
-    width: auto; /* Adjust width for full width */
-  }
-
-  .wda-flex {
-    display: flex;
-    justify-self: start;
-    align-items: flex-start;
-    width: auto;
-    flex-direction: column; /* Change to column layout for smaller screens */
-    margin: 0; /* Remove margins for smaller screens */
-  }
-
-  .wda-info-flex {
-    padding: 1rem; /* Adjust padding for smaller screens */
-  }
-
-  .wda-info-flex h3 {
-    font-size: 14px; /* Decrease font size for smaller screens */
-  }
-
-  .wda-info-flex p {
-    font-size: 12px; /* Decrease font size for smaller screens */
-  }
-}
-
 /* block2 */
 .block2 {
   display: flex;
-  width: 1260px;
+  width: 100%;
   background-color: rgb(247, 245, 242);
   flex-direction: column;
   justify-content: center;
@@ -959,11 +682,12 @@ nav {
 }
 .block2-grid {
   display: grid;
-  width: 1262.98px;
-  margin-left: 10rem;
+  width: 90%;
+  margin-left: 2rem;
   padding-top: 1rem;
-  grid-template-columns: repeat(4, 290px);
+  grid-template-columns: repeat(4, 25%);
 }
+
 .asp-flex {
   display: flex;
   height: 220px;
@@ -1023,39 +747,6 @@ nav {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
-/* Phone layout support of BLOCK2 */
-@media only screen and (max-width: 600px) {
-  .block2 {
-    width: auto;
-    margin: auto;
-    display: flex;
-    align-items: stretch;
-
-    justify-content: start; /* Stretch items to fill width */
-  }
-  .block2 h2 {
-    padding-left: 2rem;
-    margin-left: 1rem;
-    width: auto;
-    text-align: center;
-    text-wrap: balance;
-    margin-top: 1em;
-    font-size: 20px; /* Further decrease font size */
-  }
-  .block2-grid {
-    display: flex;
-    flex-direction: column;
-
-    margin-left: 1rem;
-  }
-  .asp-link {
-    font-size: 12px; /* Further decrease font size */
-  }
-
-  .asp-link svg {
-    height: 14px; /* Further adjust SVG height */
-  }
-}
 
 /* block3 */
 
@@ -1063,7 +754,7 @@ nav {
   display: flex;
   flex-direction: column;
 
-  width: 1263px;
+  width: 100%;
   background-color: rgb(30, 25, 25);
   color: white;
 }
@@ -1085,9 +776,9 @@ nav {
 .b3-flex1 {
   display: flex;
   margin-top: 36px;
-  flex-grow: 1;
-  align-items: center;
-  align-items: center;
+  width: 100%;
+  /* align-items: center;
+  align-items: center; */
   flex-direction: row;
 }
 .for-work {
@@ -1103,7 +794,7 @@ nav {
 }
 .for-work img {
   position: static;
-  width: 595.5px;
+  width: 100%;
   object-fit: cover;
   height: 198.5px;
 }
@@ -1160,6 +851,7 @@ nav {
 }
 .for-personal {
   display: flex;
+  width: 100%;
   flex-direction: column;
   background: rgb(43, 41, 41);
   justify-content: start;
@@ -1170,7 +862,7 @@ nav {
 }
 .for-personal img {
   position: static;
-  width: 595.5px;
+  width: 100%;
   object-fit: cover;
   height: 198.5px;
 }
@@ -1227,6 +919,7 @@ nav {
 }
 .b3-flex2 {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -1241,11 +934,9 @@ nav {
 }
 .cstc {
   display: grid;
-  width: 1262.98px;
+  width: 100%;
 
-  margin-left: 10rem;
-  padding-top: 1rem;
-  grid-template-columns: repeat(4, 290px);
+  grid-template-columns: repeat(4, 25%);
 }
 .cstc-info {
   display: flex;
@@ -1257,15 +948,14 @@ nav {
   font-wrap: balance;
   flex-direction: column;
   margin-bottom: 4rem;
-
-  padding-right: 2rem;
+  padding-left: 2rem;
 }
 .cstc-info img {
   height: 48px;
   left: 0px;
   line-height: 0px;
   max-height: 100%;
-  max-width: 100%;
+  width: 100%;
   object-fit: scale-down;
   object-position: 0% 0%;
   overflow-clip-margin: content-box;
@@ -1289,102 +979,12 @@ nav {
   font-weight: 200;
   font-size: normal;
 }
-/* Media query for mobile layout */
-@media only screen and (max-width: 600px) {
-  .block3 {
-    width: 100%;
-    grid-template-columns: 1fr;
-    display: grid;
-    margin-left: 1.5rem;
-  }
-
-  .b3-flex1 {
-    grid-template-columns: 1fr;
-    display: grid;
-    padding: auto;
-  }
-  .block3 h1 {
-    padding-left: 2rem;
-    margin-left: 1rem;
-    width: 321.422px;
-    text-wrap: balance;
-    margin-top: 1em;
-    font-size: 20px; /* Further decrease font size */
-  }
-  .block3 h1 {
-    font-size: 20px; /* Further decrease font size */
-    padding: 0.5rem; /* Adjust padding */
-  }
-
-  .for-work,
-  .for-personal {
-    margin: 0.5rem 0.5rem 0; /* Adjust margins for smaller screens */
-    height: auto;
-
-    width: 321.422px; /* Allow height to adjust based on content */
-  }
-
-  .for-work img {
-    height: auto;
-    width: 321.422px;
-  }
-  .for-personal img {
-    height: auto;
-    width: 321.422px;
-    /* Allow height to adjust based on content */
-  }
-
-  .for-work h2,
-  .for-personal h2,
-  .for-work p,
-  .for-personal p {
-    width: 321.422px;
-    height: auto;
-    padding: 0.5rem; /* Adjust padding */
-  }
-
-  .for-work-link,
-  .for-personal-link {
-    width: 221.422px; /* Adjust width for full width */
-    font-size: 14px; /* Decrease font size */
-    padding: 0.5rem; /* Adjust padding */
-  }
-
-  .b3-flex2 {
-    width: auto;
-    flex-direction: column;
-    display: flex;
-    align-items: stretch;
-    margin-left: 1rem;
-    justify-content: start; /* Stretch items to fill width */
-  }
-  .b3-flex2 h1 {
-    padding-left: 1rem;
-    margin-left: 1rem;
-    padding-right: 1rem;
-    margin-right: 1rem;
-    width: 321.422px;
-    text-wrap: balance;
-    text-align: center;
-    margin-top: 1em;
-    font-size: 20px;
-  }
-  .cstc {
-    display: flex;
-    flex-direction: column;
-
-    padding-left: 2rem;
-    margin-left: 1rem;
-  }
-  .cstc-info {
-  }
-}
 
 /* BLOCK4 */
 .block4 {
   display: flex;
+  width: 100%;
   flex-direction: column;
-  width: 1263px;
 }
 .block4-text-info {
   background-color: rgb(247, 245, 242);
@@ -1423,8 +1023,9 @@ nav {
 
 .block4-grid {
   display: grid;
+  width: 100%;
   background-color: white;
-  grid-template-columns: repeat(2, 631.5px);
+  grid-template-columns: repeat(2, 50%);
   justify-content: center;
   align-items: center;
 }
@@ -1434,7 +1035,7 @@ nav {
 .block4-flex-child1 {
   display: flex;
   flex-direction: column;
-  width: 558.344px;
+  width: 100%;
   padding-left: 48.5703px;
   margin-top: -1rem;
   height: auto;
@@ -1487,7 +1088,7 @@ nav {
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
   max-height: 999px;
-  transition: all -0.1s cubic-bezier(1, 0, 1, 0);
+  transition: all -1s cubic-bezier(1, 0, 1, 0);
 }
 
 .accordion > :hover {
@@ -1497,7 +1098,7 @@ nav {
 /* Styles for the right column */
 .block4-flex-child2 {
   background-color: rgb(20, 200, 235);
-  width: 631.5px;
+  width: auto;
   height: 993px;
   margin-top: -1.7rem;
   padding: 48px;
@@ -1505,84 +1106,8 @@ nav {
 }
 
 .block4-flex-child2 img {
-  width: 535.5px;
+  width: 80%;
   margin-top: 2rem;
-}
-/* Media query for mobile layout */
-@media only screen and (max-width: 600px) {
-  .block4 {
-    display: flex;
-    flex-direction: column;
-
-    /* Adjust container width */
-  }
-  .block4-text-info {
-    background-color: rgb(247, 245, 242);
-    width: 100%;
-    padding-right: 3rem;
-  }
-  .block4-text {
-    display: flex;
-
-    flex-direction: column;
-    align-items: center;
-    font-size: 14px;
-    background-color: rgb(247, 245, 242);
-    width: 321.422px;
-    justify-content: center;
-    height: auto;
-  }
-
-  .block4-text h1,
-  .block4-text p {
-    text-align: center;
-    text-wrap: balance;
-    font-style: normal;
-  }
-
-  .block4-grid {
-    display: grid;
-    background-color: white;
-    grid-template-columns: 1fr;
-    justify-content: center;
-    align-items: center;
-
-    font-size: 16px;
-    height: auto;
-  }
-
-  .block4-flex-child1 {
-    display: grid;
-    font-size: 16px;
-    margin-left: 1rem;
-    grid-template-columns: 50% 50%; /* Adjust the percentage as needed */
-    padding-left: 4px;
-    padding-right: 4px;
-  }
-  .block4-flex-child1 .wrapper {
-    margin-left: 2rem;
-  }
-  .asp-link {
-    width: 280px;
-
-    margin-top: 1em;
-  }
-  .block4-flex-child2 {
-    background-color: rgb(20, 200, 235);
-    width: 321.422px;
-    height: 400px;
-    padding: 8px;
-    margin-left: 1.5rem;
-    position: static;
-  }
-  .block4-flex-child2 img {
-    height: auto;
-    margin-top: 0%;
-    align-items: center;
-    width: 250px;
-    margin-left: 1.5rem;
-    object-fit: cover;
-  }
 }
 
 /* BLOCK5 */
@@ -1590,9 +1115,8 @@ nav {
   display: flex;
 
   flex-direction: column;
-  padding-left: 24px;
-  padding-right: 48px;
-  width: 1263px;
+
+  width: 100%;
   background-color: rgb(247, 245, 242);
 }
 
@@ -1604,8 +1128,6 @@ nav {
   margin-bottom: 72px;
   margin-top: 0px;
   padding-top: 72px;
-
-  scroll-margin-top: 48px;
 }
 .block5-text h1 {
   text-align: center;
@@ -1669,45 +1191,6 @@ nav {
   font-size: 16px;
   width: 243.461px;
 }
-/* Media query for mobile layout */
-@media only screen and (max-width: 600px) {
-  .block5 {
-    display: flex;
-    flex-direction: column;
-    height: auto;
-    width: auto;
-    margin: auto;
-    /* Adjust container width */
-  }
-  .block5-text {
-    display: flex;
-    width: 321.422px;
-    height: auto;
-    flex-direction: column;
-    text-wrap: balance;
-  }
-  .block5-text h1 {
-    margin: 4px;
-    padding: 1px;
-    font-size: 20px;
-    width: 321.422px;
-    text-wrap: balance;
-  }
-  .block5-grid {
-    display: grid;
-    grid-template-columns: 290px;
-    width: 321.422;
-    margin-left: 0;
-    height: auto;
-  }
-  .block5-grid section {
-    margin-bottom: 2px;
-    margin-top: 0;
-  }
-  .block5-grid section h2 {
-    font-size: 16px;
-  }
-}
 
 .block6 {
   display: flex;
@@ -1716,7 +1199,7 @@ nav {
   align-items: center;
   background-color: rgb(30, 25, 25);
   color: rgb(247, 245, 242);
-  width: 1263px;
+  width: 100%;
 }
 
 .block6-text {
@@ -1892,6 +1375,534 @@ nav {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
+/* FOOTER */
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(0, 0, 0);
+  color: rgb(247, 245, 242);
+  width: 100%;
+  margin-top: 96px;
+  padding-left: 48.5703px;
+  height: 550.195px;
+}
+
+.footer-grid {
+  display: grid;
+  width: 95%;
+
+  grid-template-columns: repeat(5, 20%);
+  height: 410px;
+}
+
+.footer-grid-info {
+  display: flex;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.footer-grid-info h2 {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+.footer-grid-info div a {
+  text-decoration: none;
+}
+.footer-grid-info div h4 {
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-style: normal;
+}
+.footer-grid-info div {
+  height: 326px;
+}
+.footer-icons {
+  display: flex;
+  width: 132px;
+  margin-top: 48px;
+  flex-direction: row;
+  padding-bottom: 36px;
+  border-bottom: 1px solid rgba(79, 79, 79, 0.932);
+}
+
+.footer-icons div {
+  margin-right: 12px;
+}
+.footer-icons div a {
+  width: 32px;
+  color: white;
+
+  height: 32px;
+}
+
+.footer-link {
+  margin-top: 32px;
+
+  padding-bottom: 48px;
+
+  height: 140.195px;
+  padding-right: 48.5703px;
+  width: 1165.84px;
+}
+.footer-link button {
+  display: flex;
+  flex-direction: row;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  font-weight: 400;
+
+  font-size: 16px;
+  font-stretch: 100%;
+  font-style: normal;
+  background-color: black;
+  color: rgb(247, 245, 242);
+  padding-left: 5px;
+  padding-right: 5px;
+  border: none;
+  align-items: baseline;
+  text-align: center;
+  width: 240.48px;
+  height: 24px;
+}
+.footer-link button span {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    display: flex;
+    width: 100%;
+
+    margin-right: auto;
+    margin: auto;
+  }
+  .header-items-l {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .header-items-l .get-started {
+    display: none;
+  }
+
+  .svg-container {
+    margin-top: 0rem;
+    margin-left: -1rem;
+    background-color: rgb(0, 97, 254);
+    display: inline-block; /* or use display: block; depending on your layout */
+    /* Add padding for spacing */
+  }
+  .site-name img {
+    display: none;
+  }
+  .header-items-l a {
+    padding: 12px 20px;
+  }
+  .header-items {
+    display: flex;
+    font-size: 16px;
+    flex-direction: row-reverse;
+    margin-right: auto;
+  }
+
+  nav {
+    display: block; /* Hide the menu by default */
+    flex-direction: column; /* Stack menu items vertically */
+    left: 0;
+    background-color: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  div.header-item-info {
+    display: none;
+    width: auto;
+  }
+  #menu-icon {
+    display: inline-block; /* Display the menu icon label */
+    padding: 12px;
+
+    cursor: pointer;
+  }
+
+  #menu-toggle:checked + div.header-item-info {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    margin-top: 1rem;
+    margin-left: -18.69rem;
+    width: 90%;
+    justify-content: center;
+    align-items: start;
+    text-align: start;
+    background: rgb(242, 238, 232);
+    border-radius: 5px;
+    flex-direction: column;
+  }
+
+  nav a {
+    padding: 12px 12px; /* Adjust padding for touch-friendly spacing */
+    color: black;
+    text-decoration: none;
+    font-weight: 400;
+    width: auto;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  nav a:hover {
+    background-color: var(--clr-neutral-300);
+  }
+}
+
+/* Styles for phone layout */
+@media only screen and (max-width: 600px) {
+  .block1 {
+    width: auto;
+    margin: 0;
+
+    display: flex;
+
+    flex-direction: column;
+    align-items: start;
+
+    justify-content: stretch; /* Stretch items to fill width */
+  }
+
+  .text-info {
+    width: 321.422px; /* Adjust width for full width */
+    height: auto; /* Allow height to adjust based on content */
+    padding: 1rem;
+    text-wrap: balance;
+    /* Full width of the container */
+    padding: 1rem;
+    white-space: normal;
+  }
+
+  .text-info h2 {
+    width: 321.422px;
+    text-wrap: balance;
+    margin-top: 1em; /* Reduce top margin */
+    font-size: 24px; /* Decrease font size for smaller screens */
+  }
+
+  .text-info p {
+    width: 321.422px;
+    font-size: 14px; /* Decrease font size for smaller screens */
+    line-height: 20px; /* Adjust line height */
+  }
+
+  .find-your-plan {
+    width: 221.422px; /* Adjust width for full width */
+    font-size: 14px; /* Decrease font size */
+    padding: 0.5rem;
+    margin-left: 4.5rem; /* Adjust padding */
+  }
+
+  .find-your-plan span {
+    margin-left: 0.5rem; /* Adjust margin for smaller screens */
+    padding: 0.2rem; /* Adjust padding for smaller screens */
+  }
+
+  .block1 video {
+    margin-top: 2em; /* Reduce top margin */
+    margin-left: 1.4rem;
+    margin-right: 1.4rem;
+    width: 321.422px;
+    height: auto; /* Allow height to adjust based on content */
+  }
+  .wda {
+    display: flex;
+    flex-direction: column;
+    width: 321.422px;
+  }
+
+  .wda h2 {
+    padding-top: 1rem; /* Reduce top padding */
+    font-size: 24px; /* Decrease font size for smaller screens */
+    padding-left: 1rem; /* Adjust left padding */
+    margin-left: 1rem; /* Adjust left margin */
+    width: auto; /* Adjust width for full width */
+  }
+
+  .wda-flex {
+    display: flex;
+    justify-self: start;
+    align-items: flex-start;
+    width: auto;
+    flex-direction: column; /* Change to column layout for smaller screens */
+    margin: 0; /* Remove margins for smaller screens */
+  }
+
+  .wda-info-flex {
+    padding: 1rem; /* Adjust padding for smaller screens */
+  }
+
+  .wda-info-flex h3 {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+
+  .wda-info-flex p {
+    font-size: 12px; /* Decrease font size for smaller screens */
+  }
+}
+
+/* Phone layout support of BLOCK2 */
+@media only screen and (max-width: 600px) {
+  .block2 {
+    width: auto;
+    margin: auto;
+    display: flex;
+    align-items: stretch;
+
+    justify-content: start; /* Stretch items to fill width */
+  }
+  .block2 h2 {
+    padding-left: 2rem;
+    margin-left: 1rem;
+    width: auto;
+    text-align: center;
+    text-wrap: balance;
+    margin-top: 1em;
+    font-size: 20px; /* Further decrease font size */
+  }
+  .block2-grid {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 1rem;
+  }
+  .asp-link {
+    font-size: 12px; /* Further decrease font size */
+  }
+
+  .asp-link svg {
+    height: 14px; /* Further adjust SVG height */
+  }
+}
+
+/* Media query for mobile layout */
+@media only screen and (max-width: 600px) {
+  .block3 {
+    width: 100%;
+    grid-template-columns: 1fr;
+    display: grid;
+    margin-left: 1.5rem;
+  }
+
+  .b3-flex1 {
+    grid-template-columns: 1fr;
+    display: grid;
+    padding: auto;
+  }
+  .block3 h1 {
+    padding-left: 2rem;
+    margin-left: 1rem;
+    width: 321.422px;
+    text-wrap: balance;
+    margin-top: 1em;
+    font-size: 20px; /* Further decrease font size */
+  }
+  .block3 h1 {
+    font-size: 20px; /* Further decrease font size */
+    padding: 0.5rem; /* Adjust padding */
+  }
+
+  .for-work,
+  .for-personal {
+    margin: 0.5rem 0.5rem 0; /* Adjust margins for smaller screens */
+    height: auto;
+
+    width: 321.422px; /* Allow height to adjust based on content */
+  }
+
+  .for-work img {
+    height: auto;
+    width: 321.422px;
+  }
+  .for-personal img {
+    height: auto;
+    width: 321.422px;
+    /* Allow height to adjust based on content */
+  }
+
+  .for-work h2,
+  .for-personal h2,
+  .for-work p,
+  .for-personal p {
+    width: 321.422px;
+    height: auto;
+    padding: 0.5rem; /* Adjust padding */
+  }
+
+  .for-work-link,
+  .for-personal-link {
+    width: 221.422px; /* Adjust width for full width */
+    font-size: 14px; /* Decrease font size */
+    padding: 0.5rem; /* Adjust padding */
+  }
+
+  .b3-flex2 {
+    width: auto;
+    flex-direction: column;
+    display: flex;
+    align-items: stretch;
+    margin-left: 1rem;
+    justify-content: start; /* Stretch items to fill width */
+  }
+  .b3-flex2 h1 {
+    padding-left: 1rem;
+    margin-left: 1rem;
+    padding-right: 1rem;
+    margin-right: 1rem;
+    width: 321.422px;
+    text-wrap: balance;
+    text-align: center;
+    margin-top: 1em;
+    font-size: 20px;
+  }
+  .cstc {
+    display: flex;
+    flex-direction: column;
+
+    padding-left: 2rem;
+    margin-left: 1rem;
+  }
+  .cstc-info {
+  }
+}
+/* Media query for mobile layout */
+@media only screen and (max-width: 600px) {
+  .block4 {
+    display: flex;
+    flex-direction: column;
+
+    /* Adjust container width */
+  }
+  .block4-text-info {
+    background-color: rgb(247, 245, 242);
+    width: 100%;
+    padding-right: 3rem;
+  }
+  .block4-text {
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+    font-size: 14px;
+    background-color: rgb(247, 245, 242);
+    width: 321.422px;
+    justify-content: center;
+    height: auto;
+  }
+
+  .block4-text h1,
+  .block4-text p {
+    text-align: center;
+    text-wrap: balance;
+    font-style: normal;
+  }
+
+  .block4-grid {
+    display: grid;
+    background-color: white;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 16px;
+    height: auto;
+  }
+
+  .block4-flex-child1 {
+    display: grid;
+    font-size: 16px;
+    margin-left: 1rem;
+    grid-template-columns: 50% 50%; /* Adjust the percentage as needed */
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .block4-flex-child1 .wrapper {
+    margin-left: 2rem;
+  }
+  .asp-link {
+    width: 280px;
+
+    margin-top: 1em;
+  }
+  .block4-flex-child2 {
+    background-color: rgb(20, 200, 235);
+    width: 321.422px;
+    height: 400px;
+    padding: 8px;
+    margin-left: 1.5rem;
+    position: static;
+  }
+  .block4-flex-child2 img {
+    height: auto;
+    margin-top: 0%;
+    align-items: center;
+    width: 250px;
+    margin-left: 1.5rem;
+    object-fit: cover;
+  }
+}
+
+/* Media query for mobile layout */
+@media only screen and (max-width: 600px) {
+  .block5 {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    margin: auto;
+    /* Adjust container width */
+  }
+  .block5-text {
+    display: flex;
+    width: 321.422px;
+    height: auto;
+    flex-direction: column;
+    text-wrap: balance;
+  }
+  .block5-text h1 {
+    margin: 4px;
+    padding: 1px;
+    font-size: 20px;
+    width: 321.422px;
+    text-wrap: balance;
+  }
+  .block5-grid {
+    display: grid;
+    grid-template-columns: 290px;
+    width: 321.422;
+    margin-left: 0;
+    height: auto;
+  }
+  .block5-grid section {
+    margin-bottom: 2px;
+    margin-top: 0;
+  }
+  .block5-grid section h2 {
+    font-size: 16px;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   .block6 {
     display: grid;
@@ -1986,115 +1997,6 @@ nav {
     margin: 1rem;
     font-wrape: balance;
   }
-}
-
-/* FOOTER */
-.footer-content {
-  display: flex;
-  flex-direction: column;
-  background-color: rgb(0, 0, 0);
-  color: rgb(247, 245, 242);
-
-  margin-top: 96px;
-  position: relative;
-  padding-left: 48.5703px;
-  padding-right: 48.5703px;
-  height: 550.195px;
-}
-
-.footer-grid {
-  display: grid;
-  grid-template-columns: repeat(5, 233.164px);
-  height: 410px;
-}
-
-.footer-grid-info {
-  display: flex;
-
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-}
-.footer-grid-info h2 {
-  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
-    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
-    sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-}
-.footer-grid-info div a {
-  text-decoration: none;
-}
-.footer-grid-info div h4 {
-  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
-    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
-    sans-serif;
-  font-weight: 400;
-  font-size: 14px;
-  color: white;
-  text-decoration: none;
-  font-style: normal;
-}
-.footer-grid-info div {
-  height: 326px;
-}
-.footer-icons {
-  display: flex;
-  width: 132px;
-  margin-top: 48px;
-  flex-direction: row;
-  padding-bottom: 36px;
-  border-bottom: 1px solid rgba(79, 79, 79, 0.932);
-}
-
-.footer-icons div {
-  margin-right: 12px;
-}
-.footer-icons div a {
-  width: 32px;
-  color: white;
-
-  height: 32px;
-}
-
-.footer-link {
-  margin-top: 32px;
-
-  padding-bottom: 48px;
-
-  height: 140.195px;
-  padding-right: 48.5703px;
-  width: 1165.84px;
-}
-.footer-link button {
-  display: flex;
-  flex-direction: row;
-  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
-    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
-    sans-serif;
-  font-weight: 400;
-
-  font-size: 16px;
-  font-stretch: 100%;
-  font-style: normal;
-  background-color: black;
-  color: rgb(247, 245, 242);
-  padding-left: 5px;
-  padding-right: 5px;
-  border: none;
-  align-items: baseline;
-  text-align: center;
-  width: 240.48px;
-  height: 24px;
-}
-.footer-link button span {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  text-align: center;
-
-  font-size: 16px;
 }
 @media only screen and (max-width: 600px) {
   .footer-content {
