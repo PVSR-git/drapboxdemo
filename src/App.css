@@ -1036,7 +1036,7 @@ nav {
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding-left: 48.5703px;
+  /* padding-left: 48.5703px; */
   margin-top: -1rem;
   height: auto;
 }
