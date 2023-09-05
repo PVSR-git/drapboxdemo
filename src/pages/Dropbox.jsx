@@ -36,7 +36,7 @@ export default function Dropbox() {
     setSlideIndex((prevIndex) => prevIndex - 1);
     showSlides();
   }
-  const [selected, setSelected] = React.useState(null);
+  const [selected, setSelected] = React.useState(0);
   const toggle = (i) => {
     if (selected === i) {
       return setSelected(null);
@@ -47,7 +47,7 @@ export default function Dropbox() {
     <div className="container">
       <div className="block1">
         <div className="text-info">
-          <h2>Join over 700 million registered users who trust Dropbox</h2>
+          <h2>Join over 700 million registered users who trust Dropbox</h2>{" "}
           <p>
             Easy to use, reliable, private, and secure. It’s no wonder Dropbox
             is the choice for storing and sharing your most important files.
