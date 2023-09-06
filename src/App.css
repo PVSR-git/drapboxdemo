@@ -362,18 +362,58 @@ header {
   padding-right: 16px;
 }
 .why-dropbox {
+  position: relative;
   color: black;
   height: 48px;
-  width: 120.375px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  width: 150px;
   font-weight: 100;
   font-style: normal;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
+  font-stretch: 1000px;
+  font-weight: 100;
 }
+.why-dropbox-div {
+  position: absolute;
+  margin: 0.1rem;
+  padding: 10px 14px;
+  z-index: 1;
+  opacity: 0;
+}
+.why-dropbox:hover .why-dropbox-div {
+  display: flex;
+  margin-right: -18.1rem;
+  margin-top: 23rem;
 
-.why-dropbox:hover {
+  opacity: 1;
+}
+.why-dropbox-div div {
+  display: block;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
+    "Helvetica (Atlas Grotesk Fallback)", sans-serif,
+    "Arial (Atlas Grotesk Fallback)";
+  padding-left: 1rem;
+  padding-top: 0.7rem;
+  font-size: 12px;
+  width: 220px;
+  height: auto;
   background-color: var(--clr-neutral-300);
+  margin: 0;
+}
+.why-dropbox-div div p {
+  margin-bottom: 1rem;
+}
+.why-dropbox-div p:nth-child(1) {
+  font-weight: 600;
+}
+.why-dropbox:hover {
+  margin-bottom: -0.5rem;
+  background-color: var(--clr-neutral-300);
+  height: auto;
 }
 .products {
   color: black;

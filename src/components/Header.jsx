@@ -53,6 +53,27 @@ export default function Header() {
             <div className="header-item-info">
               <Link className="why-dropbox" target="_balnk">
                 Why Dropbox?
+                <div className="why-dropbox-div">
+                  <div>
+                    <p>Overview</p>
+                    <p>Get inspired</p>
+                    <p>What customers say</p>
+                    <p>App integrations</p>
+                    <p>Resources</p>
+                  </div>
+                  <div>
+                    <p>Better with Dropbox</p>
+                    <p>Share files</p>
+                    <p>Store and organize</p>
+                    <p>Sync your devices</p>
+                    <p>Protect and secure data</p>
+                    <p>Contact remote teams</p>
+                    <p>Keep work moving</p>
+                    <p>Always-on backup</p>
+                    <p>Sign a document</p>
+                    <p>Track document analytics</p>
+                  </div>
+                </div>
               </Link>
               <Link className="products" target="_balnk">
                 Products
