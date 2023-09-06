@@ -560,6 +560,7 @@ header {
 }
 .get-app {
   color: black;
+  position: relative;
   height: 48px;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -567,8 +568,40 @@ header {
   padding-left: 16px;
   padding-right: 16px;
 }
-.get-app:hover {
+.get-app-div {
+  position: absolute;
+  margin: 0.1rem;
+  padding: 10px 14px;
+  z-index: 1;
+  opacity: 0;
+}
+.get-app:hover .get-app-div {
+  display: flex;
+  margin-left: -7.8rem;
+  margin-top: 7.4rem;
+
+  opacity: 1;
+}
+.get-app-div div {
+  display: block;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
+    "Helvetica (Atlas Grotesk Fallback)", sans-serif,
+    "Arial (Atlas Grotesk Fallback)";
+  padding-left: 1rem;
+  padding-top: 0.7rem;
+  font-size: 12px;
+  width: 220px;
+  height: auto;
   background-color: var(--clr-neutral-300);
+  margin: 0;
+}
+.get-app-div div p {
+  margin-bottom: 1rem;
+}
+.get-app:hover {
+  margin-bottom: -0.5rem;
+  background-color: var(--clr-neutral-300);
+  height: auto;
 }
 .sign-up {
   color: black;

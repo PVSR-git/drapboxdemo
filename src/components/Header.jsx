@@ -140,6 +140,12 @@ export default function Header() {
               </Link>
               <Link className="get-app" target="_balnk">
                 Get app
+                <div className="get-app-div">
+                  <div>
+                    <p>Desktop app</p>
+                    <p>Mobile app</p>
+                  </div>
+                </div>
               </Link>
             </div>
           </nav>
