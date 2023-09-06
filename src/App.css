@@ -365,7 +365,8 @@ header {
   position: relative;
   color: black;
   height: 48px;
-  padding-left: 16px;
+  padding-left: 10px;
+  padding-right: 10px;
   font-size: 16px;
   width: 140px;
   font-weight: 100;
@@ -385,7 +386,7 @@ header {
 }
 .why-dropbox:hover .why-dropbox-div {
   display: flex;
-  margin-right: -18.1rem;
+  margin-right: -18.45rem;
   margin-top: 23rem;
 
   opacity: 1;
