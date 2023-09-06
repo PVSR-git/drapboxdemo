@@ -59,6 +59,27 @@ export default function Header() {
               </Link>
               <Link className="solutions" target="_balnk">
                 Solutions
+                <div className="solutions-div">
+                  <div>
+                    <p>Roles</p>
+                    <p>Creatives</p>
+                    <p>Sales</p>
+                    <p>Marketing</p>
+                    <p>HR</p>
+                    <p>IT</p>
+                    <p>Team Lead</p>
+                    <p>Personal</p>
+                  </div>
+                  <div>
+                    <p>Industries</p>
+                    <p>Construction</p>
+                    <p>Tecknology</p>
+                    <p>Marketing</p>
+                    <p>Manufacturing</p>
+                    <p>Media</p>
+                    <p>Professional Services</p>
+                  </div>
+                </div>
               </Link>
               <Link className="pricing" target="_balnk">
                 Pricing
@@ -83,6 +104,18 @@ export default function Header() {
               </Link>
               <Link className="contact" target="_balnk">
                 Contact
+                <div className="contact-div">
+                  <div>
+                    <p>Support</p>
+                    <p>Helpcenter</p>
+                    <p>Comunity center</p>
+                  </div>
+                  <div>
+                    <p>Contactsales</p>
+                    <p>Email</p>
+                    <p>+1 855-237-6726</p>
+                  </div>
+                </div>
               </Link>
               <Link className="get-app" target="_balnk">
                 Get app

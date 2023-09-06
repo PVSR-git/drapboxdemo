@@ -390,6 +390,7 @@ header {
   background-color: var(--clr-neutral-300);
 }
 .solutions {
+  position: relative;
   color: black;
   height: 48px;
   padding-left: 16px;
@@ -403,8 +404,43 @@ header {
   font-stretch: 1000px;
   font-weight: 100;
 }
-.solutions:hover {
+.solutions-div {
+  position: absolute;
+  margin: 0.1rem;
+  padding: 10px 14px;
+  z-index: 1;
+  opacity: 0;
+}
+.solutions:hover .solutions-div {
+  display: flex;
+  margin-right: -21rem;
+  margin-top: 19rem;
+
+  opacity: 1;
+}
+.solutions-div div {
+  display: block;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
+    "Helvetica (Atlas Grotesk Fallback)", sans-serif,
+    "Arial (Atlas Grotesk Fallback)";
+  padding-left: 1rem;
+  padding-top: 0.7rem;
+  font-size: 12px;
+  width: 220px;
+  height: auto;
   background-color: var(--clr-neutral-300);
+  margin: 0;
+}
+.solutions-div div p {
+  margin-bottom: 1rem;
+}
+.solutions-div div p:nth-child(1) {
+  font-weight: 600;
+}
+.solutions:hover {
+  margin-bottom: -0.5rem;
+  background-color: var(--clr-neutral-300);
+  height: auto;
 }
 .pricing {
   color: black;
@@ -439,8 +475,48 @@ header {
   padding-right: 16px;
   width: 91.22px;
 }
-.contact:hover {
+
+.contact {
+  position: relative;
+}
+.contact-div {
+  position: absolute;
+  margin: 0.1rem;
+  padding: 10px 14px;
+  z-index: 1;
+  opacity: 0;
+}
+.contact:hover .contact-div {
+  display: flex;
+  margin-left: -21.6rem;
+  margin-top: 9.4rem;
+
+  opacity: 1;
+}
+.contact-div div {
+  display: block;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
+    "Helvetica (Atlas Grotesk Fallback)", sans-serif,
+    "Arial (Atlas Grotesk Fallback)";
+  padding-left: 1rem;
+  padding-top: 0.7rem;
+  font-size: 12px;
+  width: 220px;
+  height: auto;
   background-color: var(--clr-neutral-300);
+  margin: 0;
+}
+.contact-div div p {
+  margin-bottom: 1rem;
+}
+.contact-div div p:nth-child(1) {
+  font-weight: 600;
+}
+.contact:hover {
+  height: auto;
+  margin-bottom: -0.5rem;
+  background-color: var(--clr-neutral-300);
+  height: auto;
 }
 .get-app {
   color: black;
