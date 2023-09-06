@@ -311,22 +311,20 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   width: 100%;
-  margin: 0;
-  padding: 0; /* Add this line to remove any default padding */
+  overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 
 .container {
-  width: 100%;
-  margin: 0;
+  max-width: 100%;
 }
 
 header {
-  margin: 0;
-  margin-left: -1rem;
   width: 100%;
 }
 .header-items-l {
