@@ -601,7 +601,7 @@ export default function Dropbox() {
                       className={selected === i ? "content show" : "content"}
                     >
                       <p>{item.content}</p>
-                      <a className="asp-link" href="#">
+                      <a className="block4-flex-child1-link" href="#">
                         Learn more
                         <span>
                           {/* Your link SVG icon */}

@@ -984,6 +984,7 @@ nav {
 .block4 {
   display: flex;
   width: 100%;
+  height: auto;
   flex-direction: column;
 }
 .block4-text-info {
@@ -1028,28 +1029,30 @@ nav {
   grid-template-columns: repeat(2, 50%);
   justify-content: center;
   align-items: center;
+  height: auto;
 }
 
 /* Styles for the left column */
 /* Styles for the accordion container */
 .block4-flex-child1 {
   display: flex;
+  padding-top: 0%;
+  margin-top: -4.5rem;
   flex-direction: column;
   width: 100%;
   /* padding-left: 48.5703px; */
-  margin-top: -1rem;
-  height: auto;
 }
 
 .wrapper {
   display: flex;
   height: auto;
-
+  padding: 0.5rem;
   justify-content: center;
   align-items: center;
 }
 .accordion {
-  width: 500px;
+  height: auto;
+  width: 80%;
 }
 .item {
   background-color: white;
@@ -1067,8 +1070,9 @@ nav {
     sans-serif;
   color: rgb(30, 25, 25);
   font-size: 12px;
+  width: 98%;
   display: flex;
-
+  padding-top: 0.5rem;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
@@ -1079,8 +1083,10 @@ nav {
 }
 .content {
   max-height: 0;
+  padding-top: 0.9rem;
+
   overflow: hidden;
-  transition: all 0.1s cubic-bezier(0, 1, 0, 1);
+  transition: all -1s cubic-bezier(0, 1, 0, 1);
 }
 .content.show {
   height: auto;
@@ -1095,12 +1101,25 @@ nav {
   /* background-color: rgba(166, 158, 146, 0.4); */
   background-color: rgb(247, 245, 242);
 }
+.block4-flex-child1-link {
+  display: flex;
+  padding-top: 1rem;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+  align-items: center;
+  font-weight: 600;
+  color: rgb(30, 25, 25);
+}
+.block4-flex-child1-link svg {
+  padding-top: 0.3rem;
+}
 /* Styles for the right column */
 .block4-flex-child2 {
   background-color: rgb(20, 200, 235);
   width: auto;
   height: 993px;
-  margin-top: -1.7rem;
+
   padding: 48px;
   position: static;
 }
@@ -1113,7 +1132,7 @@ nav {
 /* BLOCK5 */
 .block5 {
   display: flex;
-
+  height: auto;
   flex-direction: column;
 
   width: 100%;
