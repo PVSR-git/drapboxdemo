@@ -354,11 +354,13 @@ header {
   background-color: rgb(0, 97, 254);
   display: inline-block; /* or use display: block; depending on your layout */
   padding: 12px;
+  margin-bottom: -0.2rem;
   /* Add padding for spacing */
 }
 
 .site-name {
   padding-left: 16px;
+  margin-top: 0.5rem;
   padding-right: 16px;
 }
 .why-dropbox {
