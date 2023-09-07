@@ -1169,7 +1169,7 @@ const data = [
     title:
       "Centralize, secure, and easily access your work with Dropbox Standard",
     content:
-      "Safeguard sensitive and confidential info. Automate time-consuming processes with powerful admin and collaboration tools. And easily recover your work if something ever goes wrong. Minimum 3 users per plan.",
+      "Safeguard sensitive and confidential info. Automate time-consuming processes with powerful admin and collaboration tools. And easily recover your work .",
     src: "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/pro/pro_plank_01_ui@2x.png?id=01891288-8c77-4982-bcf4-a6a6618a5bff&amp;output_type=png",
     backgroundColor: "rgb(180, 200, 225)",
     srcset:
@@ -1188,7 +1188,7 @@ const data = [
     title:
       "Proactively detect threats to your team’s content with Dropbox Advanced",
     content:
-      "Always-on security monitoring and alerts. Extended 1-year version history and file recovery. Dropbox Advanced is a secure collaboration solution for your entire team. Minimum 3 users per plan.",
+      "Always-on security monitoring and alerts. Extended 1-year version history and file recovery. Dropbox Advanced is a secure collaboration solution for your entire team.",
     backgroundColor: "green",
     srcset:
       "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;width=414&amp;output_type=png 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;width=828&amp;output_type=png 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;width=1024&amp;output_type=png 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;width=1280&amp;output_type=png 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;output_type=png 1440w",
