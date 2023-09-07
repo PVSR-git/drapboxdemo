@@ -1277,9 +1277,10 @@ nav {
   position: static;
 }
 
-.block4-flex-child2 img {
-  width: 80%;
+#block4-flex-child2 img {
+  width: 90%;
   margin-top: 2rem;
+  margin-left: 1rem;
 }
 
 /* BLOCK5 */
