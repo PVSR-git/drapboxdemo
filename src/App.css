@@ -1269,8 +1269,7 @@ nav {
   padding-top: 0.3rem;
 }
 /* Styles for the right column */
-.block4-flex-child2 {
-  background-color: rgb(20, 200, 235);
+#block4-flex-child2 {
   width: auto;
   height: 993px;
 
