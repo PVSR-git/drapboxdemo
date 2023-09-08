@@ -1296,6 +1296,7 @@ nav {
     justify-content: center;
     align-items: center;
     height: auto;
+    gap: 1rem;
     margin: auto;
     width: auto;
   }
@@ -1305,8 +1306,9 @@ nav {
     display: flex;
     flex-direction: column;
     background: rgb(43, 41, 41);
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    object-fit: cover;
+    align-items: flex-start;
     width: auto;
     margin-left: auto;
     margin-right: auto;
@@ -1323,6 +1325,7 @@ nav {
   .for-personal-link {
     margin: 0;
     padding: 0;
+    margin-top: 1rem;
   }
 
   .for-work-link span,
