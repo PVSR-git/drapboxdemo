@@ -2211,7 +2211,7 @@ nav {
     margin: auto;
     display: flex;
     align-items: stretch;
-
+    height: auto;
     justify-content: start;
     /* Stretch items to fill width */
   }
@@ -2230,8 +2230,9 @@ nav {
   .block2-grid {
     display: flex;
     flex-direction: column;
-
-    margin-left: 1rem;
+    margin: auto;
+    width: auto;
+    height: auto;
   }
 
   .asp-link {
