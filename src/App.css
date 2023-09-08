@@ -1281,6 +1281,8 @@ nav {
     justify-content: center;
     align-items: center;
     height: auto;
+    margin: auto;
+    width: auto;
   }
 
   .for-work,
@@ -1312,28 +1314,6 @@ nav {
   .for-personal-link span {
     padding-left: 0;
     padding-right: 0;
-  }
-
-  .b3-flex2 {
-    display: flex;
-    width: auto;
-    margin: auto;
-    padding: auto;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    color: rgb(247, 245, 242);
-  }
-
-  .cstc-info {
-    display: flex;
-    height: auto;
-    overflow-wrap: break-word;
-    font-wrap: balance;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin: auto;
   }
 }
 
@@ -1587,6 +1567,26 @@ nav {
   font-weight: 100;
   font-size: 16px;
   width: 243.461px;
+}
+@media screen and (min-width: 1440px) {
+  .block5-grid {
+    display: grid;
+    flex-wrap: wrap; /* Allow items to wrap onto new rows */
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: auto;
+    height: auto;
+  }
+  .block5-grid section {
+    display: flex;
+    padding-top: 0%;
+    margin-top: -4.5rem;
+    flex-direction: column;
+    width: auto;
+    margin: auto;
+    /* padding-left: 48.5703px; */
+  }
 }
 
 .block6 {
