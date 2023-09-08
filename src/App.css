@@ -1011,6 +1011,7 @@ nav {
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
   height: 20px;
+  margin-top: 0.5rem;
   font-size: 16px;
   font-weight: 600;
 }
@@ -1020,7 +1021,7 @@ nav {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
-
+  margin-top: 0.5rem;
   height: 150px;
   font-size: 16px;
   font-weight: 400;
