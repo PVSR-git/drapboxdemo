@@ -2248,10 +2248,11 @@ nav {
 /* Media query for mobile layout */
 @media only screen and (max-width: 600px) {
   .block3 {
-    width: 100%;
+    width: auto;
+    height: auto;
     grid-template-columns: 1fr;
     display: grid;
-    margin-left: 1.5rem;
+    margin: auto;
   }
 
   .b3-flex1 {
@@ -2272,19 +2273,15 @@ nav {
 
   .block3 h1 {
     font-size: 20px;
-    /* Further decrease font size */
     padding: 0.5rem;
     /* Adjust padding */
   }
 
   .for-work,
   .for-personal {
-    margin: 0.5rem 0.5rem 0;
-    /* Adjust margins for smaller screens */
     height: auto;
-
-    width: 321.422px;
-    /* Allow height to adjust based on content */
+    margin: auto;
+    width: auto;
   }
 
   .for-work img {
@@ -2311,11 +2308,8 @@ nav {
   .for-work-link,
   .for-personal-link {
     width: 221.422px;
-    /* Adjust width for full width */
     font-size: 14px;
-    /* Decrease font size */
     padding: 0.5rem;
-    /* Adjust padding */
   }
 
   .b3-flex2 {
@@ -2325,7 +2319,7 @@ nav {
     align-items: stretch;
     margin-left: 1rem;
     justify-content: start;
-    /* Stretch items to fill width */
+    margin: auto;
   }
 
   .b3-flex2 h1 {
