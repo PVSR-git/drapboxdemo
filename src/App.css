@@ -849,15 +849,26 @@ nav {
   grid-template-columns: repeat(4, 25%);
 }
 
-/* @media screen and (min-width: 1440px) {
+@media screen and (min-width: 1440px) {
   .block2-grid {
     display: grid;
-    margin: auto;
-    width: 100%;
-    margin-left: auto;
-    padding-top: auto;
+    margin: auto; /* Center horizontally */
+    width: auto; /* Adjust width as needed */
+    padding-top: 1rem;
+    margin-top: 1rem;
+    padding: 1rem;
   }
-} */
+  .asp-flex {
+    display: flex;
+    height: auto;
+    overflow-wrap: break-word;
+    font-wrap: balance;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+}
 .asp-flex {
   display: flex;
   height: 220px;
@@ -950,6 +961,68 @@ nav {
   /* align-items: center;
   align-items: center; */
   flex-direction: row;
+}
+@media screen and (min-width: 1440px) {
+  .b3-flex1 {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: auto; /* 100% of the viewport height to center vertically */
+  }
+
+  .for-work,
+  .for-personal {
+    display: flex;
+    flex-direction: column;
+    background: rgb(43, 41, 41);
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    width: auto; /* Adjust width as needed */
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    padding: 1rem; /* Add padding for spacing */
+    max-width: 500px; /* Set a maximum width for the content */
+  }
+
+  /* Remove the margin and padding for child elements */
+  .for-work h2,
+  .for-personal h2,
+  .for-work p,
+  .for-personal p,
+  .for-work-link,
+  .for-personal-link {
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Remove the left and right padding for icons */
+  .for-work-link span,
+  .for-personal-link span {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .b3-flex2 {
+    display: flex;
+    width: auto;
+    margin: auto;
+    padding: auto;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: column;
+    color: rgb(247, 245, 242);
+  }
+
+  .cstc-info {
+    display: flex;
+    height: auto;
+    overflow-wrap: break-word;
+    font-wrap: balance;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
 }
 .for-work {
   display: flex;
@@ -1103,12 +1176,7 @@ nav {
   font-weight: 500;
   font-size: 32px;
 }
-.cstc {
-  display: grid;
-  width: 100%;
 
-  grid-template-columns: repeat(4, 25%);
-}
 .cstc-info {
   display: flex;
   justify-content: center;
@@ -1139,14 +1207,17 @@ nav {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
+  width: 243.461px;
+  height: 50px;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 500;
 }
 .cstc-info p {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
-  font-size: 18px;
+  margin-top: 0.3rem;
+  font-size: 16px;
   font-weight: 200;
   font-size: normal;
 }

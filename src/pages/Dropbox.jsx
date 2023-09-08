@@ -437,7 +437,6 @@ export default function Dropbox() {
       </div>
 
       {/* BLOCK3 */}
-
       <div className="block3">
         <h1>How will you use Dropbox?</h1>
         <div className="b3-flex1">
@@ -505,7 +504,7 @@ export default function Dropbox() {
         </div>
         <div className="b3-flex2">
           <h1>Cloud storage you can count on</h1>
-          <div className="cstc">
+          <div className="block2-grid">
             <div className="cstc-info">
               <img src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/56_graphitebg.svg?id=8086678e-8b77-4720-bc35-4d5eb6b08c2d"></img>
               <h3>Cloud storage you can count on</h3>
