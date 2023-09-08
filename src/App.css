@@ -329,6 +329,7 @@ header {
   width: 100%;
   background-color: white;
   position: relative;
+  margin-top: -0.2rem;
   margin-left: 0;
 }
 .header-items-l {
@@ -768,6 +769,12 @@ nav {
   width: 580px;
   height: 328.27px;
 }
+@media screen and (min-width: 1440px) {
+  .block1 video {
+    width: 1165.84px;
+    height: 657.406px;
+  }
+}
 .wda {
   display: flex;
   width: 1262.98px;
@@ -842,6 +849,15 @@ nav {
   grid-template-columns: repeat(4, 25%);
 }
 
+/* @media screen and (min-width: 1440px) {
+  .block2-grid {
+    display: grid;
+    margin: auto;
+    width: 100%;
+    margin-left: auto;
+    padding-top: auto;
+  }
+} */
 .asp-flex {
   display: flex;
   height: 220px;
