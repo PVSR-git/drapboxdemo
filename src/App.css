@@ -29,62 +29,74 @@
   src: url(./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2);
   font-weight: 200, 300, 400, 500, 600;
 }
+
 @font-face {
   font-family: "SharpGrotesk";
   src: url(./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2);
   font-weight: 200, 300, 400, 500, 600;
 }
+
 @font-face {
   font-family: "Sharp Grotesk KR";
   src: url(./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2);
   font-weight: 200, 300, 400, 500, 600;
 }
+
 @font-face {
   font-family: "Sharp Grotesk Thai";
   src: url(./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2);
   font-weight: 200, 300, 400, 500, 600;
 }
+
 @font-face {
   font-family: "Helvetica (Sharp Grotesk Fallback)";
   src: url(./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2);
   font-weight: 200, 300, 400, 500, 600;
 }
+
 @font-face {
   font-family: "Arial (Sharp Grotesk Fallback)";
   src: url(./assets/woff2/SharpGroteskDBCyrBook23-vflX-NIwB.woff2);
   font-weight: 200, 300, 400, 500, 600;
 }
+
 @font-face {
   font-family: "Sharp Grotesk 23";
   src: url(./assets/woff2/SharpGroteskDBCyrBook20-vfl6-4ZSp.woff2);
   font-weight: 200, 300, 400, 500, 600;
 }
+
 @font-face {
   font-family: "Sharp Grotesk 23 KR";
   src: url(./assets/woff2/SharpGroteskDBCyrBook20-vfl6-4ZSp.woff2);
   font-weight: 200, 300, 400, 500, 600;
 }
+
 @font-face {
   font-family: "Sharp Grotesk 23 Thai";
   src: url(./assets/woff2/SharpGroteskDBCyrBook20-vfl6-4ZSp.woff2);
   font-weight: 200, 300, 400, 500, 600;
 }
+
 @font-face {
   font-family: "Helvetica (Sharp Grotesk 23 Fallback)";
   src: url(./assets/woff2/SharpGroteskDBCyrBook20-vfl6-4ZSp.woff2);
   font-weight: 200, 300, 400, 500, 600;
 }
+
 @font-face {
   font-family: "Arial (Sharp Grotesk 23 Fallback)";
   src: url(./assets/woff2/SharpGroteskDBCyrBook20-vfl6-4ZSp.woff2);
   font-weight: 200, 300, 400, 500, 600;
 }
+
 @font-face {
   font-family: "Atlas Grotesk Web";
   font-style: normal;
   font-weight: 100, 200, 300, 400, 500, 600;
   src: url(./assets/woff2/AtlasGrotesk-Medium-Web-vfl38XiTL.woff2);
 }
+
 @font-face {
   font-family: "Atlas Grotesk Web";
   font-style: normal;
@@ -98,12 +110,14 @@
   font-weight: 100, 200, 300, 400, 500, 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Helvetica (Atlas Grotesk Fallback)";
   src: url(./assets/woff2/AtlasGrotesk-Regular-Web-vflk7bxjs.woff2);
   font-weight: 100, 200, 300, 400, 500, 600;
   font-style: normal;
 }
+
 @font-face {
   font-family: "Helvetica (Atlas Grotesk Fallback)";
   src: url(./assets/woff2/AtlasGrotesk-Medium-Web-vfl38XiTL.woff2);
@@ -120,6 +134,7 @@
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
     U+FE2E-FE2F;
 }
+
 @font-face {
   font-family: "Open Sans";
   font-style: normal;
@@ -129,6 +144,7 @@
   unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F,
     U+FE2E-FE2F;
 }
+
 @font-face {
   font-family: "Sharp Grotesk 23";
   src: url("https://fonts.gstatic.com/s/sharp-grotesk-23.woff2") format("woff2"),
@@ -180,7 +196,8 @@
 
 @font-face {
   font-family: "Helvetica (Atlas Grotesk Fallback)";
-  font-weight: 200, 300, 400, 500, 600; /* Adjust as needed */
+  font-weight: 200, 300, 400, 500, 600;
+  /* Adjust as needed */
   src: local("Atlas Grotesk"), local("AtlasGrotesk"),
     url(https://fonts.gstatic.com/s/atlasgrotesk/v3/WxP2E2w6_3r3eQzHze7fxA4P.ttf)
       format("truetype");
@@ -190,7 +207,8 @@
 @font-face {
   font-family: "Sharp Grotesk";
   font-style: normal;
-  font-weight: 200, 300, 400, 500, 600, 700; /* Specify multiple weights */
+  font-weight: 200, 300, 400, 500, 600, 700;
+  /* Specify multiple weights */
   src: local("Arial"),
     url("https://fonts.gstatic.com/s/sharpgrotesk/v10/LYjNdG_8nE8jDL0i3KbXZ7XL4Bk95DiS9w.woff2")
       format("woff2");
@@ -203,7 +221,8 @@
       format("woff2"),
     url("https://fonts.gstatic.com/s/arial-sharp-grotesk-23.woff")
       format("woff");
-  font-weight: 200, 300, 400, 500, 600; /* Define the font weight */
+  font-weight: 200, 300, 400, 500, 600;
+  /* Define the font weight */
 }
 
 /* Font weight 200 for Segoe UI */
@@ -266,6 +285,7 @@
     url("https://fonts.gstatic.com/s/helvetica.woff") format("woff");
   font-weight: 200;
 }
+
 @font-face {
   font-family: "AtlasGroteskFallback";
   src: url("https://fonts.gstatic.com/s/helvetica.woff2") format("woff2"),
@@ -307,6 +327,7 @@
     url("https://fonts.gstatic.com/s/arial.woff") format("woff");
   font-weight: 100, 200, 300, 400, 500, 600;
 }
+
 *,
 *::before,
 *::after {
@@ -318,7 +339,8 @@
 body {
   width: 100%;
   background-color: rgb(0, 0, 0);
-  overflow-x: hidden; /* Hide horizontal scrollbar */
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
 }
 
 .container {
@@ -332,6 +354,7 @@ header {
   margin-top: -0.2rem;
   margin-left: 0;
 }
+
 .header-items-l {
   margin-left: 0%;
   display: flex;
@@ -339,6 +362,7 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .header-items-l a {
   text-decoration: none;
   display: flex;
@@ -347,13 +371,16 @@ header {
   justify-content: center;
   align-items: center;
 }
+
 .header-items {
   display: flex;
   margin-left: auto;
 }
+
 .svg-container {
   background-color: rgb(0, 97, 254);
-  display: inline-block; /* or use display: block; depending on your layout */
+  display: inline-block;
+  /* or use display: block; depending on your layout */
   padding: 12px;
   margin-bottom: -0.2rem;
   /* Add padding for spacing */
@@ -364,6 +391,7 @@ header {
   margin-top: 0.5rem;
   padding-right: 16px;
 }
+
 .why-dropbox {
   position: relative;
   color: black;
@@ -381,6 +409,7 @@ header {
   font-stretch: 1000px;
   font-weight: 100;
 }
+
 .why-dropbox-div {
   position: absolute;
   margin: 0.1rem;
@@ -388,6 +417,7 @@ header {
   z-index: 1;
   opacity: 0;
 }
+
 .why-dropbox:hover .why-dropbox-div {
   display: flex;
   margin-right: -18.45rem;
@@ -395,6 +425,7 @@ header {
 
   opacity: 1;
 }
+
 .why-dropbox-div div {
   display: block;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
@@ -408,15 +439,19 @@ header {
   background-color: var(--clr-neutral-300);
   margin: 0;
 }
+
 .why-dropbox-div div p {
   margin-bottom: 1rem;
 }
+
 .why-dropbox-div p:nth-child(1) {
   font-weight: 600;
 }
+
 .why-dropbox:hover {
   background-color: var(--clr-neutral-300);
 }
+
 .products {
   margin-top: 0.5rem;
   color: black;
@@ -429,9 +464,11 @@ header {
   padding-left: 16px;
   padding-right: 16px;
 }
+
 .products:hover {
   background-color: var(--clr-neutral-300);
 }
+
 .solutions {
   position: relative;
   color: black;
@@ -448,6 +485,7 @@ header {
   font-stretch: 1000px;
   font-weight: 100;
 }
+
 .solutions-div {
   position: absolute;
   margin: 0.1rem;
@@ -455,6 +493,7 @@ header {
   z-index: 1;
   opacity: 0;
 }
+
 .solutions:hover .solutions-div {
   display: flex;
   margin-right: -21rem;
@@ -462,6 +501,7 @@ header {
 
   opacity: 1;
 }
+
 .solutions-div div {
   display: block;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
@@ -475,16 +515,20 @@ header {
   background-color: var(--clr-neutral-300);
   margin: 0;
 }
+
 .solutions-div div p {
   margin-bottom: 1rem;
 }
+
 .solutions-div div p:nth-child(1) {
   font-weight: 600;
 }
+
 .solutions:hover {
   margin-bottom: -0.5rem;
   background-color: var(--clr-neutral-300);
 }
+
 .pricing {
   color: black;
   margin-top: 0.5rem;
@@ -498,6 +542,7 @@ header {
   padding-left: 16px;
   padding-right: 16px;
 }
+
 .pricing:hover {
   background-color: var(--clr-neutral-300);
 }
@@ -508,6 +553,7 @@ header {
   padding-left: 16px;
   padding-right: 16px;
 }
+
 .contact {
   color: black;
   font-weight: 100;
@@ -525,6 +571,7 @@ header {
 .contact {
   position: relative;
 }
+
 .contact-div {
   position: absolute;
   margin: 0.1rem;
@@ -532,6 +579,7 @@ header {
   z-index: 1;
   opacity: 0;
 }
+
 .contact:hover .contact-div {
   display: flex;
   margin-left: -21.6rem;
@@ -539,6 +587,7 @@ header {
 
   opacity: 1;
 }
+
 .contact-div div {
   display: block;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
@@ -552,15 +601,19 @@ header {
   background-color: var(--clr-neutral-300);
   margin: 0;
 }
+
 .contact-div div p {
   margin-bottom: 1rem;
 }
+
 .contact-div div p:nth-child(1) {
   font-weight: 600;
 }
+
 .contact:hover {
   background-color: var(--clr-neutral-300);
 }
+
 .get-app {
   color: black;
   position: relative;
@@ -573,6 +626,7 @@ header {
   padding-left: 10px;
   padding-right: 15px;
 }
+
 .get-app-div {
   position: absolute;
   margin: 0.1rem;
@@ -580,6 +634,7 @@ header {
   z-index: 1;
   opacity: 0;
 }
+
 .get-app:hover .get-app-div {
   display: flex;
   margin-left: -7.8rem;
@@ -587,6 +642,7 @@ header {
 
   opacity: 1;
 }
+
 .get-app-div div {
   display: block;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
@@ -600,12 +656,15 @@ header {
   background-color: var(--clr-neutral-300);
   margin: 0;
 }
+
 .get-app-div div p {
   margin-bottom: 1rem;
 }
+
 .get-app:hover {
   background-color: var(--clr-neutral-300);
 }
+
 .sign-up {
   color: black;
   height: 48px;
@@ -616,12 +675,15 @@ header {
   padding-left: 16px;
   padding-right: 16px;
 }
+
 .log-sign {
   display: flex;
 }
+
 .sign-up:hover {
   background-color: var(--clr-neutral-300);
 }
+
 .login {
   color: black;
   margin-top: 0.5rem;
@@ -634,9 +696,11 @@ header {
   margin-right: 0.2rem;
   text-align: center;
 }
+
 .login:hover {
   background-color: var(--clr-neutral-300);
 }
+
 .get-started {
   margin-top: 0.5rem;
   font-family: "Atlas Grotesk Web", "Helvetica (Atlas Grotesk Fallback)",
@@ -662,6 +726,7 @@ header {
 .get-started:hover {
   background-color: rgb(0, 87, 229);
 }
+
 .get-started span {
   margin-top: 0.5rem;
   padding-left: 1.5rem;
@@ -672,15 +737,19 @@ header {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
+
 #menu-icon {
   display: none;
 }
+
 #menu-toggle {
   display: none;
 }
+
 nav {
   display: flex;
 }
+
 .header-item-info {
   display: flex;
 }
@@ -695,6 +764,7 @@ nav {
   background-color: #1e1919;
   color: white;
 }
+
 .text-info {
   display: flex;
   flex-direction: column;
@@ -703,6 +773,7 @@ nav {
   width: 777.23px;
   height: 200px;
 }
+
 .text-info h2 {
   margin-top: 3em;
 
@@ -730,6 +801,7 @@ nav {
   font-size: 17px;
   font-weight: 400;
 }
+
 .find-your-plan {
   display: flex;
   margin-top: 5em;
@@ -751,6 +823,7 @@ nav {
   text-align: center;
   text-decoration: none;
 }
+
 .find-your-plan:hover {
   background-color: rgb(0, 87, 229);
 }
@@ -760,21 +833,25 @@ nav {
   padding-left: 0.5rem;
   padding-top: 0.5rem;
 }
+
 .find-your-plan span :hover {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
+
 .block1 video {
   margin-top: 4.5em;
   width: 580px;
   height: 328.27px;
 }
+
 @media screen and (min-width: 1440px) {
   .block1 video {
     width: 1165.84px;
     height: 657.406px;
   }
 }
+
 .wda {
   display: flex;
   width: 1262.98px;
@@ -782,6 +859,7 @@ nav {
   align-items: center;
   flex-direction: column;
 }
+
 .wda h2 {
   padding-top: 2rem;
   font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
@@ -795,21 +873,25 @@ nav {
   font-weight: 500;
   line-height: 2;
 }
+
 .wda-flex {
   display: flex;
   flex-direction: row;
   margin-right: 4em;
   margin-left: 4em;
 }
+
 .wda-info-flex {
   padding: 1.5rem;
 }
+
 .wda-info-flex h3 {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
   font-weight: 400;
 }
+
 .wda-info-flex p {
   font-size: small;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
@@ -828,6 +910,7 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 .block2 h2 {
   padding-top: 2rem;
   font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
@@ -841,6 +924,7 @@ nav {
   font-weight: 500;
   line-height: 120%;
 }
+
 .block2-grid {
   display: grid;
   width: 90%;
@@ -852,12 +936,15 @@ nav {
 @media screen and (min-width: 1440px) {
   .block2-grid {
     display: grid;
-    margin: auto; /* Center horizontally */
-    width: auto; /* Adjust width as needed */
+    margin: auto;
+    /* Center horizontally */
+    width: auto;
+    /* Adjust width as needed */
     padding-top: 1rem;
     margin-top: 1rem;
     padding: 1rem;
   }
+
   .asp-flex {
     display: flex;
     height: auto;
@@ -869,6 +956,7 @@ nav {
     margin: auto;
   }
 }
+
 .asp-flex {
   display: flex;
   height: 220px;
@@ -880,9 +968,11 @@ nav {
 
   padding-right: 2rem;
 }
+
 .asp-piture img {
   height: 45px;
 }
+
 .asp-flex h3 {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -891,6 +981,7 @@ nav {
   font-size: 16px;
   font-weight: 600;
 }
+
 .asp-flex p {
   font-size: small;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
@@ -901,6 +992,7 @@ nav {
   font-size: 16px;
   font-weight: 400;
 }
+
 .asp-link {
   display: flex;
   justify-content: start;
@@ -914,9 +1006,11 @@ nav {
   font-size: 16px;
   color: #1e1919;
 }
+
 .asp-link svg {
   height: 20px;
 }
+
 .asp-link span {
   margin-top: 0.6rem;
 
@@ -939,6 +1033,7 @@ nav {
   background-color: rgb(30, 25, 25);
   color: white;
 }
+
 .block3 h1 {
   padding-left: 242.883px;
   padding-right: 242.883px;
@@ -954,6 +1049,7 @@ nav {
   font-weight: 400;
   margin-bottom: 36px;
 }
+
 .b3-flex1 {
   display: flex;
   margin-top: 36px;
@@ -962,68 +1058,7 @@ nav {
   align-items: center; */
   flex-direction: row;
 }
-@media screen and (min-width: 1440px) {
-  .b3-flex1 {
-    display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    height: auto; /* 100% of the viewport height to center vertically */
-  }
 
-  .for-work,
-  .for-personal {
-    display: flex;
-    flex-direction: column;
-    background: rgb(43, 41, 41);
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-    width: auto; /* Adjust width as needed */
-    margin-left: auto;
-    margin-right: auto;
-    margin: auto;
-    padding: 1rem; /* Add padding for spacing */
-    max-width: 500px; /* Set a maximum width for the content */
-  }
-
-  /* Remove the margin and padding for child elements */
-  .for-work h2,
-  .for-personal h2,
-  .for-work p,
-  .for-personal p,
-  .for-work-link,
-  .for-personal-link {
-    margin: 0;
-    padding: 0;
-  }
-
-  /* Remove the left and right padding for icons */
-  .for-work-link span,
-  .for-personal-link span {
-    padding-left: 0;
-    padding-right: 0;
-  }
-  .b3-flex2 {
-    display: flex;
-    width: auto;
-    margin: auto;
-    padding: auto;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
-    flex-direction: column;
-    color: rgb(247, 245, 242);
-  }
-
-  .cstc-info {
-    display: flex;
-    height: auto;
-    overflow-wrap: break-word;
-    font-wrap: balance;
-    flex-direction: column;
-    width: auto;
-    height: auto;
-    margin: auto;
-  }
-}
 .for-work {
   display: flex;
   flex-direction: column;
@@ -1036,12 +1071,14 @@ nav {
   align-items: start;
   height: 530.492px;
 }
+
 .for-work img {
   position: static;
   width: 100%;
   object-fit: cover;
   height: 198.5px;
 }
+
 .for-work h2 {
   padding-left: 48px;
   font-family: "Sharp Grotesk", " SharpGrotesk", "Sharp Grotesk KR",
@@ -1051,6 +1088,7 @@ nav {
   margin-top: 48px;
   font-weight: 300;
 }
+
 .for-work p {
   padding-left: 48px;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
@@ -1059,6 +1097,7 @@ nav {
   padding-right: 48px;
   height: 75px;
 }
+
 .for-work-link {
   text-align: center;
   display: flex;
@@ -1081,9 +1120,11 @@ nav {
   background-color: rgb(0, 97, 254);
   color: rgb(30, 25, 25);
 }
+
 .for-work-link:hover {
   background-color: rgb(0, 87, 229);
 }
+
 .for-work-link span {
   margin-top: 0.6rem;
   padding-left: 1rem;
@@ -1093,6 +1134,7 @@ nav {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
+
 .for-personal {
   display: flex;
   width: 100%;
@@ -1104,12 +1146,14 @@ nav {
   margin-left: 12px;
   margin-right: 24px;
 }
+
 .for-personal img {
   position: static;
   width: 100%;
   object-fit: cover;
   height: 198.5px;
 }
+
 .for-personal h2 {
   padding-left: 48px;
   font-family: "Sharp Grotesk", "SharpGrotesk", "Sharp Grotesk KR",
@@ -1119,6 +1163,7 @@ nav {
   margin-top: 48px;
   font-weight: 300;
 }
+
 .for-personal p {
   padding-left: 48px;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
@@ -1127,6 +1172,7 @@ nav {
   padding-right: 48px;
   height: 75px;
 }
+
 .for-personal-link {
   text-align: center;
   display: flex;
@@ -1149,9 +1195,11 @@ nav {
   background-color: rgb(0, 97, 254);
   color: rgb(30, 25, 25);
 }
+
 .for-personal-link:hover {
   background-color: rgb(0, 87, 229);
 }
+
 .for-personal-link span {
   margin-top: 0.6rem;
   padding-left: 1rem;
@@ -1161,6 +1209,7 @@ nav {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
+
 .b3-flex2 {
   display: flex;
   width: 100%;
@@ -1169,6 +1218,7 @@ nav {
   flex-direction: column;
   color: rgb(247, 245, 242);
 }
+
 .b3-flex2 h1 {
   font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
     "Sharp Grotesk 23 Thai", "Helvetica (Sharp Grotesk 23 Fallback)",
@@ -1189,6 +1239,7 @@ nav {
   margin-bottom: 4rem;
   padding-left: 2rem;
 }
+
 .cstc-info img {
   height: 48px;
   left: 0px;
@@ -1203,6 +1254,7 @@ nav {
   width: 243.461px;
   -webkit-font-smoothing: antialiased;
 }
+
 .cstc-info h3 {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -1212,6 +1264,7 @@ nav {
   font-size: 20px;
   font-weight: 500;
 }
+
 .cstc-info p {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -1222,6 +1275,68 @@ nav {
   font-size: normal;
 }
 
+@media screen and (min-width: 1440px) {
+  .b3-flex1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+  }
+
+  .for-work,
+  .for-personal {
+    display: flex;
+    flex-direction: column;
+    background: rgb(43, 41, 41);
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    padding: 1rem;
+    max-width: 500px;
+  }
+
+  .for-work h2,
+  .for-personal h2,
+  .for-work p,
+  .for-personal p,
+  .for-work-link,
+  .for-personal-link {
+    margin: 0;
+    padding: 0;
+  }
+
+  .for-work-link span,
+  .for-personal-link span {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .b3-flex2 {
+    display: flex;
+    width: auto;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(247, 245, 242);
+  }
+
+  .cstc-info {
+    display: flex;
+    height: auto;
+    overflow-wrap: break-word;
+    font-wrap: balance;
+    flex-direction: column;
+    width: auto;
+    height: auto;
+    margin: auto;
+  }
+}
+
 /* BLOCK4 */
 .block4 {
   display: flex;
@@ -1229,9 +1344,11 @@ nav {
   height: auto;
   flex-direction: column;
 }
+
 .block4-text-info {
   background-color: rgb(247, 245, 242);
 }
+
 .block4-text {
   display: flex;
   padding-bottom: 72px;
@@ -1292,10 +1409,12 @@ nav {
   justify-content: center;
   align-items: center;
 }
+
 .accordion {
   height: auto;
   width: 80%;
 }
+
 .item {
   background-color: white;
   margin-top: 1rem;
@@ -1303,9 +1422,11 @@ nav {
   padding: 10px 20px;
   border-top: 1px solid rgba(166, 158, 146, 0.6);
 }
+
 .item:last-child {
   border-bottom: 1px solid rgba(166, 158, 146, 0.6);
 }
+
 .title {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -1323,6 +1444,7 @@ nav {
 .title svg {
   margin-bottom: 1rem;
 }
+
 .content {
   max-height: 0;
   padding-top: 0.9rem;
@@ -1330,6 +1452,7 @@ nav {
   overflow: hidden;
   transition: all -1s cubic-bezier(0, 1, 0, 1);
 }
+
 .content.show {
   height: auto;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
@@ -1343,6 +1466,7 @@ nav {
   /* background-color: rgba(166, 158, 146, 0.4); */
   background-color: rgb(247, 245, 242);
 }
+
 .block4-flex-child1-link {
   display: flex;
   padding-top: 1rem;
@@ -1353,9 +1477,11 @@ nav {
   font-weight: 600;
   color: rgb(30, 25, 25);
 }
+
 .block4-flex-child1-link svg {
   padding-top: 0.3rem;
 }
+
 /* Styles for the right column */
 #block4-flex-child2 {
   width: auto;
@@ -1391,6 +1517,7 @@ nav {
   margin-top: 0px;
   padding-top: 72px;
 }
+
 .block5-text h1 {
   text-align: center;
   font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
@@ -1402,6 +1529,7 @@ nav {
   font-weight: 400;
   text-wrap: balance;
 }
+
 .block5-text a {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -1410,6 +1538,7 @@ nav {
   text-align: center;
   color: black;
 }
+
 .block5-grid {
   display: grid;
   align-items: center;
@@ -1420,6 +1549,7 @@ nav {
 
   grid-template-columns: repeat(4, 25%);
 }
+
 .block5-grid section {
   display: flex;
   height: 220px;
@@ -1438,6 +1568,7 @@ nav {
   height: 48px;
   margin-bottom: 1rem;
 }
+
 .block5-grid section h2 {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -1447,6 +1578,7 @@ nav {
   font-size: 16px;
   width: 243.461px;
 }
+
 .block5-grid section p {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -1475,6 +1607,7 @@ nav {
   padding-top: 72px;
   margin-bottom: 72px;
 }
+
 .block6-text h1 {
   text-align: center;
   font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
@@ -1485,11 +1618,13 @@ nav {
   font-size: 32px;
   text-wrap: balance;
 }
+
 .block6-img-flex {
   display: flex;
 
   flex-direction: column;
 }
+
 .block6-img-info {
   display: flex;
   position: relative;
@@ -1498,10 +1633,12 @@ nav {
   height: 520.18px;
   width: 1169.84px;
 }
+
 .block6-img-info img {
   width: 584.922px;
   object-fit: cover;
 }
+
 .block6-img-info div {
   width: 584.922px;
   font-family: "Sharp Grotesk 23", "Sharp Grotesk 23 KR",
@@ -1510,10 +1647,12 @@ nav {
   font-weight: 400;
   background-color: rgb(155, 0, 50);
 }
+
 .block6-img-info div h2 {
   width: 564.922px;
   padding-left: 1rem;
 }
+
 .button {
   position: absolute;
   display: flex;
@@ -1532,20 +1671,25 @@ nav {
   font-weight: 400;
   width: 98px;
 }
+
 .button button:hover {
   background-color: rgba(52, 50, 49, 0.979);
 }
+
 .button button:nth-child(1) {
   margin-right: 31rem;
 }
+
 .button button:nth-child(2) {
   margin-left: 30rem;
 }
+
 .button1 {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .button1 button {
   background-color: #1e1919;
   color: white;
@@ -1556,9 +1700,11 @@ nav {
   width: 44px;
   margin-right: 5px;
 }
+
 .button1 button:hover {
   background-color: rgba(247, 245, 242, 0.2);
 }
+
 .button1 h3 {
   color: rgba(247, 245, 242, 0.6);
   font-size: 24px;
@@ -1576,6 +1722,7 @@ nav {
   justify-content: 2px space-between;
   flex-direction: row;
 }
+
 .img-link span:hover {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
@@ -1589,6 +1736,7 @@ nav {
   text-align: center;
   color: rgb(247, 245, 242);
 }
+
 .block6-text-b {
   display: flex;
   flex-direction: row;
@@ -1597,6 +1745,7 @@ nav {
   margin-top: 72px;
   padding-bottom: 72px;
 }
+
 .block6-text-b h1 {
   text-align: start;
   width: 800.227px;
@@ -1607,6 +1756,7 @@ nav {
   font-size: 40px;
   height: 50px;
 }
+
 .block6-link {
   text-align: center;
   display: flex;
@@ -1628,9 +1778,11 @@ nav {
   background-color: rgb(0, 97, 254);
   color: rgb(30, 25, 25);
 }
+
 .block6-link:hover {
   background-color: rgb(0, 87, 229);
 }
+
 .block6-link span {
   margin-top: 0.6rem;
   padding-left: 1rem;
@@ -1640,6 +1792,7 @@ nav {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
+
 /* FOOTER */
 .footer-content {
   display: flex;
@@ -1669,6 +1822,7 @@ nav {
   justify-content: center;
   align-items: flex-start;
 }
+
 .footer-grid-info h2 {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -1677,9 +1831,11 @@ nav {
   padding-bottom: 1rem;
   font-size: 20px;
 }
+
 .footer-grid-info div a {
   text-decoration: none;
 }
+
 .footer-grid-info div h4 {
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
@@ -1691,9 +1847,11 @@ nav {
   text-decoration: none;
   font-style: normal;
 }
+
 .footer-grid-info div {
   height: 326px;
 }
+
 .footer-icons {
   display: flex;
   width: 132px;
@@ -1706,6 +1864,7 @@ nav {
 .footer-icons div {
   margin-right: 12px;
 }
+
 .footer-icons div a {
   width: 32px;
   color: white;
@@ -1722,6 +1881,7 @@ nav {
   padding-right: 48.5703px;
   width: 1165.84px;
 }
+
 .footer-link button {
   display: flex;
   flex-direction: row;
@@ -1743,6 +1903,7 @@ nav {
   width: 240.48px;
   height: 24px;
 }
+
 .footer-link button span {
   display: flex;
   flex-direction: row;
@@ -1761,12 +1922,14 @@ nav {
     margin-right: auto;
     margin: auto;
   }
+
   .header-items-l {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
   }
+
   .header-items-l .get-started {
     display: none;
   }
@@ -1775,15 +1938,19 @@ nav {
     margin-top: 0rem;
     margin-left: -1rem;
     background-color: rgb(0, 97, 254);
-    display: inline-block; /* or use display: block; depending on your layout */
+    display: inline-block;
+    /* or use display: block; depending on your layout */
     /* Add padding for spacing */
   }
+
   .site-name img {
     display: none;
   }
+
   .header-items-l a {
     padding: 12px 20px;
   }
+
   .header-items {
     display: flex;
     font-size: 16px;
@@ -1792,18 +1959,23 @@ nav {
   }
 
   nav {
-    display: block; /* Hide the menu by default */
-    flex-direction: column; /* Stack menu items vertically */
+    display: block;
+    /* Hide the menu by default */
+    flex-direction: column;
+    /* Stack menu items vertically */
     left: 0;
     background-color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
   }
+
   div.header-item-info {
     display: none;
     width: auto;
   }
+
   #menu-icon {
-    display: inline-block; /* Display the menu icon label */
+    display: inline-block;
+    /* Display the menu icon label */
     padding: 12px;
 
     cursor: pointer;
@@ -1825,7 +1997,8 @@ nav {
   }
 
   nav a {
-    padding: 12px 12px; /* Adjust padding for touch-friendly spacing */
+    padding: 12px 12px;
+    /* Adjust padding for touch-friendly spacing */
     color: black;
     text-decoration: none;
     font-weight: 400;
@@ -1850,12 +2023,15 @@ nav {
     flex-direction: column;
     align-items: start;
 
-    justify-content: stretch; /* Stretch items to fill width */
+    justify-content: stretch;
+    /* Stretch items to fill width */
   }
 
   .text-info {
-    width: 321.422px; /* Adjust width for full width */
-    height: auto; /* Allow height to adjust based on content */
+    width: 321.422px;
+    /* Adjust width for full width */
+    height: auto;
+    /* Allow height to adjust based on content */
     padding: 1rem;
     text-wrap: balance;
     /* Full width of the container */
@@ -1866,35 +2042,47 @@ nav {
   .text-info h2 {
     width: 321.422px;
     text-wrap: balance;
-    margin-top: 1em; /* Reduce top margin */
-    font-size: 24px; /* Decrease font size for smaller screens */
+    margin-top: 1em;
+    /* Reduce top margin */
+    font-size: 24px;
+    /* Decrease font size for smaller screens */
   }
 
   .text-info p {
     width: 321.422px;
-    font-size: 14px; /* Decrease font size for smaller screens */
-    line-height: 20px; /* Adjust line height */
+    font-size: 14px;
+    /* Decrease font size for smaller screens */
+    line-height: 20px;
+    /* Adjust line height */
   }
 
   .find-your-plan {
-    width: 221.422px; /* Adjust width for full width */
-    font-size: 14px; /* Decrease font size */
+    width: 221.422px;
+    /* Adjust width for full width */
+    font-size: 14px;
+    /* Decrease font size */
     padding: 0.5rem;
-    margin-left: 4.5rem; /* Adjust padding */
+    margin-left: 4.5rem;
+    /* Adjust padding */
   }
 
   .find-your-plan span {
-    margin-left: 0.5rem; /* Adjust margin for smaller screens */
-    padding: 0.2rem; /* Adjust padding for smaller screens */
+    margin-left: 0.5rem;
+    /* Adjust margin for smaller screens */
+    padding: 0.2rem;
+    /* Adjust padding for smaller screens */
   }
 
   .block1 video {
-    margin-top: 2em; /* Reduce top margin */
+    margin-top: 2em;
+    /* Reduce top margin */
     margin-left: 1.4rem;
     margin-right: 1.4rem;
     width: 321.422px;
-    height: auto; /* Allow height to adjust based on content */
+    height: auto;
+    /* Allow height to adjust based on content */
   }
+
   .wda {
     display: flex;
     flex-direction: column;
@@ -1902,11 +2090,16 @@ nav {
   }
 
   .wda h2 {
-    padding-top: 1rem; /* Reduce top padding */
-    font-size: 24px; /* Decrease font size for smaller screens */
-    padding-left: 1rem; /* Adjust left padding */
-    margin-left: 1rem; /* Adjust left margin */
-    width: auto; /* Adjust width for full width */
+    padding-top: 1rem;
+    /* Reduce top padding */
+    font-size: 24px;
+    /* Decrease font size for smaller screens */
+    padding-left: 1rem;
+    /* Adjust left padding */
+    margin-left: 1rem;
+    /* Adjust left margin */
+    width: auto;
+    /* Adjust width for full width */
   }
 
   .wda-flex {
@@ -1914,20 +2107,25 @@ nav {
     justify-self: start;
     align-items: flex-start;
     width: auto;
-    flex-direction: column; /* Change to column layout for smaller screens */
-    margin: 0; /* Remove margins for smaller screens */
+    flex-direction: column;
+    /* Change to column layout for smaller screens */
+    margin: 0;
+    /* Remove margins for smaller screens */
   }
 
   .wda-info-flex {
-    padding: 1rem; /* Adjust padding for smaller screens */
+    padding: 1rem;
+    /* Adjust padding for smaller screens */
   }
 
   .wda-info-flex h3 {
-    font-size: 14px; /* Decrease font size for smaller screens */
+    font-size: 14px;
+    /* Decrease font size for smaller screens */
   }
 
   .wda-info-flex p {
-    font-size: 12px; /* Decrease font size for smaller screens */
+    font-size: 12px;
+    /* Decrease font size for smaller screens */
   }
 }
 
@@ -1939,8 +2137,10 @@ nav {
     display: flex;
     align-items: stretch;
 
-    justify-content: start; /* Stretch items to fill width */
+    justify-content: start;
+    /* Stretch items to fill width */
   }
+
   .block2 h2 {
     padding-left: 2rem;
     margin-left: 1rem;
@@ -1948,20 +2148,25 @@ nav {
     text-align: center;
     text-wrap: balance;
     margin-top: 1em;
-    font-size: 20px; /* Further decrease font size */
+    font-size: 20px;
+    /* Further decrease font size */
   }
+
   .block2-grid {
     display: flex;
     flex-direction: column;
 
     margin-left: 1rem;
   }
+
   .asp-link {
-    font-size: 12px; /* Further decrease font size */
+    font-size: 12px;
+    /* Further decrease font size */
   }
 
   .asp-link svg {
-    height: 14px; /* Further adjust SVG height */
+    height: 14px;
+    /* Further adjust SVG height */
   }
 }
 
@@ -1979,31 +2184,39 @@ nav {
     display: grid;
     padding: auto;
   }
+
   .block3 h1 {
     padding-left: 2rem;
     margin-left: 1rem;
     width: 321.422px;
     text-wrap: balance;
     margin-top: 1em;
-    font-size: 20px; /* Further decrease font size */
+    font-size: 20px;
+    /* Further decrease font size */
   }
+
   .block3 h1 {
-    font-size: 20px; /* Further decrease font size */
-    padding: 0.5rem; /* Adjust padding */
+    font-size: 20px;
+    /* Further decrease font size */
+    padding: 0.5rem;
+    /* Adjust padding */
   }
 
   .for-work,
   .for-personal {
-    margin: 0.5rem 0.5rem 0; /* Adjust margins for smaller screens */
+    margin: 0.5rem 0.5rem 0;
+    /* Adjust margins for smaller screens */
     height: auto;
 
-    width: 321.422px; /* Allow height to adjust based on content */
+    width: 321.422px;
+    /* Allow height to adjust based on content */
   }
 
   .for-work img {
     height: auto;
     width: 321.422px;
   }
+
   .for-personal img {
     height: auto;
     width: 321.422px;
@@ -2016,14 +2229,18 @@ nav {
   .for-personal p {
     width: 321.422px;
     height: auto;
-    padding: 0.5rem; /* Adjust padding */
+    padding: 0.5rem;
+    /* Adjust padding */
   }
 
   .for-work-link,
   .for-personal-link {
-    width: 221.422px; /* Adjust width for full width */
-    font-size: 14px; /* Decrease font size */
-    padding: 0.5rem; /* Adjust padding */
+    width: 221.422px;
+    /* Adjust width for full width */
+    font-size: 14px;
+    /* Decrease font size */
+    padding: 0.5rem;
+    /* Adjust padding */
   }
 
   .b3-flex2 {
@@ -2032,8 +2249,10 @@ nav {
     display: flex;
     align-items: stretch;
     margin-left: 1rem;
-    justify-content: start; /* Stretch items to fill width */
+    justify-content: start;
+    /* Stretch items to fill width */
   }
+
   .b3-flex2 h1 {
     padding-left: 1rem;
     margin-left: 1rem;
@@ -2045,6 +2264,7 @@ nav {
     margin-top: 1em;
     font-size: 20px;
   }
+
   .cstc {
     display: flex;
     flex-direction: column;
@@ -2052,9 +2272,11 @@ nav {
     padding-left: 2rem;
     margin-left: 1rem;
   }
+
   .cstc-info {
   }
 }
+
 /* Media query for mobile layout */
 @media only screen and (max-width: 600px) {
   .block4 {
@@ -2063,11 +2285,13 @@ nav {
 
     /* Adjust container width */
   }
+
   .block4-text-info {
     background-color: rgb(247, 245, 242);
     width: 100%;
     padding-right: 3rem;
   }
+
   .block4-text {
     display: flex;
 
@@ -2102,18 +2326,22 @@ nav {
     display: grid;
     font-size: 16px;
     margin-left: 1rem;
-    grid-template-columns: 50% 50%; /* Adjust the percentage as needed */
+    grid-template-columns: 50% 50%;
+    /* Adjust the percentage as needed */
     padding-left: 4px;
     padding-right: 4px;
   }
+
   .block4-flex-child1 .wrapper {
     margin-left: 2rem;
   }
+
   .asp-link {
     width: 280px;
 
     margin-top: 1em;
   }
+
   .block4-flex-child2 {
     background-color: rgb(20, 200, 235);
     width: 321.422px;
@@ -2122,6 +2350,7 @@ nav {
     margin-left: 1.5rem;
     position: static;
   }
+
   .block4-flex-child2 img {
     height: auto;
     margin-top: 0%;
@@ -2142,6 +2371,7 @@ nav {
     margin: auto;
     /* Adjust container width */
   }
+
   .block5-text {
     display: flex;
     width: 321.422px;
@@ -2149,6 +2379,7 @@ nav {
     flex-direction: column;
     text-wrap: balance;
   }
+
   .block5-text h1 {
     margin: 4px;
     padding: 1px;
@@ -2156,6 +2387,7 @@ nav {
     width: 321.422px;
     text-wrap: balance;
   }
+
   .block5-grid {
     display: grid;
     grid-template-columns: 290px;
@@ -2163,10 +2395,12 @@ nav {
     margin-left: 0;
     height: auto;
   }
+
   .block5-grid section {
     margin-bottom: 2px;
     margin-top: 0;
   }
+
   .block5-grid section h2 {
     font-size: 16px;
   }
@@ -2177,8 +2411,10 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     height: auto;
-    margin: 0.5rem; /* Stretch items to fill width */
+    margin: 0.5rem;
+    /* Stretch items to fill width */
   }
+
   .block6-text {
     display: flex;
     flex-direction: column;
@@ -2189,6 +2425,7 @@ nav {
     margin-right: 4px;
     height: auto;
   }
+
   .block6-text h1 {
     width: 321.422px;
     height: auto;
@@ -2198,28 +2435,33 @@ nav {
     margin: 0;
     font-wrape: balance;
   }
+
   .block6-flex {
     display: flex;
     width: 321.422px;
     margin-left: 1rem;
     height: auto;
   }
+
   .block6-img-flex {
     display: flex;
     width: 321.422px;
     height: auto;
   }
+
   .block6-img-info {
     display: flex;
     flex-direction: column;
     height: auto;
     width: 321.422px;
   }
+
   .block6-img-info img {
     height: auto;
     margin-right: 1rem;
     width: auto;
   }
+
   .block6-img-info div {
     display: flex;
     flex-direction: column;
@@ -2229,6 +2471,7 @@ nav {
     height: auto;
     width: auto;
   }
+
   .block6-img-info div > h2 {
     height: auto;
     padding: 1rem;
@@ -2236,9 +2479,11 @@ nav {
     width: auto;
     font-size: 14px;
   }
+
   .button {
     display: none;
   }
+
   .block6-text-b {
     display: flex;
     flex-direction: column;
@@ -2249,6 +2494,7 @@ nav {
     margin-right: 4px;
     height: auto;
   }
+
   .block6-text-b h1 {
     width: 321.422px;
     height: auto;
@@ -2259,6 +2505,7 @@ nav {
     margin: 0;
     font-wrape: balance;
   }
+
   .block6-link {
     width: 280px;
     height: auto;
@@ -2267,6 +2514,7 @@ nav {
     font-wrape: balance;
   }
 }
+
 @media only screen and (max-width: 600px) {
   .footer-content {
     width: auto;
@@ -2275,16 +2523,20 @@ nav {
     display: flex;
     align-items: stretch;
     flex-direction: column;
-    justify-content: center; /* Stretch items to fill width */
+    justify-content: center;
+    /* Stretch items to fill width */
   }
+
   .footer-grid {
     display: grid;
     grid-template-columns: repeat(2, 150px);
     height: auto;
   }
+
   .footer-icons {
     display: none;
   }
+
   .footer-link {
     display: none;
   }
