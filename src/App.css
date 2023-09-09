@@ -1472,9 +1472,9 @@ nav {
 .content {
   max-height: 0;
   padding-top: 0.9rem;
-
+  -webkit-font-smoothing: antialiased;
   overflow: hidden;
-  transition: all -1s cubic-bezier(0, 1, 0, 1);
+  transition: all -0.045s cubic-bezier(0, 1, 0, 1);
 }
 
 .content.show {
@@ -1483,7 +1483,9 @@ nav {
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
   max-height: 999px;
-  transition: all -1s cubic-bezier(1, 0, 1, 0);
+
+  -webkit-font-smoothing: antialiased;
+  transition: all -0.045s cubic-bezier(1, 0, 1, 0);
 }
 
 .accordion > :hover {
@@ -2422,16 +2424,19 @@ nav {
 
     margin-top: 1em;
   }
-  #block4-flex-child2 {
-    width: auto;
-    height: auto;
+
+  .block4-flex-child1 #block4-flex-child2 {
+    display: block;
+    width: 270px;
+    height: 200px;
     margin: auto;
     margin-top: 0.5rem;
     padding: 48px;
     position: static;
   }
-  #block4-flex-child2 img {
-    margin-top: -2rem;
+  .block4-flex-child1 #block4-flex-child2 img {
+    margin: auto;
+    margin-top: -6rem;
   }
   .block4-flex-child2 {
     display: none;

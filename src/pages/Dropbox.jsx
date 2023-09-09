@@ -761,8 +761,9 @@ export default function Dropbox() {
                 id="block4-flex-child2"
                 key={i}
                 style={{
+                  smoothing: "antialiased",
                   transform: `translateX(${selected === i ? "0" : "100%"})`, // Slide the image left or right
-                  transition: "transform -0.3s ease-in-out", // Add a smooth transition effect
+                  transition: "transform 0.31s ease-in-out", // Add a smooth transition effect
                   backgroundColor: item.backgroundColor,
                   paddingTop: selected === i ? "2rem" : "0", // Adjust top padding when the item is open
                   paddingBottom: selected === i ? "2rem" : "0",
