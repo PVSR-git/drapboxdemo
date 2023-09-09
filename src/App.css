@@ -1499,6 +1499,9 @@ nav {
   padding-top: 0.3rem;
 }
 
+.block4-flex-child1 #block4-flex-child2 {
+  display: none;
+}
 /* Styles for the right column */
 #block4-flex-child2 {
   width: auto;
