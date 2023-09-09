@@ -52,7 +52,7 @@ export default function Header() {
             <input type="checkbox" id="menu-toggle" />
             <div className="header-item-info">
               <div className="header-left">
-                <Link className="why-dropbox" target="_balnk">
+                <Link className="why-dropbox">
                   Why Dropbox?
                   <div className="why-dropbox-div">
                     <div>
@@ -76,10 +76,8 @@ export default function Header() {
                     </div>
                   </div>
                 </Link>
-                <Link className="products" target="_balnk">
-                  Products
-                </Link>
-                <Link className="solutions" target="_balnk">
+                <Link className="products">Products</Link>
+                <Link className="solutions">
                   Solutions
                   <div className="solutions-div">
                     <div>
@@ -103,12 +101,10 @@ export default function Header() {
                     </div>
                   </div>
                 </Link>
-                <Link className="pricing" target="_balnk">
-                  Pricing
-                </Link>
+                <Link className="pricing">Pricing</Link>
               </div>
 
-              <Link className="global" target="_balnk">
+              <Link className="global">
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
@@ -125,7 +121,7 @@ export default function Header() {
                   ></path>
                 </svg>
               </Link>
-              <Link className="contact" target="_balnk">
+              <Link className="contact">
                 Contact
                 <div className="contact-div">
                   <div>
@@ -140,7 +136,7 @@ export default function Header() {
                   </div>
                 </div>
               </Link>
-              <Link className="get-app" target="_balnk">
+              <Link className="get-app">
                 Get app
                 <div className="get-app-div">
                   <div>

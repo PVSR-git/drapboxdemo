@@ -2004,30 +2004,33 @@ nav {
 @media only screen and (max-width: 600px) {
   header {
     display: flex;
-    width: 100%;
-
-    margin-right: auto;
-    margin: auto;
+    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: -1.5rem;
+    height: 3.5rem;
   }
 
   .header-items-l {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
   }
-
+  .header-item-info {
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+  }
   .header-items-l .get-started {
     display: none;
   }
 
   .svg-container {
-    margin-top: 0rem;
-    margin-left: -1rem;
+    width: auto;
+    height: auto;
+    margin-right: 2rem;
     background-color: rgb(0, 97, 254);
-    display: inline-block;
-    /* or use display: block; depending on your layout */
-    /* Add padding for spacing */
   }
 
   .site-name img {
@@ -2041,6 +2044,10 @@ nav {
   .header-items {
     display: flex;
     font-size: 16px;
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: space-around;
     flex-direction: row-reverse;
     margin-right: auto;
   }
@@ -2062,25 +2069,59 @@ nav {
 
   #menu-icon {
     display: inline-block;
-    /* Display the menu icon label */
+    justify-content: center;
+    direction: ltr;
     padding: 12px;
-
+    text-align: center;
     cursor: pointer;
   }
 
-  #menu-toggle:checked + div.header-item-info {
+  .header-item-info {
     display: flex;
-    position: absolute;
+    margin: 0;
+    width: auto;
+    height: auto;
     flex-direction: row;
-    margin-top: 1rem;
-    margin-left: -18.69rem;
-    width: 90%;
-    justify-content: center;
-    align-items: start;
+    padding: 0.5rem;
     text-align: start;
-    background: rgb(242, 238, 232);
-    border-radius: 5px;
+    height: auto;
+  }
+
+  .header-item-info .header-left {
+    display: flex;
+    margin: 0;
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
+    padding: 0.5rem;
+    height: auto;
+  }
+  .header-item-info a {
+    display: flex;
+    margin: 0;
+    width: auto;
+    height: auto;
+    text-align: start;
+    align-items: center;
+    flex-direction: row;
+    padding: 0.5rem;
+    height: auto;
+  }
+  #menu-toggle:checked + .header-item-info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    right: 0; /* Adjust the positioning as needed */
+    top: 100%; /* Position it below the menu icon */
+    width: 100%; /* Take full width of the screen */
+    background: rgb(242, 238, 232);
+    height: auto;
+    margin: auto;
+    border-radius: 5px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1; /* Ensure it appears above other content */
   }
 
   nav a {
@@ -2090,6 +2131,7 @@ nav {
     text-decoration: none;
     font-weight: 400;
     width: auto;
+    height: auto;
     font-size: 16px;
     transition: background-color 0.3s ease-in-out;
   }
@@ -2103,25 +2145,20 @@ nav {
 @media only screen and (max-width: 600px) {
   .block1 {
     width: auto;
-    margin: 0;
-
+    margin: auto;
+    height: auto;
     display: flex;
-
     flex-direction: column;
-    align-items: start;
-
+    align-items: center;
     justify-content: stretch;
-    /* Stretch items to fill width */
   }
 
   .text-info {
-    width: 321.422px;
-    /* Adjust width for full width */
+    width: auto;
+    text-align: center;
     height: auto;
-    /* Allow height to adjust based on content */
     padding: 1rem;
     text-wrap: balance;
-    /* Full width of the container */
     padding: 1rem;
     white-space: normal;
   }
@@ -2130,19 +2167,14 @@ nav {
     width: 321.422px;
     text-wrap: balance;
     margin-top: 1em;
-    /* Reduce top margin */
     font-size: 24px;
-    /* Decrease font size for smaller screens */
   }
 
   .text-info p {
     width: 321.422px;
     font-size: 14px;
-    /* Decrease font size for smaller screens */
     line-height: 20px;
-    /* Adjust line height */
   }
-
   .find-your-plan {
     width: 221.422px;
     /* Adjust width for full width */
@@ -2370,12 +2402,6 @@ nav {
     /* Adjust container width */
   }
 
-  /* .block4-text-info {
-    background-color: rgb(247, 245, 242);
-    width: auto;
-    padding-right: 2rem;
-  } */
-
   .block4-text {
     display: flex;
     width: auto;
@@ -2493,6 +2519,7 @@ nav {
     display: grid;
     grid-template-columns: 1fr;
     height: auto;
+    width: auto;
     margin: 0.5rem;
     /* Stretch items to fill width */
   }
