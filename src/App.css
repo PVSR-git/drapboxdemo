@@ -371,7 +371,11 @@ header {
   justify-content: center;
   align-items: center;
 }
-
+.header-left {
+  display: flex;
+  flex-direction: row;
+  margin-left: auto;
+}
 .header-items {
   display: flex;
   margin-left: auto;
@@ -771,19 +775,22 @@ nav {
 .header-item-info {
   display: flex;
 }
+
 @media screen and (min-width: 1440px) {
   .header-item-info {
     display: flex;
     width: auto;
     margin-top: -0.5rem;
-
     margin: auto;
   }
-  .header-items-l {
-    margin: auto;
+  .header-left {
+    margin-right: 16rem;
   }
   .pricing {
-    margin-right: 84rem;
+    margin-right: 14rem;
+  }
+  .global {
+    margin-right: auto;
   }
 }
 

@@ -51,60 +51,62 @@ export default function Header() {
             </label>
             <input type="checkbox" id="menu-toggle" />
             <div className="header-item-info">
-              <Link className="why-dropbox" target="_balnk">
-                Why Dropbox?
-                <div className="why-dropbox-div">
-                  <div>
-                    <p>Overview</p>
-                    <p>Get inspired</p>
-                    <p>What customers say</p>
-                    <p>App integrations</p>
-                    <p>Resources</p>
+              <div className="header-left">
+                <Link className="why-dropbox" target="_balnk">
+                  Why Dropbox?
+                  <div className="why-dropbox-div">
+                    <div>
+                      <p>Overview</p>
+                      <p>Get inspired</p>
+                      <p>What customers say</p>
+                      <p>App integrations</p>
+                      <p>Resources</p>
+                    </div>
+                    <div>
+                      <p>Better with Dropbox</p>
+                      <p>Share files</p>
+                      <p>Store and organize</p>
+                      <p>Sync your devices</p>
+                      <p>Protect and secure data</p>
+                      <p>Contact remote teams</p>
+                      <p>Keep work moving</p>
+                      <p>Always-on backup</p>
+                      <p>Sign a document</p>
+                      <p>Track document analytics</p>
+                    </div>
                   </div>
-                  <div>
-                    <p>Better with Dropbox</p>
-                    <p>Share files</p>
-                    <p>Store and organize</p>
-                    <p>Sync your devices</p>
-                    <p>Protect and secure data</p>
-                    <p>Contact remote teams</p>
-                    <p>Keep work moving</p>
-                    <p>Always-on backup</p>
-                    <p>Sign a document</p>
-                    <p>Track document analytics</p>
+                </Link>
+                <Link className="products" target="_balnk">
+                  Products
+                </Link>
+                <Link className="solutions" target="_balnk">
+                  Solutions
+                  <div className="solutions-div">
+                    <div>
+                      <p>Roles</p>
+                      <p>Creatives</p>
+                      <p>Sales</p>
+                      <p>Marketing</p>
+                      <p>HR</p>
+                      <p>IT</p>
+                      <p>Team Lead</p>
+                      <p>Personal</p>
+                    </div>
+                    <div>
+                      <p>Industries</p>
+                      <p>Construction</p>
+                      <p>Tecknology</p>
+                      <p>Marketing</p>
+                      <p>Manufacturing</p>
+                      <p>Media</p>
+                      <p>Professional Services</p>
+                    </div>
                   </div>
-                </div>
-              </Link>
-              <Link className="products" target="_balnk">
-                Products
-              </Link>
-              <Link className="solutions" target="_balnk">
-                Solutions
-                <div className="solutions-div">
-                  <div>
-                    <p>Roles</p>
-                    <p>Creatives</p>
-                    <p>Sales</p>
-                    <p>Marketing</p>
-                    <p>HR</p>
-                    <p>IT</p>
-                    <p>Team Lead</p>
-                    <p>Personal</p>
-                  </div>
-                  <div>
-                    <p>Industries</p>
-                    <p>Construction</p>
-                    <p>Tecknology</p>
-                    <p>Marketing</p>
-                    <p>Manufacturing</p>
-                    <p>Media</p>
-                    <p>Professional Services</p>
-                  </div>
-                </div>
-              </Link>
-              <Link className="pricing" target="_balnk">
-                Pricing
-              </Link>
+                </Link>
+                <Link className="pricing" target="_balnk">
+                  Pricing
+                </Link>
+              </div>
 
               <Link className="global" target="_balnk">
                 <svg
