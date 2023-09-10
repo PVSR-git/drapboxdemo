@@ -2036,7 +2036,7 @@ nav {
   .svg-container {
     width: auto;
     height: auto;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
     background-color: rgb(0, 97, 254);
   }
 
@@ -2061,9 +2061,7 @@ nav {
 
   nav {
     display: block;
-    /* Hide the menu by default */
     flex-direction: column;
-    /* Stack menu items vertically */
     left: 0;
     background-color: white;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
@@ -2120,20 +2118,19 @@ nav {
     display: flex;
     flex-direction: column;
     position: absolute;
-    right: 0; /* Adjust the positioning as needed */
-    top: 100%; /* Position it below the menu icon */
-    width: 100%; /* Take full width of the screen */
+    right: 0;
+    top: 100%;
+    width: 100%;
     background: rgb(242, 238, 232);
     height: auto;
     margin: auto;
     border-radius: 5px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    z-index: 1; /* Ensure it appears above other content */
+    z-index: 1;
   }
 
   nav a {
     padding: 12px 12px;
-    /* Adjust padding for touch-friendly spacing */
     color: black;
     text-decoration: none;
     font-weight: 400;
@@ -2162,46 +2159,45 @@ nav {
 
   .text-info {
     width: auto;
+    margin: auto;
+    margin-top: 1rem;
     text-align: center;
     height: auto;
     padding: 1rem;
     text-wrap: balance;
-    padding: 1rem;
     white-space: normal;
   }
 
   .text-info h2 {
     width: 321.422px;
     text-wrap: balance;
-    margin-top: 1em;
+    margin-bottom: 1em;
+    margin: auto;
     font-size: 24px;
   }
 
   .text-info p {
     width: 321.422px;
     font-size: 14px;
+    margin: auto;
     line-height: 20px;
   }
   .find-your-plan {
     width: 221.422px;
-    /* Adjust width for full width */
     font-size: 14px;
-    /* Decrease font size */
     padding: 0.5rem;
-    margin-left: 4.5rem;
-    /* Adjust padding */
+    margin: auto;
   }
 
   .find-your-plan span {
     margin-left: 0.5rem;
-    /* Adjust margin for smaller screens */
+
     padding: 0.2rem;
     /* Adjust padding for smaller screens */
   }
 
   .block1 video {
     margin-top: 2em;
-    /* Reduce top margin */
     margin-left: 1.4rem;
     margin-right: 1.4rem;
     width: 321.422px;
@@ -2211,21 +2207,19 @@ nav {
 
   .wda {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     width: 321.422px;
   }
 
   .wda h2 {
-    padding-top: 1rem;
-    /* Reduce top padding */
+    text-align: center;
     font-size: 24px;
-    /* Decrease font size for smaller screens */
-    padding-left: 1rem;
-    /* Adjust left padding */
-    margin-left: 1rem;
-    /* Adjust left margin */
+    height: auto;
+    margin: auto;
+    padding-left: 0.5rem;
     width: auto;
-    /* Adjust width for full width */
   }
 
   .wda-flex {
@@ -2234,24 +2228,21 @@ nav {
     align-items: flex-start;
     width: auto;
     flex-direction: column;
-    /* Change to column layout for smaller screens */
     margin: 0;
-    /* Remove margins for smaller screens */
   }
 
   .wda-info-flex {
     padding: 1rem;
-    /* Adjust padding for smaller screens */
   }
 
   .wda-info-flex h3 {
+    margin-top: 0.5rem;
     font-size: 14px;
-    /* Decrease font size for smaller screens */
   }
 
   .wda-info-flex p {
+    margin-top: 0.5rem;
     font-size: 12px;
-    /* Decrease font size for smaller screens */
   }
 }
 
@@ -2263,15 +2254,15 @@ nav {
     display: flex;
     align-items: stretch;
     height: auto;
-    justify-content: start;
+    justify-content: center;
     /* Stretch items to fill width */
   }
 
   .block2 h2 {
-    padding-left: 2rem;
-    margin-left: 1rem;
+    margin: auto;
     width: auto;
     text-align: center;
+    padding-left: 0.2rem;
     text-wrap: balance;
     margin-top: 1em;
     font-size: 20px;
@@ -2281,13 +2272,16 @@ nav {
   .block2-grid {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin: auto;
     width: auto;
     height: auto;
   }
 
-  .asp-link {
+  .block2-grid.asp-link {
     font-size: 12px;
+    padding: auto;
     /* Further decrease font size */
   }
 
@@ -2413,6 +2407,7 @@ nav {
     display: flex;
     width: auto;
     margin: auto;
+    margin-top: 1rem;
     flex-direction: column;
     align-items: center;
     font-size: 14px;
@@ -2450,11 +2445,21 @@ nav {
     padding-left: 4px;
     padding-right: 4px;
     margin: auto;
+    margin-top: -0.5rem;
   }
   .item {
-    margin-top: -0.47rem;
+    margin: auto;
+    width: auto;
   }
+  .accordion {
+    height: auto;
 
+    width: auto;
+  }
+  .title svg {
+    margin: auto;
+    text-align: start;
+  }
   .asp-link {
     width: 280px;
 
