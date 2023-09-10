@@ -784,7 +784,7 @@ nav {
     margin: auto;
   }
   .header-left {
-    margin-right: 15rem;
+    margin-right: 10rem;
   }
   .pricing {
     margin-right: 8rem;
@@ -1436,6 +1436,7 @@ nav {
 
 .accordion {
   height: auto;
+
   width: 80%;
 }
 
@@ -1444,6 +1445,7 @@ nav {
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 10px 20px;
+
   border-top: 1px solid rgba(166, 158, 146, 0.6);
 }
 
@@ -1460,6 +1462,7 @@ nav {
   width: 98%;
   display: flex;
   padding-top: 0.5rem;
+  transition: background-color 0.3s ease;
   justify-content: space-between;
   align-items: center;
   cursor: pointer;
@@ -1468,13 +1471,18 @@ nav {
 .title svg {
   margin-bottom: 1rem;
 }
+.item.active .content {
+  max-height: 999px;
 
+  -webkit-font-smoothing: antialiased;
+  /* Other styles for open items */
+}
 .content {
   max-height: 0;
   padding-top: 0.9rem;
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
-  transition: all -0.045s cubic-bezier(0, 1, 0, 1);
+  transition: max-height -0.1s ease-in-out;
 }
 
 .content.show {
@@ -1485,7 +1493,7 @@ nav {
   max-height: 999px;
 
   -webkit-font-smoothing: antialiased;
-  transition: all -0.045s cubic-bezier(1, 0, 1, 0);
+  transition: min-height 20s ease-in-out;
 }
 
 .accordion > :hover {
@@ -1515,7 +1523,6 @@ nav {
 #block4-flex-child2 {
   width: auto;
   height: 993px;
-
   padding: 48px;
   position: static;
 }
