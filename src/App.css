@@ -2544,7 +2544,7 @@ nav {
     grid-template-columns: 1fr;
     height: auto;
     width: auto;
-    margin: 0.5rem;
+    margin: auto;
     /* Stretch items to fill width */
   }
 
@@ -2554,8 +2554,7 @@ nav {
     justify-content: center;
     align-items: center;
     width: 321.422px;
-    margin-left: 4px;
-    margin-right: 4px;
+    margin: auto;
     height: auto;
   }
 
@@ -2568,11 +2567,15 @@ nav {
     margin: 0;
     font-wrape: balance;
   }
-
+  .block6-text a {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
   .block6-flex {
     display: flex;
     width: 321.422px;
-    margin-left: 1rem;
+    margin: auto;
     height: auto;
   }
 
@@ -2580,12 +2583,14 @@ nav {
     display: flex;
     width: 321.422px;
     height: auto;
+    margin: auto;
   }
 
   .block6-img-info {
     display: flex;
     flex-direction: column;
     height: auto;
+    margin: auto;
     width: 321.422px;
   }
 
@@ -2636,6 +2641,7 @@ nav {
     padding-left: 4px;
     padding-right: 4px;
     margin: 0;
+    margin-bottom: 1rem;
     font-wrape: balance;
   }
 
@@ -2643,7 +2649,7 @@ nav {
     width: 280px;
     height: auto;
     font-size: 20px;
-    margin: 1rem;
+    margin: auto;
     font-wrape: balance;
   }
 }
