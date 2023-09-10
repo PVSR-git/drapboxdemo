@@ -2489,6 +2489,8 @@ nav {
   .block5 {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
     height: auto;
     width: auto;
     margin: auto;
@@ -2499,20 +2501,27 @@ nav {
     display: flex;
     width: 321.422px;
     height: auto;
+    margin: auto;
     flex-direction: column;
     text-wrap: balance;
   }
 
   .block5-text h1 {
-    margin: 4px;
+    margin: auto;
     padding: 1px;
     font-size: 20px;
     width: 321.422px;
     text-wrap: balance;
+    margin-bottom: 0.5rem;
   }
-
+  .block5-text a {
+    margin-bottom: 1rem;
+    font-size: 16px;
+  }
   .block5-grid {
     display: grid;
+    margin: auto;
+    margin-top: 0.5rem;
     grid-template-columns: 290px;
     width: 321.422;
     margin-left: 0;
