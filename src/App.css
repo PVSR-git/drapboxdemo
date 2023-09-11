@@ -351,14 +351,14 @@ header {
   width: 100%;
   background-color: white;
   position: relative;
-  margin-top: -0.2rem;
+
   margin-left: 0;
 }
 
 .header-items-l {
   margin-left: 0%;
   display: flex;
-
+  margin-top: -0.5rem;
   justify-content: center;
   align-items: center;
 }
@@ -724,7 +724,7 @@ header {
 }
 
 .get-started {
-  margin-top: 0.5rem;
+  margin-top: 0.75rem;
   font-family: "Atlas Grotesk Web", "Helvetica (Atlas Grotesk Fallback)",
     "Raleway", "Roboto Slab", "Outfit", "Roboto", "Atlas Grotesk",
     "AtlasGrotesk", "Arial (Atlas Grotesk Fallback)", sans-serif;
