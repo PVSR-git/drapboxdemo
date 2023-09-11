@@ -1625,7 +1625,8 @@ nav {
     sans-serif;
   font-weight: solid;
   margin-bottom: 1rem;
-  font-size: 16px;
+  margin-top: 0.5rem;
+  font-size: 18px;
   width: 243.461px;
 }
 
@@ -1636,6 +1637,9 @@ nav {
   font-style: normal;
   font-weight: 100;
   font-size: 16px;
+  -webkit-font-smothing: antialiased;
+  color: rgb(30, 25, 25);
+  line-height: 24px;
   width: 243.461px;
 }
 @media screen and (min-width: 1440px) {
