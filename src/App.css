@@ -1445,7 +1445,6 @@ nav {
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 10px 20px;
-
   border-top: 1px solid rgba(166, 158, 146, 0.6);
 }
 
@@ -1482,18 +1481,33 @@ nav {
   padding-top: 0.9rem;
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
-  transition: max-height -0.1s ease-in-out;
+  transform: scaleX(0) !important;
+  transition: transform 500ms ease-in-out;
 }
-
+.block4-flex-child1 .content {
+  max-height: 0;
+  padding-top: 0.9rem;
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  transform: scaleY(0) !important;
+  transition: transform 500ms ease-in-out;
+}
+.block4-flex-child1 .content.show {
+  -webkit-font-smoothing: antialiased;
+  transform: scaleY(1) !important;
+  transition: transform 500ms ease-in-out;
+  transform-origin: top;
+}
 .content.show {
   height: auto;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
   max-height: 999px;
-
   -webkit-font-smoothing: antialiased;
-  transition: min-height 20s ease-in-out;
+  transform-origin: right;
+  transform: scaleX(1) !important;
+  transition: transform 500ms ease-in-out;
 }
 
 .accordion > :hover {
