@@ -155,7 +155,6 @@ export default function Header() {
               Login
             </Link>
           </div>
-
           <Link className="get-started" target="_blank">
             Get started{" "}
             <span>
