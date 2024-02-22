@@ -441,14 +441,15 @@ header button {
   padding-left: 1rem;
   padding-top: 0.7rem;
   font-size: 12px;
-  width: 220px;
+  width: auto;
+  text-align: left;
   height: auto;
   background-color: var(--clr-neutral-300);
   margin: 0;
 }
 
 .why-dropbox-div div p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   width: 10rem;
   padding: 0.3rem;
 }
@@ -521,17 +522,17 @@ header button {
   padding-left: 1rem;
   padding-top: 0.7rem;
   font-size: 12px;
-  width: 220px;
+  width: auto;
+  text-align: left;
   height: auto;
   background-color: var(--clr-neutral-300);
   margin: 0;
 }
 
 .solutions-div div p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   width: 8.8rem;
-  padding: 0.5rem;
-  height: 1.5rem;
+  padding: 0.3rem;
 }
 .solutions-div div p:hover {
   background-color: rgba(167, 146, 114, 0.14);
@@ -610,16 +611,17 @@ header button {
     "Helvetica (Atlas Grotesk Fallback)", sans-serif,
     "Arial (Atlas Grotesk Fallback)";
   padding-left: 1rem;
+  text-align: left;
   padding-top: 0.7rem;
   font-size: 12px;
-  width: 220px;
+  width: auto;
   height: auto;
   background-color: var(--clr-neutral-300);
   margin: 0;
 }
 
 .contact-div div p {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   width: 7rem;
   padding: 0.3rem;
 }
@@ -670,8 +672,9 @@ header button {
     "Arial (Atlas Grotesk Fallback)";
   padding-left: 1rem;
   padding-top: 1rem;
+  text-align: left;
   font-size: 12px;
-  width: 220px;
+  width: auto;
   height: auto;
   background-color: var(--clr-neutral-300);
   margin: 0;
