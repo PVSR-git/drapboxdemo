@@ -354,7 +354,10 @@ header {
 
   margin-left: 0;
 }
-
+header button {
+  border: none;
+  background-color: white;
+}
 .header-items-l {
   margin-left: 0%;
   display: flex;
@@ -404,6 +407,7 @@ header {
   padding-right: 10px;
   font-size: 16px;
   width: 140px;
+  height: auto;
   margin-top: 0.5rem;
   font-weight: 100;
   font-style: normal;
@@ -419,15 +423,14 @@ header {
   margin: 0.1rem;
   padding: 10px 14px;
   z-index: 1;
+  display: flex;
   opacity: 0;
 }
 
 .why-dropbox:hover .why-dropbox-div {
-  display: flex;
-  margin-right: -18.45rem;
-  margin-top: 29.2rem;
-
   opacity: 1;
+  margin-left: -1.5rem;
+  margin-top: 0.2rem;
 }
 
 .why-dropbox-div div {
@@ -505,9 +508,8 @@ header {
 
 .solutions:hover .solutions-div {
   display: flex;
-  margin-right: -21rem;
-  margin-top: 23.7rem;
-
+  margin-left: -1.9rem;
+  margin-top: 0.2rem;
   opacity: 1;
 }
 
@@ -597,8 +599,8 @@ header {
 
 .contact:hover .contact-div {
   display: flex;
-  margin-left: -21.6rem;
-  margin-top: 11.4rem;
+  margin-left: -1.9rem;
+  margin-top: 0.3rem;
   opacity: 1;
 }
 
@@ -656,8 +658,8 @@ header {
 
 .get-app:hover .get-app-div {
   display: flex;
-  margin-left: -7.8rem;
-  margin-top: 9.1rem;
+  margin-left: -1.5rem;
+  margin-top: 0.3rem;
   opacity: 1;
 }
 

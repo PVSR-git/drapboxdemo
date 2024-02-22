@@ -149,7 +149,7 @@ export default function Header() {
               Login
             </button>
           </div>
-          <button className="get-started" target="_blank">
+          <Link className="get-started" target="_blank">
             Get started{" "}
             <span>
               <svg
@@ -168,7 +168,7 @@ export default function Header() {
                   vector-effect="non-scaling-stroke"></path>
               </svg>
             </span>
-          </button>
+          </Link>
         </div>
       </div>
     </header>
