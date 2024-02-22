@@ -60,55 +60,9 @@ export default function Header() {
                 <input type="checkbox" id="menu-toggle" />
                 <div className="header-item-info">
                   <div className="header-left">
-                    <Link className="why-dropbox">
-                      Why Dropbox?
-                      <div className="why-dropbox-div">
-                        <div>
-                          <p>Overview</p>
-                          <p>Get inspired</p>
-                          <p>What customers say</p>
-                          <p>App integrations</p>
-                          <p>Resources</p>
-                        </div>
-                        <div>
-                          <p>Better with Dropbox</p>
-                          <p>Share files</p>
-                          <p>Store and organize</p>
-                          <p>Sync your devices</p>
-                          <p>Protect and secure data</p>
-                          <p>Contact remote teams</p>
-                          <p>Keep work moving</p>
-                          <p>Always-on backup</p>
-                          <p>Sign a document</p>
-                          <p>Track document analytics</p>
-                        </div>
-                      </div>
-                    </Link>
+                    <Link className="why-dropbox">Why Dropbox?</Link>
                     <Link className="products">Products</Link>
-                    <Link className="solutions">
-                      Solutions
-                      <div className="solutions-div">
-                        <div>
-                          <p>Roles</p>
-                          <p>Creatives</p>
-                          <p>Sales</p>
-                          <p>Marketing</p>
-                          <p>HR</p>
-                          <p>IT</p>
-                          <p>Team Lead</p>
-                          <p>Personal</p>
-                        </div>
-                        <div>
-                          <p>Industries</p>
-                          <p>Construction</p>
-                          <p>Tecknology</p>
-                          <p>Marketing</p>
-                          <p>Manufacturing</p>
-                          <p>Media</p>
-                          <p>Professional Services</p>
-                        </div>
-                      </div>
-                    </Link>
+                    <Link className="solutions">Solutions</Link>
                     <Link className="pricing">Pricing</Link>
                   </div>
 
@@ -127,30 +81,8 @@ export default function Header() {
                         vector-effect="non-scaling-stroke"></path>
                     </svg>
                   </Link>
-                  <Link className="contact">
-                    Contact
-                    <div className="contact-div">
-                      <div>
-                        <p>Support</p>
-                        <p>Helpcenter</p>
-                        <p>Comunity center</p>
-                      </div>
-                      <div>
-                        <p>Contactsales</p>
-                        <p>Email</p>
-                        <p>+1 855-237-6726</p>
-                      </div>
-                    </div>
-                  </Link>
-                  <Link className="get-app">
-                    Get app
-                    <div className="get-app-div">
-                      <div>
-                        <p>Desktop app</p>
-                        <p>Mobile app</p>
-                      </div>
-                    </div>
-                  </Link>
+                  <Link className="contact">Contact</Link>
+                  <Link className="get-app">Get app</Link>
                 </div>
               </nav>
               <div className="log-sign">

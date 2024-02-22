@@ -776,9 +776,7 @@ header button {
 nav {
   display: flex;
 }
-nav div {
-  display: none;
-}
+
 .header-item-info {
   display: flex;
 }
