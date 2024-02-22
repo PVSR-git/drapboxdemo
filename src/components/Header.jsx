@@ -19,24 +19,19 @@ export default function Header() {
               height="25"
               viewBox="0 0 30 25"
               fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
+              xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M7.70076 0.320312L0.478516 4.91332L7.70076 9.50633L14.9242 4.91332L22.1465 9.50633L29.3687 4.91332L22.1465 0.320312L14.9242 4.91332L7.70076 0.320312Z"
-                fill="#F7F5F2"
-              ></path>
+                fill="#F7F5F2"></path>
               <path
                 d="M7.70076 18.6925L0.478516 14.0994L7.70076 9.50633L14.9242 14.0994L7.70076 18.6925Z"
-                fill="#F7F5F2"
-              ></path>
+                fill="#F7F5F2"></path>
               <path
                 d="M14.9242 14.0994L22.1465 9.50633L29.3687 14.0994L22.1465 18.6925L14.9242 14.0994Z"
-                fill="#F7F5F2"
-              ></path>
+                fill="#F7F5F2"></path>
               <path
                 d="M14.9242 24.8164L7.70077 20.2234L14.9242 15.6304L22.1465 20.2234L14.9242 24.8164Z"
-                fill="#F7F5F2"
-              ></path>
+                fill="#F7F5F2"></path>
             </svg>
           </span>
         </Link>
@@ -49,10 +44,11 @@ export default function Header() {
             <label for="menu-toggle" id="menu-icon">
               &#9776;
             </label>
+
             <input type="checkbox" id="menu-toggle" />
             <div className="header-item-info">
               <div className="header-left">
-                <Link className="why-dropbox">
+                <button className="why-dropbox">
                   Why Dropbox?
                   <div className="why-dropbox-div">
                     <div>
@@ -75,9 +71,9 @@ export default function Header() {
                       <p>Track document analytics</p>
                     </div>
                   </div>
-                </Link>
-                <Link className="products">Products</Link>
-                <Link className="solutions">
+                </button>
+                <button className="products">Products</button>
+                <button className="solutions">
                   Solutions
                   <div className="solutions-div">
                     <div>
@@ -100,11 +96,11 @@ export default function Header() {
                       <p>Professional Services</p>
                     </div>
                   </div>
-                </Link>
-                <Link className="pricing">Pricing</Link>
+                </button>
+                <button className="pricing">Pricing</button>
               </div>
 
-              <Link className="global">
+              <button className="global">
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
@@ -112,16 +108,14 @@ export default function Header() {
                   width="24"
                   height="24"
                   role="presentation"
-                  focusable="false"
-                >
+                  focusable="false">
                   <path
                     d="M11.75 4C6.535 4 4 6.535 4 11.75s2.535 7.75 7.75 7.75 7.75-2.535 7.75-7.75S16.965 4 11.75 4Zm5.714 4.5H14.87a9.237 9.237 0 0 0-.623-2.711A4.454 4.454 0 0 1 17.463 8.5ZM18 11.75c.002.586-.042 1.171-.133 1.75H14.97c.022-.579.03-1.167.03-1.75s-.008-1.171-.03-1.75h2.897c.09.579.135 1.164.133 1.75ZM11.75 18c-.616 0-1.3-.41-1.598-3h3.196c-.298 2.59-.982 3-1.598 3Zm-1.712-4.5c-.024-.524-.038-1.1-.038-1.75 0-.65.014-1.226.038-1.75h3.424c.024.524.038 1.1.038 1.75 0 .65-.014 1.226-.038 1.75h-3.424ZM5.5 11.75c-.002-.586.042-1.171.133-1.75H8.53c-.022.579-.03 1.167-.03 1.75s.008 1.171.03 1.75H5.633a11.074 11.074 0 0 1-.133-1.75Zm6.25-6.25c.616 0 1.3.41 1.598 3h-3.196c.298-2.59.982-3 1.598-3Zm-2.497.289A9.236 9.236 0 0 0 8.63 8.5H6.036a4.454 4.454 0 0 1 3.217-2.711ZM6.036 15H8.63c.07.93.28 1.844.623 2.711A4.453 4.453 0 0 1 6.037 15Zm8.21 2.711A9.237 9.237 0 0 0 14.87 15h2.594a4.454 4.454 0 0 1-3.217 2.711Z"
                     fill="currentColor"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
-              </Link>
-              <Link className="contact">
+              </button>
+              <button className="contact">
                 Contact
                 <div className="contact-div">
                   <div>
@@ -135,8 +129,8 @@ export default function Header() {
                     <p>+1 855-237-6726</p>
                   </div>
                 </div>
-              </Link>
-              <Link className="get-app">
+              </button>
+              <button className="get-app">
                 Get app
                 <div className="get-app-div">
                   <div>
@@ -144,18 +138,18 @@ export default function Header() {
                     <p>Mobile app</p>
                   </div>
                 </div>
-              </Link>
+              </button>
             </div>
           </nav>
           <div className="log-sign">
-            <Link className="sign-up" target="_balnk">
+            <button className="sign-up" target="_balnk">
               Sign up
-            </Link>
-            <Link className="login" target="_balnk">
+            </button>
+            <button className="login" target="_balnk">
               Login
-            </Link>
+            </button>
           </div>
-          <Link className="get-started" target="_blank">
+          <button className="get-started" target="_blank">
             Get started{" "}
             <span>
               <svg
@@ -165,18 +159,16 @@ export default function Header() {
                 width="24"
                 height="24"
                 role="presentation"
-                focusable="false"
-              >
+                focusable="false">
                 <path
                   d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                   stroke="currentColor"
                   stroke-width="1.5"
                   stroke-miterlimit="10"
-                  vector-effect="non-scaling-stroke"
-                ></path>
+                  vector-effect="non-scaling-stroke"></path>
               </svg>
             </span>
-          </Link>
+          </button>
         </div>
       </div>
     </header>

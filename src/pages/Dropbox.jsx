@@ -79,15 +79,13 @@ export default function Dropbox() {
               width="24"
               height="24"
               role="presentation"
-              focusable="false"
-            >
+              focusable="false">
               <path
                 d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                 stroke="currentColor"
                 stroke-width="1.5"
                 stroke-miterlimit="10"
-                vector-effect="non-scaling-stroke"
-              ></path>
+                vector-effect="non-scaling-stroke"></path>
             </svg>
           </span>
         </NavLink>
@@ -98,8 +96,7 @@ export default function Dropbox() {
           autoPlay
           loop
           muted
-          playsInline
-        >
+          playsInline>
           <source src={bgvid} type="video/mp4" />
           {/* <source src={bgvid} type="video/webm; codecs=vp9" />
           <source src={bgvid} type="video/quicktime; codecs=hvc1" /> */}
@@ -113,8 +110,7 @@ export default function Dropbox() {
               <picture className="wda-piture">
                 <img
                   src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/emoji smile.svg?id=42f38245-8ec6-4e1f-8519-c66d296b1cbf"
-                  className="wda-img"
-                ></img>
+                  className="wda-img"></img>
               </picture>
               <h3 className="wda-h3">Your files, not ours</h3>
               <p className="wda-p">
@@ -126,8 +122,7 @@ export default function Dropbox() {
               <picture className="wda-piture">
                 <img
                   src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/cloud done.svg?id=f86f48e9-1a60-4f75-9075-79cd479ddb2b"
-                  className="wda-img"
-                ></img>
+                  className="wda-img"></img>
               </picture>
               <h3 className="wda-h3">All your files in one place</h3>
               <p className="wda-p">
@@ -139,8 +134,7 @@ export default function Dropbox() {
               <picture className="wda-piture">
                 <img
                   src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/twinkle.svg?id=4d4d29e5-c87f-416b-a3ac-583eb86fc627"
-                  className="wda-img"
-                ></img>
+                  className="wda-img"></img>
               </picture>
               <h3 className="wda-h3">One-of-a-kind functionality</h3>
               <p className="wda-p">
@@ -152,8 +146,7 @@ export default function Dropbox() {
               <picture className="wda-piture">
                 <img
                   src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/shield.svg?id=bda0e9da-566d-4941-91a6-05b39f678c8d"
-                  className="wda-img"
-                ></img>
+                  className="wda-img"></img>
               </picture>
               <h3 className="wda-h3">Ease of use and security</h3>
               <p className="wda-p">
@@ -174,8 +167,7 @@ export default function Dropbox() {
             <picture className="asp-piture">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Dropbox.svg?id=fab7cfbe-2a98-437d-bf5a-4f1972dab31c"
-                className="wda-img"
-              ></img>
+                className="wda-img"></img>
             </picture>
             <h3 className="asp-h3">Dropbox</h3>
             <p className="asp-p">
@@ -191,15 +183,13 @@ export default function Dropbox() {
                   width="24"
                   height="24"
                   role="presentation"
-                  focusable="false"
-                >
+                  focusable="false">
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -209,8 +199,7 @@ export default function Dropbox() {
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Sign.svg?id=108a6e2c-0a65-4828-b4a8-d9db1acbab30"
                 className="wda-img"
-                height={40}
-              ></img>
+                height={40}></img>
             </picture>
             <h3 className="asp-h3">Sign</h3>
             <p className="asp-p">
@@ -227,15 +216,13 @@ export default function Dropbox() {
                   width="24"
                   height="24"
                   role="presentation"
-                  focusable="false"
-                >
+                  focusable="false">
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -244,8 +231,7 @@ export default function Dropbox() {
             <picture className="asp-piture">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Docsend.svg?id=bb81fa5c-7d2e-451b-a3cc-6f5a8ec31dea"
-                className="wda-img"
-              ></img>
+                className="wda-img"></img>
             </picture>
             <h3 className="asp-h3">DocSend</h3>
             <p className="asp-p">
@@ -262,15 +248,13 @@ export default function Dropbox() {
                   width="24"
                   height="24"
                   role="presentation"
-                  focusable="false"
-                >
+                  focusable="false">
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -279,8 +263,7 @@ export default function Dropbox() {
             <picture className="asp-piture">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Backup.svg?id=84564d6e-24a2-4509-8759-e6f3632fcddc"
-                className="wda-img"
-              ></img>
+                className="wda-img"></img>
             </picture>
             <h3 className="asp-h3">Backup</h3>
             <p className="asp-p">
@@ -297,15 +280,13 @@ export default function Dropbox() {
                   width="24"
                   height="24"
                   role="presentation"
-                  focusable="false"
-                >
+                  focusable="false">
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -314,8 +295,7 @@ export default function Dropbox() {
             <picture className="asp-piture">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Capture.svg?id=5feb571f-dfa5-43e1-aff5-c46725f9d60f"
-                className="wda-img"
-              ></img>
+                className="wda-img"></img>
             </picture>
             <h3 className="asp-h3">Capture</h3>
             <p className="asp-p">
@@ -332,15 +312,13 @@ export default function Dropbox() {
                   width="24"
                   height="24"
                   role="presentation"
-                  focusable="false"
-                >
+                  focusable="false">
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -349,8 +327,7 @@ export default function Dropbox() {
             <picture className="asp-piture">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Transfer.svg?id=7e58da75-6dba-475b-b986-617d68eb2d01"
-                className="wda-img"
-              ></img>
+                className="wda-img"></img>
             </picture>
             <h3 className="asp-h3">Transfer</h3>
             <p className="asp-p">
@@ -366,15 +343,13 @@ export default function Dropbox() {
                   width="24"
                   height="24"
                   role="presentation"
-                  focusable="false"
-                >
+                  focusable="false">
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -383,8 +358,7 @@ export default function Dropbox() {
             <picture className="asp-piture">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Paper.svg?id=2550ae20-69c0-4aa0-ab51-20561cffe714"
-                className="wda-img"
-              ></img>
+                className="wda-img"></img>
             </picture>
             <h3 className="asp-h3">Paper</h3>
             <p className="asp-p">
@@ -401,15 +375,13 @@ export default function Dropbox() {
                   width="24"
                   height="24"
                   role="presentation"
-                  focusable="false"
-                >
+                  focusable="false">
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -418,8 +390,7 @@ export default function Dropbox() {
             <picture className="asp-piture">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/Passwords.svg?id=77d004ac-0ed7-4d7c-b18a-6a00feca9eaa"
-                className="wda-img"
-              ></img>
+                className="wda-img"></img>
             </picture>
             <h3 className="asp-h3">Passwords</h3>
             <p className="asp-p">
@@ -436,15 +407,13 @@ export default function Dropbox() {
                   width="24"
                   height="24"
                   role="presentation"
-                  focusable="false"
-                >
+                  focusable="false">
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -473,15 +442,13 @@ export default function Dropbox() {
                   width="24"
                   height="24"
                   role="presentation"
-                  focusable="false"
-                >
+                  focusable="false">
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -504,15 +471,13 @@ export default function Dropbox() {
                   width="24"
                   height="24"
                   role="presentation"
-                  focusable="false"
-                >
+                  focusable="false">
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -581,15 +546,13 @@ export default function Dropbox() {
                               width="24"
                               height="24"
                               role="presentation"
-                              focusable="false"
-                            >
+                              focusable="false">
                               <path
                                 d="m18.75 14.75-6.5-6.25-6.5 6.25"
                                 stroke="currentColor"
                                 stroke-width="1.5"
                                 stroke-miterlimit="10"
-                                vector-effect="non-scaling-stroke"
-                              ></path>
+                                vector-effect="non-scaling-stroke"></path>
                             </svg>
                           ) : (
                             // Your closed state SVG icon
@@ -600,22 +563,19 @@ export default function Dropbox() {
                               width="24"
                               height="24"
                               role="presentation"
-                              focusable="false"
-                            >
+                              focusable="false">
                               <path
                                 d="m5.25 9.25 6.5 6.25 6.5-6.25"
                                 stroke="currentColor"
                                 stroke-width="1.5"
                                 stroke-miterlimit="10"
-                                vector-effect="non-scaling-stroke"
-                              ></path>
+                                vector-effect="non-scaling-stroke"></path>
                             </svg>
                           )}
                         </span>
                       </div>
                       <div
-                        className={selected === i ? "content show" : "content"}
-                      >
+                        className={selected === i ? "content show" : "content"}>
                         <p>{item.content}</p>
                         <div
                           id="block4-flex-child2"
@@ -631,8 +591,7 @@ export default function Dropbox() {
                           }} // Set the background color here
                           className={
                             selected === i ? "content show" : "content"
-                          }
-                        >
+                          }>
                           <img
                             style={{
                               paddingTop: selected === i ? "7rem" : "0", // Adjust top padding when the item is open
@@ -657,15 +616,13 @@ export default function Dropbox() {
                               width="24"
                               height="24"
                               role="presentation"
-                              focusable="false"
-                            >
+                              focusable="false">
                               <path
                                 d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                                 stroke="currentColor"
                                 stroke-width="1.5"
                                 stroke-miterlimit="10"
-                                vector-effect="non-scaling-stroke"
-                              ></path>
+                                vector-effect="non-scaling-stroke"></path>
                             </svg>
                           </span>
                         </a>
@@ -689,15 +646,13 @@ export default function Dropbox() {
                               width="24"
                               height="24"
                               role="presentation"
-                              focusable="false"
-                            >
+                              focusable="false">
                               <path
                                 d="m18.75 14.75-6.5-6.25-6.5 6.25"
                                 stroke="currentColor"
                                 stroke-width="1.5"
                                 stroke-miterlimit="10"
-                                vector-effect="non-scaling-stroke"
-                              ></path>
+                                vector-effect="non-scaling-stroke"></path>
                             </svg>
                           ) : (
                             // Your closed state SVG icon
@@ -708,22 +663,19 @@ export default function Dropbox() {
                               width="24"
                               height="24"
                               role="presentation"
-                              focusable="false"
-                            >
+                              focusable="false">
                               <path
                                 d="m5.25 9.25 6.5 6.25 6.5-6.25"
                                 stroke="currentColor"
                                 stroke-width="1.5"
                                 stroke-miterlimit="10"
-                                vector-effect="non-scaling-stroke"
-                              ></path>
+                                vector-effect="non-scaling-stroke"></path>
                             </svg>
                           )}
                         </span>
                       </div>
                       <div
-                        className={selected === i ? "content show" : "content"}
-                      >
+                        className={selected === i ? "content show" : "content"}>
                         <p>{item.content}</p>
                         <a className="block4-flex-child1-link" href="#">
                           Learn more
@@ -736,15 +688,13 @@ export default function Dropbox() {
                               width="24"
                               height="24"
                               role="presentation"
-                              focusable="false"
-                            >
+                              focusable="false">
                               <path
                                 d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                                 stroke="currentColor"
                                 stroke-width="1.5"
                                 stroke-miterlimit="10"
-                                vector-effect="non-scaling-stroke"
-                              ></path>
+                                vector-effect="non-scaling-stroke"></path>
                             </svg>
                           </span>
                         </a>
@@ -768,8 +718,7 @@ export default function Dropbox() {
                   paddingTop: selected === i ? "2rem" : "0", // Adjust top padding when the item is open
                   paddingBottom: selected === i ? "2rem" : "0",
                 }} // Set the background color here
-                className={selected === i ? "content show" : "content"}
-              >
+                className={selected === i ? "content show" : "content"}>
                 <img
                   style={{
                     paddingTop: selected === i ? "7rem" : "0", // Adjust top padding when the item is open
@@ -794,8 +743,7 @@ export default function Dropbox() {
           <section>
             <img
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_1@2x.png?id=0b49280f-4fde-427d-95f2-f39f09170f06&amp;output_type=png"
-              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_1@2x.png?id=0b49280f-4fde-427d-95f2-f39f09170f06&amp;output_type=png 128w"
-            ></img>
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_1@2x.png?id=0b49280f-4fde-427d-95f2-f39f09170f06&amp;output_type=png 128w"></img>
             <h2>Zoom</h2>
             <p>
               Enhance remote collaboration with Zoom instant meetings and video
@@ -805,8 +753,7 @@ export default function Dropbox() {
           <section>
             <img
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_2@2x.png?id=dc2c7070-361b-4c7a-8af6-4c9a1604e165&amp;output_type=png"
-              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_2@2x.png?id=dc2c7070-361b-4c7a-8af6-4c9a1604e165&amp;output_type=png 128w"
-            ></img>
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_2@2x.png?id=dc2c7070-361b-4c7a-8af6-4c9a1604e165&amp;output_type=png 128w"></img>
             <h2>Slack</h2>
             <p>
               Bring Slack conversations and Dropbox content together to keep
@@ -816,8 +763,7 @@ export default function Dropbox() {
           <section>
             <img
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_3@2x.png?id=9fa9f7ca-08d5-488c-9d84-3aa7054859a9&amp;output_type=png"
-              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_3@2x.png?id=9fa9f7ca-08d5-488c-9d84-3aa7054859a9&amp;output_type=png 128w"
-            ></img>
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_3@2x.png?id=9fa9f7ca-08d5-488c-9d84-3aa7054859a9&amp;output_type=png 128w"></img>
             <h2>Adobe Creative Cloud</h2>
             <p>
               Easily and securely send files to clients and vendors from within
@@ -827,16 +773,14 @@ export default function Dropbox() {
           <section>
             <img
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_4@2x.png?id=ce8269af-ef1a-460a-8199-65af3dd978a3&amp;output_type=png"
-              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_4@2x.png?id=ce8269af-ef1a-460a-8199-65af3dd978a3&amp;output_type=png 128w"
-            ></img>
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_4@2x.png?id=ce8269af-ef1a-460a-8199-65af3dd978a3&amp;output_type=png 128w"></img>
             <h2>Microsoft Office</h2>
             <p>Easily access, edit, and share Office docs online in Dropbox.</p>
           </section>
           <section>
             <img
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_5@2x.png?id=51654bec-5969-4532-93d9-e7a265237d4a&amp;output_type=png"
-              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_5@2x.png?id=51654bec-5969-4532-93d9-e7a265237d4a&amp;output_type=png 128w"
-            ></img>
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_5@2x.png?id=51654bec-5969-4532-93d9-e7a265237d4a&amp;output_type=png 128w"></img>
             <h2>Google Workspace</h2>
             <p>
               Create, edit, and share Google Docs, Sheets, and Slides in
@@ -846,16 +790,14 @@ export default function Dropbox() {
           <section>
             <img
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_6@2x.png?id=d19d3c69-b60c-4643-a44f-af372679c725&amp;output_type=png"
-              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_6@2x.png?id=d19d3c69-b60c-4643-a44f-af372679c725&amp;output_type=png 128w"
-            ></img>
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_6@2x.png?id=d19d3c69-b60c-4643-a44f-af372679c725&amp;output_type=png 128w"></img>
             <h2>Trello</h2>
             <p>Collaborate on team projects in Trello with Dropbox content.</p>
           </section>
           <section>
             <img
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_7@2x.png?id=bdfc4a9e-36b3-4ff9-a43f-30036c0acc89&amp;output_type=png"
-              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_7@2x.png?id=bdfc4a9e-36b3-4ff9-a43f-30036c0acc89&amp;output_type=png 128w"
-            ></img>
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_7@2x.png?id=bdfc4a9e-36b3-4ff9-a43f-30036c0acc89&amp;output_type=png 128w"></img>
             <h2>Canvas</h2>
             <p>
               Upload course files or assignments straight from Dropbox to
@@ -865,8 +807,7 @@ export default function Dropbox() {
           <section>
             <img
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_8@2x.png?id=02655af8-df7a-43e2-b9ca-10def350e03e&amp;output_type=png"
-              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_8@2x.png?id=02655af8-df7a-43e2-b9ca-10def350e03e&amp;output_type=png 128w"
-            ></img>
+              srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_8@2x.png?id=02655af8-df7a-43e2-b9ca-10def350e03e&amp;output_type=png 128w"></img>
             <h2>Asana</h2>
             <p>
               Track all of your team’s work with Asana while keeping Dropbox
@@ -888,8 +829,7 @@ export default function Dropbox() {
             <div className="block6-img-info">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;output_type=jpg"
-                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;output_type=jpg 1440w"
-              ></img>
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;output_type=jpg 1440w"></img>
               <div>
                 <h2>
                   “Dropbox has been tremendously helpful for social media. I can
@@ -906,15 +846,13 @@ export default function Dropbox() {
                       width="24"
                       height="24"
                       role="presentation"
-                      focusable="false"
-                    >
+                      focusable="false">
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
                         stroke-width="1.5"
                         stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"
-                      ></path>
+                        vector-effect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -923,8 +861,7 @@ export default function Dropbox() {
             <div className="block6-img-info">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;output_type=jpg"
-                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;output_type=jpg 1440w"
-              ></img>
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;output_type=jpg 1440w"></img>
               <div style={{ background: "rgb(250, 85, 30)", color: "black" }}>
                 <h2>
                   “Dropbox increased our team’s collaboration while working from
@@ -941,15 +878,13 @@ export default function Dropbox() {
                       width="24"
                       height="24"
                       role="presentation"
-                      focusable="false"
-                    >
+                      focusable="false">
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
                         stroke-width="1.5"
                         stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"
-                      ></path>
+                        vector-effect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -958,8 +893,7 @@ export default function Dropbox() {
             <div className="block6-img-info">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1920&amp;output_type=jpg"
-                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1920&amp;output_type=jpg 1920w"
-              ></img>
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1920&amp;output_type=jpg 1920w"></img>
               <div style={{ background: "rgb(0, 120, 145)", color: "white" }}>
                 <h2>
                   “We’re a grass-roots nonprofit. When we use a tool that the
@@ -976,15 +910,13 @@ export default function Dropbox() {
                       width="24"
                       height="24"
                       role="presentation"
-                      focusable="false"
-                    >
+                      focusable="false">
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
                         stroke-width="1.5"
                         stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"
-                      ></path>
+                        vector-effect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -993,8 +925,7 @@ export default function Dropbox() {
             <div className="block6-img-info">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1920&amp;output_type=jpg"
-                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1920&amp;output_type=jpg 1920w"
-              ></img>
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1920&amp;output_type=jpg 1920w"></img>
               <div style={{ background: "rgb(180, 220, 25)", color: "black" }}>
                 <h2>
                   “Dropbox easily allows me to transfer what’s in my mind to
@@ -1010,15 +941,13 @@ export default function Dropbox() {
                       width="24"
                       height="24"
                       role="presentation"
-                      focusable="false"
-                    >
+                      focusable="false">
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
                         stroke-width="1.5"
                         stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"
-                      ></path>
+                        vector-effect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -1027,8 +956,7 @@ export default function Dropbox() {
             <div className="block6-img-info">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;output_type=jpg"
-                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1920&amp;output_type=jpg 1920w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=2560&amp;output_type=jpg 2560w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=2880&amp;output_type=jpg 2880w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;output_type=jpg 3200w"
-              ></img>
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1920&amp;output_type=jpg 1920w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=2560&amp;output_type=jpg 2560w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=2880&amp;output_type=jpg 2880w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;output_type=jpg 3200w"></img>
               <div style={{ background: "rgb(120, 40, 110)", color: "white" }}>
                 <h2>
                   “Our team is working remotely—everyone's in a different time
@@ -1045,15 +973,13 @@ export default function Dropbox() {
                       width="24"
                       height="24"
                       role="presentation"
-                      focusable="false"
-                    >
+                      focusable="false">
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
                         stroke-width="1.5"
                         stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"
-                      ></path>
+                        vector-effect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -1062,8 +988,7 @@ export default function Dropbox() {
             <div className="block6-img-info">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1920&amp;output_type=jpg"
-                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1920&amp;output_type=jpg 1920w"
-              ></img>
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1920&amp;output_type=jpg 1920w"></img>
               <div style={{ background: "rgb(255, 175, 165)", color: "black" }}>
                 <h2>
                   “Dropbox version control is very important. You may want to go
@@ -1080,15 +1005,13 @@ export default function Dropbox() {
                       width="24"
                       height="24"
                       role="presentation"
-                      focusable="false"
-                    >
+                      focusable="false">
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
                         stroke-width="1.5"
                         stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"
-                      ></path>
+                        vector-effect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -1097,8 +1020,7 @@ export default function Dropbox() {
             <div className="block6-img-info">
               <img
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;output_type=jpg"
-                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;output_type=jpg 1440w"
-              ></img>
+                srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;output_type=jpg 1440w"></img>
               <div style={{ background: "rgb(250, 210, 75)", color: "black" }}>
                 <h2>
                   “Creative growth happens when you don’t have to worry about
@@ -1114,15 +1036,13 @@ export default function Dropbox() {
                       width="24"
                       height="24"
                       role="presentation"
-                      focusable="false"
-                    >
+                      focusable="false">
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
                         stroke-width="1.5"
                         stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"
-                      ></path>
+                        vector-effect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -1137,15 +1057,13 @@ export default function Dropbox() {
                   width="64"
                   height="64"
                   focusable="false"
-                  role="presentation"
-                >
+                  role="presentation">
                   <path
                     d="m14.75 5.75-6.25 6.5 6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </button>
               <button onClick={nextSlide}>
@@ -1156,15 +1074,13 @@ export default function Dropbox() {
                   width="64"
                   height="64"
                   focusable="false"
-                  role="presentation"
-                >
+                  role="presentation">
                   <path
                     d="m9.25 5.75 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </button>
             </div>
@@ -1177,15 +1093,13 @@ export default function Dropbox() {
                   width="25"
                   height="25"
                   focusable="false"
-                  role="presentation"
-                >
+                  role="presentation">
                   <path
                     d="m14.75 5.75-6.25 6.5 6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </button>
               <div id="slide-count" className="slide-count">
@@ -1202,15 +1116,13 @@ export default function Dropbox() {
                   width="25"
                   height="25"
                   focusable="false"
-                  role="presentation"
-                >
+                  role="presentation">
                   <path
                     d="m9.25 5.75 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
                     stroke-width="1.5"
                     stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"
-                  ></path>
+                    vector-effect="non-scaling-stroke"></path>
                 </svg>
               </button>
             </div>
@@ -1228,15 +1140,13 @@ export default function Dropbox() {
                 width="24"
                 height="24"
                 role="presentation"
-                focusable="false"
-              >
+                focusable="false">
                 <path
                   d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                   stroke="currentColor"
                   stroke-width="1.5"
                   stroke-miterlimit="10"
-                  vector-effect="non-scaling-stroke"
-                ></path>
+                  vector-effect="non-scaling-stroke"></path>
               </svg>
             </span>
           </Link>
