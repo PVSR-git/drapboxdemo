@@ -27,31 +27,26 @@ export default function Dropbox() {
 
   useEffect(() => {
     showSlides();
-  }, []); // Empty dependency array ensures the effect runs once after initial render
+  }, [slideIndex]); // Dependency array includes slideIndex to run the effect when it changes
 
   function showSlides() {
-    let slides = document.querySelectorAll(".block6-img-info");
-    for (let i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-    }
-    if (slideIndex >= slides.length) {
-      setSlideIndex(0);
-    }
-    if (slideIndex < 0) {
-      setSlideIndex(slides.length - 1);
-    }
-    slides[slideIndex].style.display = "flex";
+    const slides = document.querySelectorAll(".block6-img-info");
+    slides.forEach((slide, index) => {
+      slide.style.display = index === slideIndex ? "flex" : "none";
+    });
   }
 
   function nextSlide() {
-    setSlideIndex((prevIndex) => prevIndex + 1);
-    showSlides();
+    setSlideIndex((prevIndex) => (prevIndex + 1) % images.length);
   }
 
   function prevSlide() {
-    setSlideIndex((prevIndex) => prevIndex - 1);
-    showSlides();
+    setSlideIndex(
+      (prevIndex) => (prevIndex - 1 + images.length) % images.length
+    );
   }
+  showSlides();
+
   const [selected, setSelected] = React.useState(0);
   const toggle = (i) => {
     if (selected === i) {
@@ -1229,4 +1224,13 @@ const data = [
     srcset:
       "https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;width=414&amp;output_type=png 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;width=828&amp;output_type=png 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;width=1024&amp;output_type=png 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;width=1280&amp;output_type=png 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/JTBD_UI_7@2x.png?id=4e78bd25-0622-4289-b2d7-fa64c7fa1e06&amp;output_type=png 1440w",
   },
+];
+const images = [
+  "https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&output_type=jpg",
+  "https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&output_type=jpg",
+  "https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&width=1920&output_type=jpg",
+  "https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&width=1920&output_type=jpg",
+  "https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&width=1920&output_type=jpg",
+  "https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&width=1920&output_type=jpg",
+  "https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&output_type=jpg",
 ];
