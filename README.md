@@ -1,8 +1,8 @@
-# Getting Started with Create React App
+# Project
 
  Live Demo [replica of Dropbox page](https://dropbox-sravan.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
