@@ -525,179 +525,96 @@ export default function Dropbox() {
         <div className="block4-grid">
           <div className="block4-flex-child1">
             <div className="wrapper">
-              {windowWidth >= 60 ? (
-                <section className="accordion">
-                  {data.map((item, i) => (
-                    <div className="item" key={i}>
-                      <div className="title" onClick={() => toggle(i)}>
-                        <h2>{item.title}</h2>
-                        <span>
-                          {selected === i ? (
-                            // Your open state SVG icon
-                            <svg
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              class="dig-UIIcon dig-UIIcon--standard"
-                              width="24"
-                              height="24"
-                              role="presentation"
-                              focusable="false">
-                              <path
-                                d="m18.75 14.75-6.5-6.25-6.5 6.25"
-                                stroke="currentColor"
-                                stroke-width="1.5"
-                                stroke-miterlimit="10"
-                                vector-effect="non-scaling-stroke"></path>
-                            </svg>
-                          ) : (
-                            // Your closed state SVG icon
-                            <svg
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              class="dig-UIIcon dig-UIIcon--standard"
-                              width="24"
-                              height="24"
-                              role="presentation"
-                              focusable="false">
-                              <path
-                                d="m5.25 9.25 6.5 6.25 6.5-6.25"
-                                stroke="currentColor"
-                                stroke-width="1.5"
-                                stroke-miterlimit="10"
-                                vector-effect="non-scaling-stroke"></path>
-                            </svg>
-                          )}
-                        </span>
-                      </div>
-                      <div
-                        className={selected === i ? "content show" : "content"}>
-                        <p>{item.content}</p>
-                        <div
-                          id="block4-flex-child2"
-                          key={i}
-                          style={{
-                            transform: `translateX(${
-                              selected === i ? "0" : "100%"
-                            })`, // Slide the image left or right
-                            transition: "transform 0.25s ease-in-out", // Add a smooth transition effect
-                            backgroundColor: item.backgroundColor,
-                            paddingTop: selected === i ? "2rem" : "0", // Adjust top padding when the item is open
-                            paddingBottom: selected === i ? "2rem" : "0",
-                          }} // Set the background color here
-                          className={
-                            selected === i ? "content show" : "content"
-                          }>
-                          <img
-                            style={{
-                              paddingTop: selected === i ? "7rem" : "0", // Adjust top padding when the item is open
-                            }}
-                            className={
-                              selected === i ? "content show" : "content"
-                            }
-                            alt="Image of files and folders that are organized and stored in Dropbox"
-                            loading="lazy"
-                            src={selected === i ? item.selectedSrc : item.src}
-                            srcSet={item.srcset}
-                          />
-                        </div>
-                        <a className="block4-flex-child1-link" href="#">
-                          Learn more
-                          <span>
-                            {/* Your link SVG icon */}
-                            <svg
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              class="dig-UIIcon dig-UIIcon--standard"
-                              width="24"
-                              height="24"
-                              role="presentation"
-                              focusable="false">
-                              <path
-                                d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
-                                stroke="currentColor"
-                                stroke-width="1.5"
-                                stroke-miterlimit="10"
-                                vector-effect="non-scaling-stroke"></path>
-                            </svg>
-                          </span>
-                        </a>
-                      </div>
+              <section className="accordion">
+                {data.map((item, i) => (
+                  <div
+                    className={`item ${selected === i ? "active" : ""}`}
+                    key={i}>
+                    <div className="title" onClick={() => toggle(i)}>
+                      <h2>{item.title}</h2>
+                      <span>
+                        {selected === i ? (
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            className="dig-UIIcon dig-UIIcon--standard"
+                            width="24"
+                            height="24"
+                            role="presentation"
+                            focusable="false">
+                            <path
+                              d="m18.75 14.75-6.5-6.25-6.5 6.25"
+                              stroke="currentColor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit="10"
+                              vectorEffect="non-scaling-stroke"></path>
+                          </svg>
+                        ) : (
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            className="dig-UIIcon dig-UIIcon--standard"
+                            width="24"
+                            height="24"
+                            role="presentation"
+                            focusable="false">
+                            <path
+                              d="m5.25 9.25 6.5 6.25 6.5-6.25"
+                              stroke="currentColor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit="10"
+                              vectorEffect="non-scaling-stroke"></path>
+                          </svg>
+                        )}
+                      </span>
                     </div>
-                  ))}
-                </section>
-              ) : (
-                <section className="accordion">
-                  {data.map((item, i) => (
-                    <div className="item" key={i}>
-                      <div className="title" onClick={() => toggle(i)}>
-                        <h2>{item.title}</h2>
-                        <span>
-                          {selected === i ? (
-                            // Your open state SVG icon
-                            <svg
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              class="dig-UIIcon dig-UIIcon--standard"
-                              width="24"
-                              height="24"
-                              role="presentation"
-                              focusable="false">
-                              <path
-                                d="m18.75 14.75-6.5-6.25-6.5 6.25"
-                                stroke="currentColor"
-                                stroke-width="1.5"
-                                stroke-miterlimit="10"
-                                vector-effect="non-scaling-stroke"></path>
-                            </svg>
-                          ) : (
-                            // Your closed state SVG icon
-                            <svg
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              class="dig-UIIcon dig-UIIcon--standard"
-                              width="24"
-                              height="24"
-                              role="presentation"
-                              focusable="false">
-                              <path
-                                d="m5.25 9.25 6.5 6.25 6.5-6.25"
-                                stroke="currentColor"
-                                stroke-width="1.5"
-                                stroke-miterlimit="10"
-                                vector-effect="non-scaling-stroke"></path>
-                            </svg>
-                          )}
-                        </span>
-                      </div>
+                    <div className={`content ${selected === i ? "show" : ""}`}>
+                      <p>{item.content}</p>
                       <div
-                        className={selected === i ? "content show" : "content"}>
-                        <p>{item.content}</p>
-                        <a className="block4-flex-child1-link" href="#">
-                          Learn more
-                          <span>
-                            {/* Your link SVG icon */}
-                            <svg
-                              viewBox="0 0 24 24"
-                              fill="none"
-                              class="dig-UIIcon dig-UIIcon--standard"
-                              width="24"
-                              height="24"
-                              role="presentation"
-                              focusable="false">
-                              <path
-                                d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
-                                stroke="currentColor"
-                                stroke-width="1.5"
-                                stroke-miterlimit="10"
-                                vector-effect="non-scaling-stroke"></path>
-                            </svg>
-                          </span>
-                        </a>
+                        id="block4-flex-child2"
+                        key={i}
+                        style={{
+                          transform: `translateX(${
+                            selected === i ? "0" : "100%"
+                          })`,
+                          transition: "transform 0.25s ease-in-out",
+                          backgroundColor: item.backgroundColor,
+                          paddingTop: selected === i ? "2rem" : "0",
+                          paddingBottom: selected === i ? "2rem" : "0",
+                        }}
+                        className={`content ${selected === i ? "show" : ""}`}>
+                        <img
+                          style={{ paddingTop: selected === i ? "7rem" : "0" }}
+                          alt="Image of files and folders that are organized and stored in Dropbox"
+                          loading="lazy"
+                          src={selected === i ? item.selectedSrc : item.src}
+                          srcSet={item.srcset}
+                        />
                       </div>
+                      <a className="block4-flex-child1-link" href="#">
+                        Learn more
+                        <span>
+                          <svg
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            className="dig-UIIcon dig-UIIcon--standard"
+                            width="24"
+                            height="24"
+                            role="presentation"
+                            focusable="false">
+                            <path
+                              d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
+                              stroke="currentColor"
+                              strokeWidth="1.5"
+                              strokeMiterlimit="10"
+                              vectorEffect="non-scaling-stroke"></path>
+                          </svg>
+                        </span>
+                      </a>
                     </div>
-                  ))}
-                </section>
-              )}
+                  </div>
+                ))}
+              </section>
             </div>
           </div>
           <div className="block4-flex-child2">
@@ -706,19 +623,15 @@ export default function Dropbox() {
                 id="block4-flex-child2"
                 key={i}
                 style={{
-                  smoothing: "antialiased",
-                  transform: `translateX(${selected === i ? "0" : "100%"})`, // Slide the image left or right
-                  transition: "transform 500ms ease-in-out",
+                  transform: `translateX(${selected === i ? "0" : "100%"})`,
+                  transition: "transform 0.25s ease-in-out",
                   backgroundColor: item.backgroundColor,
-                  paddingTop: selected === i ? "2rem" : "0", // Adjust top padding when the item is open
+                  paddingTop: selected === i ? "2rem" : "0",
                   paddingBottom: selected === i ? "2rem" : "0",
-                }} // Set the background color here
-                className={selected === i ? "content show" : "content"}>
+                }}
+                className={`content ${selected === i ? "show" : ""}`}>
                 <img
-                  style={{
-                    paddingTop: selected === i ? "7rem" : "0", // Adjust top padding when the item is open
-                  }}
-                  className={selected === i ? "content show" : "content"}
+                  style={{ paddingTop: selected === i ? "7rem" : "0" }}
                   alt="Image of files and folders that are organized and stored in Dropbox"
                   loading="lazy"
                   src={selected === i ? item.selectedSrc : item.src}

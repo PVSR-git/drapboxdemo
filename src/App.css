@@ -338,6 +338,7 @@
 
 body {
   width: 100%;
+  word-wrap: balance;
   background-color: rgb(0, 0, 0);
   overflow-x: hidden;
   /* Hide horizontal scrollbar */
@@ -994,7 +995,7 @@ nav {
     display: flex;
     height: auto;
     overflow-wrap: break-word;
-    font-wrap: balance;
+    word-wrap: balance;
     flex-direction: column;
     width: auto;
     height: auto;
@@ -1007,7 +1008,7 @@ nav {
   height: 220px;
   width: 260.39px;
   overflow-wrap: break-word;
-  font-wrap: balance;
+  word-wrap: balance;
   flex-direction: column;
   margin-bottom: 4rem;
 
@@ -1280,7 +1281,7 @@ nav {
   height: 220px;
   width: 260.39px;
   overflow-wrap: break-word;
-  font-wrap: balance;
+  word-wrap: balance;
   flex-direction: column;
   margin-bottom: 4rem;
   padding-left: 2rem;
@@ -1519,20 +1520,29 @@ nav {
   /* background-color: rgba(166, 158, 146, 0.4); */
   background-color: rgb(247, 245, 242);
 }
+.block4-flex-child1-link svg:hover {
+  transform: translateX(4px) scale(1.1);
+  transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
+}
+
+.block4-flex-child1-link svg {
+  width: 1.5rem;
+  padding-top: 0.3rem;
+  margin-top: auto;
+  transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1); /* Ensure transition is defined for non-hover state as well */
+}
 
 .block4-flex-child1-link {
   display: flex;
   padding-top: 1rem;
+  gap: 2px;
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", AtlasGrotesk,
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
   align-items: center;
+  justify-items: center;
   font-weight: 600;
   color: rgb(30, 25, 25);
-}
-
-.block4-flex-child1-link svg {
-  padding-top: 0.3rem;
 }
 
 .block4-flex-child1 #block4-flex-child2 {
@@ -2593,7 +2603,7 @@ nav {
     padding-left: 4px;
     padding-right: 4px;
     margin: 0;
-    font-wrape: balance;
+    word-wrap: balance;
   }
   .block6-text a {
     margin-top: 1rem;
@@ -2670,7 +2680,7 @@ nav {
     padding-right: 4px;
     margin: 0;
     margin-bottom: 1rem;
-    font-wrape: balance;
+    word-wrap: balance;
   }
 
   .block6-link {
@@ -2678,7 +2688,7 @@ nav {
     height: auto;
     font-size: 20px;
     margin: auto;
-    font-wrape: balance;
+    word-wrap: balance;
   }
 }
 
