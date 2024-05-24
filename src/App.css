@@ -369,12 +369,12 @@ a {
   color: black;
 }
 
-/* General styles for header and buttons */
 header {
   width: 100%;
   background-color: white;
   position: relative;
   margin-left: 0;
+  z-index: 10; /* Ensure header is above other content */
 }
 
 header button {
@@ -439,6 +439,7 @@ header button {
   margin-top: 0.5rem;
   font-weight: 100;
   font-style: normal;
+
   font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
@@ -463,21 +464,24 @@ header button {
 .contact-div,
 .get-app-div {
   position: absolute;
+  top: 100%; /* Position the dropdown below the parent */
+  left: 0;
   margin: 0.1rem;
   padding: 10px 14px;
-  z-index: 1;
+  /* Ensure the dropdown is above other elements */
+  display: none;
+  margin-top: 0;
+  width: auto;
+  opacity: 0;
+  z-index: 999;
+  background-color: rgb(237, 236, 229); /* Ensure background is set */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
+}
 
-  opacity: 0;
-}
-.contact-div {
-  position: absolute;
-  margin: 0.1rem;
-  padding: 10px 14px;
-  z-index: 1;
-  opacity: 0;
-}
 .why-dropbox:hover .why-dropbox-div,
+.products:hover .products-div,
 .solutions:hover .solutions-div,
+.pricing:hover .pricing-div,
 .contact:hover .contact-div,
 .get-app:hover .get-app-div {
   display: flex;
@@ -486,7 +490,9 @@ header button {
 
 /* Dropdown content styles */
 .why-dropbox-div div,
+.products-div div,
 .solutions-div div,
+.pricing-div div,
 .contact-div div,
 .get-app-div div {
   display: block;
@@ -499,12 +505,13 @@ header button {
   width: auto;
   text-align: left;
   height: auto;
-  background-color: var(--clr-neutral-300);
   margin: 0;
 }
 
 .why-dropbox-div div p,
+.products-div div p,
 .solutions-div div p,
+.pricing-div div p,
 .contact-div div p,
 .get-app-div div p {
   margin-bottom: 0.5rem;
@@ -513,17 +520,63 @@ header button {
 }
 
 .why-dropbox-div div p:hover,
+.products-div div p:hover,
 .solutions-div div p:hover,
+.pricing-div div p:hover,
 .contact-div div p:hover,
 .get-app-div div p:hover {
   background-color: rgba(167, 146, 114, 0.14);
 }
 
 .why-dropbox-div div p:nth-child(1),
+.products-div div p:nth-child(1),
 .solutions-div div p:nth-child(1),
+.pricing-div div p:nth-child(1),
 .contact-div div p:nth-child(1),
 .get-app-div div p:nth-child(1) {
   font-weight: 600;
+}
+
+.sign-up {
+  position: relative;
+  color: black;
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  margin-top: 0.5rem;
+  font-weight: 100;
+  font-style: normal;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+}
+
+.log-sign {
+  display: flex;
+}
+
+.sign-up:hover {
+  background-color: var(--clr-neutral-300);
+}
+
+.login {
+  position: relative;
+  color: black;
+  height: 48px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 16px;
+  margin-top: 0.5rem;
+  font-weight: 100;
+  font-style: normal;
+  font-family: "Atlas Grotesk Web", "Atlas Grotesk", "AtlasGrotesk",
+    "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
+    sans-serif;
+}
+
+.login:hover {
+  background-color: var(--clr-neutral-300);
 }
 
 .get-started {
@@ -562,6 +615,7 @@ header button {
   transform: translateX(4px);
   transition: transform 0.333s cubic-bezier(0.66, 0, 0, 1);
 }
+
 @media screen and (min-width: 1440px) {
   .header-item-info {
     display: flex;
@@ -579,7 +633,23 @@ header button {
     margin: auto;
   }
 }
+#menu-icon {
+  display: none;
+}
 
+#menu-toggle {
+  display: none;
+}
+
+nav {
+  display: flex;
+  color: black;
+  background-color: none;
+}
+
+.header-item-info {
+  display: flex;
+}
 .block1 {
   display: flex;
   width: 100%;
@@ -1192,11 +1262,11 @@ header button {
 .block4-grid {
   display: grid;
   width: 100%;
+
   background-color: white;
   grid-template-columns: repeat(2, 50%);
   justify-content: center;
   align-items: center;
-  height: auto;
 }
 
 /* Styles for the left column */

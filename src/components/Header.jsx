@@ -66,7 +66,7 @@ export default function Header() {
                     <Link className="pricing">Pricing</Link>
                   </div>
 
-                  <div>
+                  <div className="header-right">
                     <Link className="global">
                       <svg
                         viewBox="0 0 24 24"
