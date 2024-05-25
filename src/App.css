@@ -1329,6 +1329,7 @@ nav {
 }
 .item.active {
   height: 205px;
+  overflow: hidden;
 }
 .item.active .content {
   max-height: 999px;
@@ -2358,7 +2359,10 @@ nav {
 
     margin-top: 1em;
   }
-
+  .item.active {
+    height: auto;
+    overflow: hidden;
+  }
   .block4-flex-child1 #block4-flex-child2 {
     display: block;
     width: 270px;
