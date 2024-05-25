@@ -800,6 +800,7 @@ nav {
   display: flex;
   width: 100%;
   background-color: rgb(247, 245, 242);
+  color: var(--clr-black-200);
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -1220,6 +1221,7 @@ nav {
   display: flex;
   width: 100%;
   height: auto;
+  color: var(--clr-black-200);
   flex-direction: column;
 }
 
@@ -1235,7 +1237,7 @@ nav {
   background-color: rgb(247, 245, 242);
   margin-top: 72px;
   justify-content: center;
-  height: 140.3px;
+  height: 200px;
 }
 
 .block4-text h1,
@@ -1299,6 +1301,7 @@ nav {
   margin-top: 1rem;
   margin-bottom: 1rem;
   padding: 10px 20px;
+
   border-top: 1px solid rgba(166, 158, 146, 0.6);
 }
 
@@ -1323,6 +1326,9 @@ nav {
 
 .title svg {
   margin-bottom: 1rem;
+}
+.item.active {
+  height: 205px;
 }
 .item.active .content {
   max-height: 999px;
@@ -1413,6 +1419,7 @@ nav {
 /* BLOCK5 */
 .block5 {
   display: flex;
+  color: var(--clr-black-200);
   height: auto;
   flex-direction: column;
   justify-content: center;
