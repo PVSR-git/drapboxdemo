@@ -444,7 +444,10 @@ header button {
     "Helvetica (Atlas Grotesk Fallback)", "Arial (Atlas Grotesk Fallback)",
     sans-serif;
 }
-
+.global {
+  padding-top: 14px;
+  justify-content: center;
+}
 .products {
   padding-left: 16px;
   padding-right: 16px;
@@ -477,7 +480,18 @@ header button {
   background-color: rgb(237, 236, 229); /* Ensure background is set */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better visibility */
 }
-
+.why-dropbox-div {
+  width: 22rem;
+}
+.solutions-div {
+  width: 20rem;
+}
+.contact-div {
+  width: 18rem;
+}
+.get-app-div {
+  width: 10rem;
+}
 .why-dropbox:hover .why-dropbox-div,
 .products:hover .products-div,
 .solutions:hover .solutions-div,
