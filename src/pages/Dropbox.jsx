@@ -70,7 +70,7 @@ export default function Dropbox() {
             <svg
               viewBox="0 0 24 24"
               fill="none"
-              class="dig-UIIcon dig-UIIcon--standard"
+              className="dig-UIIcon dig-UIIcon--standard"
               width="24"
               height="24"
               role="presentation"
@@ -78,9 +78,9 @@ export default function Dropbox() {
               <path
                 d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                 stroke="currentColor"
-                stroke-width="1.5"
-                stroke-miterlimit="10"
-                vector-effect="non-scaling-stroke"></path>
+                strokeWidth="1.5"
+                strokeMiterlimit="10"
+                vectorEffect="non-scaling-stroke"></path>
             </svg>
           </span>
         </NavLink>
@@ -174,7 +174,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-UIIcon dig-UIIcon--standard"
+                  className="dig-UIIcon dig-UIIcon--standard"
                   width="24"
                   height="24"
                   role="presentation"
@@ -182,9 +182,9 @@ export default function Dropbox() {
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -207,7 +207,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-UIIcon dig-UIIcon--standard"
+                  className="dig-UIIcon dig-UIIcon--standard"
                   width="24"
                   height="24"
                   role="presentation"
@@ -215,9 +215,9 @@ export default function Dropbox() {
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -239,7 +239,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-UIIcon dig-UIIcon--standard"
+                  className="dig-UIIcon dig-UIIcon--standard"
                   width="24"
                   height="24"
                   role="presentation"
@@ -247,9 +247,9 @@ export default function Dropbox() {
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -271,7 +271,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-UIIcon dig-UIIcon--standard"
+                  className="dig-UIIcon dig-UIIcon--standard"
                   width="24"
                   height="24"
                   role="presentation"
@@ -279,9 +279,9 @@ export default function Dropbox() {
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -303,7 +303,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-UIIcon dig-UIIcon--standard"
+                  className="dig-UIIcon dig-UIIcon--standard"
                   width="24"
                   height="24"
                   role="presentation"
@@ -311,9 +311,9 @@ export default function Dropbox() {
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -334,7 +334,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-UIIcon dig-UIIcon--standard"
+                  className="dig-UIIcon dig-UIIcon--standard"
                   width="24"
                   height="24"
                   role="presentation"
@@ -342,9 +342,9 @@ export default function Dropbox() {
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -366,7 +366,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-UIIcon dig-UIIcon--standard"
+                  className="dig-UIIcon dig-UIIcon--standard"
                   width="24"
                   height="24"
                   role="presentation"
@@ -374,9 +374,9 @@ export default function Dropbox() {
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -398,7 +398,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-UIIcon dig-UIIcon--standard"
+                  className="dig-UIIcon dig-UIIcon--standard"
                   width="24"
                   height="24"
                   role="presentation"
@@ -406,9 +406,9 @@ export default function Dropbox() {
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -433,7 +433,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-UIIcon dig-UIIcon--standard"
+                  className="dig-UIIcon dig-UIIcon--standard"
                   width="24"
                   height="24"
                   role="presentation"
@@ -441,9 +441,9 @@ export default function Dropbox() {
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -462,7 +462,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-UIIcon dig-UIIcon--standard"
+                  className="dig-UIIcon dig-UIIcon--standard"
                   width="24"
                   height="24"
                   role="presentation"
@@ -470,9 +470,9 @@ export default function Dropbox() {
                   <path
                     d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </span>
             </Link>
@@ -650,6 +650,7 @@ export default function Dropbox() {
         <div className="block5-grid">
           <section>
             <img
+              alt=""
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_1@2x.png?id=0b49280f-4fde-427d-95f2-f39f09170f06&amp;output_type=png"
               srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_1@2x.png?id=0b49280f-4fde-427d-95f2-f39f09170f06&amp;output_type=png 128w"></img>
             <h2>Zoom</h2>
@@ -660,6 +661,7 @@ export default function Dropbox() {
           </section>
           <section>
             <img
+              alt=""
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_2@2x.png?id=dc2c7070-361b-4c7a-8af6-4c9a1604e165&amp;output_type=png"
               srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_2@2x.png?id=dc2c7070-361b-4c7a-8af6-4c9a1604e165&amp;output_type=png 128w"></img>
             <h2>Slack</h2>
@@ -670,6 +672,7 @@ export default function Dropbox() {
           </section>
           <section>
             <img
+              alt=""
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_3@2x.png?id=9fa9f7ca-08d5-488c-9d84-3aa7054859a9&amp;output_type=png"
               srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_3@2x.png?id=9fa9f7ca-08d5-488c-9d84-3aa7054859a9&amp;output_type=png 128w"></img>
             <h2>Adobe Creative Cloud</h2>
@@ -680,6 +683,7 @@ export default function Dropbox() {
           </section>
           <section>
             <img
+              alt=""
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_4@2x.png?id=ce8269af-ef1a-460a-8199-65af3dd978a3&amp;output_type=png"
               srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_4@2x.png?id=ce8269af-ef1a-460a-8199-65af3dd978a3&amp;output_type=png 128w"></img>
             <h2>Microsoft Office</h2>
@@ -687,6 +691,7 @@ export default function Dropbox() {
           </section>
           <section>
             <img
+              alt=""
               src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_5@2x.png?id=51654bec-5969-4532-93d9-e7a265237d4a&amp;output_type=png"
               srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/warp/en-us/dropbox/Integrations_5@2x.png?id=51654bec-5969-4532-93d9-e7a265237d4a&amp;output_type=png 128w"></img>
             <h2>Google Workspace</h2>
@@ -736,6 +741,7 @@ export default function Dropbox() {
           <div className="block6-img-flex">
             <div className="block6-img-info">
               <img
+                alt=""
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/articles/DigitalNomads2_1440x960.jpg?id=1545245b-6903-4636-9586-7e18dcb1085d&amp;output_type=jpg 1440w"></img>
               <div>
@@ -750,7 +756,7 @@ export default function Dropbox() {
                     <svg
                       viewBox="0 0 24 24"
                       fill="none"
-                      class="dig-UIIcon dig-UIIcon--standard"
+                      className="dig-UIIcon dig-UIIcon--standard"
                       width="24"
                       height="24"
                       role="presentation"
@@ -758,9 +764,9 @@ export default function Dropbox() {
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"></path>
+                        strokeWidth="1.5"
+                        strokeMiterlimit="10"
+                        vectorEffect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -768,6 +774,7 @@ export default function Dropbox() {
             </div>
             <div className="block6-img-info">
               <img
+                alt=""
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/sundance/sundance_editor.png?id=bacc4706-0999-4aba-aecf-2289a6f0b33c&amp;output_type=jpg 1440w"></img>
               <div style={{ background: "rgb(250, 85, 30)", color: "black" }}>
@@ -782,7 +789,7 @@ export default function Dropbox() {
                     <svg
                       viewBox="0 0 24 24"
                       fill="none"
-                      class="dig-UIIcon dig-UIIcon--standard"
+                      className="dig-UIIcon dig-UIIcon--standard"
                       width="24"
                       height="24"
                       role="presentation"
@@ -790,9 +797,9 @@ export default function Dropbox() {
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"></path>
+                        strokeWidth="1.5"
+                        strokeMiterlimit="10"
+                        vectorEffect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -800,6 +807,7 @@ export default function Dropbox() {
             </div>
             <div className="block6-img-info">
               <img
+                alt=""
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1920&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/en-us/assets/articles/customer-success-stories/creativity-explored/1-ce-c03-hero@2x.jpg?id=7e823734-e1e2-4676-bd8d-4e0887d1f3d4&amp;width=1920&amp;output_type=jpg 1920w"></img>
               <div style={{ background: "rgb(0, 120, 145)", color: "white" }}>
@@ -814,7 +822,7 @@ export default function Dropbox() {
                     <svg
                       viewBox="0 0 24 24"
                       fill="none"
-                      class="dig-UIIcon dig-UIIcon--standard"
+                      className="dig-UIIcon dig-UIIcon--standard"
                       width="24"
                       height="24"
                       role="presentation"
@@ -822,9 +830,9 @@ export default function Dropbox() {
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"></path>
+                        strokeWidth="1.5"
+                        strokeMiterlimit="10"
+                        vectorEffect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -832,6 +840,7 @@ export default function Dropbox() {
             </div>
             <div className="block6-img-info">
               <img
+                alt=""
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1920&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/semi-permanent/semipermanent1_hero_b.png?id=311cb1d7-b5a5-4a01-8b7e-df63eb2c922c&amp;width=1920&amp;output_type=jpg 1920w"></img>
               <div style={{ background: "rgb(180, 220, 25)", color: "black" }}>
@@ -845,7 +854,7 @@ export default function Dropbox() {
                     <svg
                       viewBox="0 0 24 24"
                       fill="none"
-                      class="dig-UIIcon dig-UIIcon--standard"
+                      className="dig-UIIcon dig-UIIcon--standard"
                       width="24"
                       height="24"
                       role="presentation"
@@ -853,9 +862,9 @@ export default function Dropbox() {
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"></path>
+                        strokeWidth="1.5"
+                        strokeMiterlimit="10"
+                        vectorEffect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -863,6 +872,7 @@ export default function Dropbox() {
             </div>
             <div className="block6-img-info">
               <img
+                alt=""
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=1920&amp;output_type=jpg 1920w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=2560&amp;output_type=jpg 2560w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;width=2880&amp;output_type=jpg 2880w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/SOPHIA_Still005.png?id=048eb124-e2f8-43ad-a0b3-71acc76a2635&amp;output_type=jpg 3200w"></img>
               <div style={{ background: "rgb(120, 40, 110)", color: "white" }}>
@@ -877,7 +887,7 @@ export default function Dropbox() {
                     <svg
                       viewBox="0 0 24 24"
                       fill="none"
-                      class="dig-UIIcon dig-UIIcon--standard"
+                      className="dig-UIIcon dig-UIIcon--standard"
                       width="24"
                       height="24"
                       role="presentation"
@@ -885,9 +895,9 @@ export default function Dropbox() {
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"></path>
+                        strokeWidth="1.5"
+                        strokeMiterlimit="10"
+                        vectorEffect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -895,6 +905,7 @@ export default function Dropbox() {
             </div>
             <div className="block6-img-info">
               <img
+                alt=""
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1920&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1600&amp;output_type=jpg 1600w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/experience/en-us/drop-in-video-series/KingChildren_1920x1280.png?id=612f13ad-7264-48ac-9856-b60829cfc557&amp;width=1920&amp;output_type=jpg 1920w"></img>
               <div style={{ background: "rgb(255, 175, 165)", color: "black" }}>
@@ -909,7 +920,7 @@ export default function Dropbox() {
                     <svg
                       viewBox="0 0 24 24"
                       fill="none"
-                      class="dig-UIIcon dig-UIIcon--standard"
+                      className="dig-UIIcon dig-UIIcon--standard"
                       width="24"
                       height="24"
                       role="presentation"
@@ -917,9 +928,9 @@ export default function Dropbox() {
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"></path>
+                        strokeWidth="1.5"
+                        strokeMiterlimit="10"
+                        vectorEffect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -927,6 +938,7 @@ export default function Dropbox() {
             </div>
             <div className="block6-img-info">
               <img
+                alt=""
                 src="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;output_type=jpg"
                 srcset="https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=414&amp;output_type=jpg 414w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=828&amp;output_type=jpg 828w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=1024&amp;output_type=jpg 1024w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;width=1280&amp;output_type=jpg 1280w, https://fjord.dropboxstatic.com/warp/conversion/dropbox/dmep/assets/customer-success-stories/hope-gallery/hope_quote.png?id=d39e724d-e9b4-4bf9-b448-6b92200606bf&amp;output_type=jpg 1440w"></img>
               <div style={{ background: "rgb(250, 210, 75)", color: "black" }}>
@@ -940,7 +952,7 @@ export default function Dropbox() {
                     <svg
                       viewBox="0 0 24 24"
                       fill="none"
-                      class="dig-UIIcon dig-UIIcon--standard"
+                      className="dig-UIIcon dig-UIIcon--standard"
                       width="24"
                       height="24"
                       role="presentation"
@@ -948,9 +960,9 @@ export default function Dropbox() {
                       <path
                         d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                         stroke="currentColor"
-                        stroke-width="1.5"
-                        stroke-miterlimit="10"
-                        vector-effect="non-scaling-stroke"></path>
+                        strokeWidth="1.5"
+                        strokeMiterlimit="10"
+                        vectorEffect="non-scaling-stroke"></path>
                     </svg>
                   </span>
                 </Link>
@@ -961,7 +973,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-PictogramIcon"
+                  className="dig-PictogramIcon"
                   width="64"
                   height="64"
                   focusable="false"
@@ -969,16 +981,16 @@ export default function Dropbox() {
                   <path
                     d="m14.75 5.75-6.25 6.5 6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </button>
               <button onClick={nextSlide}>
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-PictogramIcon"
+                  className="dig-PictogramIcon"
                   width="64"
                   height="64"
                   focusable="false"
@@ -986,9 +998,9 @@ export default function Dropbox() {
                   <path
                     d="m9.25 5.75 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </button>
             </div>
@@ -997,7 +1009,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-PictogramIcon"
+                  className="dig-PictogramIcon"
                   width="25"
                   height="25"
                   focusable="false"
@@ -1005,9 +1017,9 @@ export default function Dropbox() {
                   <path
                     d="m14.75 5.75-6.25 6.5 6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </button>
               <div id="slide-count" className="slide-count">
@@ -1020,7 +1032,7 @@ export default function Dropbox() {
                 <svg
                   viewBox="0 0 24 24"
                   fill="none"
-                  class="dig-PictogramIcon"
+                  className="dig-PictogramIcon"
                   width="25"
                   height="25"
                   focusable="false"
@@ -1028,9 +1040,9 @@ export default function Dropbox() {
                   <path
                     d="m9.25 5.75 6.25 6.5-6.25 6.5"
                     stroke="currentColor"
-                    stroke-width="1.5"
-                    stroke-miterlimit="10"
-                    vector-effect="non-scaling-stroke"></path>
+                    strokeWidth="1.5"
+                    strokeMiterlimit="10"
+                    vectorEffect="non-scaling-stroke"></path>
                 </svg>
               </button>
             </div>
@@ -1044,7 +1056,7 @@ export default function Dropbox() {
               <svg
                 viewBox="0 0 24 24"
                 fill="none"
-                class="dig-UIIcon dig-UIIcon--standard"
+                className="dig-UIIcon dig-UIIcon--standard"
                 width="24"
                 height="24"
                 role="presentation"
@@ -1052,9 +1064,9 @@ export default function Dropbox() {
                 <path
                   d="M5 11.75h12m-5.25-6.5 6.25 6.5-6.25 6.5"
                   stroke="currentColor"
-                  stroke-width="1.5"
-                  stroke-miterlimit="10"
-                  vector-effect="non-scaling-stroke"></path>
+                  strokeWidth="1.5"
+                  strokeMiterlimit="10"
+                  vectorEffect="non-scaling-stroke"></path>
               </svg>
             </span>
           </Link>
