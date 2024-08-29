@@ -1,70 +1,99 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const menuRef = useRef(null);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
 
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const handleClickOutside = (event) => {
+    if (menuRef.current && !menuRef.current.contains(event.target)) {
+      setMenuOpen(false);
+    }
+  };
+
+  const handleResize = () => {
+    setWindowWidth(window.innerWidth);
+    setMenuOpen(false); // Close the menu on window resize
+  };
 
   useEffect(() => {
-    const handleResize = () => {
-      setWindowWidth(window.innerWidth);
-    };
-
     window.addEventListener("resize", handleResize);
+    document.addEventListener("mousedown", handleClickOutside);
 
-    // Cleanup the event listener when the component is unmounted
     return () => {
       window.removeEventListener("resize", handleResize);
+      document.removeEventListener("mousedown", handleClickOutside);
     };
   }, []);
 
   return (
-    <header className="  ">
-      <div className="header-items-l  ">
+    <header>
+      <div className="header-items-l">
         <Link className="site-logo" to="/dropbox">
           <span className="svg-container">
-            <img src="/svgs/dropbox.svg" />
+            <img src="/svgs/dropbox.svg" alt="Dropbox Logo" />
           </span>
         </Link>
         <Link className="site-name" to="/dropbox">
-          <img src="/svgs/site-text.svg" />
+          <img src="/svgs/site-text.svg" alt="Dropbox" />
         </Link>
         <div className="header-items">
           {windowWidth < 1024 ? (
             <>
               <div className="log-sign-menu">
                 <div className="log-sign">
-                  <Link className="sign-up1" target="_blank">
+                  <Link className="sign-up1" target="_blank" to="#">
                     Sign up
                   </Link>
-                  <Link className="login1" target="_blank">
+                  <Link className="login1" target="_blank" to="#">
                     Login
                   </Link>
                 </div>
-                <nav id="menu">
-                  <label htmlFor="menu-toggle" id="menu-icon">
+                <nav id="menu" ref={menuRef}>
+                  <label
+                    htmlFor="menu-toggle"
+                    id="menu-icon"
+                    onClick={toggleMenu}>
                     &#9776;
                   </label>
-                  <input type="checkbox" id="menu-toggle" />
-                  <div className="header-item-info">
+                  <input
+                    type="checkbox"
+                    id="menu-toggle"
+                    checked={menuOpen}
+                    readOnly
+                  />
+                  <div
+                    className="header-item-info"
+                    style={{ display: menuOpen ? "block" : "none" }}>
                     <div className="header-left">
-                      <Link className="why-dropbox">Why Dropbox?</Link>
-                      <Link className="products">Products</Link>
-                      <Link className="solutions">Solutions</Link>
-                      <Link className="pricing">Pricing</Link>
+                      <Link className="why-dropbox" to="#">
+                        Why Dropbox?
+                      </Link>
+                      <Link className="products" to="#">
+                        Products
+                      </Link>
+                      <Link className="solutions" to="#">
+                        Solutions
+                      </Link>
+                      <Link className="pricing" to="#">
+                        Pricing
+                      </Link>
                     </div>
-
                     <div className="header-right">
-                      <Link className="global">
+                      <Link className="global" to="#">
                         <img src="/svgs/global.svg" alt="Global" />
                       </Link>
-                      <Link className="contact">Contact</Link>
-                      <Link className="get-app">Get app</Link>
+                      <Link className="contact" to="#">
+                        Contact
+                      </Link>
+                      <Link className="get-app" to="#">
+                        Get app
+                      </Link>
                     </div>
                   </div>
                 </nav>
@@ -76,97 +105,30 @@ export default function Header() {
                 <div className="header-left">
                   <button className="why-dropbox">
                     Why Dropbox?
-                    <div className="why-dropbox-div">
-                      <div>
-                        <p>Overview</p>
-                        <p>Get inspired</p>
-                        <p>What customers say</p>
-                        <p>App integrations</p>
-                        <p>Resources</p>
-                      </div>
-                      <div>
-                        <p>Better with Dropbox</p>
-                        <p>Share files</p>
-                        <p>Store and organize</p>
-                        <p>Sync your devices</p>
-                        <p>Protect and secure data</p>
-                        <p>Contact remote teams</p>
-                        <p>Keep work moving</p>
-                        <p>Always-on backup</p>
-                        <p>Sign a document</p>
-                        <p>Track document analytics</p>
-                      </div>
-                    </div>
+                    {/* Add your dropdown content here */}
                   </button>
                   <button className="products">Products</button>
-                  <button className="solutions">
-                    Solutions
-                    <div className="solutions-div">
-                      <div>
-                        <p>Roles</p>
-                        <p>Creatives</p>
-                        <p>Sales</p>
-                        <p>Marketing</p>
-                        <p>HR</p>
-                        <p>IT</p>
-                        <p>Team Lead</p>
-                        <p>Personal</p>
-                      </div>
-                      <div>
-                        <p>Industries</p>
-                        <p>Construction</p>
-                        <p>Tecknology</p>
-                        <p>Marketing</p>
-                        <p>Manufacturing</p>
-                        <p>Media</p>
-                        <p>Professional Services</p>
-                      </div>
-                    </div>
-                  </button>
+                  <button className="solutions">Solutions</button>
                   <button className="pricing">Pricing</button>
                 </div>
-
                 <button className="global">
-                  <img src="/svgs/global.svg" />
+                  <img src="/svgs/global.svg" alt="Global" />
                 </button>
-                <button className="contact">
-                  Contact
-                  <div className="contact-div">
-                    <div>
-                      <p>Support</p>
-                      <p>Helpcenter</p>
-                      <p>Comunity center</p>
-                    </div>
-                    <div>
-                      <p>Contactsales</p>
-                      <p>Email</p>
-                      <p>+1 855-237-6726</p>
-                    </div>
-                  </div>
-                </button>
-                <button className="get-app">
-                  Get app
-                  <div className="get-app-div">
-                    <div>
-                      <p>Desktop app</p>
-                      <p>Mobile app</p>
-                    </div>
-                  </div>
-                </button>
+                <button className="contact">Contact</button>
+                <button className="get-app">Get app</button>
               </div>
-
               <div className="log-sign">
-                <button className="sign-up" target="_balnk">
+                <button className="sign-up" target="_blank" to="#">
                   Sign up
                 </button>
-                <button className="login" target="_balnk">
+                <button className="login" target="_blank" to="#">
                   Login
                 </button>
               </div>
             </>
           )}
-          <Link className="get-started" target="_blank">
-            Get started{" "}
+          <Link className="get-started" target="_blank" to="#">
+            Get started
             <span>
               <svg
                 viewBox="0 0 24 24"
