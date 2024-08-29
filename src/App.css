@@ -251,7 +251,8 @@ a {
 header {
   width: 100%;
   background-color: white;
-  position: relative;
+  position: sticky;
+  top: 0;
   margin-left: 0;
   z-index: 10; /* Ensure header is above other content */
 }
@@ -1797,6 +1798,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     margin-left: -1.5rem;
+    background-color: rgb(0, 97, 254);
     margin-top: -0.2rem;
     height: 3.5rem;
   }
@@ -1845,13 +1847,24 @@ nav {
     flex-direction: row-reverse;
     margin-right: auto;
   }
-
+  .log-sign-menu {
+    display: flex;
+    justify-content: space-between;
+  }
+  .log-sign {
+    display: flex;
+    justify-content: space-between;
+  }
+  .sign-up1,
+  .login1 {
+    color: #f7f5f2;
+  }
   nav {
     display: block;
     flex-direction: column;
     left: 0;
-    background-color: white;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(0, 97, 254);
+    color: #f7f5f2;
   }
 
   div.header-item-info {

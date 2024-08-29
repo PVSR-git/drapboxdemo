@@ -24,8 +24,8 @@ export default function Header() {
   }, []);
 
   return (
-    <header>
-      <div className="header-items-l">
+    <header className="  ">
+      <div className="header-items-l  ">
         <Link className="site-logo" to="/dropbox">
           <span className="svg-container">
             <img src="/svgs/dropbox.svg" />
@@ -37,36 +37,37 @@ export default function Header() {
         <div className="header-items">
           {windowWidth < 1024 ? (
             <>
-              <nav id="menu">
-                <label htmlFor="menu-toggle" id="menu-icon">
-                  &#9776;
-                </label>
-                <input type="checkbox" id="menu-toggle" />
-                <div className="header-item-info">
-                  <div className="header-left">
-                    <Link className="why-dropbox">Why Dropbox?</Link>
-                    <Link className="products">Products</Link>
-                    <Link className="solutions">Solutions</Link>
-                    <Link className="pricing">Pricing</Link>
-                  </div>
-
-                  <div className="header-right">
-                    <Link className="global">
-                      <img src="/svgs/global.svg" />
-                    </Link>
-                    <Link className="contact">Contact</Link>
-                    <Link className="get-app">Get app</Link>
-                  </div>
+              <div className="log-sign-menu">
+                <div className="log-sign">
+                  <Link className="sign-up1" target="_blank">
+                    Sign up
+                  </Link>
+                  <Link className="login1" target="_blank">
+                    Login
+                  </Link>
                 </div>
-              </nav>
+                <nav id="menu">
+                  <label htmlFor="menu-toggle" id="menu-icon">
+                    &#9776;
+                  </label>
+                  <input type="checkbox" id="menu-toggle" />
+                  <div className="header-item-info">
+                    <div className="header-left">
+                      <Link className="why-dropbox">Why Dropbox?</Link>
+                      <Link className="products">Products</Link>
+                      <Link className="solutions">Solutions</Link>
+                      <Link className="pricing">Pricing</Link>
+                    </div>
 
-              <div className="log-sign">
-                <Link className="sign-up" target="_balnk">
-                  Sign up
-                </Link>
-                <Link className="login" target="_balnk">
-                  Login
-                </Link>
+                    <div className="header-right">
+                      <Link className="global">
+                        <img src="/svgs/global.svg" alt="Global" />
+                      </Link>
+                      <Link className="contact">Contact</Link>
+                      <Link className="get-app">Get app</Link>
+                    </div>
+                  </div>
+                </nav>
               </div>
             </>
           ) : (

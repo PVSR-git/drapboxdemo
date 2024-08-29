@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { Accordion, AccordionItem } from "react-accessible-accordion";
 
 import { NavLink, Link } from "react-router-dom";
 import bgvid from "../assets/Dropbox.mp4";
