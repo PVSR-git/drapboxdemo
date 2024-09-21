@@ -14,6 +14,6 @@ management with React hooks.
 - Deployed the project using a cloud platform, making it accessible online for users to view.
 ### Note:-
  #### Accordion:
- I used Accordion concept. AccordionItem manages its own state to show or hide the content when clicked
+ I used Accordion concept. AccordionItem manages its own state to show or hide the content when clicked.
 
 
